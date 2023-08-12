@@ -1,0 +1,42 @@
+
+Ü
+dir_svr_cs.protoncmd_cs.dir"E
+server_addr
+host (	Rhost
+ip (	Rip
+port (Rport"(
+get_token_req
+open_id (	RopenId"Á
+get_token_res
+code (Rcode,
+lobby_access_token (	RlobbyAccessToken7
+
+lobby_addr (2.ncmd_cs.dir.server_addrR	lobbyAddr5
+	ping_list (2.ncmd_cs.dir.server_addrRpingList"3
+get_lobby_info_req
+
+magic_code (R	magicCode"_
+get_lobby_info_res
+code (Rcode5
+	addr_list (2.ncmd_cs.dir.server_addrRaddrList"
+get_system_notice_req"1
+system_notice
+id (Rid
+msg (	Rmsg"h
+get_system_notice_res
+code (Rcode;
+notice_list (2.ncmd_cs.dir.system_noticeR
+noticeList"¦
+query_steam_bind_req"
+steam_open_id (	RsteamOpenId
+steam_token (	R
+steamToken
+os (	Ros
+	channelid (R	channelid
+	login_env (RloginEnv"ˆ
+query_steam_bind_res
+code (Rcode"
+steam_open_id (	RsteamOpenId
+open_id (	RopenId
+platform_id (R
+platformIdbproto3

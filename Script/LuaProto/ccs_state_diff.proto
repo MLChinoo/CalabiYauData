@@ -1,0 +1,384 @@
+
+Ái
+ccs_state_diff.protoccs_aiccs_ai_state.proto""
+
+Int32Value
+value (Rvalue"#
+Uint32Value
+value (Rvalue"#
+Uint64Value
+value (Rvalue""
+
+FloatValue
+value (Rvalue"!
+	BoolValue
+value (Rvalue"r
+
+DiffVector 
+x (2.ccs_ai.FloatValueRx 
+y (2.ccs_ai.FloatValueRy 
+z (2.ccs_ai.FloatValueRz"Ê
+DiffLongTermState0
+
+is_running (2.ccs_ai.BoolValueR	isRunning.
+	is_aiming (2.ccs_ai.BoolValueRisAiming.
+	is_firing (2.ccs_ai.BoolValueRisFiring0
+
+is_holding (2.ccs_ai.BoolValueR	isHolding,
+is_2ding (2.ccs_ai.BoolValueRis2ding3
+is_2d_flying (2.ccs_ai.BoolValueR
+is2dFlying6
+is_suspending (2.ccs_ai.BoolValueRisSuspending5
+is_stick_wall (2.ccs_ai.BoolValueRisStickWall?
+is_shoulder_firing	 (2.ccs_ai.BoolValueRisShoulderFiring0
+
+is_flashed
+ (2.ccs_ai.BoolValueR	isFlashed7
+is_able_flying (2.ccs_ai.BoolValueRisAbleFlying2
+is_throwing (2.ccs_ai.BoolValueR
+isThrowingA
+is_switching_weapon (2.ccs_ai.BoolValueRisSwitchingWeapon;
+is_stealth_state (2.ccs_ai.BoolValueRisStealthState?
+is_manipulate_bear (2.ccs_ai.BoolValueRisManipulateBear"z
+DiffBoundState3
+is_out_bound (2.ccs_ai.BoolValueR
+isOutBound3
+remain_time (2.ccs_ai.FloatValueR
+remainTime"ü
+DiffInteractState7
+interact_type (2.ccs_ai.Int32ValueRinteractType8
+is_interacting (2.ccs_ai.BoolValueRisInteracting3
+remain_time (2.ccs_ai.FloatValueR
+remainTime?
+is_trying_interact (2.ccs_ai.BoolValueRisTryingInteract"¨
+DiffActiveWeaponInfo(
+state (2.ccs_ai.Int32ValueRstate1
+
+total_time (2.ccs_ai.FloatValueR	totalTime3
+remain_time (2.ccs_ai.FloatValueR
+remainTime"V
+DiffBodyInfos3
+
+body_infos (2.ccs_ai.DiffBodyInfoR	bodyInfos
+ids (Rids"R
+DiffBodyInfo
+type (Rtype.
+position (2.ccs_ai.DiffVectorRposition"š
+DiffPlayerState
+id (Rid-
+actor_id (2.ccs_ai.Int32ValueRactorId+
+team_id (2.ccs_ai.Int32ValueRteamId.
+position (2.ccs_ai.DiffVectorRposition.
+rotation (2.ccs_ai.DiffVectorRrotation(
+speed (2.ccs_ai.DiffVectorRspeed"
+hp (2.ccs_ai.FloatValueRhp*
+shield (2.ccs_ai.FloatValueRshield@
+active_weapon_slot	 (2.ccs_ai.Int32ValueRactiveWeaponSlot3
+alive_state
+ (2.ccs_ai.Int32ValueR
+aliveState1
+
+kill_count (2.ccs_ai.Int32ValueR	killCount,
+damages (2.ccs_ai.Int32ValueRdamages1
+
+body_state (2.ccs_ai.Int32ValueR	bodyState@
+longterm_state (2.ccs_ai.DiffLongTermStateRlongtermState7
+bound_state (2.ccs_ai.DiffBoundStateR
+boundState@
+rescue_remain_time (2.ccs_ai.FloatValueRrescueRemainTime@
+interact_state (2.ccs_ai.DiffInteractStateRinteractState4
+
+body_infos (2.ccs_ai.DiffBodyInfosR	bodyInfosJ
+active_weapon_info (2.ccs_ai.DiffActiveWeaponInfoRactiveWeaponInfo5
+has_take_over (2.ccs_ai.BoolValueRhasTakeOver"q
+DiffCameraState.
+position (2.ccs_ai.DiffVectorRposition.
+rotation (2.ccs_ai.DiffVectorRrotation"“
+DiffWeaponState"
+id (2.ccs_ai.Int32ValueRid
+slot_id (RslotId1
+
+cur_bullet (2.ccs_ai.Int32ValueR	curBullet5
+total_bullet (2.ccs_ai.Int32ValueRtotalBullet=
+remain_reloading (2.ccs_ai.FloatValueRremainReloading.
+capacity (2.ccs_ai.Int32ValueRcapacity3
+fire_status (2.ccs_ai.Int32ValueR
+fireStatus5
+shoot_bullet (2.ccs_ai.Int32ValueRshootBullet"b
+DiffWeaponStates<
+player_weapon (2.ccs_ai.DiffWeaponStateRplayerWeapon
+ids (Rids"Q
+DiffPlayerWeapon=
+player_weapon (2.ccs_ai.DiffWeaponStatesRplayerWeapon"œ
+DiffNearbyPlayer-
+state (2.ccs_ai.DiffPlayerStateRstate'
+skill (2.ccs_ai.SkillInfoRskill0
+weapon (2.ccs_ai.DiffPlayerWeaponRweapon"d
+DiffNearbyPlayers=
+nearby_player (2.ccs_ai.DiffNearbyPlayerRnearbyPlayer
+ids (Rids"Z
+DiffItemStates6
+nearby_item (2.ccs_ai.DiffItemStateR
+nearbyItem
+ids (Rids"š
+DiffItemState
+id (Rid&
+type (2.ccs_ai.Int32ValueRtype.
+position (2.ccs_ai.DiffVectorRposition!
+unique_index (RuniqueIndex"à
+DiffThrownState
+id (Rid&
+type (2.ccs_ai.Int32ValueRtype.
+category (2.ccs_ai.Int32ValueRcategory.
+position (2.ccs_ai.DiffVectorRposition3
+remain_time (2.ccs_ai.FloatValueR
+remainTime1
+
+owner_type (2.ccs_ai.Int32ValueR	ownerType*
+radius (2.ccs_ai.FloatValueRradius!
+unique_index (RuniqueIndex"b
+DiffThrownStates<
+nearby_thrown (2.ccs_ai.DiffThrownStateRnearbyThrown
+ids (Rids"p
+DiffWinnerState+
+team_id (2.ccs_ai.Int32ValueRteamId0
+	player_id (2.ccs_ai.Uint64ValueRplayerId"û
+DiffBombState+
+team_id (2.ccs_ai.Int32ValueRteamId0
+	holder_id (2.ccs_ai.Uint64ValueRholderId.
+position (2.ccs_ai.DiffVectorRposition&
+type (2.ccs_ai.Int32ValueRtype3
+remain_time (2.ccs_ai.FloatValueR
+remainTime"Û
+DiffMatchConfig'
+type (2.ccs_ai.Uint32ValueRtype%
+map (2.ccs_ai.Uint32ValueRmap,
+room_id (2.ccs_ai.Uint64ValueRroomId
+
+ds_version (	R	dsVersion+
+source (2.ccs_ai.Uint32ValueRsource"c
+DiffBotConfig(
+level (2.ccs_ai.Int32ValueRlevel(
+style (2.ccs_ai.Int32ValueRstyle"²
+DiffPlayerAliveStateInfo
+id (Rid3
+alive_state (2.ccs_ai.Int32ValueR
+aliveState+
+team_id (2.ccs_ai.Int32ValueRteamId$
+pos (2.ccs_ai.DiffVectorRpos"t
+DiffPlayerAliveStateInfosE
+player_states (2 .ccs_ai.DiffPlayerAliveStateInfoRplayerStates
+ids (Rids"‚
+DiffEnemyState
+id (Rid3
+alive_state (2.ccs_ai.Int32ValueR
+aliveState+
+team_id (2.ccs_ai.Int32ValueRteamId"^
+DiffEnemyStates9
+enemy_states (2.ccs_ai.DiffEnemyStateRenemyStates
+ids (Rids"µ
+DiffMatchStatus0
+	ownPoints (2.ccs_ai.Int32ValueR	ownPoints4
+enemyPoints (2.ccs_ai.Int32ValueRenemyPoints:
+enemy_states (2.ccs_ai.DiffEnemyStatesRenemyStates"p
+DiffRankItem
+id (Rid&
+rank (2.ccs_ai.Int32ValueRrank(
+score (2.ccs_ai.Int32ValueRscore"M
+DiffRankItems*
+ranks (2.ccs_ai.DiffRankItemRranks
+ids (Rids"u
+DiffDropCrystalItem
+id (Rid$
+pos (2.ccs_ai.DiffVectorRpos(
+value (2.ccs_ai.Int32ValueRvalue"j
+DiffDropCrystalItems@
+drop_crystals (2.ccs_ai.DiffDropCrystalItemRdropCrystals
+ids (Rids"G
+DiffCrystalItem
+id (Rid$
+pos (2.ccs_ai.DiffVectorRpos"S
+DiffCrystalItems-
+items (2.ccs_ai.DiffCrystalItemRitems
+ids (Rids"`
+DiffValueListCrystalItem
+value (Rvalue.
+items (2.ccs_ai.DiffCrystalItemsRitems"e
+DiffValueListCrystalItems6
+items (2 .ccs_ai.DiffValueListCrystalItemRitems
+ids (Rids"–
+DiffAirDropBot
+id (Rid$
+pos (2.ccs_ai.DiffVectorRpos"
+hp (2.ccs_ai.FloatValueRhp*
+shield (2.ccs_ai.FloatValueRshield"_
+DiffAirDropBots:
+air_drop_bots (2.ccs_ai.DiffAirDropBotRairDropBots
+ids (Rids"À
+DiffCrystalState+
+ranks (2.ccs_ai.DiffRankItemsRranks7
+has_miner_king (2.ccs_ai.BoolValueRhasMinerKing8
+miner_king_pos (2.ccs_ai.DiffVectorRminerKingPos=
+crystals (2!.ccs_ai.DiffValueListCrystalItemsRcrystalsM
+air_drop_crystals (2!.ccs_ai.DiffValueListCrystalItemsRairDropCrystalsA
+drop_crystals (2.ccs_ai.DiffDropCrystalItemsRdropCrystals;
+air_drop_bots (2.ccs_ai.DiffAirDropBotsRairDropBots"»
+DiffGameState*
+is_over (2.ccs_ai.BoolValueRisOver@
+alive_player_count (2.ccs_ai.Int32ValueRalivePlayerCount@
+dying_player_count (2.ccs_ai.Int32ValueRdyingPlayerCount6
+winner_state (2.ccs_ai.WinnerStateRwinnerState4
+
+bomb_state (2.ccs_ai.DiffBombStateR	bombState(
+stage (2.ccs_ai.Int32ValueRstage(
+round (2.ccs_ai.Int32ValueRround>
+round_remain_time (2.ccs_ai.FloatValueRroundRemainTime:
+match_config	 (2.ccs_ai.DiffMatchConfigRmatchConfig=
+crystal_state
+ (2.ccs_ai.DiffCrystalStateRcrystalStateF
+player_states (2!.ccs_ai.DiffPlayerAliveStateInfosRplayerStates5
+is_room_robot (2.ccs_ai.BoolValueRisRoomRobot"Â
+DiffSkillInfo
+	active_id (RactiveId.
+	is_active (2.ccs_ai.BoolValueRisActive@
+active_remain_time (2.ccs_ai.FloatValueRactiveRemainTime;
+remain_progress (2.ccs_ai.FloatValueRremainProgress*
+is_lock (2.ccs_ai.BoolValueRisLock7
+extend_shield (2.ccs_ai.FloatValueRextendShield8
+is_interacting (2.ccs_ai.BoolValueRisInteractingF
+interact_reamain_time (2.ccs_ai.FloatValueRinteractReamainTime"^
+DiffSkillInfos:
+active_skills (2.ccs_ai.DiffSkillInfoRactiveSkills
+ids (Rids"´
+DiffSkillSlot&
+type (2.ccs_ai.Int32ValueRtype
+id (Rid,
+is_ready (2.ccs_ai.BoolValueRisReady1
+
+cur_energy (2.ccs_ai.Int32ValueR	curEnergy3
+full_energy (2.ccs_ai.Int32ValueR
+fullEnergy+
+cd_time (2.ccs_ai.FloatValueRcdTime*
+is_lock (2.ccs_ai.BoolValueRisLock1
+
+cur_bullet (2.ccs_ai.Int32ValueR	curBullet5
+total_bullet	 (2.ccs_ai.Int32ValueRtotalBullet@
+cur_ability_energy
+ (2.ccs_ai.FloatValueRcurAbilityEnergyB
+full_ability_energy (2.ccs_ai.FloatValueRfullAbilityEnergy7
+is_over_heated (2.ccs_ai.BoolValueRisOverHeated,
+lock_id (2.ccs_ai.Uint64ValueRlockId2
+is_pressing (2.ccs_ai.BoolValueR
+isPressing>
+press_remain_time (2.ccs_ai.FloatValueRpressRemainTime1
+
+total_time (2.ccs_ai.FloatValueR	totalTime"O
+DiffSkillSlots+
+slots (2.ccs_ai.DiffSkillSlotRslots
+ids (Rids"È
+DiffBuffInfo
+tags (	Rtags-
+skill_id (2.ccs_ai.Int32ValueRskillId3
+remain_time (2.ccs_ai.FloatValueR
+remainTime
+id (Rid0
+	player_id (2.ccs_ai.Uint64ValueRplayerId"M
+DiffBuffInfos*
+buffs (2.ccs_ai.DiffBuffInfoRbuffs
+ids (Rids"¦
+DiffSkillStatistic&
+cure (2.ccs_ai.Int32ValueRcure*
+damage (2.ccs_ai.Int32ValueRdamage<
+damage_to_summon (2.ccs_ai.Int32ValueRdamageToSummon"´
+DiffSummonInfo
+id (Rid.
+category (2.ccs_ai.Int32ValueRcategory.
+position (2.ccs_ai.DiffVectorRposition3
+remain_time (2.ccs_ai.FloatValueR
+remainTime"
+hp (2.ccs_ai.FloatValueRhp*
+belong (2.ccs_ai.Int32ValueRbelong.
+rotation (2.ccs_ai.DiffVectorRrotation0
+
+is_covered (2.ccs_ai.BoolValueR	isCovered!
+unique_index	 (RuniqueIndex(
+speed
+ (2.ccs_ai.DiffVectorRspeed"U
+DiffSummonInfos0
+summons (2.ccs_ai.DiffSummonInfoRsummons
+ids (Rids"·
+DiffUpgradeSkill5
+awake_skill_1 (2.ccs_ai.BoolValueRawakeSkill15
+awake_skill_2 (2.ccs_ai.BoolValueRawakeSkill25
+awake_skill_3 (2.ccs_ai.BoolValueRawakeSkill3"¼
+DiffBearState(
+speed (2.ccs_ai.DiffVectorRspeed1
+
+body_state (2.ccs_ai.Int32ValueR	bodyState5
+signal_level (2.ccs_ai.Int32ValueRsignalLevel*
+energy (2.ccs_ai.Int32ValueRenergy7
+weapon_status (2.ccs_ai.Int32ValueRweaponStatus4
+is_attacking (2.ccs_ai.BoolValueRisAttacking-
+	is_in_air (2.ccs_ai.BoolValueRisInAirM
+self_destruct_remain_time (2.ccs_ai.FloatValueRselfDestructRemainTime"Ö
+DiffSkillState%
+info (2.ccs_ai.SkillInfoRinfo,
+slots (2.ccs_ai.DiffSkillSlotsRslots+
+buffs (2.ccs_ai.DiffBuffInfosRbuffs1
+summons (2.ccs_ai.DiffSummonInfosRsummons9
+effect_areas (2.ccs_ai.EffectAreaInfoReffectAreas8
+	statistic (2.ccs_ai.DiffSkillStatisticR	statistic;
+active_skills (2.ccs_ai.DiffSkillInfosRactiveSkills2
+upgrade (2.ccs_ai.DiffUpgradeSkillRupgrade)
+bear	 (2.ccs_ai.DiffBearStateRbear"°
+DiffSafetyAreaState(
+state (2.ccs_ai.Int32ValueRstate*
+center (2.ccs_ai.DiffVectorRcenter1
+
+cur_radius (2.ccs_ai.FloatValueR	curRadius5
+final_radius (2.ccs_ai.FloatValueRfinalRadius&
+time (2.ccs_ai.Int32ValueRtime1
+
+total_time (2.ccs_ai.Int32ValueR	totalTime"ø
+DiffGridAreaState
+id (Rid3
+remain_time (2.ccs_ai.FloatValueR
+remainTime"
+x1 (2.ccs_ai.FloatValueRx1"
+y1 (2.ccs_ai.FloatValueRy1"
+x2 (2.ccs_ai.FloatValueRx2"
+y2 (2.ccs_ai.FloatValueRy2"
+x3 (2.ccs_ai.FloatValueRx3"
+y3 (2.ccs_ai.FloatValueRy3"
+x4	 (2.ccs_ai.FloatValueRx4"
+y4
+ (2.ccs_ai.FloatValueRy4"`
+DiffGridAreaStates8
+
+grid_areas (2.ccs_ai.DiffGridAreaStateR	gridAreas
+ids (Rids"µ
+DiffAIStateInfo-
+state (2.ccs_ai.DiffPlayerStateRstate/
+camera (2.ccs_ai.DiffCameraStateRcamera0
+weapon (2.ccs_ai.DiffPlayerWeaponRweapon'
+sense (2.ccs_ai.SenseInfoRsense9
+damage_source (2.ccs_ai.DamageSourceRdamageSource>
+nearby_player (2.ccs_ai.DiffNearbyPlayersRnearbyPlayer7
+nearby_item (2.ccs_ai.DiffItemStatesR
+nearbyItem=
+nearby_thrown (2.ccs_ai.DiffThrownStatesRnearbyThrown)
+game	 (2.ccs_ai.DiffGameStateRgame.
+prepare
+ (2.ccs_ai.PrepareStateRprepare7
+is_real_player (2.ccs_ai.BoolValueRisRealPlayer,
+skill (2.ccs_ai.DiffSkillStateRskill5
+
+guide_line (2.ccs_ai.GuideLineStateR	guideLine
+key (Rkey4
+
+bot_config (2.ccs_ai.DiffBotConfigR	botConfig:
+match_status (2.ccs_ai.DiffMatchStatusRmatchStatus<
+safety_area (2.ccs_ai.DiffSafetyAreaStateR
+safetyArea9
+
+grid_areas (2.ccs_ai.DiffGridAreaStatesR	gridAreasBHbproto3

@@ -1,0 +1,186 @@
+
+ˆ 
+activity_cfg.protoncmd_cs.lobby">
+sta_item
+item_id (RitemId
+item_cnt (RitemCnt"ç
+activitystappointment_cfg
+id (Rid
+activity_id (R
+activityId
+day (Rday-
+items (2.ncmd_cs.lobby.sta_itemRitems"A
+common_item
+item_id (RitemId
+item_cnt (RitemCnt"ä
+activitystmusic_cfg
+id (Rid
+activity_id (R
+activityId
+day (Rday0
+items (2.ncmd_cs.lobby.common_itemRitems"É
+activity_battlereward_cfg
+id (Rid
+activity_id (R
+activityId!
+attribute_id (RattributeId
+rate (Rrate"…
+!activity_beta_recharge_rebate_cfg
+id (Rid
+activity_id (R
+activityId
+level (Rlevel
+
+amount_min (R	amountMin
+
+amount_max (R	amountMax
+rebate_rate (R
+rebateRate"A
+items
+item_id (RitemId
+item_amount (R
+itemAmount"á
+activity_con_login_cfg
+id (Rid
+activity_id (R
+activityId
+day (Rday*
+prize (2.ncmd_cs.lobby.itemsRprize"»
+activity_gallerygleaning_cfg
+id (Rid
+activity_id (R
+activityId
+item_id (RitemId
+item_num (RitemNum
+
+streak_num (R	streakNum$
+default_box_id (RdefaultBoxId"=
+gg_item
+item_id (RitemId
+item_cnt (RitemCnt"∏
+activity_ggbox_cfg
+id (Rid
+activity_id (R
+activityId
+box_id (RboxId
+grid (Rgrid,
+items (2.ncmd_cs.lobby.gg_itemRitems
+jackpot (Rjackpot"G
+	condition
+	cond_type (RcondType
+
+cond_value (R	condValue"Ì
+activity_invite_card_cfg
+id (Rid
+activity_id (R
+activityId&
+sub_activity_id (RsubActivityId8
+
+conditions (2.ncmd_cs.lobby.conditionR
+conditions
+act_code (RactCode#
+activity_name (	RactivityName"„
+activity_michelleplaytime_cfg
+id (Rid
+activity_id (R
+activityId
+
+consume_id (R	consumeId
+
+unlock_num (R	unlockNum!
+exchange_num (RexchangeNum0
+items (2.ncmd_cs.lobby.common_itemRitems"è
+activity_mp_unlock_cfg
+id (Rid
+activity_id (R
+activityId
+grid (Rgrid0
+items (2.ncmd_cs.lobby.common_itemRitems"ô
+activity_paragraph_cfg
+id (Rid!
+paragraph_id (RparagraphId'
+paragraph_title (	RparagraphTitle#
+paragraph_des (	RparagraphDes"¡
+activity_summerconcert_cfg
+id (Rid
+activity_id (R
+activityId
+	max_phase (RmaxPhase
+item_id (RitemId
+item_num (RitemNum!
+exchange_num (RexchangeNum"=
+sc_item
+item_id (RitemId
+item_cnt (RitemCnt"ƒ
+activity_sc_phase_reward_cfg
+id (Rid
+activity_id (R
+activityId
+phase (Rphase,
+items (2.ncmd_cs.lobby.sc_itemRitems
+name (	Rname
+	phase_des (	RphaseDes"ü
+activity_sc_prize_cfg
+id (Rid
+activity_id (R
+activityId
+phase (Rphase
+index (Rindex
+cue (Rcue
+item_id (RitemId"ì
+activity_sc_delivery_cfg
+id (Rid
+activity_id (R
+activityId
+grid (Rgrid
+item_id (RitemId
+item_num (RitemNum"ó
+activity_welcome_mrds_cfg
+id (Rid
+activity_id (R
+activityId
+
+start_time (R	startTime
+
+consume_id (R	consumeId
+
+unlock_num (R	unlockNum!
+exchange_num (RexchangeNum0
+items (2.ncmd_cs.lobby.common_itemRitems
+role_id (RroleId"Ω
+activity_welcome_mrds_award_cfg
+id (Rid
+activity_id (R
+activityId!
+milestone_id (RmilestoneId'
+milestone_phase (RmilestonePhase)
+milestone_sprite (	RmilestoneSprite0
+items (2.ncmd_cs.lobby.common_itemRitems
+	phase_des (	RphaseDes#
+phase_despage (	RphaseDespage"õ
+activity_cfg
+id (Rid
+type (Rtype
+sort (Rsort
+name (	Rname
+icon (	Ricon
+simple_desc (	R
+simpleDesc
+
+ready_time (R	readyTime
+
+start_time (R	startTime
+expire_time	 (R
+expireTime
+end_time
+ (RendTime
+	save_time (RsaveTime!
+display_type (RdisplayType
+
+blue_print (	R	bluePrint
+	auto_sort (RautoSort
+picture (	Rpicture
+but_text (	RbutText
+	jump_type (RjumpType
+jump_url (	RjumpUrl'
+activitie_class (RactivitieClassbproto3

@@ -1,0 +1,12 @@
+local SummerThemeSongMilestoneRewardPanel = class("SummerThemeSongMilestoneRewardPanel", PureMVC.ViewComponentPage)
+local SummerThemeSongMilestoneRewardPanelMediator = require("Business/Activities/SummerThemeSong/Mediators/SummerThemeSongMilestoneRewardPanelMediator")
+function SummerThemeSongMilestoneRewardPanel:ListNeededMediators()
+  return {SummerThemeSongMilestoneRewardPanelMediator}
+end
+function SummerThemeSongMilestoneRewardPanel:Construct()
+  SummerThemeSongMilestoneRewardPanel.super.Construct(self)
+end
+function SummerThemeSongMilestoneRewardPanel:Destruct()
+  SummerThemeSongMilestoneRewardPanel.super.Destruct(self)
+end
+return SummerThemeSongMilestoneRewardPanel

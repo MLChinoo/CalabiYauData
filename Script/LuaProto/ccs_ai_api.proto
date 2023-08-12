@@ -1,0 +1,81 @@
+
+»
+ccs_ai_api.protoccs_aiccs_ai_state.protoccs_ai_action.protoccs_state_diff.proto">
+	APIResult
+code (Rcode
+
+error_info (	R	errorInfo"5
+AIParam
+type (Rtype
+degree (Rdegree"_
+AIConfig
+level (Rlevel
+style (Rstyle'
+params (2.ccs_ai.AIParamRparams"J
+	MatchInfo
+type (Rtype
+map (Rmap
+room_id (RroomId"°
+GameStartRequest)
+game_manufacture (	RgameManufacture
+	game_type (	RgameType
+game_server (	R
+gameServer!
+game_dungeon (	RgameDungeon
+room_id (RroomId
+play_id (RplayId
+
+time_stamp (R	timeStamp
+type (Rtype
+map_id	 (RmapId
+token
+ (	Rtoken"W
+GameStartResponse)
+result (2.ccs_ai.APIResultRresult
+game_id (	RgameId"@
+GameStopRequest
+game_id (	RgameId
+token (	Rtoken"=
+GameStopResponse)
+result (2.ccs_ai.APIResultRresult"_
+MatchNotifyRequest
+game_id (	RgameId0
+
+match_info (2.ccs_ai.MatchInfoR	matchInfo"@
+MatchNotifyResponse)
+result (2.ccs_ai.APIResultRresult"
+AIAllocateRequest
+game_id (	RgameId
+ai_id (RaiId(
+config (2.ccs_ai.AIConfigRconfig
+type (Rtype"?
+AIAllocateResponse)
+result (2.ccs_ai.APIResultRresult"…
+UpdateAIConfigRequest
+game_id (	RgameId
+ai_id (RaiId(
+config (2.ccs_ai.AIConfigRconfig
+token (	Rtoken"C
+UpdateAIConfigResponse)
+result (2.ccs_ai.APIResultRresult"@
+AIDestroyRequest
+game_id (	RgameId
+ai_id (RaiId">
+AIDestroyResponse)
+result (2.ccs_ai.APIResultRresult"¢
+AIStateRequest
+game_id (	RgameId)
+state (2.ccs_ai.AIStateInfoRstate6
+
+diff_state (2.ccs_ai.DiffAIStateInfoR	diffState
+token (	Rtoken"{
+AIStateResponse)
+result (2.ccs_ai.APIResultRresult(
+action (2.ccs_ai.AIActionRaction
+ai_id (RaiId"‡
+StatisticsInfoRequest
+game_id (	RgameId?
+statistics_info (2.ccs_ai.StatisticsInfoRstatisticsInfo
+token (	Rtoken"C
+StatisticsInfoResponse)
+result (2.ccs_ai.APIResultRresultBHbproto3

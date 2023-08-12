@@ -1,0 +1,68 @@
+
+¯
+public.protoncmd_cs
+enum.proto"A
+behavior
+behavior_id (R
+behaviorId
+value (Rvalue"³
+	task_info
+task_id (RtaskId/
+	task_type (2.ncmd_cs.ETaskTypeRtaskType)
+state (2.ncmd_cs.ETaskStateRstate1
+
+progresses (2.ncmd_cs.behaviorR
+progresses"×
+ds_settle_player_info
+	player_id (RplayerId+
+team_id (2.ncmd_cs.ERoomCampRteamId
+kill_num (RkillNum
+
+relive_num (R	reliveNum
+assists_num (R
+assistsNum
+dead_num (RdeadNum
+scores (Rscores
+damage (Rdamage
+cures	 (Rcures
+on_hook
+ (RonHook#
+win (2.ncmd_cs.EWinTypeRwin
+mvp (Rmvp
+	res_score (RresScore
+hit_head (RhitHead
+	hit_count (RhitCount$
+place_bomb_num (RplaceBombNum&
+remove_bomb_num (RremoveBombNum2
+roles (2.ncmd_cs.ds_settle_role_infoRroles
+
+defeat_num (R	defeatNum
+lift_up_num (R	liftUpNum
+nick (	Rnick
+icon (Ricon?
+play_behavior& (2.ncmd_cs.EPlayBehaviorTypeRplayBehavior
+mmr' (Rmmr
+mine( (Rmine!
+offline_time) (RofflineTime 
+hang_up_time* (R
+hangUpTime"®
+ds_settle_role_info
+role_id (RroleId
+	play_time (RplayTime 
+role_skin_id (R
+roleSkinId
+gun_skin_id (R	gunSkinId
+is_final (RisFinal
+round (Rround
+kill_num (RkillNum
+
+relive_num (R	reliveNum
+assists_num	 (R
+assistsNum
+dead_num
+ (RdeadNum
+scores (Rscores
+damage (Rdamage
+cures (Rcures
+win_num (RwinNum
+fail_num (RfailNumbproto3

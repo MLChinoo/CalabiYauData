@@ -1,0 +1,168 @@
+
+Ü$
+s_dsa.protoncmd_ds
+enum.protopublic.proto"–
+ds_creatematch_req
+room_id (RroomId
+map_id (RmapId
+nvn (Rnvn&
+mode (2.ncmd_cs.ERoomModeRmode1
+players (2.ncmd_ds.ds_player_infoRplayers2
+	sync_flag (2.ncmd_cs.EMsgSyncFlagRsyncFlag/
+special (2.ncmd_cs.ESpecialRoomRspecial"—
+ds_weapon_info
+
+primary_id (R	primaryId!
+primary_uuid (RprimaryUuid
+primary_exp (R
+primaryExp#
+primary_level (RprimaryLevel!
+secondary_id (RsecondaryId%
+secondary_uuid (RsecondaryUuid#
+secondary_exp (RsecondaryExp'
+secondary_level (RsecondaryLevel
+grenades	 (Rgrenades-
+primary_components
+ (RprimaryComponents1
+secondary_components (RsecondaryComponents
+melee_id (RmeleeId$
+advanced_fx_id (RadvancedFxId&
+terminate_fx_id (RterminateFxId"s
+ds_communication_info
+id (RidJ
+communication_type (2.ncmd_cs.ECommunicationTypeRcommunicationType"k
+ds_personality_info
+id (RidD
+personality_type (2.ncmd_cs.EPersonalityTypeRpersonalityType"I
+ds_decal_info
+	decal_pos (RdecalPos
+	config_id (RconfigId"
+ds_role_info
+role_id (RroleId
+skin_id (RskinId1
+weapons (2.ncmd_ds.ds_weapon_infoRweaponsF
+communications (2.ncmd_ds.ds_communication_infoRcommunications
+voices (Rvoices.
+decals (2.ncmd_ds.ds_decal_infoRdecals
+
+flutter_id (R	flutterId(
+advanced_skin_id (RadvancedSkinIdB
+personalities	 (2.ncmd_ds.ds_personality_infoRpersonalities"ª
+ds_player_info
+	player_id (RplayerId
+nick (Rnick#
+sex (2.ncmd_cs.ESexTypeRsex*
+campid (2.ncmd_cs.ERoomCampRcampid
+icon (Ricon
+level (Rlevel
+robot (Rrobot
+token (Rtoken0
+ds_roles	 (2.ncmd_ds.ds_role_infoRdsRoles3
+	ds_decals
+ (2.ncmd_ds.ds_decal_infoRdsDecals
+	device_id (	RdeviceId
+plat_id (RplatId
+open_id (	RopenId#
+fluttering_id (RflutteringId2
+
+robot_type (2.ncmd_cs.ERobotTypeR	robotType
+rank (Rrank
+	gradation (R	gradation
+team_id (RteamId
+
+friend_ids (R	friendIds
+pos (Rpos#
+player_serial (RplayerSerial
+mmr (Rmmr"A
+ds_creatematch_res
+code (Rcode
+room_id (RroomId"g
+ds_exit_ntf
+ds_pid (RdsPid
+room_id (RroomId(
+reason (2.ncmd_cs.EDsExitRreason"P
+ds_quit_req
+room_id (RroomId(
+reason (2.ncmd_cs.EDsExitRreason"!
+ds_quit_res
+code (Rcode"î
+ds_game_settle_req
+room_id (RroomId/
+	room_mode (2.ncmd_cs.ERoomModeRroomMode3
+winner_team (2.ncmd_cs.ERoomCampR
+winnerTeam
+map_id (RmapId8
+players (2.ncmd_cs.ds_settle_player_infoRplayers
+	game_time (RgameTime
+scores (Rscores8
+attack_camp_id	 (2.ncmd_cs.ERoomCampRattackCampId
+end_time
+ (RendTime"-
+ds_game_settle_res
+room_id (RroomId"g
+player_login_ntf
+room_id (RroomId
+	player_id (RplayerId
+
+team_index (R	teamIndex"n
+player_logout_ntf
+room_id (RroomId
+	player_id (RplayerId#
+logout_reason (RlogoutReason"e
+player_disconnect_ntf
+room_id (RroomId
+	player_id (RplayerId
+reason (Rreason"
+ds_heartbeat_req
+ds_pid (RdsPid
+room_id (RroomId
+players (Rplayers
+bots_num (RbotsNum
+state (Rstate"B
+ds_heartbeat_res
+ds_pid (RdsPid
+room_id (RroomId"`
+player_halfenter_ntf
+room_id (RroomId/
+player (2.ncmd_ds.ds_player_infoRplayer"l
+player_enter_watch_ntf
+
+fighter_id (R	fighterId
+
+wathcer_id (R	wathcerId
+token (Rtoken"M
+player_exit_watch_ntf
+room_id (RroomId
+	player_id (RplayerId"9
+achievement
+id (Rid
+progress (Rprogress"i
+ds_achieve_reach
+	player_id (RplayerId8
+achievements (2.ncmd_ds.achievementRachievements"n
+ds_achieve_reach_ntf
+room_id (RroomId=
+achievements (2.ncmd_ds.ds_achieve_reachRachievements"-
+ds_report_tlog_ntf
+log_str (	RlogStr"5
+ds_batch_report_tlog_ntf
+log_list (	RlogList"3
+ds_finish_return_req
+	player_id (RplayerId"U
+ds_task_data
+	player_id (RplayerId(
+tasks (2.ncmd_cs.task_infoRtasks"a
+ds_task_data_ntf
+room_id (RroomId4
+
+task_datas (2.ncmd_ds.ds_task_dataR	taskDatas"•
+ds_task_change_ntf"
+drop_task_ids (RdropTaskIds>
+update_task_datas (2.ncmd_cs.task_infoRupdateTaskDatas
+	player_id (RplayerId"L
+ds_upload_replay_ntf
+room_id (RroomId
+	file_path (	RfilePath"=
+ds_ace_unsafe_ntf
+reason (Rreason
+msg (	Rmsgbproto3

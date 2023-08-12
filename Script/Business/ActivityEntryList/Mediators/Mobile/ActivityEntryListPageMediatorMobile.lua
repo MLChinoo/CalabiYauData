@@ -1,0 +1,11 @@
+local ActivityEntryListPageMediatorMobile = class("ActivityEntryListPageMediatorMobile", PureMVC.Mediator)
+function ActivityEntryListPageMediatorMobile:ListNotificationInterests()
+  return {}
+end
+function ActivityEntryListPageMediatorMobile:OnRegister()
+end
+function ActivityEntryListPageMediatorMobile:OnRemove()
+end
+function ActivityEntryListPageMediatorMobile:HandleNotification(notification)
+end
+return ActivityEntryListPageMediatorMobile
