@@ -1,0 +1,1238 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapCfg",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CyMapCfgTableRow'",
+        "ObjectPath": "/Script/PMGame"
+      }
+    },
+    "Rows": {
+      "200": {
+        "Id": 200,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "200_Name",
+          "SourceString": "404基地",
+          "LocalizedString": "404基地"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "200_Desc",
+          "SourceString": "404基地建造在真实荒野之上，是欧泊为了研发武器“ZERO”而特别设立的秘密基地。该区域防备森严，除了名称之外，其余信息从未向外界透露。",
+          "LocalizedString": "404基地建造在真实荒野之上，是欧泊为了研发武器“ZERO”而特别设立的秘密基地。该区域防备森严，除了名称之外，其余信息从未向外界透露。"
+        },
+        "Type": 2,
+        "Order": 3,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_FZFBase/Envi_FZFBase_Bomb/Envi_FZFBase",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_200.T_Dynamic_Map_Mini2D_200",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_200.T_Dynamic_Map_Block_200",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7500.0,
+          "Y": -7500.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7500.0,
+          "Y": 7500.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_200.T_Dynamic_Map_Career_200",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_200.T_Dynamic_Map_Career_title_200",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_200.T_Dynamic_Map_Mini2_200",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_200.T_Dynamic_Map_Introduce_200",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_200.T_Dynamic_Map_Strategy_200",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_200.T_Dynamic_Map_Observer_200",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "200_Thumb3Title",
+          "SourceString": "策略",
+          "LocalizedString": "策略"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "200_Thumb3Desc",
+          "SourceString": ".尝试运用多样的路径来进行团队协同作战。\n.不要放弃对中间区域的控制。\n.通过一些小窗口可以有其他行动路线。",
+          "LocalizedString": ".尝试运用多样的路径来进行团队协同作战。\n.不要放弃对中间区域的控制。\n.通过一些小窗口可以有其他行动路线。"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "200_WorldViewDesc",
+          "SourceString": "剪刀手计划销毁欧泊基地中的弦能制导武器",
+          "LocalizedString": "剪刀手计划销毁欧泊基地中的弦能制导武器"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Ui_Select_Character_Music_Stop_404base.Ui_Select_Character_Music_Stop_404base",
+          "SubPathString": ""
+        }
+      },
+      "400": {
+        "Id": 400,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "400_Name",
+          "SourceString": "404基地",
+          "LocalizedString": "404基地"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "400_Desc",
+          "SourceString": "404基地建造在真实荒野之上，是欧泊为了研发武器“ZERO”而特别设立的秘密基地。该区域防备森严，除了名称之外，其余信息从未向外界透露。",
+          "LocalizedString": "404基地建造在真实荒野之上，是欧泊为了研发武器“ZERO”而特别设立的秘密基地。该区域防备森严，除了名称之外，其余信息从未向外界透露。"
+        },
+        "Type": 4,
+        "Order": 3,
+        "Bots": 15,
+        "Scene": "/Game/PaperMan/Maps/Envi_FZFBase/Envi_FZFBase_TDM/Envi_FZFBase_TDM",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_200.T_Dynamic_Map_Mini2D_200",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7500.0,
+          "Y": -7500.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7500.0,
+          "Y": 7500.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_200.T_Dynamic_Map_Career_200",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_200.T_Dynamic_Map_Career_title_200",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_200.T_Dynamic_Map_Mini2_200",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_200.T_Dynamic_Map_Introduce_200",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_100.T_Dynamic_Map_Strategy_100",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "400_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "400_Thumb3Desc",
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "400_WorldViewDesc",
+          "SourceString": "组队不过是为了各自的立场而战",
+          "LocalizedString": "组队不过是为了各自的立场而战"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "201": {
+        "Id": 201,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "201_Name",
+          "SourceString": "88区",
+          "LocalizedString": "88区"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "201_Desc",
+          "SourceString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。",
+          "LocalizedString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。"
+        },
+        "Type": 2,
+        "Order": 1,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_Bomb/Envi_Umeda",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_201.T_Dynamic_Map_Mini2D_201",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_201.T_Dynamic_Map_Block_201",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 390.0,
+          "Y": 110.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7110.0,
+          "Y": -7390.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7889.0,
+          "Y": 7609.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_201.T_Dynamic_Map_Career_title_201",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_201.T_Dynamic_Map_Mini2_201",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_201.T_Dynamic_Map_Introduce_201",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_201.T_Dynamic_Map_Strategy_201",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_201.T_Dynamic_Map_Observer_201",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "201_Thumb3Title",
+          "SourceString": "策略",
+          "LocalizedString": "策略"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "201_Thumb3Desc",
+          "SourceString": "·通过飘飞可在高楼间来回穿梭\n·灵活运用滑墙，可绕到敌人后侧突袭\n·可使用烟雾弹来掩护爆炸装置的安装",
+          "LocalizedString": "·通过飘飞可在高楼间来回穿梭\n·灵活运用滑墙，可绕到敌人后侧突袭\n·可使用烟雾弹来掩护爆炸装置的安装"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "201_WorldViewDesc",
+          "SourceString": "剪刀手在欧泊管辖下的商业区发动袭击",
+          "LocalizedString": "剪刀手在欧泊管辖下的商业区发动袭击"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Ui_Select_Character_Music_Stop.Ui_Select_Character_Music_Stop",
+          "SubPathString": ""
+        }
+      },
+      "301": {
+        "Id": 301,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "301_Name",
+          "SourceString": "88区",
+          "LocalizedString": "88区"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "301_Desc",
+          "SourceString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。",
+          "LocalizedString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。"
+        },
+        "Type": 3,
+        "Order": 1,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_Spar/Envi_Umeda_Spar",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_201.T_Dynamic_Map_Mini2D_201",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 390.0,
+          "Y": 110.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7110.0,
+          "Y": -7390.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7889.0,
+          "Y": 7609.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_201.T_Dynamic_Map_Career_title_201",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_201.T_Dynamic_Map_Mini2_201",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_201.T_Dynamic_Map_Introduce_201",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_101.T_Dynamic_Map_Strategy_101",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "301_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "301_Thumb3Desc",
+          "SourceString": "·弦能芯核将转化为等值的护甲\n·异能弦体能锁定芯核捕手的位置\n·该模式无法使用主武器、技能和绝招",
+          "LocalizedString": "·弦能芯核将转化为等值的护甲\n·异能弦体能锁定芯核捕手的位置\n·该模式无法使用主武器、技能和绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "301_WorldViewDesc",
+          "SourceString": "纷争源于卡丘人对巴布洛晶矿的欲望",
+          "LocalizedString": "纷争源于卡丘人对巴布洛晶矿的欲望"
+        },
+        "BattleBGM": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "401": {
+        "Id": 401,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "401_Name",
+          "SourceString": "88区",
+          "LocalizedString": "88区"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "401_Desc",
+          "SourceString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。",
+          "LocalizedString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。"
+        },
+        "Type": 4,
+        "Order": 1,
+        "Bots": 15,
+        "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_TDM_Tri/Envi_Umeda_TDM_Tri",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_201.T_Dynamic_Map_Mini2D_201",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 390.0,
+          "Y": 110.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7110.0,
+          "Y": -7390.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7889.0,
+          "Y": 7609.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_201.T_Dynamic_Map_Career_title_201",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_201.T_Dynamic_Map_Mini2_201",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_201.T_Dynamic_Map_Introduce_201",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_101.T_Dynamic_Map_Strategy_101",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "401_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "401_Thumb3Desc",
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "401_WorldViewDesc",
+          "SourceString": "组队不过是为了各自的立场而战",
+          "LocalizedString": "组队不过是为了各自的立场而战"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "202": {
+        "Id": 202,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "202_Name",
+          "SourceString": "欧拉港口",
+          "LocalizedString": "欧拉港口"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "202_Desc",
+          "SourceString": "欧拉港口位于纽特朗城，毗邻理想之海，是卡丘世界最大的巴布洛能源运输商贸港。",
+          "LocalizedString": "欧拉港口位于纽特朗城，毗邻理想之海，是卡丘世界最大的巴布洛能源运输商贸港。"
+        },
+        "Type": 2,
+        "Order": 2,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Olgk/Envi_Olgk_Bomb/Envi_Olgk",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_202.T_Dynamic_Map_Mini2D_202",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_202.T_Dynamic_Map_Block_202",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 760.0,
+          "Y": 1720.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -8890.0,
+          "Y": -7930.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 10410.0,
+          "Y": 11370.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_202.T_Dynamic_Map_Career_202",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_202.T_Dynamic_Map_Career_title_202",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_202.T_Dynamic_Map_Mini2_202",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_202.T_Dynamic_Map_Introduce_202",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_202.T_Dynamic_Map_Strategy_202",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_202.T_Dynamic_Map_Observer_202",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "202_Thumb3Title",
+          "SourceString": "策略",
+          "LocalizedString": "策略"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "202_Thumb3Desc",
+          "SourceString": "·不要触碰中路发电区的地下废水\n·贴上移动的货箱，可以巧妙地攻击敌人\n·可使用破片手雷一招制敌",
+          "LocalizedString": "·不要触碰中路发电区的地下废水\n·贴上移动的货箱，可以巧妙地攻击敌人\n·可使用破片手雷一招制敌"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "202_WorldViewDesc",
+          "SourceString": "剪刀手引爆港口，趁乱袭击欧泊的巴布洛提纯中心",
+          "LocalizedString": "剪刀手引爆港口，趁乱袭击欧泊的巴布洛提纯中心"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Ui_Select_Character_Music_Stop_olgk.Ui_Select_Character_Music_Stop_olgk",
+          "SubPathString": ""
+        }
+      },
+      "402": {
+        "Id": 402,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "402_Name",
+          "SourceString": "欧拉港口",
+          "LocalizedString": "欧拉港口"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "402_Desc",
+          "SourceString": "欧拉港口位于纽特朗城，毗邻理想之海，是卡丘世界最大的巴布洛能源运输商贸港。",
+          "LocalizedString": "欧拉港口位于纽特朗城，毗邻理想之海，是卡丘世界最大的巴布洛能源运输商贸港。"
+        },
+        "Type": 4,
+        "Order": 2,
+        "Bots": 15,
+        "Scene": "/Game/PaperMan/Maps/Envi_Olgk/Envi_Olgk_TDM/Envi_Olgk_TDM",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_202.T_Dynamic_Map_Mini2D_202",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 760.0,
+          "Y": 1720.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -8890.0,
+          "Y": -7930.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 10410.0,
+          "Y": 11370.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_202.T_Dynamic_Map_Career_202",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_202.T_Dynamic_Map_Career_title_202",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_202.T_Dynamic_Map_Mini2_202",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_202.T_Dynamic_Map_Introduce_202",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_102.T_Dynamic_Map_Strategy_102",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "402_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "402_Thumb3Desc",
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "402_WorldViewDesc",
+          "SourceString": "组队不过是为了各自的立场而战",
+          "LocalizedString": "组队不过是为了各自的立场而战"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "204": {
+        "Id": 204,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "204_Name",
+          "SourceString": "风曳镇",
+          "LocalizedString": "风曳镇"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "204_Desc",
+          "SourceString": "风曳镇位于斯崔恩城区，是卡丘世界著名的度假小镇。此时正是巴布洛晶体科技盛会的筹备阶段，在欧泊和剪刀手的介入下，小镇也变得更为“热闹”了……",
+          "LocalizedString": "风曳镇位于斯崔恩城区，是卡丘世界著名的度假小镇。此时正是巴布洛晶体科技盛会的筹备阶段，在欧泊和剪刀手的介入下，小镇也变得更为“热闹”了……"
+        },
+        "Type": 2,
+        "Order": 4,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Fyz/Envi_Fyz_Bomb/Envi_Fyz",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_204.T_Dynamic_Map_Mini2D_204",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_204.T_Dynamic_Map_Block_204",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -9000.0,
+          "Y": -9000.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 9000.0,
+          "Y": 9000.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_204.T_Dynamic_Map_Career_204",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_204.T_Dynamic_Map_Career_title_204",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_204.T_Dynamic_Map_Mini2_204",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_204.T_Dynamic_Map_Introduce_204",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_204.T_Dynamic_Map_Strategy_204",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_204.T_Dynamic_Map_Observer_204",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "204_Thumb3Title",
+          "SourceString": "策略",
+          "LocalizedString": "策略"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "204_Thumb3Desc",
+          "SourceString": "·提升弦化技巧，避免落入水中\n·开阔地区，注意遮蔽敌人的视野\n·注意侦察敌情，小心绕后",
+          "LocalizedString": "·提升弦化技巧，避免落入水中\n·开阔地区，注意遮蔽敌人的视野\n·注意侦察敌情，小心绕后"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "204_WorldViewDesc",
+          "SourceString": "剪刀手用武力阻扰巴布洛晶体科技盛会的筹办",
+          "LocalizedString": "剪刀手用武力阻扰巴布洛晶体科技盛会的筹办"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Ui_Select_Character_Music_Stop_fyz.Ui_Select_Character_Music_Stop_fyz",
+          "SubPathString": ""
+        }
+      },
+      "404": {
+        "Id": 404,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "404_Name",
+          "SourceString": "风曳镇",
+          "LocalizedString": "风曳镇"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "404_Desc",
+          "SourceString": "风曳镇位于斯崔恩城区，是卡丘世界著名的度假小镇。此时正是巴布洛晶体科技盛会的筹备阶段，在欧泊和剪刀手的介入下，小镇也变得更为“热闹”了……",
+          "LocalizedString": "风曳镇位于斯崔恩城区，是卡丘世界著名的度假小镇。此时正是巴布洛晶体科技盛会的筹备阶段，在欧泊和剪刀手的介入下，小镇也变得更为“热闹”了……"
+        },
+        "Type": 4,
+        "Order": 4,
+        "Bots": 15,
+        "Scene": "/Game/PaperMan/Maps/Envi_Fyz/Envi_Fyz_TDM/Envi_Fyz_TDM",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_204.T_Dynamic_Map_Mini2D_204",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -9000.0,
+          "Y": -9000.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 9000.0,
+          "Y": 9000.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_204.T_Dynamic_Map_Career_204",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_204.T_Dynamic_Map_Career_title_204",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_204.T_Dynamic_Map_Mini2_204",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_204.T_Dynamic_Map_Introduce_204",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_104.T_Dynamic_Map_Strategy_104",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_204.T_Dynamic_Map_Observer_204",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "404_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "404_Thumb3Desc",
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "404_WorldViewDesc",
+          "SourceString": "组队不过是为了各自的立场而战",
+          "LocalizedString": "组队不过是为了各自的立场而战"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "1000": {
+        "Id": 1000,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "1000_Name",
+          "SourceString": "新手关",
+          "LocalizedString": "新手关"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1000_Desc",
+          "SourceString": "新手引导！",
+          "LocalizedString": "新手引导！"
+        },
+        "Type": 5,
+        "Order": 0,
+        "Bots": 0,
+        "Scene": "/Game/PaperMan/Maps/DebugMaps/GuideNovice/NoviceBaseGuide/NoviceBaseGuide",
+        "Minimap2d": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_971.T_Dynamic_Map_Introduce_971",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "1000_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1000_Thumb3Desc",
+          "SourceString": "1.勇闯科摩斯防御系统。\n2.跟随梅的指引。",
+          "LocalizedString": "1.勇闯科摩斯防御系统。\n2.跟随梅的指引。"
+        },
+        "WorldViewDesc": {
+          "CultureInvariantString": null
+        },
+        "BattleBGM": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1002": {
+        "Id": 1002,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "1002_Name",
+          "SourceString": "靶场",
+          "LocalizedString": "靶场"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1002_Desc",
+          "SourceString": "靶场",
+          "LocalizedString": "靶场"
+        },
+        "Type": 6,
+        "Order": 0,
+        "Bots": 0,
+        "Scene": "/Game/PaperMan/Maps/Envi_Train_Aim/Envi_Train_Aim",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_1002.T_Dynamic_Map_Mini2D_1002",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 460.0,
+          "Y": 10635.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -4540.0,
+          "Y": 5635.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 5460.0,
+          "Y": 15635.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_971.T_Dynamic_Map_Introduce_971",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "1002_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1002_Thumb3Desc",
+          "SourceString": "1.勇闯科摩斯防御系统。\n2.跟随梅的指引。",
+          "LocalizedString": "1.勇闯科摩斯防御系统。\n2.跟随梅的指引。"
+        },
+        "WorldViewDesc": {
+          "CultureInvariantString": null
+        },
+        "BattleBGM": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1003": {
+        "Id": 1003,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "1003_Name",
+          "SourceString": "88区",
+          "LocalizedString": "88区"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1003_Desc",
+          "SourceString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。",
+          "LocalizedString": "88号街区位于纽特朗城郊，该地区形成了金融、贸易、娱乐等全方位服务体系，被卡丘世界的市民称呼为理想乡的华尔街。"
+        },
+        "Type": 5,
+        "Order": 999,
+        "Bots": 9,
+        "Scene": "/Game/PaperMan/Maps/Envi_Train_TDM/Envi_Train_TDM",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_201.T_Dynamic_Map_Mini2D_201",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 390.0,
+          "Y": 110.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -7110.0,
+          "Y": -7390.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 7889.0,
+          "Y": 7609.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_201.T_Dynamic_Map_Introduce_201",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "1003_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1003_Thumb3Desc",
+          "SourceString": "1.战斗中可随时更换角色\n\n2.决战阶段会出现危险的逆弦化风暴，注意躲避\n\n3.该模式无法使用战术道具和绝招",
+          "LocalizedString": "1.战斗中可随时更换角色\n\n2.决战阶段会出现危险的逆弦化风暴，注意躲避\n\n3.该模式无法使用战术道具和绝招"
+        },
+        "WorldViewDesc": {
+          "CultureInvariantString": null
+        },
+        "BattleBGM": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1001": {
+        "Id": 1001,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "1001_Name",
+          "SourceString": "宿舍",
+          "LocalizedString": "宿舍"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1001_Desc",
+          "SourceString": "卡丘导航为您服务，请勿在饮用巴布洛气泡水后飘飞。",
+          "LocalizedString": "卡丘导航为您服务，请勿在饮用巴布洛气泡水后飘飞。"
+        },
+        "Type": 0,
+        "Order": 0,
+        "Bots": 0,
+        "Scene": "/Game/PaperMan/Maps/Lobby/Lobby_new/Lobby",
+        "Minimap2d": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapZoom": 0.6,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_971.T_Dynamic_Map_Introduce_971",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "1001_Thumb3Title",
+          "SourceString": "策略",
+          "LocalizedString": "策略"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "1001_Thumb3Desc",
+          "SourceString": "1.多了解角色的喜好，可能有惊喜。\n\n2.如果送的礼物她不喜欢，换个礼物试试。\n\n3.提升誓约等级后，她会告诉你更多的小秘密。\n\n4.不要尝试去触碰某些部位，她可能会生气。",
+          "LocalizedString": "1.多了解角色的喜好，可能有惊喜。\n\n2.如果送的礼物她不喜欢，换个礼物试试。\n\n3.提升誓约等级后，她会告诉你更多的小秘密。\n\n4.不要尝试去触碰某些部位，她可能会生气。"
+        },
+        "WorldViewDesc": {
+          "CultureInvariantString": null
+        },
+        "BattleBGM": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

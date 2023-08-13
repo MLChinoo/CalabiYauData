@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Apartment",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "",
+      "KeysToMetaData": {
+        "AddSlash": "{0} / {1}",
+        "AddSemicolon": "{0}: {1}",
+        "TaskTip": "参与战斗提升好感度,  誓约系统{0}级获得",
+        "NoneGiftTip": "还没有礼品可以送给她",
+        "PlayerId": "ID: {0}",
+        "DownloadTip": "已经保存到Saved/ScreenShot文件夹下",
+        "TempTips": "更多内容开发中，敬请期待",
+        "ForbiddenAvgForMatching": "正在匹配中，暂无法进入剧情"
+      }
+    },
+    "StringTableId": 0
+  }
+]

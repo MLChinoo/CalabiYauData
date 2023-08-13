@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Store",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "ST_Store",
+      "KeysToMetaData": {
+        "WaitingPayOrder": "有待支付订单",
+        "CommodityNotExist": "商品不存在",
+        "CommodityBuyLimit": "当前购买次数已满",
+        "CommodityOffShelves": "商品已下架",
+        "CommodityNotShelves": "商品未上架",
+        "ClaimRefuse": "不接受索要",
+        "ClaimLvNotEnough": "索要等级不满足",
+        "ClaimLimit": "索要次数达到上限",
+        "DiscountPackageTip": "无法单独购买",
+        "GiftAwayTip": "无法单独购买,\r\n集齐角色皮肤和枪械皮肤时赠送",
+        "HermesTopUpTips": "支付操作中，支付完成后请点击“确认”"
+      }
+    },
+    "StringTableId": 0
+  }
+]

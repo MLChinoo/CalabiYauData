@@ -1,0 +1,1101 @@
+[
+  {
+    "Type": "PMDataTableAsset",
+    "Name": "DA_DataTable",
+    "Class": "UScriptClass'PMDataTableAsset'",
+    "Properties": {
+      "DefaultSetAsset": {
+        "ObjectName": "PMDefaultSetAsset'DA_DefaultAsset'",
+        "ObjectPath": "PM/Content/PaperMan/CyTable/DA_DefaultAsset.0"
+      },
+      "StaticLoad": [
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Attribute.Attribute",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Buff.Buff",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_AITableConfig.DT_AITableConfig",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ErrorCode.ErrorCode",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/MapCfg.MapCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Parameter.Parameter",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Role.Role",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleAction.RoleAction",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleSkin.RoleSkin",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleVoice.RoleVoice",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Skill.Skill",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Weapon.Weapon",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/WeaponLevel.WeaponLevel",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UITable.DT_UITable",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassDayTask.BattlePassDayTask",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassLoopTask.BattlePassLoopTask",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassWeekTask.BattlePassWeekTask",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassBackGroud.BattlePassBackGroud",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassClue.BattlePassClue",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassPrize.BattlePassPrize",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BuffInGame.BuffInGame",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/GrowthPoint.GrowthPoint",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/GrowthSlotDesc.GrowthSlotDesc",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/SkillEffectData.SkillEffectData",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/Sequence/DT_SequenceCfg.DT_SequenceCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/SequenceDialogue/DT_SequenceDialogueCfg.DT_SequenceDialogueCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/CinematicChapter.CinematicChapter",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/SequenceMap.SequenceMap",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/SequenceRole.SequenceRole",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UITableMobile.DT_UITableMobile",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/FxFlying.FxFlying",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleFavorability.RoleFavorability",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UIMutualExclusionTable.DT_UIMutualExclusionTable",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Cinematic/CinematicCloister.CinematicCloister",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassDayTaskRefresh.BattlePassDayTaskRefresh",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleFavorabilityMission.RoleFavorabilityMission",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RoleFavorabilityEvent.RoleFavorabilityEvent",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/MoveType.MoveType",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Setting.Setting",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/FxFlying.FxFlying",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/FaceEmotion.FaceEmotion",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/MemoryCfg.MemoryCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/LoginWelcomeVoice.LoginWelcomeVoice",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ConditionTemplate.ConditionTemplate",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_ApartmentStateMachine.DT_ApartmentStateMachine",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/SettingMB.SettingMB",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/SettingConfig.SettingConfig",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ChatShortcutText.ChatShortcutText",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/BattlePassSeason.BattlePassSeason",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Apartment/WindingCorridor.WindingCorridor",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Apartment/RoleBiography.RoleBiography",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/MemoryTalk.MemoryTalk",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/GrowthPartAttributeModifier.GrowthPartAttributeModifier",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DivisionParameter.DivisionParameter",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/AIMMR.AIMMR",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DivisionRoomAI.DivisionRoomAI",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Apartment/DT_ApartmentMainPageGalSequence.DT_ApartmentMainPageGalSequence",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/TipoffBehavior.TipoffBehavior",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/TipoffGlobal.TipoffGlobal",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ReturnLetterCfg.ReturnLetterCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Lottery.Lottery",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Drop.Drop",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ActivityTask.ActivityTask",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ApartmentMapCfg.ApartmentMapCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ChatEmote.ChatEmote",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/MapLocationCfg.MapLocationCfg",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/TipoffCategory.TipoffCategory",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UIGameModeTypeShow.DT_UIGameModeTypeShow",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/KaPhone/DT_KaChat.DT_KaChat",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/Activity.Activity",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/PayDirectly.PayDirectly",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DsCluster.DsCluster",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/FxWeapon.FxWeapon",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/CafePrivilegeType.CafePrivilegeType",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/LeaderboardContentDisplayControl.LeaderboardContentDisplayControl",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/CityCode.CityCode",
+          "SubPathString": ""
+        }
+      ],
+      "GameModeLoad": [
+        {
+          "EPMGameModeType::Team": {
+            "Paths": [
+              {
+                "AssetPathName": "/Game/PaperMan/CSV/Growth_Team.Growth_Team",
+                "SubPathString": ""
+              }
+            ]
+          }
+        },
+        {
+          "EPMGameModeType::Bomb": {
+            "Paths": [
+              {
+                "AssetPathName": "/Game/PaperMan/CSV/Growth_Bomb.Growth_Bomb",
+                "SubPathString": ""
+              }
+            ]
+          }
+        }
+      ],
+      "DynamicLoadMap": null,
+      "DynamicDataTables": [
+        {
+          "ScriptStruct'/Script/UMG.RichTextStyleRow'": {
+            "ObjectName": "DataTable'DT_RichText'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_RichText.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyStarsRankTableRow'": {
+            "ObjectName": "DataTable'StarsRank'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/StarsRank.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySettingItemTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.SPlatoonTeamColorRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMPIEPlayerInfoRow'": {
+            "ObjectName": "DataTable'DT_PIEPlayerInfo'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_PIEPlayerInfo.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGiftContentTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMarkPointTableRow'": {
+            "ObjectName": "DataTable'MarkPoint'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MarkPoint.0"
+          }
+        },
+        {
+          "0": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMapLoadingTipsTableRow'": {
+            "ObjectName": "DataTable'MapLoadingTips'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MapLoadingTips.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyInGameVoiceTriggerTableRow'": {
+            "ObjectName": "DataTable'InGameVoiceTrigger'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/InGameVoiceTrigger.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleFavorabilityGiftPresentTableRow'": {
+            "ObjectName": "DataTable'RoleFavorabilityGiftPresent'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleFavorabilityGiftPresent.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGameplayActorInfoTableRow'": {
+            "ObjectName": "DataTable'GameplayActorInfo'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GameplayActorInfo.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyFunctionUnlockMBTableRow'": {
+            "ObjectName": "DataTable'FunctionUnlockMB'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/FunctionUnlockMB.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyTeamMatchDropStageTableRow'": {
+            "ObjectName": "DataTable'TeamMatchDropStage'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/TeamMatchDropStage.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySummonKaomojiTableRow'": {
+            "ObjectName": "DataTable'SummonKaomoji'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/SummonKaomoji.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyTeamMatchDropItemsTableRow'": {
+            "ObjectName": "DataTable'TeamMatchDropItems'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/TeamMatchDropItems.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyWebUrlTableRow'": {
+            "ObjectName": "DataTable'WebUrl'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/WebUrl.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyChatCfgTableRow'": {
+            "ObjectName": "DataTable'ChatCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ChatCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyEventTalkTableRow'": {
+            "ObjectName": "DataTable'EventTalk'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/EventTalk.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPledgeEventTableRow'": {
+            "ObjectName": "DataTable'PledgeEvent'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PledgeEvent.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMNewPlayerGuideTableRow'": {
+            "ObjectName": "DataTable'DT_Guide_NewPlayerGuide'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Guide/NewPlayerGuide/DT_Guide_NewPlayerGuide.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.DirServerTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPledgeItemTableRow'": {
+            "ObjectName": "DataTable'PledgeItem'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PledgeItem.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyEmoteTableRow'": {
+            "ObjectName": "DataTable'Emote'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Emote.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAVGEventTableRow'": {
+            "ObjectName": "DataTable'AVGEvent'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/AVGEvent.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAVGRoleTableRow'": {
+            "ObjectName": "DataTable'AVGRole'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/AVGRole.0"
+          }
+        }
+      ],
+      "DataTables": [
+        {
+          "ScriptStruct'/Script/PMGame.CyAttributeTableRow'": {
+            "ObjectName": "DataTable'Attribute'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Attribute.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattleRewardTableRow'": {
+            "ObjectName": "DataTable'BattleReward'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattleReward.0"
+          }
+        },
+        {
+          "0": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDecalTableRow'": {
+            "ObjectName": "DataTable'Decal'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Decal.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyErrorCodeTableRow'": {
+            "ObjectName": "DataTable'ErrorCode'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ErrorCode.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyFunctionUnlockTableRow'": {
+            "ObjectName": "DataTable'FunctionUnlock'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/FunctionUnlock.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGMTableRow'": {
+            "ObjectName": "DataTable'GM'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GM.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyIdCardTableRow'": {
+            "ObjectName": "DataTable'IdCard'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/IdCard.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyItemQualityResTableRow'": {
+            "ObjectName": "DataTable'ItemQualityRes'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ItemQualityRes.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyItemTableRow'": {
+            "ObjectName": "DataTable'Item'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Item.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyLikabilityTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMapCfgTableRow'": {
+            "ObjectName": "DataTable'MapCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MapCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyParameterTableRow'": {
+            "ObjectName": "DataTable'Parameter'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Parameter.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPlayerLevelTableRow'": {
+            "ObjectName": "DataTable'PlayerLevel'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PlayerLevel.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleActionTableRow'": {
+            "ObjectName": "DataTable'RoleAction'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleAction.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleProfessionTableRow'": {
+            "ObjectName": "DataTable'RoleProfession'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleProfession.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleProficiencyTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleProfileTableRow'": {
+            "ObjectName": "DataTable'RoleProfile'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleProfile.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleSkinTableRow'": {
+            "ObjectName": "DataTable'RoleSkin'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleSkin.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleTeamTableRow'": {
+            "ObjectName": "DataTable'RoleTeam'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleTeam.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleVoiceTableRow'": {
+            "ObjectName": "DataTable'RoleVoice'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleVoice.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleTableRow'": {
+            "ObjectName": "DataTable'Role'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Role.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGoodsTableRow'": {
+            "ObjectName": "DataTable'Goods'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Goods.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyWeaponLevelTableRow'": {
+            "ObjectName": "DataTable'WeaponLevel'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/WeaponLevel.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyWeaponTableRow'": {
+            "ObjectName": "DataTable'Weapon'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Weapon.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMAITableRow'": {
+            "ObjectName": "DataTable'DT_AITableConfig'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_AITableConfig.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPayTableRow'": {
+            "ObjectName": "DataTable'Pay'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Pay.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDivisionTableRow'": {
+            "ObjectName": "DataTable'Division'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Division.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDivisionStarTableRow'": {
+            "ObjectName": "DataTable'DivisionStar'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DivisionStar.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBuffTableRow'": {
+            "ObjectName": "DataTable'Buff'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Buff.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAchievementTableRow'": {
+            "ObjectName": "DataTable'Achievement'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Achievement.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAchievementTypeTableRow'": {
+            "ObjectName": "DataTable'AchievementType'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/AchievementType.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPlayerHeadIconTableRow'": {
+            "ObjectName": "DataTable'PlayerHeadIcon'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PlayerHeadIcon.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDivisionRewardTableRow'": {
+            "ObjectName": "DataTable'DivisionReward'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DivisionReward.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUITableRow'": {
+            "ObjectName": "CompositeDataTable'DT_UITable'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UITable.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySkillTableRow'": {
+            "ObjectName": "DataTable'Skill'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Skill.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyItemIdIntervalTableRow'": {
+            "ObjectName": "DataTable'ItemIdInterval'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ItemIdInterval.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCurrencyTableRow'": {
+            "ObjectName": "DataTable'Currency'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Currency.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassDayTaskTableRow'": {
+            "ObjectName": "DataTable'BattlePassDayTask'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassDayTask.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassLoopTaskTableRow'": {
+            "ObjectName": "DataTable'BattlePassLoopTask'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassLoopTask.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassWeekTaskTableRow'": {
+            "ObjectName": "DataTable'BattlePassWeekTask'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassWeekTask.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassBackGroudTableRow'": {
+            "ObjectName": "DataTable'BattlePassBackGroud'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassBackGroud.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassClueTableRow'": {
+            "ObjectName": "DataTable'BattlePassClue'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassClue.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassPrizeTableRow'": {
+            "ObjectName": "DataTable'BattlePassPrize'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassPrize.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBuffInGameTableRow'": {
+            "ObjectName": "DataTable'BuffInGame'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BuffInGame.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGrowthTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGrowthPointTableRow'": {
+            "ObjectName": "DataTable'GrowthPoint'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GrowthPoint.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGrowthSlotDescTableRow'": {
+            "ObjectName": "DataTable'GrowthSlotDesc'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GrowthSlotDesc.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySkillEffectDataTableRow'": {
+            "ObjectName": "DataTable'SkillEffectData'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/SkillEffectData.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySequenceTableRow'": {
+            "ObjectName": "CompositeDataTable'DT_SequenceCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/Sequence/DT_SequenceCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySequenceDialogueTableRow'": {
+            "ObjectName": "CompositeDataTable'DT_SequenceDialogueCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/SequenceDialogue/DT_SequenceDialogueCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCinematicChapterTableRow'": {
+            "ObjectName": "DataTable'CinematicChapter'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/CinematicChapter.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySequenceMapTableRow'": {
+            "ObjectName": "DataTable'SequenceMap'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/SequenceMap.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySequenceRoleTableRow'": {
+            "ObjectName": "DataTable'SequenceRole'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/SequenceRole.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaPhoneMomentsTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaPhoneRoleInfoTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaPhoneMomentTextTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaPhoneChatTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaMemoryCorridorTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUITableRowMobile'": {
+            "ObjectName": "CompositeDataTable'DT_UITableMobile'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UITableMobile.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyFxFlyingTableRow'": {
+            "ObjectName": "DataTable'FxFlying'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/FxFlying.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleFavorabilityTableRow'": {
+            "ObjectName": "DataTable'RoleFavorability'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleFavorability.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUIMutualExclusionTableRow'": {
+            "ObjectName": "DataTable'DT_UIMutualExclusionTable'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UIMutualExclusionTable.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCinematicCloisterTableRow'": {
+            "ObjectName": "DataTable'CinematicCloister'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/CinematicCloister.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassDayTaskRefreshTableRow'": {
+            "ObjectName": "DataTable'BattlePassDayTaskRefresh'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassDayTaskRefresh.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleFavorabilityMissionTableRow'": {
+            "ObjectName": "DataTable'RoleFavorabilityMission'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleFavorabilityMission.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleFavorabilityEventTableRow'": {
+            "ObjectName": "DataTable'RoleFavorabilityEvent'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleFavorabilityEvent.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMoveTypeTableRow'": {
+            "ObjectName": "DataTable'MoveType'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MoveType.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySettingTableRow'": {
+            "ObjectName": "DataTable'Setting'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Setting.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyFaceEmotionTableRow'": {
+            "ObjectName": "DataTable'FaceEmotion'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/FaceEmotion.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCaChatTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCaMemoryTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyLoginWelcomeVoiceTableRow'": {
+            "ObjectName": "DataTable'LoginWelcomeVoice'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/LoginWelcomeVoice.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyConditionTemplateTableRow'": {
+            "ObjectName": "DataTable'ConditionTemplate'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ConditionTemplate.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentStateMachineTableRow'": {
+            "ObjectName": "DataTable'DT_ApartmentStateMachine'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_ApartmentStateMachine.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySettingMBTableRow'": {
+            "ObjectName": "DataTable'SettingMB'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/SettingMB.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CySettingConfigTableRow'": {
+            "ObjectName": "DataTable'SettingConfig'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/SettingConfig.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyChatShortcutTextTableRow'": {
+            "ObjectName": "DataTable'ChatShortcutText'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ChatShortcutText.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyBattlePassSeasonTableRow'": {
+            "ObjectName": "DataTable'BattlePassSeason'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/BattlePassSeason.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyWindingCorridorTableRow'": {
+            "ObjectName": "DataTable'WindingCorridor'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/WindingCorridor.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRoleBiographyTableRow'": {
+            "ObjectName": "DataTable'RoleBiography'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/RoleBiography.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMemoryCfgTableRow'": {
+            "ObjectName": "DataTable'MemoryCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MemoryCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMemoryTalkTableRow'": {
+            "ObjectName": "DataTable'MemoryTalk'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MemoryTalk.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGrowthPartAttributeModifierTableRow'": {
+            "ObjectName": "DataTable'GrowthPartAttributeModifier'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GrowthPartAttributeModifier.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDivisionParameterTableRow'": null
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAIMMRTableRow'": {
+            "ObjectName": "DataTable'AIMMR'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/AIMMR.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDivisionRoomAITableRow'": {
+            "ObjectName": "DataTable'DivisionRoomAI'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DivisionRoomAI.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentMainPageGalSequenceTableRow'": {
+            "ObjectName": "DataTable'DT_ApartmentMainPageGalSequence'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/DT_ApartmentMainPageGalSequence.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyTipoffBehaviorTableRow'": {
+            "ObjectName": "DataTable'TipoffBehavior'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/TipoffBehavior.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyTipoffGlobalTableRow'": {
+            "ObjectName": "DataTable'TipoffGlobal'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/TipoffGlobal.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyLotteryTableRow'": {
+            "ObjectName": "DataTable'Lottery'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Lottery.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyReturnLetterCfgTableRow'": {
+            "ObjectName": "DataTable'ReturnLetterCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ReturnLetterCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDropTableRow'": {
+            "ObjectName": "DataTable'Drop'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Drop.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyActivityTaskTableRow'": {
+            "ObjectName": "DataTable'ActivityTask'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ActivityTask.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentMapCfgTableRow'": {
+            "ObjectName": "DataTable'ApartmentMapCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ApartmentMapCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyChatEmoteTableRow'": {
+            "ObjectName": "DataTable'ChatEmote'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ChatEmote.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyMapLocationCfgTableRow'": {
+            "ObjectName": "DataTable'MapLocationCfg'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/MapLocationCfg.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyTipoffCategoryTableRow'": {
+            "ObjectName": "DataTable'TipoffCategory'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/TipoffCategory.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUIGameModeTypeShowTableRow'": {
+            "ObjectName": "DataTable'DT_UIGameModeTypeShow'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UIGameModeTypeShow.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCommunicationFirstLevelConfigTableRow'": {
+            "ObjectName": "DataTable'DT_KaChat'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/DT_KaChat.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyActivityTableRow'": {
+            "ObjectName": "DataTable'Activity'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Activity.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPayDirectlyTableRow'": {
+            "ObjectName": "DataTable'PayDirectly'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PayDirectly.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDsClusterTableRow'": {
+            "ObjectName": "DataTable'DsCluster'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DsCluster.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyFxWeaponTableRow'": {
+            "ObjectName": "DataTable'FxWeapon'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/FxWeapon.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCafePrivilegeTypeTableRow'": {
+            "ObjectName": "DataTable'CafePrivilegeType'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/CafePrivilegeType.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyLeaderboardContentDisplayControlTableRow'": {
+            "ObjectName": "DataTable'LeaderboardContentDisplayControl'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/LeaderboardContentDisplayControl.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCityCodeTableRow'": {
+            "ObjectName": "DataTable'CityCode'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/CityCode.0"
+          }
+        }
+      ],
+      "GameModeDataTables": [
+        {
+          "ScriptStruct'/Script/PMGame.CyGrowthTableRow'": {
+            "ObjectName": "DataTable'Growth_Bomb'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/Growth_Bomb.0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Career",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "ST_Store",
+      "KeysToMetaData": {
+        "AchievementCount": "玩家获得的{0}等级总数：",
+        "HasAcquired": "已领取",
+        "Combat": "战斗勋章",
+        "Locked": "未解锁",
+        "AcquireReward": "领取礼包",
+        "NoRewardAvailable": "目前没有可领取的礼包，要继续努力哦~",
+        "AchievementRank": "当前{0}总数高于",
+        "HasAcquiredAll": "已全部领取",
+        "Normal-Team": "一般-乱斗",
+        "BattleDuration": "{0} : {1}",
+        "Normal-Bomb": "一般-爆破",
+        "Epic": "史诗成就",
+        "Glory": "光辉事迹",
+        "Rank-Team": "排位-团竞",
+        "Rank-Bomb": "排位-爆破",
+        "Custom-Bomb": "自定义-爆破",
+        "Custom-Team": "自定义-乱斗",
+        "Score": "{0} - {1}",
+        "ScoreProtect": "( 抵扣值：{0} )",
+        "SeasonRestTime": "当前赛季将在{0}天后结束",
+        "SeasonHasEnd": "赛季已结束",
+        "SeasonText": "第 {0} 赛季",
+        "Normal-Mine": "芯核争夺",
+        "Custom-Mine": "自定义-争夺",
+        "NoInfoForAI": "人工智能无相关信息",
+        "CopyRoomId": "对局编号已复制到粘贴板",
+        "Hornor": "荣耀成就",
+        "RequestLeadboardTooFrequently": "请求太频繁"
+      }
+    },
+    "StringTableId": 0
+  }
+]

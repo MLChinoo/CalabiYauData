@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "CyStringTableAsset",
+    "Name": "DA_StringTable",
+    "Class": "UScriptClass'CyStringTableAsset'",
+    "Properties": {
+      "StringTables": [
+        {
+          "ObjectName": "StringTable'ST_BattlePass'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_BattlePass.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Career'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Career.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Chat'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Chat.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Common'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Common.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_FeedBack'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_FeedBack.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Friend'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Friend.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_InGame'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_InGame.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_KaPhone'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_KaPhone.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Lobby'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Lobby.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Login'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Login.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_PlayerProfile'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_PlayerProfile.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_RoleCamp'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_RoleCamp.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Room'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Room.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_ServerCommonTip'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_ServerCommonTip.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Setting'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Setting.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_SevereInjred'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_SevereInjred.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Skill'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Skill.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Store'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Store.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Apartment'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Apartment.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Replay'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Replay.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Tipoff'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Tipoff.0"
+        }
+      ]
+    }
+  }
+]

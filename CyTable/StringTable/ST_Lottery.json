@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_Lottery",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "",
+      "KeysToMetaData": {
+        "LotteryBonusHint": "再进行{0}次复现，必出 <Red-TxtType>{1}品质</> 或以上物品！",
+        "Orange": "橙色",
+        "Red": "红色",
+        "Purple": "紫色",
+        "Text_RedProb": "传说{0}、",
+        "Text_OrangeProb": "完美{0}、",
+        "Text_PurpleProb": "卓越{0}、",
+        "Text_BlueProb": "精致{0}、",
+        "NoBallInputHint": "请先放入弦序列~",
+        "Skin": "外观",
+        "Decal": "喷漆",
+        "Emote": "表情",
+        "Action": "动作",
+        "Voice": "语音",
+        "Card": "芯片"
+      }
+    },
+    "StringTableId": 0
+  }
+]

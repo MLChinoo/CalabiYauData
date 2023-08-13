@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_FeedBack",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "ST_FeedBack",
+      "KeysToMetaData": {
+        "UnSildWay_SideWay": "禁锢作用下无法侧身",
+        "UnSildWay_Slide": "禁锢作用下无法贴墙",
+        "UnSildWay_Glide": "禁锢作用下无法飘飞",
+        "Reload_HasNoAmmo": "备弹不足",
+        "Compel_Glide": "强制飘飞中",
+        "Pulse_Detected": "检测到脉冲",
+        "Rotate_Limit": "旋转被限制",
+        "Bomb_Drops": "丢弃炸弹",
+        "Pick_Bomb": "拾取炸弹",
+        "SlideFail": "不满足贴墙条件",
+        "Reset_Bomb_Location": "炸弹重置回安全区域",
+        "UltimateInvalid": "准备阶段无法使用绝招",
+        "Reload_Fail": "无法换弹",
+        "Mode_C4PlacingTips": "{0}正在<Red_Feedback>{1}点</>安装炸弹\r\n请立即前往支援！",
+        "Mode_C4RemovingTips": "<Blue_Feedback>{0}</>正在<Red_Feedback>{1}点</>拆除装置\r\n请立即前往支援",
+        "Mode_C4DropTips": "<Red_Feedback>p-4</>已丢弃",
+        "Mode_C4ResetLocationTips": "炸弹重置回安全区域",
+        "Mode_C4FoundTips": "发现<Red>炸弹</>,\r\n请尽快拆除",
+        "Mode_C4FoundTips2": "<Blue_Feedback>{0}</>在<Red_Feedback> {1}</>点发现了炸弹，请前往拆除",
+        "Mode_C4Placed_Defend": "炸弹已安装，请尽快拆除！",
+        "Mode_C4Placed_Attack": "炸弹已安装",
+        "Mode_BombOwnerTips": "你是炸弹携带者，请尽快前往爆破点",
+        "Mode_AttackTeamTips": "保护好炸弹携带者，摧毁目标",
+        "Mode_DefendTeamTips": "你是防守方，保护好你的目标",
+        "Mode_BombOwnerDead_Attack": "炸弹携带者被击倒",
+        "Mode_BombOwnerDead_Defend": "炸弹携带者被击倒",
+        "Mode_BombRemovedTips": "炸弹已拆除，防守方获胜！",
+        "NekoBotDestroyed": "米雪儿的伙伴被摧毁了",
+        "ReiichiArousalOne": "你被令一标记了，快跑",
+        "GrowthDropped_Title": "失去战力升级",
+        "Mode_FirstPickSpar": "躲避敌人，安全送回驻地仓库",
+        "Mode_SparRoundStart": "迅速前往矿区，采集晶体"
+      }
+    },
+    "StringTableId": 0
+  }
+]

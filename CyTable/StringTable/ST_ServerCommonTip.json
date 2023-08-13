@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_ServerCommonTip",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "ST_ServerCommonTip",
+      "KeysToMetaData": {
+        "0": "{0}"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_PlayerProfile",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "ST_Store",
+      "KeysToMetaData": {
+        "PlayerProfile": "个人信息",
+        "GameModeAll": "所有模式",
+        "EditBusinessCard": "芯片工艺",
+        "Collection": "{0} / {1}",
+        "RoleGameCount": "{0} 场",
+        "GameModeTeam": "团队乱斗",
+        "GameModeBomb": "一般爆破",
+        "GameModeRankBomb": "排位爆破",
+        "JoinTimeFormat": "{0}-{1}-{2}",
+        "IsUsing": "已采用",
+        "UseSetting": "采用方案",
+        "AvatarLocked": "选用了未解锁的 <Red_Feedback>基板</>",
+        "FrameLocked": "选用了未解锁的 <Blue_Feedback>封装</>",
+        "AchievementLocked": "选用了未解锁的 <Yellow_Feedback>核心</>",
+        "Skin": "基板",
+        "Frame": "封装",
+        "Achieve": "核心",
+        "DoesRebackCardSelect": "你选用的方案有组件未解锁，确定还原之前选择并保存吗？",
+        "GameModeMine": "芯核争夺",
+        "GameModeTeam3": "团队乱斗"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "ST_BattlePass",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "",
+      "KeysToMetaData": {
+        "BattlePassBuyLvSure": "您确认升级特别行动等级吗？",
+        "DayTaskRefresh": "您确定消耗{ItemCnt}{ItemType}，刷新该任务吗？",
+        "TimeUpdate": "后更新",
+        "Experience": "经验",
+        "BuySenior": "解锁￥"
+      }
+    },
+    "StringTableId": 0
+  }
+]

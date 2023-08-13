@@ -1,0 +1,391 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameplayAbilityTable",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "GA.Ability.SkillQ.Audrey": {
+        "Tag": "GA.Ability.SkillQ.Audrey",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Fuchsia": {
+        "Tag": "GA.Ability.SkillQ.Fuchsia",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.HuiXing": {
+        "Tag": "GA.Ability.SkillQ.HuiXing",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Kanami": {
+        "Tag": "GA.Ability.SkillQ.Kanami",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.KokonaShiki": {
+        "Tag": "GA.Ability.SkillQ.KokonaShiki",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Lawine": {
+        "Tag": "GA.Ability.SkillQ.Lawine",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Maddelena": {
+        "Tag": "GA.Ability.SkillQ.Maddelena",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Meredith": {
+        "Tag": "GA.Ability.SkillQ.Meredith",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Michele": {
+        "Tag": "GA.Ability.SkillQ.Michele",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Ming": {
+        "Tag": "GA.Ability.SkillQ.Ming",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Nobunaga": {
+        "Tag": "GA.Ability.SkillQ.Nobunaga",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.MoBai": {
+        "Tag": "GA.Ability.SkillQ.MoBai",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Reiichi": {
+        "Tag": "GA.Ability.SkillQ.Reiichi",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Yvette": {
+        "Tag": "GA.Ability.SkillQ.Yvette",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillQ.Yvette.Summon": {
+        "Tag": "GA.Ability.SkillQ.Yvette.Summon",
+        "DevComment": "伊薇特召唤物冲刺技能"
+      },
+      "GA.Ability.SkillX.Audrey": {
+        "Tag": "GA.Ability.SkillX.Audrey",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Fuchsia": {
+        "Tag": "GA.Ability.SkillX.Fuchsia",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.HuiXing": {
+        "Tag": "GA.Ability.SkillX.HuiXing",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Kanami": {
+        "Tag": "GA.Ability.SkillX.Kanami",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.KokonaShiki": {
+        "Tag": "GA.Ability.SkillX.KokonaShiki",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Lawine": {
+        "Tag": "GA.Ability.SkillX.Lawine",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Maddelena": {
+        "Tag": "GA.Ability.SkillX.Maddelena",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Meredith": {
+        "Tag": "GA.Ability.SkillX.Meredith",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Michele": {
+        "Tag": "GA.Ability.SkillX.Michele",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Ming": {
+        "Tag": "GA.Ability.SkillX.Ming",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Nobunaga": {
+        "Tag": "GA.Ability.SkillX.Nobunaga",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.MoBai": {
+        "Tag": "GA.Ability.SkillX.MoBai",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Reiichi": {
+        "Tag": "GA.Ability.SkillX.Reiichi",
+        "DevComment": ""
+      },
+      "GA.Ability.SkillX.Yvette": {
+        "Tag": "GA.Ability.SkillX.Yvette",
+        "DevComment": ""
+      },
+      "GA.Ability.Summon.Control": {
+        "Tag": "GA.Ability.Summon.Control",
+        "DevComment": ""
+      },
+      "GA.Passive.Audrey": {
+        "Tag": "GA.Passive.Audrey",
+        "DevComment": ""
+      },
+      "GA.Passive.Fuchsia": {
+        "Tag": "GA.Passive.Fuchsia",
+        "DevComment": ""
+      },
+      "GA.Passive.HuiXing": {
+        "Tag": "GA.Passive.HuiXing",
+        "DevComment": ""
+      },
+      "GA.Passive.KokonaShiki": {
+        "Tag": "GA.Passive.KokonaShiki",
+        "DevComment": ""
+      },
+      "GA.Passive.Lawine": {
+        "Tag": "GA.Passive.Lawine",
+        "DevComment": ""
+      },
+      "GA.Passive.Maddelena": {
+        "Tag": "GA.Passive.Maddelena",
+        "DevComment": ""
+      },
+      "GA.Passive.Meredith": {
+        "Tag": "GA.Passive.Meredith",
+        "DevComment": ""
+      },
+      "GA.Passive.Michele": {
+        "Tag": "GA.Passive.Michele",
+        "DevComment": ""
+      },
+      "GA.Passive.Ming": {
+        "Tag": "GA.Passive.Ming",
+        "DevComment": ""
+      },
+      "GA.Passive.Nobunaga": {
+        "Tag": "GA.Passive.Nobunaga",
+        "DevComment": ""
+      },
+      "GA.Passive.MoBai": {
+        "Tag": "GA.Passive.MoBai",
+        "DevComment": ""
+      },
+      "GA.Passive.Reiichi": {
+        "Tag": "GA.Passive.Reiichi",
+        "DevComment": ""
+      },
+      "GA.Passive.Yvette": {
+        "Tag": "GA.Passive.Yvette",
+        "DevComment": ""
+      },
+      "GA.Arousal.First": {
+        "Tag": "GA.Arousal.First",
+        "DevComment": "觉醒技1"
+      },
+      "GA.Arousal.Second": {
+        "Tag": "GA.Arousal.Second",
+        "DevComment": "觉醒技2"
+      },
+      "GA.Arousal.Second.Fuchsia": {
+        "Tag": "GA.Arousal.Second.Fuchsia",
+        "DevComment": ""
+      },
+      "GA.Arousal.Third": {
+        "Tag": "GA.Arousal.Third",
+        "DevComment": "觉醒技3"
+      },
+      "CD.Ability.SkillQ.Audery": {
+        "Tag": "CD.Ability.SkillQ.Audery",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Fuchsia": {
+        "Tag": "CD.Ability.SkillQ.Fuchsia",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.HuiXing": {
+        "Tag": "CD.Ability.SkillQ.HuiXing",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.KokonaShiki": {
+        "Tag": "CD.Ability.SkillQ.KokonaShiki",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Lawine": {
+        "Tag": "CD.Ability.SkillQ.Lawine",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Maddelena": {
+        "Tag": "CD.Ability.SkillQ.Maddelena",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Meredith": {
+        "Tag": "CD.Ability.SkillQ.Meredith",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Michele": {
+        "Tag": "CD.Ability.SkillQ.Michele",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Ming": {
+        "Tag": "CD.Ability.SkillQ.Ming",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Nobunaga": {
+        "Tag": "CD.Ability.SkillQ.Nobunaga",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.MoBai": {
+        "Tag": "CD.Ability.SkillQ.MoBai",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Reiichi": {
+        "Tag": "CD.Ability.SkillQ.Reiichi",
+        "DevComment": ""
+      },
+      "CD.Ability.SkillQ.Yvette": {
+        "Tag": "CD.Ability.SkillQ.Yvette",
+        "DevComment": ""
+      },
+      "CD.Passive.Audery": {
+        "Tag": "CD.Passive.Audery",
+        "DevComment": ""
+      },
+      "CD.Passive.Fuchsia": {
+        "Tag": "CD.Passive.Fuchsia",
+        "DevComment": ""
+      },
+      "CD.Passive.HuiXing": {
+        "Tag": "CD.Passive.HuiXing",
+        "DevComment": ""
+      },
+      "CD.Passive.KokonaShiki": {
+        "Tag": "CD.Passive.KokonaShiki",
+        "DevComment": ""
+      },
+      "CD.Passive.Lawine": {
+        "Tag": "CD.Passive.Lawine",
+        "DevComment": ""
+      },
+      "CD.Passive.Maddelena": {
+        "Tag": "CD.Passive.Maddelena",
+        "DevComment": ""
+      },
+      "CD.Passive.Meredith": {
+        "Tag": "CD.Passive.Meredith",
+        "DevComment": ""
+      },
+      "CD.Passive.Michele": {
+        "Tag": "CD.Passive.Michele",
+        "DevComment": ""
+      },
+      "CD.Passive.Ming": {
+        "Tag": "CD.Passive.Ming",
+        "DevComment": ""
+      },
+      "CD.Passive.Nobunaga": {
+        "Tag": "CD.Passive.Nobunaga",
+        "DevComment": ""
+      },
+      "CD.Passive.Reiichi": {
+        "Tag": "CD.Passive.Reiichi",
+        "DevComment": ""
+      },
+      "GA.Use.Primary": {
+        "Tag": "GA.Use.Primary",
+        "DevComment": ""
+      },
+      "GA.Use.Secondary": {
+        "Tag": "GA.Use.Secondary",
+        "DevComment": ""
+      },
+      "GA.Use.Reload": {
+        "Tag": "GA.Use.Reload",
+        "DevComment": ""
+      },
+      "GA.Hold.Aiming": {
+        "Tag": "GA.Hold.Aiming",
+        "DevComment": ""
+      },
+      "GA.Hold.ADS": {
+        "Tag": "GA.Hold.ADS",
+        "DevComment": ""
+      },
+      "GA.Interaction": {
+        "Tag": "GA.Interaction",
+        "DevComment": ""
+      },
+      "GA.Action.Jump": {
+        "Tag": "GA.Action.Jump",
+        "DevComment": "跳跃"
+      },
+      "GA.Action.Fly": {
+        "Tag": "GA.Action.Fly",
+        "DevComment": "飞行"
+      },
+      "GA.Action.Sprint": {
+        "Tag": "GA.Action.Sprint",
+        "DevComment": "加速"
+      },
+      "GA.Action.Wall": {
+        "Tag": "GA.Action.Wall",
+        "DevComment": "上墙"
+      },
+      "GA.Action.Side": {
+        "Tag": "GA.Action.Side",
+        "DevComment": "侧身"
+      },
+      "GA.Action.Rescue": {
+        "Tag": "GA.Action.Rescue",
+        "DevComment": "救人，扶人"
+      },
+      "GA.Action.CallForHelp": {
+        "Tag": "GA.Action.CallForHelp",
+        "DevComment": "呼救"
+      },
+      "CD.Action.CallForHelp": {
+        "Tag": "CD.Action.CallForHelp",
+        "DevComment": ""
+      },
+      "GA.Action.RescueSelf": {
+        "Tag": "GA.Action.RescueSelf",
+        "DevComment": "自救"
+      },
+      "GA.Action.Graffiti": {
+        "Tag": "GA.Action.Graffiti",
+        "DevComment": "涂鸦"
+      },
+      "GA.Action.CharacterAction": {
+        "Tag": "GA.Action.CharacterAction",
+        "DevComment": "跳舞"
+      },
+      "CD.Arousal.One.Lawine": {
+        "Tag": "CD.Arousal.One.Lawine",
+        "DevComment": "拉薇觉醒1技能CD"
+      },
+      "CD.Arousal.Two": {
+        "Tag": "CD.Arousal.Two",
+        "DevComment": "觉醒技能2的CD"
+      },
+      "CD.Arousal.Three": {
+        "Tag": "CD.Arousal.Three",
+        "DevComment": "觉醒技能3的CD"
+      },
+      "CD.Action.Graffiti": {
+        "Tag": "CD.Action.Graffiti",
+        "DevComment": "涂鸦的CD"
+      },
+      "GA.Arousal.Third.Nobunaga": {
+        "Tag": "GA.Arousal.Third.Nobunaga",
+        "DevComment": ""
+      },
+      "GA.Arousal.Two.Yvette.Summon": {
+        "Tag": "GA.Arousal.Two.Yvette.Summon",
+        "DevComment": "伊薇特召唤物觉醒2技能"
+      }
+    }
+  }
+]
