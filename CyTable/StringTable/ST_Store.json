@@ -16,7 +16,12 @@
         "ClaimLimit": "索要次数达到上限",
         "DiscountPackageTip": "无法单独购买",
         "GiftAwayTip": "无法单独购买,\r\n集齐角色皮肤和枪械皮肤时赠送",
-        "HermesTopUpTips": "支付操作中，支付完成后请点击“确认”"
+        "HermesTopUpTips": "支付操作中，支付完成后请点击“确认”",
+        "LimitPermanently": "永久限购",
+        "LimitDaily": "每日限购",
+        "LimitWeekly": "每周限购",
+        "LimitMontthly": "每月限购",
+        "LimitSeasonal": "赛季限购"
       }
     },
     "StringTableId": 0

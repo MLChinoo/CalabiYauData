@@ -206,11 +206,11 @@
           "SubPathString": ""
         },
         {
-          "AssetPathName": "/Game/PaperMan/CSV/Apartment/WindingCorridor.WindingCorridor",
+          "AssetPathName": "/Game/PaperMan/CSV/WindingCorridor.WindingCorridor",
           "SubPathString": ""
         },
         {
-          "AssetPathName": "/Game/PaperMan/CSV/Apartment/RoleBiography.RoleBiography",
+          "AssetPathName": "/Game/PaperMan/CSV/RoleBiography.RoleBiography",
           "SubPathString": ""
         },
         {
@@ -234,7 +234,7 @@
           "SubPathString": ""
         },
         {
-          "AssetPathName": "/Game/PaperMan/CSV/Apartment/DT_ApartmentMainPageGalSequence.DT_ApartmentMainPageGalSequence",
+          "AssetPathName": "/Game/PaperMan/CSV/DT_ApartmentMainPageGalSequence.DT_ApartmentMainPageGalSequence",
           "SubPathString": ""
         },
         {
@@ -294,7 +294,11 @@
           "SubPathString": ""
         },
         {
-          "AssetPathName": "/Game/PaperMan/CSV/DsCluster.DsCluster",
+          "AssetPathName": "/Game/PaperMan/CSV/UICustomLayoutConfig.UICustomLayoutConfig",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_GameModeSwitch.DT_GameModeSwitch",
           "SubPathString": ""
         },
         {
@@ -302,15 +306,71 @@
           "SubPathString": ""
         },
         {
-          "AssetPathName": "/Game/PaperMan/CSV/CafePrivilegeType.CafePrivilegeType",
-          "SubPathString": ""
-        },
-        {
           "AssetPathName": "/Game/PaperMan/CSV/LeaderboardContentDisplayControl.LeaderboardContentDisplayControl",
           "SubPathString": ""
         },
         {
+          "AssetPathName": "/Game/PaperMan/CSV/CafePrivilegeType.CafePrivilegeType",
+          "SubPathString": ""
+        },
+        {
           "AssetPathName": "/Game/PaperMan/CSV/CityCode.CityCode",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/GameplayFailedTable.GameplayFailedTable",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/OptionalGift.OptionalGift",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ActivityFissionPassword.ActivityFissionPassword",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ActivityFissionSpeech.ActivityFissionSpeech",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/PlayModeControl.PlayModeControl",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/WonderfulMomentParams.WonderfulMomentParams",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UIInputBindingConfig.DT_UIInputBindingConfig",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ApartmentPoker.ApartmentPoker",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ApartmentPokerCardSuits.ApartmentPokerCardSuits",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ApartmentPokerContentType.ApartmentPokerContentType",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/DT_UIPlayerRoleShowTable.DT_UIPlayerRoleShowTable",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/AIScriptDesign.AIScriptDesign",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/RuleAttribute.RuleAttribute",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/CSV/ActivityColor.ActivityColor",
           "SubPathString": ""
         }
       ],
@@ -327,6 +387,30 @@
         },
         {
           "EPMGameModeType::Bomb": {
+            "Paths": [
+              {
+                "AssetPathName": "/Game/PaperMan/CSV/Growth_Bomb.Growth_Bomb",
+                "SubPathString": ""
+              },
+              {
+                "AssetPathName": "/Game/PaperMan/CSV/RecommendGrowth_Bomb.RecommendGrowth_Bomb",
+                "SubPathString": ""
+              }
+            ]
+          }
+        },
+        {
+          "EPMGameModeType::Escort": {
+            "Paths": [
+              {
+                "AssetPathName": "/Game/PaperMan/CSV/Growth_Escort.Growth_Escort",
+                "SubPathString": ""
+              }
+            ]
+          }
+        },
+        {
+          "EPMGameModeType::Mine": {
             "Paths": [
               {
                 "AssetPathName": "/Game/PaperMan/CSV/Growth_Bomb.Growth_Bomb",
@@ -468,15 +552,48 @@
           }
         },
         {
-          "ScriptStruct'/Script/PMGame.CyAVGEventTableRow'": {
-            "ObjectName": "DataTable'AVGEvent'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/AVGEvent.0"
-          }
+          "ScriptStruct'/Script/PMGame.CyAVGEventTableRow'": null
         },
         {
           "ScriptStruct'/Script/PMGame.CyAVGRoleTableRow'": {
             "ObjectName": "DataTable'AVGRole'",
             "ObjectPath": "PM/Content/PaperMan/CSV/Cinematic/AVGRole.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentMapLoadingTipsTableRow'": {
+            "ObjectName": "DataTable'ApartmentMapLoadingTips'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ApartmentMapLoadingTips.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyDsClusterTableRow'": {
+            "ObjectName": "DataTable'DsCluster'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DsCluster.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyCrystalCardTableRow'": {
+            "ObjectName": "DataTable'CrystalCard'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/CrystalCard.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyKaChatOptionTableRow'": {
+            "ObjectName": "DataTable'KaChatOption'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/KaChatOption.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyInGameVoiceUpgradeTableRow'": {
+            "ObjectName": "DataTable'InGameVoiceUpgrade'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/InGameVoiceUpgrade.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRangeSkinExperienceTableRow'": {
+            "ObjectName": "DataTable'RangeSkinExperience'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RangeSkinExperience.0"
           }
         }
       ],
@@ -925,13 +1042,13 @@
         {
           "ScriptStruct'/Script/PMGame.CyWindingCorridorTableRow'": {
             "ObjectName": "DataTable'WindingCorridor'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/WindingCorridor.0"
+            "ObjectPath": "PM/Content/PaperMan/CSV/WindingCorridor.0"
           }
         },
         {
           "ScriptStruct'/Script/PMGame.CyRoleBiographyTableRow'": {
             "ObjectName": "DataTable'RoleBiography'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/RoleBiography.0"
+            "ObjectPath": "PM/Content/PaperMan/CSV/RoleBiography.0"
           }
         },
         {
@@ -970,7 +1087,7 @@
         {
           "ScriptStruct'/Script/PMGame.CyApartmentMainPageGalSequenceTableRow'": {
             "ObjectName": "DataTable'DT_ApartmentMainPageGalSequence'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/Apartment/DT_ApartmentMainPageGalSequence.0"
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_ApartmentMainPageGalSequence.0"
           }
         },
         {
@@ -1058,9 +1175,15 @@
           }
         },
         {
-          "ScriptStruct'/Script/PMGame.CyDsClusterTableRow'": {
-            "ObjectName": "DataTable'DsCluster'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/DsCluster.0"
+          "ScriptStruct'/Script/PMGame.CyUICustomLayoutConfigTableRow'": {
+            "ObjectName": "DataTable'UICustomLayoutConfig'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/UICustomLayoutConfig.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGameModeSwitchTableRow'": {
+            "ObjectName": "DataTable'DT_GameModeSwitch'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_GameModeSwitch.0"
           }
         },
         {
@@ -1070,21 +1193,99 @@
           }
         },
         {
-          "ScriptStruct'/Script/PMGame.CyCafePrivilegeTypeTableRow'": {
-            "ObjectName": "DataTable'CafePrivilegeType'",
-            "ObjectPath": "PM/Content/PaperMan/CSV/CafePrivilegeType.0"
-          }
-        },
-        {
           "ScriptStruct'/Script/PMGame.CyLeaderboardContentDisplayControlTableRow'": {
             "ObjectName": "DataTable'LeaderboardContentDisplayControl'",
             "ObjectPath": "PM/Content/PaperMan/CSV/LeaderboardContentDisplayControl.0"
           }
         },
         {
+          "ScriptStruct'/Script/PMGame.CyCafePrivilegeTypeTableRow'": {
+            "ObjectName": "DataTable'CafePrivilegeType'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/CafePrivilegeType.0"
+          }
+        },
+        {
           "ScriptStruct'/Script/PMGame.CyCityCodeTableRow'": {
             "ObjectName": "DataTable'CityCode'",
             "ObjectPath": "PM/Content/PaperMan/CSV/CityCode.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyGameplayFailedTableTableRow'": {
+            "ObjectName": "DataTable'GameplayFailedTable'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/GameplayFailedTable.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyOptionalGiftTableRow'": {
+            "ObjectName": "DataTable'OptionalGift'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/OptionalGift.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyActivityFissionPasswordTableRow'": {
+            "ObjectName": "DataTable'ActivityFissionPassword'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ActivityFissionPassword.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyActivityFissionSpeechTableRow'": {
+            "ObjectName": "DataTable'ActivityFissionSpeech'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ActivityFissionSpeech.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyPlayModeControlTableRow'": {
+            "ObjectName": "DataTable'PlayModeControl'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/PlayModeControl.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyWonderfulMomentParamsTableRow'": {
+            "ObjectName": "DataTable'WonderfulMomentParams'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/WonderfulMomentParams.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUIInputBindingTableRow'": {
+            "ObjectName": "DataTable'DT_UIInputBindingConfig'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UIInputBindingConfig.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentPokerTableRow'": {
+            "ObjectName": "DataTable'ApartmentPoker'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ApartmentPoker.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentPokerCardSuitsTableRow'": {
+            "ObjectName": "DataTable'ApartmentPokerCardSuits'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ApartmentPokerCardSuits.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyApartmentPokerContentTypeTableRow'": {
+            "ObjectName": "DataTable'ApartmentPokerContentType'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/ApartmentPokerContentType.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.PMUIPlayerRoleShowTableRow'": {
+            "ObjectName": "DataTable'DT_UIPlayerRoleShowTable'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/DT_UIPlayerRoleShowTable.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyAIScriptDesignTableRow'": {
+            "ObjectName": "DataTable'AIScriptDesign'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/AIScriptDesign.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRuleAttributeTableRow'": {
+            "ObjectName": "DataTable'RuleAttribute'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RuleAttribute.0"
           }
         }
       ],
@@ -1093,6 +1294,12 @@
           "ScriptStruct'/Script/PMGame.CyGrowthTableRow'": {
             "ObjectName": "DataTable'Growth_Bomb'",
             "ObjectPath": "PM/Content/PaperMan/CSV/Growth_Bomb.0"
+          }
+        },
+        {
+          "ScriptStruct'/Script/PMGame.CyRecommendGrowthTableRow'": {
+            "ObjectName": "DataTable'RecommendGrowth_Bomb'",
+            "ObjectPath": "PM/Content/PaperMan/CSV/RecommendGrowth_Bomb.0"
           }
         }
       ]

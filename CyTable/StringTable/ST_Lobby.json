@@ -230,8 +230,8 @@
         "ItemBuyPopPageContent": "<Role_EquipmentRoomPC_Black14>是否确定解锁  </><Role_EquipmentRoomPC_Red>{0}</>  <Role_EquipmentRoomPC_Black14>？</>",
         "RoomMode": "自订模式",
         "TeamMode_1": "团竞模式",
-        "PunishTime": "因未及时确认匹配而被惩罚，还需要 {0} 秒才能匹配",
-        "PunishTime1": "因{0}未确认匹配而被惩罚，还需要{1}秒才能匹配",
+        "PunishTime": "你上次未及时确认匹配或离线，导致匹配的对局被取消，被判定为消极行为而被惩罚，还需要 {0} 秒才能匹配",
+        "PunishTime1": "{0}因未确认匹配或离线，导致匹配的对局被取消，被判定为消极行为而被惩罚，还需要 {1} 秒才能匹配",
         "PunishTime2": "有玩家未准备",
         "ItemBuyPopPageTitle_4": "外观解锁",
         "ItemBuyPopPageTitle_3": "外观解锁",
@@ -279,7 +279,7 @@
         "Forever": "永久",
         "Zhi": "致",
         "Mobile_TacticalRouletteKeyTips": "在局内按下对应按键呼出此菜单",
-        "AllCharacterEquip": "已经给大家都装备上啦",
+        "AllCharacterEquip": "已经将装备方案同步应用给大家啦",
         "RenameForbidden": "您的账号因{reason}被禁止改名，预计{year}年{mon}月{day}日{hour}:{min}解封",
         "SavePhotoTip": "图片已保存至相册",
         "SaveImageToLocal": "分享图片已保存到：",
@@ -297,7 +297,10 @@
         "PhoneUnBindSuccessTip": "解绑手机号成功",
         "SamePhoneTip": "更换手机号需和当前手机号不同",
         "FanbookBindSuccessTip": "绑定Fanbook账号成功",
-        "FanbookUnBindSuccessTip": "解绑Fanbook账号成功"
+        "FanbookUnBindSuccessTip": "解绑Fanbook账号成功",
+        "ExpiredTip": "已过期",
+        "QuestionnaireExpiredAwardTip": "问卷已过期,奖励已通过邮件发送",
+        "QuestionnaireExpiredTip": "问卷已过期"
       }
     },
     "StringTableId": 0

@@ -37,7 +37,26 @@
         "ReiichiArousalOne": "你被令一标记了，快跑",
         "GrowthDropped_Title": "失去战力升级",
         "Mode_FirstPickSpar": "躲避敌人，安全送回驻地仓库",
-        "Mode_SparRoundStart": "迅速前往矿区，采集晶体"
+        "Mode_SparRoundStart": "迅速前往矿区，采集晶体",
+        "Escort_DefendTeamTips": "护送载具前进",
+        "Escort_RoundCountDown": "战斗倒计时{0}秒",
+        "Escort_ArriveCheckpoint": "载具抵达检查点",
+        "Escort_AttackTeamTips": "阻止载具前进",
+        "Escort_NearToTerminal": "载具即将抵达终点",
+        "NobunagaQArousalTwo": "已被守望之眼发现",
+        "Mine_UnableCarryMineMore": "已到达携带上限",
+        "Mine_MineSpawnPointEmpty": "当前暂时没矿",
+        "Mine_UnableStealMineRepository": "敌方仓库无矿可偷",
+        "Mine_MineRepositoryCD": "暂时无法偷取",
+        "HideSeek_SeekerNoGraffiti": "追击方无法进行喷漆",
+        "Prepare": "准备",
+        "Attack": "进攻",
+        "Defense": "防守",
+        "SkillNeedPrimaryWeapon": "无主武器无法使用",
+        "ChallengeStart": "开始",
+        "Skill_FlaviaQ_Leave": "致幻球已消散",
+        "Skill_FlaviaQ_Death": "致幻已被击毁",
+        "Skill_NobunagaQ_Death": "守望之眼已被击毁"
       }
     },
     "StringTableId": 0

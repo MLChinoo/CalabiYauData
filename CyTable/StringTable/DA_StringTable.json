@@ -88,6 +88,14 @@
         {
           "ObjectName": "StringTable'ST_Tipoff'",
           "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Tipoff.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_Activities'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_Activities.0"
+        },
+        {
+          "ObjectName": "StringTable'ST_CustomRoom'",
+          "ObjectPath": "PM/Content/PaperMan/CyTable/StringTable/ST_CustomRoom.0"
         }
       ]
     }

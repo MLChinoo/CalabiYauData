@@ -58,7 +58,24 @@
         "FriendSearchBtnText": "搜索",
         "FriendAddBtnText": "添加",
         "GroupSocialFriendText": "平台好友",
-        "InButtonCD": "你操作太频繁哦"
+        "InButtonCD": "你操作太频繁哦",
+        "AuthorizePlatformHint": "好友双方完成授权后即可进行通信，如未能通信请稍作等待，或邀请好友完成授权。",
+        "GoToAuthorize": "跳转授权",
+        "CancelAuthorize": "已授权",
+        "FriendStatus_Offline": "离线",
+        "FriendStatus_Idle": "空闲",
+        "FriendStatus_InRoom": "房间中 {RoomMode}",
+        "FriendStatus_Watch": "观战中",
+        "FriendStatus_Training": "靶场",
+        "FriendStatus_Matching": "匹配中",
+        "FriendStatus_InBattle": "{GameMode} {MatchScore}",
+        "FriendStatus_Summary": "结算中",
+        "FriendStatus_Replay": "回放录像中",
+        "FriendStatus_Leave": "离开",
+        "FriendStatus_Lost": "掉线",
+        "FriendStatus_SelectRole": "选人阶段",
+        "FriendStatus_ElapsedTime": "持续{Duration}分钟",
+        "BindMentorText": "学员[{0}]已成功招募"
       }
     },
     "StringTableId": 0

@@ -13,7 +13,9 @@
         "PlayerId": "ID: {0}",
         "DownloadTip": "已经保存到Saved/ScreenShot文件夹下",
         "TempTips": "更多内容开发中，敬请期待",
-        "ForbiddenAvgForMatching": "正在匹配中，暂无法进入剧情"
+        "ForbiddenAvgForMatching": "正在匹配中，暂无法进入剧情",
+        "PledgeWithRole": "与{0}的誓约",
+        "ReadAvgToUnlockPic": "阅读剧情后即可解锁"
       }
     },
     "StringTableId": 0
