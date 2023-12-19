@@ -90,6 +90,26 @@
           "SubPathString": ""
         }
       },
+      "124": {
+        "Id": 124,
+        "Name": {
+          "Namespace": "ApartmentMapCfg",
+          "Key": "124_Name",
+          "SourceString": "宿舍：心夏",
+          "LocalizedString": "宿舍：心夏"
+        },
+        "Desc": {
+          "Namespace": "ApartmentMapCfg",
+          "Key": "124_Desc",
+          "SourceString": "心夏曾经短暂地在欧泊的教导队中任职，但她更喜欢身处一线的工作。",
+          "LocalizedString": "心夏曾经短暂地在欧泊的教导队中任职，但她更喜欢身处一线的工作。"
+        },
+        "Scene": "/Game/PaperMan/Maps/Lobby/Lobby_new/Lobby",
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_971.T_Dynamic_Map_Introduce_971",
+          "SubPathString": ""
+        }
+      },
       "128": {
         "Id": 128,
         "Name": {

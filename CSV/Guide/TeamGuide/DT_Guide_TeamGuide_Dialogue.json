@@ -23,7 +23,7 @@
           "LocalizedString": "还好赶上了……"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 4.0,
@@ -72,7 +72,7 @@
           "LocalizedString": "来得正好，有了你的增援，我们的胜算又多了几分。"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 6.0,
@@ -121,7 +121,7 @@
           "LocalizedString": "我已经准备好了，如果需要支援的话，请随时呼唤我。"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 6.0,
@@ -170,7 +170,7 @@
           "LocalizedString": "目标是摧毁50副卡丘身，开始行动！"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 5.0,
@@ -219,7 +219,7 @@
           "LocalizedString": "还好赶上了……"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 4.0,
@@ -268,7 +268,7 @@
           "LocalizedString": "来得正好，有了你的增援，我们的胜算又多了几分。"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 6.0,
@@ -317,7 +317,7 @@
           "LocalizedString": "我已经准备好了，如果需要支援的话，请随时呼唤我。"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 6.0,
@@ -366,7 +366,7 @@
           "LocalizedString": "目标是摧毁30副卡丘身，开始行动！"
         },
         "AkOnEvent": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/UI_Dialogue_Script_InGame.UI_Dialogue_Script_InGame",
           "SubPathString": ""
         },
         "Time": 5.0,

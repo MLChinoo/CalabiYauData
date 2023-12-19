@@ -409,6 +409,56 @@
           "LocalizedString": "拉薇经常通过武道来砥砺自己的内心，驱散自己的迷茫。"
         },
         "MapId": 128
+      },
+      "41": {
+        "Id": 41,
+        "Tips": {
+          "Namespace": "ApartmentMapLoadingTips",
+          "Key": "41_Tips",
+          "SourceString": "心夏的房间总是堆满了缺少分类的杂物，前往拜访的时候一定要注意脚下。",
+          "LocalizedString": "心夏的房间总是堆满了缺少分类的杂物，前往拜访的时候一定要注意脚下。"
+        },
+        "MapId": 124
+      },
+      "42": {
+        "Id": 42,
+        "Tips": {
+          "Namespace": "ApartmentMapLoadingTips",
+          "Key": "42_Tips",
+          "SourceString": "在你不知道该点什么外卖的时候，可以问问心夏，她一定有特别的推荐。",
+          "LocalizedString": "在你不知道该点什么外卖的时候，可以问问心夏，她一定有特别的推荐。"
+        },
+        "MapId": 124
+      },
+      "43": {
+        "Id": 43,
+        "Tips": {
+          "Namespace": "ApartmentMapLoadingTips",
+          "Key": "43_Tips",
+          "SourceString": "虽然心夏非常喜爱热闹的场面，但在作战中她更擅长单独行动。",
+          "LocalizedString": "虽然心夏非常喜爱热闹的场面，但在作战中她更擅长单独行动。"
+        },
+        "MapId": 124
+      },
+      "44": {
+        "Id": 44,
+        "Tips": {
+          "Namespace": "ApartmentMapLoadingTips",
+          "Key": "44_Tips",
+          "SourceString": "心夏强大的行动力源自于天生的好奇心，她从不介意品尝一些奇怪的料理。",
+          "LocalizedString": "心夏强大的行动力源自于天生的好奇心，她从不介意品尝一些奇怪的料理。"
+        },
+        "MapId": 124
+      },
+      "45": {
+        "Id": 45,
+        "Tips": {
+          "Namespace": "ApartmentMapLoadingTips",
+          "Key": "45_Tips",
+          "SourceString": "心夏很擅长照顾他人的情绪，却极少让他人照顾自己。",
+          "LocalizedString": "心夏很擅长照顾他人的情绪，却极少让他人照顾自己。"
+        },
+        "MapId": 124
       }
     }
   }

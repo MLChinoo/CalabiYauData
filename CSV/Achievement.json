@@ -47,8 +47,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100011_Explain",
-          "SourceString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -61,7 +61,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100012": {
         "Id": 33100012,
@@ -100,8 +101,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100012_Explain",
-          "SourceString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -109,7 +110,8 @@
           "SourceString": "【……因为不战斗就无法生存！】",
           "LocalizedString": "【……因为不战斗就无法生存！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100013": {
         "Id": 33100013,
@@ -148,8 +150,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100013_Explain",
-          "SourceString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -157,7 +159,8 @@
           "SourceString": "【……因为不战斗就无法生存！】",
           "LocalizedString": "【……因为不战斗就无法生存！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100014": {
         "Id": 33100014,
@@ -196,8 +199,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100014_Explain",
-          "SourceString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场总伤害第一 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场总伤害高于100，且全场第一 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -205,7 +208,8 @@
           "SourceString": "【……因为不战斗就无法生存！】",
           "LocalizedString": "【……因为不战斗就无法生存！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100021": {
         "Id": 33100021,
@@ -244,8 +248,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100021_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -258,7 +262,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100022": {
         "Id": 33100022,
@@ -297,8 +302,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100022_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -306,7 +311,8 @@
           "SourceString": "【跪下吧，这是你应得的。】",
           "LocalizedString": "【跪下吧，这是你应得的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100023": {
         "Id": 33100023,
@@ -345,8 +351,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100023_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -354,7 +360,8 @@
           "SourceString": "【跪下吧，这是你应得的。】",
           "LocalizedString": "【跪下吧，这是你应得的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100024": {
         "Id": 33100024,
@@ -393,8 +400,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100024_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒次数最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场击倒多于3次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -402,7 +409,8 @@
           "SourceString": "【跪下吧，这是你应得的。】",
           "LocalizedString": "【跪下吧，这是你应得的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100031": {
         "Id": 33100031,
@@ -455,7 +463,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100032": {
         "Id": 33100032,
@@ -503,7 +512,8 @@
           "SourceString": "【一个卡丘人可以被毁灭，但不能被击倒。】",
           "LocalizedString": "【一个卡丘人可以被毁灭，但不能被击倒。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100033": {
         "Id": 33100033,
@@ -551,7 +561,8 @@
           "SourceString": "【一个卡丘人可以被毁灭，但不能被击倒。】",
           "LocalizedString": "【一个卡丘人可以被毁灭，但不能被击倒。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100034": {
         "Id": 33100034,
@@ -599,7 +610,8 @@
           "SourceString": "【一个卡丘人可以被毁灭，但不能被击倒。】",
           "LocalizedString": "【一个卡丘人可以被毁灭，但不能被击倒。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100041": {
         "Id": 33100041,
@@ -652,7 +664,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100042": {
         "Id": 33100042,
@@ -700,7 +713,8 @@
           "SourceString": "【理想主义很美好，直到你成为它的牺牲品。】",
           "LocalizedString": "【理想主义很美好，直到你成为它的牺牲品。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100043": {
         "Id": 33100043,
@@ -748,7 +762,8 @@
           "SourceString": "【理想主义很美好，直到你成为它的牺牲品。】",
           "LocalizedString": "【理想主义很美好，直到你成为它的牺牲品。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100044": {
         "Id": 33100044,
@@ -796,7 +811,8 @@
           "SourceString": "【理想主义很美好，直到你成为它的牺牲品。】",
           "LocalizedString": "【理想主义很美好，直到你成为它的牺牲品。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100051": {
         "Id": 33100051,
@@ -835,8 +851,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100051_Explain",
-          "SourceString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -849,7 +865,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100052": {
         "Id": 33100052,
@@ -888,8 +905,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100052_Explain",
-          "SourceString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -897,7 +914,8 @@
           "SourceString": "【头部只是装饰而已，上面那些大人物是不会懂的。】",
           "LocalizedString": "【头部只是装饰而已，上面那些大人物是不会懂的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100053": {
         "Id": 33100053,
@@ -936,8 +954,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100053_Explain",
-          "SourceString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -945,7 +963,8 @@
           "SourceString": "【头部只是装饰而已，上面那些大人物是不会懂的。】",
           "LocalizedString": "【头部只是装饰而已，上面那些大人物是不会懂的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100054": {
         "Id": 33100054,
@@ -984,8 +1003,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100054_Explain",
-          "SourceString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场射击命中头部次数最多 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场射击命中头部多于10次，且次数最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -993,7 +1012,8 @@
           "SourceString": "【头部只是装饰而已，上面那些大人物是不会懂的。】",
           "LocalizedString": "【头部只是装饰而已，上面那些大人物是不会懂的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100061": {
         "Id": 33100061,
@@ -1046,7 +1066,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100062": {
         "Id": 33100062,
@@ -1094,7 +1115,8 @@
           "SourceString": "【你就像神一样英勇！我的天呐！】",
           "LocalizedString": "【你就像神一样英勇！我的天呐！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100063": {
         "Id": 33100063,
@@ -1142,7 +1164,8 @@
           "SourceString": "【你就像神一样英勇！我的天呐！】",
           "LocalizedString": "【你就像神一样英勇！我的天呐！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100064": {
         "Id": 33100064,
@@ -1190,7 +1213,8 @@
           "SourceString": "【你就像神一样英勇！我的天呐！】",
           "LocalizedString": "【你就像神一样英勇！我的天呐！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100071": {
         "Id": 33100071,
@@ -1229,8 +1253,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100071_Explain",
-          "SourceString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1243,7 +1267,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100072": {
         "Id": 33100072,
@@ -1282,8 +1307,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100072_Explain",
-          "SourceString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1291,7 +1316,8 @@
           "SourceString": "【风啊，带我到这个世界的尽头去吧。】",
           "LocalizedString": "【风啊，带我到这个世界的尽头去吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100073": {
         "Id": 33100073,
@@ -1330,8 +1356,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100073_Explain",
-          "SourceString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1339,7 +1365,8 @@
           "SourceString": "【风啊，带我到这个世界的尽头去吧。】",
           "LocalizedString": "【风啊，带我到这个世界的尽头去吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100074": {
         "Id": 33100074,
@@ -1378,8 +1405,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100074_Explain",
-          "SourceString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次",
-          "LocalizedString": "在任意匹配比赛中，全场飘飞距离最长 达成 {0} 次"
+          "SourceString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次",
+          "LocalizedString": "在任意匹配比赛中，全场飘飞超过100米，且距离最长 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1387,7 +1414,8 @@
           "SourceString": "【风啊，带我到这个世界的尽头去吧。】",
           "LocalizedString": "【风啊，带我到这个世界的尽头去吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100081": {
         "Id": 33100081,
@@ -1440,7 +1468,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100082": {
         "Id": 33100082,
@@ -1488,7 +1517,8 @@
           "SourceString": "【谁说不用枪就消灭不了敌人？】",
           "LocalizedString": "【谁说不用枪就消灭不了敌人？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100083": {
         "Id": 33100083,
@@ -1536,7 +1566,8 @@
           "SourceString": "【谁说不用枪就消灭不了敌人？】",
           "LocalizedString": "【谁说不用枪就消灭不了敌人？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100084": {
         "Id": 33100084,
@@ -1584,7 +1615,8 @@
           "SourceString": "【谁说不用枪就消灭不了敌人？】",
           "LocalizedString": "【谁说不用枪就消灭不了敌人？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100091": {
         "Id": 33100091,
@@ -1603,8 +1635,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100091_Captions",
-          "SourceString": "放置的爆破物数量最多  达成{0}次",
-          "LocalizedString": "放置的爆破物数量最多  达成{0}次"
+          "SourceString": "放置的爆破物数量最多 达成{0}次",
+          "LocalizedString": "放置的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1623,8 +1655,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100091_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1637,7 +1669,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100092": {
         "Id": 33100092,
@@ -1656,8 +1689,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100092_Captions",
-          "SourceString": "放置的爆破物数量最多  达成{0}次",
-          "LocalizedString": "放置的爆破物数量最多  达成{0}次"
+          "SourceString": "放置的爆破物数量最多 达成{0}次",
+          "LocalizedString": "放置的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1676,8 +1709,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100092_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1685,7 +1718,8 @@
           "SourceString": "【这可不是个笑话！】",
           "LocalizedString": "【这可不是个笑话！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100093": {
         "Id": 33100093,
@@ -1704,8 +1738,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100093_Captions",
-          "SourceString": "放置的爆破物数量最多  达成{0}次",
-          "LocalizedString": "放置的爆破物数量最多  达成{0}次"
+          "SourceString": "放置的爆破物数量最多 达成{0}次",
+          "LocalizedString": "放置的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1724,8 +1758,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100093_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1733,7 +1767,8 @@
           "SourceString": "【这可不是个笑话！】",
           "LocalizedString": "【这可不是个笑话！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100094": {
         "Id": 33100094,
@@ -1752,8 +1787,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100094_Captions",
-          "SourceString": "放置的爆破物数量最多  达成{0}次",
-          "LocalizedString": "放置的爆破物数量最多  达成{0}次"
+          "SourceString": "放置的爆破物数量最多 达成{0}次",
+          "LocalizedString": "放置的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1772,8 +1807,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100094_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场放置1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1781,7 +1816,8 @@
           "SourceString": "【这可不是个笑话！】",
           "LocalizedString": "【这可不是个笑话！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100101": {
         "Id": 33100101,
@@ -1800,8 +1836,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100101_Captions",
-          "SourceString": "拆除的爆破物数量最多  达成{0}次",
-          "LocalizedString": "拆除的爆破物数量最多  达成{0}次"
+          "SourceString": "拆除的爆破物数量最多 达成{0}次",
+          "LocalizedString": "拆除的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1820,8 +1856,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100101_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1834,7 +1870,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33100102": {
         "Id": 33100102,
@@ -1853,8 +1890,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100102_Captions",
-          "SourceString": "拆除的爆破物数量最多  达成{0}次",
-          "LocalizedString": "拆除的爆破物数量最多  达成{0}次"
+          "SourceString": "拆除的爆破物数量最多 达成{0}次",
+          "LocalizedString": "拆除的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1873,8 +1910,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100102_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1882,7 +1919,8 @@
           "SourceString": "【不用怕，因为我来了。】",
           "LocalizedString": "【不用怕，因为我来了。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100103": {
         "Id": 33100103,
@@ -1901,8 +1939,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100103_Captions",
-          "SourceString": "拆除的爆破物数量最多  达成{0}次",
-          "LocalizedString": "拆除的爆破物数量最多  达成{0}次"
+          "SourceString": "拆除的爆破物数量最多 达成{0}次",
+          "LocalizedString": "拆除的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1921,8 +1959,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100103_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1930,7 +1968,8 @@
           "SourceString": "【不用怕，因为我来了。】",
           "LocalizedString": "【不用怕，因为我来了。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33100104": {
         "Id": 33100104,
@@ -1949,8 +1988,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33100104_Captions",
-          "SourceString": "拆除的爆破物数量最多  达成{0}次",
-          "LocalizedString": "拆除的爆破物数量最多  达成{0}次"
+          "SourceString": "拆除的爆破物数量最多 达成{0}次",
+          "LocalizedString": "拆除的爆破物数量最多 达成{0}次"
         },
         "Param1": 0,
         "Param2": [
@@ -1969,8 +2008,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33100104_Explain",
-          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次",
-          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除的爆破物数量最多 达成 {0} 次"
+          "SourceString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次",
+          "LocalizedString": "在一般爆破/排位爆破的匹配比赛中，全场拆除1个以上爆破物，且数量最多 达成 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -1978,7 +2017,8 @@
           "SourceString": "【不用怕，因为我来了。】",
           "LocalizedString": "【不用怕，因为我来了。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300011": {
         "Id": 33300011,
@@ -2026,7 +2066,8 @@
           "SourceString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】",
           "LocalizedString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300012": {
         "Id": 33300012,
@@ -2074,7 +2115,8 @@
           "SourceString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】",
           "LocalizedString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300013": {
         "Id": 33300013,
@@ -2122,7 +2164,8 @@
           "SourceString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】",
           "LocalizedString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300014": {
         "Id": 33300014,
@@ -2170,7 +2213,8 @@
           "SourceString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】",
           "LocalizedString": "【我是一位普通的卡丘人，能告诉我你的名字吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300021": {
         "Id": 33300021,
@@ -2218,7 +2262,8 @@
           "SourceString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】",
           "LocalizedString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300022": {
         "Id": 33300022,
@@ -2266,7 +2311,8 @@
           "SourceString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】",
           "LocalizedString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300023": {
         "Id": 33300023,
@@ -2314,7 +2360,8 @@
           "SourceString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】",
           "LocalizedString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300024": {
         "Id": 33300024,
@@ -2362,7 +2409,8 @@
           "SourceString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】",
           "LocalizedString": "【只有与好友一起出生入死，才会体会到友谊的珍贵。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300031": {
         "Id": 33300031,
@@ -2410,7 +2458,8 @@
           "SourceString": "【竖起大拇指，就是最好的赞美。】",
           "LocalizedString": "【竖起大拇指，就是最好的赞美。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300032": {
         "Id": 33300032,
@@ -2458,7 +2507,8 @@
           "SourceString": "【竖起大拇指，就是最好的赞美。】",
           "LocalizedString": "【竖起大拇指，就是最好的赞美。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300033": {
         "Id": 33300033,
@@ -2506,7 +2556,8 @@
           "SourceString": "【竖起大拇指，就是最好的赞美。】",
           "LocalizedString": "【竖起大拇指，就是最好的赞美。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300034": {
         "Id": 33300034,
@@ -2554,7 +2605,8 @@
           "SourceString": "【竖起大拇指，就是最好的赞美。】",
           "LocalizedString": "【竖起大拇指，就是最好的赞美。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300041": {
         "Id": 33300041,
@@ -2602,7 +2654,8 @@
           "SourceString": "【成功，其实就是比别人优秀一点点。】",
           "LocalizedString": "【成功，其实就是比别人优秀一点点。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300042": {
         "Id": 33300042,
@@ -2650,7 +2703,8 @@
           "SourceString": "【成功，其实就是比别人优秀一点点。】",
           "LocalizedString": "【成功，其实就是比别人优秀一点点。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300043": {
         "Id": 33300043,
@@ -2698,7 +2752,8 @@
           "SourceString": "【成功，其实就是比别人优秀一点点。】",
           "LocalizedString": "【成功，其实就是比别人优秀一点点。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300044": {
         "Id": 33300044,
@@ -2746,7 +2801,8 @@
           "SourceString": "【成功，其实就是比别人优秀一点点。】",
           "LocalizedString": "【成功，其实就是比别人优秀一点点。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300051": {
         "Id": 33300051,
@@ -2794,7 +2850,8 @@
           "SourceString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】",
           "LocalizedString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300052": {
         "Id": 33300052,
@@ -2842,7 +2899,8 @@
           "SourceString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】",
           "LocalizedString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300053": {
         "Id": 33300053,
@@ -2890,7 +2948,8 @@
           "SourceString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】",
           "LocalizedString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300054": {
         "Id": 33300054,
@@ -2938,7 +2997,8 @@
           "SourceString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】",
           "LocalizedString": "【在这场卡丘世界的旅行中，你是否得到了幸福呢？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300061": {
         "Id": 33300061,
@@ -2986,7 +3046,8 @@
           "SourceString": "【虽游戏人生，却并不沉沦。虽挥洒理想，却适可而止。】",
           "LocalizedString": "【虽游戏人生，却并不沉沦。虽挥洒理想，却适可而止。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300071": {
         "Id": 33300071,
@@ -3034,7 +3095,8 @@
           "SourceString": "【虽然我们之间是最佳搭档，但我可不是宠物哦。】",
           "LocalizedString": "【虽然我们之间是最佳搭档，但我可不是宠物哦。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300081": {
         "Id": 33300081,
@@ -3082,7 +3144,8 @@
           "SourceString": "【每件衣服都彰显着品味。】",
           "LocalizedString": "【每件衣服都彰显着品味。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300082": {
         "Id": 33300082,
@@ -3130,7 +3193,8 @@
           "SourceString": "【每件衣服都彰显着品味。】",
           "LocalizedString": "【每件衣服都彰显着品味。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300083": {
         "Id": 33300083,
@@ -3178,7 +3242,8 @@
           "SourceString": "【每件衣服都彰显着品味。】",
           "LocalizedString": "【每件衣服都彰显着品味。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300084": {
         "Id": 33300084,
@@ -3226,7 +3291,8 @@
           "SourceString": "【每件衣服都彰显着品味。】",
           "LocalizedString": "【每件衣服都彰显着品味。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300091": {
         "Id": 33300091,
@@ -3274,7 +3340,8 @@
           "SourceString": "【只有拥有武器足够多的人，才能成为王者。】",
           "LocalizedString": "【只有拥有武器足够多的人，才能成为王者。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300092": {
         "Id": 33300092,
@@ -3322,7 +3389,8 @@
           "SourceString": "【只有拥有武器足够多的人，才能成为王者。】",
           "LocalizedString": "【只有拥有武器足够多的人，才能成为王者。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300093": {
         "Id": 33300093,
@@ -3370,7 +3438,8 @@
           "SourceString": "【只有拥有武器足够多的人，才能成为王者。】",
           "LocalizedString": "【只有拥有武器足够多的人，才能成为王者。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300094": {
         "Id": 33300094,
@@ -3418,7 +3487,8 @@
           "SourceString": "【只有拥有武器足够多的人，才能成为王者。】",
           "LocalizedString": "【只有拥有武器足够多的人，才能成为王者。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300111": {
         "Id": 33300111,
@@ -3466,7 +3536,8 @@
           "SourceString": "【命运之弦被你轻轻撩拨，奏响未来。】",
           "LocalizedString": "【命运之弦被你轻轻撩拨，奏响未来。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300121": {
         "Id": 33300121,
@@ -3519,7 +3590,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300122": {
         "Id": 33300122,
@@ -3567,7 +3639,8 @@
           "SourceString": "【喝！】",
           "LocalizedString": "【喝！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300123": {
         "Id": 33300123,
@@ -3615,7 +3688,8 @@
           "SourceString": "【喝！】",
           "LocalizedString": "【喝！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300124": {
         "Id": 33300124,
@@ -3663,7 +3737,8 @@
           "SourceString": "【喝！】",
           "LocalizedString": "【喝！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300131": {
         "Id": 33300131,
@@ -3716,7 +3791,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300132": {
         "Id": 33300132,
@@ -3764,7 +3840,8 @@
           "SourceString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】",
           "LocalizedString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300133": {
         "Id": 33300133,
@@ -3812,7 +3889,8 @@
           "SourceString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】",
           "LocalizedString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300134": {
         "Id": 33300134,
@@ -3860,7 +3938,8 @@
           "SourceString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】",
           "LocalizedString": "【一次又一次的拆除，像一个无情的流水线工人检视这一生。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300141": {
         "Id": 33300141,
@@ -3913,7 +3992,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300142": {
         "Id": 33300142,
@@ -3961,7 +4041,8 @@
           "SourceString": "【武器就是我生命的延伸。】",
           "LocalizedString": "【武器就是我生命的延伸。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300143": {
         "Id": 33300143,
@@ -4009,7 +4090,8 @@
           "SourceString": "【武器就是我生命的延伸。】",
           "LocalizedString": "【武器就是我生命的延伸。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300144": {
         "Id": 33300144,
@@ -4057,7 +4139,8 @@
           "SourceString": "【武器就是我生命的延伸。】",
           "LocalizedString": "【武器就是我生命的延伸。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300151": {
         "Id": 33300151,
@@ -4110,7 +4193,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300152": {
         "Id": 33300152,
@@ -4158,7 +4242,8 @@
           "SourceString": "【一个人的崛起，是以一千个人的倒下为基础的。】",
           "LocalizedString": "【一个人的崛起，是以一千个人的倒下为基础的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300153": {
         "Id": 33300153,
@@ -4206,7 +4291,8 @@
           "SourceString": "【一个人的崛起，是以一千个人的倒下为基础的。】",
           "LocalizedString": "【一个人的崛起，是以一千个人的倒下为基础的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300154": {
         "Id": 33300154,
@@ -4254,7 +4340,8 @@
           "SourceString": "【一个人的崛起，是以一千个人的倒下为基础的。】",
           "LocalizedString": "【一个人的崛起，是以一千个人的倒下为基础的。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300161": {
         "Id": 33300161,
@@ -4307,7 +4394,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300162": {
         "Id": 33300162,
@@ -4355,7 +4443,8 @@
           "SourceString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】",
           "LocalizedString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300163": {
         "Id": 33300163,
@@ -4403,7 +4492,8 @@
           "SourceString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】",
           "LocalizedString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300164": {
         "Id": 33300164,
@@ -4451,7 +4541,8 @@
           "SourceString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】",
           "LocalizedString": "【卡丘人的身体尽管生命力顽强，但也会受到致命伤。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300171": {
         "Id": 33300171,
@@ -4504,7 +4595,8 @@
             "BehaviorId": 0,
             "Num": 3
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300172": {
         "Id": 33300172,
@@ -4552,7 +4644,8 @@
           "SourceString": "【至少得开怀大笑，不是吗？】",
           "LocalizedString": "【至少得开怀大笑，不是吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300173": {
         "Id": 33300173,
@@ -4600,7 +4693,8 @@
           "SourceString": "【至少得开怀大笑，不是吗？】",
           "LocalizedString": "【至少得开怀大笑，不是吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300174": {
         "Id": 33300174,
@@ -4648,7 +4742,8 @@
           "SourceString": "【至少得开怀大笑，不是吗？】",
           "LocalizedString": "【至少得开怀大笑，不是吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300181": {
         "Id": 33300181,
@@ -4687,8 +4782,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33300181_Explain",
-          "SourceString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
-          "LocalizedString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -4701,7 +4796,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33300182": {
         "Id": 33300182,
@@ -4740,8 +4836,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33300182_Explain",
-          "SourceString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
-          "LocalizedString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -4749,7 +4845,8 @@
           "SourceString": "【吾等前方，绝无敌手！】",
           "LocalizedString": "【吾等前方，绝无敌手！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300183": {
         "Id": 33300183,
@@ -4788,8 +4885,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33300183_Explain",
-          "SourceString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
-          "LocalizedString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -4797,7 +4894,8 @@
           "SourceString": "【吾等前方，绝无敌手！】",
           "LocalizedString": "【吾等前方，绝无敌手！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300184": {
         "Id": 33300184,
@@ -4836,8 +4934,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33300184_Explain",
-          "SourceString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
-          "LocalizedString": "累计在排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，消灭了敌方全部玩家 {0} 次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -4845,7 +4943,8 @@
           "SourceString": "【吾等前方，绝无敌手！】",
           "LocalizedString": "【吾等前方，绝无敌手！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33300201": {
         "Id": 33300201,
@@ -4893,7 +4992,8 @@
           "SourceString": "【新手的运气总是特别好，别惹新手！】",
           "LocalizedString": "【新手的运气总是特别好，别惹新手！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400011": {
         "Id": 33400011,
@@ -4941,7 +5041,8 @@
           "SourceString": "【漫漫长路，感谢有你。】",
           "LocalizedString": "【漫漫长路，感谢有你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400012": {
         "Id": 33400012,
@@ -4989,7 +5090,8 @@
           "SourceString": "【漫漫长路，感谢有你。】",
           "LocalizedString": "【漫漫长路，感谢有你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400013": {
         "Id": 33400013,
@@ -5037,7 +5139,8 @@
           "SourceString": "【漫漫长路，感谢有你。】",
           "LocalizedString": "【漫漫长路，感谢有你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400014": {
         "Id": 33400014,
@@ -5085,7 +5188,8 @@
           "SourceString": "【漫漫长路，感谢有你。】",
           "LocalizedString": "【漫漫长路，感谢有你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400015": {
         "Id": 33400015,
@@ -5133,7 +5237,8 @@
           "SourceString": "【漫漫长路，感谢有你。】",
           "LocalizedString": "【漫漫长路，感谢有你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 0
       },
       "33400016": {
         "Id": 33400016,
@@ -5172,8 +5277,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33400016_Explain",
-          "SourceString": "在排位爆破的匹配比赛中，整场比赛的任意一个小局中，安放的爆破物消灭至少3名敌人",
-          "LocalizedString": "在排位爆破的匹配比赛中，整场比赛的任意一个小局中，安放的爆破物消灭至少3名敌人"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，安放的爆破物消灭至少3名敌人",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，安放的爆破物消灭至少3名敌人"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -5186,7 +5291,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400017": {
         "Id": 33400017,
@@ -5225,8 +5331,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33400017_Explain",
-          "SourceString": "在排位爆破的匹配比赛中，用一枚战术道具击倒或击败至少3名对手",
-          "LocalizedString": "在排位爆破的匹配比赛中，用一枚战术道具击倒或击败至少3名对手"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，用一枚战术道具击倒或击败至少3名对手",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，用一枚战术道具击倒或击败至少3名对手"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -5239,7 +5345,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400018": {
         "Id": 33400018,
@@ -5278,8 +5385,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33400018_Explain",
-          "SourceString": "在排位爆破的匹配比赛中，在自己被致盲期间，击败 {0} 名对手",
-          "LocalizedString": "在排位爆破的匹配比赛中，在自己被致盲期间，击败 {0} 名对手"
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，在自己被致盲期间，击败 {0} 名对手",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，在自己被致盲期间，击败 {0} 名对手"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -5292,7 +5399,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400019": {
         "Id": 33400019,
@@ -5331,8 +5439,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33400019_Explain",
-          "SourceString": "在排位爆破的匹配比赛中，整场比赛的任意一个小局中，己方仅自己存活且敌方全部存活时，获得胜利 ",
-          "LocalizedString": "在排位爆破的匹配比赛中，整场比赛的任意一个小局中，己方仅自己存活且敌方全部存活时，获得胜利 "
+          "SourceString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，己方仅自己存活且敌方全部存活时，获得胜利 ",
+          "LocalizedString": "累计在一般爆破/排位爆破的匹配比赛中，整场比赛的任意一个小局中，己方仅自己存活且敌方全部存活时，获得胜利 "
         },
         "Details": {
           "Namespace": "Achievement",
@@ -5345,7 +5453,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400020": {
         "Id": 33400020,
@@ -5398,7 +5507,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400021": {
         "Id": 33400021,
@@ -5417,8 +5527,8 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33400021_Captions",
-          "SourceString": "15秒内击击倒5人 ",
-          "LocalizedString": "15秒内击击倒5人 "
+          "SourceString": "15秒内击倒5人 ",
+          "LocalizedString": "15秒内击倒5人 "
         },
         "Param1": 0,
         "Param2": [
@@ -5451,7 +5561,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33400022": {
         "Id": 33400022,
@@ -5504,7 +5615,8 @@
             "BehaviorId": 0,
             "Num": 10
           }
-        ]
+        ],
+        "DisplayOrder": 0
       },
       "33500011": {
         "Id": 33500011,
@@ -5557,7 +5669,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500012": {
         "Id": 33500012,
@@ -5605,7 +5718,8 @@
           "SourceString": "【你被喵喵卫士盯上了，你跑不了了！】",
           "LocalizedString": "【你被喵喵卫士盯上了，你跑不了了！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500013": {
         "Id": 33500013,
@@ -5653,7 +5767,8 @@
           "SourceString": "【你被喵喵卫士盯上了，你跑不了了！】",
           "LocalizedString": "【你被喵喵卫士盯上了，你跑不了了！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500014": {
         "Id": 33500014,
@@ -5701,7 +5816,8 @@
           "SourceString": "【你被喵喵卫士盯上了，你跑不了了！】",
           "LocalizedString": "【你被喵喵卫士盯上了，你跑不了了！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500021": {
         "Id": 33500021,
@@ -5754,7 +5870,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500022": {
         "Id": 33500022,
@@ -5802,7 +5919,8 @@
           "SourceString": "【手下留情不是gamer的风格！】",
           "LocalizedString": "【手下留情不是gamer的风格！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500023": {
         "Id": 33500023,
@@ -5850,7 +5968,8 @@
           "SourceString": "【手下留情不是gamer的风格！】",
           "LocalizedString": "【手下留情不是gamer的风格！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500024": {
         "Id": 33500024,
@@ -5898,7 +6017,8 @@
           "SourceString": "【手下留情不是gamer的风格！】",
           "LocalizedString": "【手下留情不是gamer的风格！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500031": {
         "Id": 33500031,
@@ -5951,7 +6071,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500032": {
         "Id": 33500032,
@@ -5999,7 +6120,8 @@
           "SourceString": "【颜料溅到你身上了？抱歉咯！】",
           "LocalizedString": "【颜料溅到你身上了？抱歉咯！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500033": {
         "Id": 33500033,
@@ -6047,7 +6169,8 @@
           "SourceString": "【颜料溅到你身上了？抱歉咯！】",
           "LocalizedString": "【颜料溅到你身上了？抱歉咯！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500034": {
         "Id": 33500034,
@@ -6095,7 +6218,8 @@
           "SourceString": "【颜料溅到你身上了？抱歉咯！】",
           "LocalizedString": "【颜料溅到你身上了？抱歉咯！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500041": {
         "Id": 33500041,
@@ -6148,7 +6272,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500042": {
         "Id": 33500042,
@@ -6196,7 +6321,8 @@
           "SourceString": "【致命一枪，就是我的点睛之笔。】",
           "LocalizedString": "【致命一枪，就是我的点睛之笔。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500043": {
         "Id": 33500043,
@@ -6244,7 +6370,8 @@
           "SourceString": "【致命一枪，就是我的点睛之笔。】",
           "LocalizedString": "【致命一枪，就是我的点睛之笔。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500044": {
         "Id": 33500044,
@@ -6292,7 +6419,410 @@
           "SourceString": "【致命一枪，就是我的点睛之笔。】",
           "LocalizedString": "【致命一枪，就是我的点睛之笔。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
+      },
+      "33500051": {
+        "Id": 33500051,
+        "Group": 3350005,
+        "Level": 1,
+        "NextId": 33500052,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500051_Name",
+          "SourceString": "大快朵颐",
+          "LocalizedString": "大快朵颐"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500051_Captions",
+          "SourceString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次",
+          "LocalizedString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次"
+        },
+        "Param1": 0,
+        "Param2": [
+          270
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500051,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500051,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500051_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500051_Details",
+          "SourceString": "【愈战愈强就是我的风格。】",
+          "LocalizedString": "【愈战愈强就是我的风格。】"
+        },
+        "TaskPurposes": [
+          {
+            "BehaviorId": 0,
+            "Num": 1
+          }
+        ],
+        "DisplayOrder": 1
+      },
+      "33500052": {
+        "Id": 33500052,
+        "Group": 3350005,
+        "Level": 2,
+        "NextId": 33500053,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500052_Name",
+          "SourceString": "大快朵颐",
+          "LocalizedString": "大快朵颐"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500052_Captions",
+          "SourceString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次",
+          "LocalizedString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次"
+        },
+        "Param1": 0,
+        "Param2": [
+          800
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500052,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500052,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500052_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500052_Details",
+          "SourceString": "【愈战愈强就是我的风格。】",
+          "LocalizedString": "【愈战愈强就是我的风格。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 1
+      },
+      "33500053": {
+        "Id": 33500053,
+        "Group": 3350005,
+        "Level": 3,
+        "NextId": 33500054,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500053_Name",
+          "SourceString": "大快朵颐",
+          "LocalizedString": "大快朵颐"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500053_Captions",
+          "SourceString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次",
+          "LocalizedString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次"
+        },
+        "Param1": 0,
+        "Param2": [
+          2700
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500053,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500053,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500053_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500053_Details",
+          "SourceString": "【愈战愈强就是我的风格。】",
+          "LocalizedString": "【愈战愈强就是我的风格。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 1
+      },
+      "33500054": {
+        "Id": 33500054,
+        "Group": 3350005,
+        "Level": 4,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500054_Name",
+          "SourceString": "大快朵颐",
+          "LocalizedString": "大快朵颐"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500054_Captions",
+          "SourceString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次",
+          "LocalizedString": "使用绯莎在匹配/排位爆破中累计吸收能量晶体 {0}次"
+        },
+        "Param1": 0,
+        "Param2": [
+          5500
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500054,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500054,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500054_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎累计吸收能量晶体 <Chat-Self>{0}</> 次"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500054_Details",
+          "SourceString": "【愈战愈强就是我的风格。】",
+          "LocalizedString": "【愈战愈强就是我的风格。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 1
+      },
+      "33500061": {
+        "Id": 33500061,
+        "Group": 3350006,
+        "Level": 1,
+        "NextId": 33500062,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500061_Name",
+          "SourceString": "嗜血鲨戮",
+          "LocalizedString": "嗜血鲨戮"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500061_Captions",
+          "SourceString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人",
+          "LocalizedString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人"
+        },
+        "Param1": 0,
+        "Param2": [
+          50
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500061,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500061,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500061_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500061_Details",
+          "SourceString": "【尝到血味的鲨鱼最危险！】",
+          "LocalizedString": "【尝到血味的鲨鱼最危险！】"
+        },
+        "TaskPurposes": [
+          {
+            "BehaviorId": 0,
+            "Num": 1
+          }
+        ],
+        "DisplayOrder": 3
+      },
+      "33500062": {
+        "Id": 33500062,
+        "Group": 3350006,
+        "Level": 2,
+        "NextId": 33500063,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500062_Name",
+          "SourceString": "嗜血鲨戮",
+          "LocalizedString": "嗜血鲨戮"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500062_Captions",
+          "SourceString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人",
+          "LocalizedString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人"
+        },
+        "Param1": 0,
+        "Param2": [
+          150
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500062,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500062,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500062_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500062_Details",
+          "SourceString": "【尝到血味的鲨鱼最危险！】",
+          "LocalizedString": "【尝到血味的鲨鱼最危险！】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 3
+      },
+      "33500063": {
+        "Id": 33500063,
+        "Group": 3350006,
+        "Level": 3,
+        "NextId": 33500064,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500063_Name",
+          "SourceString": "嗜血鲨戮",
+          "LocalizedString": "嗜血鲨戮"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500063_Captions",
+          "SourceString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人",
+          "LocalizedString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人"
+        },
+        "Param1": 0,
+        "Param2": [
+          500
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500063,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500063,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500063_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500063_Details",
+          "SourceString": "【尝到血味的鲨鱼最危险！】",
+          "LocalizedString": "【尝到血味的鲨鱼最危险！】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 3
+      },
+      "33500064": {
+        "Id": 33500064,
+        "Group": 3350006,
+        "Level": 4,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500064_Name",
+          "SourceString": "嗜血鲨戮",
+          "LocalizedString": "嗜血鲨戮"
+        },
+        "Role": 112,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500064_Captions",
+          "SourceString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人",
+          "LocalizedString": "使用绯莎匹配/排位爆破中在绝招状态下累计击倒 {0}人"
+        },
+        "Param1": 0,
+        "Param2": [
+          1000
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500064,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500064,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500064_Explain",
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用绯莎在绝招状态下累计击倒 <Chat-Self>{0}</> 人"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500064_Details",
+          "SourceString": "【尝到血味的鲨鱼最危险！】",
+          "LocalizedString": "【尝到血味的鲨鱼最危险！】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500071": {
         "Id": 33500071,
@@ -6345,7 +6875,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500072": {
         "Id": 33500072,
@@ -6393,7 +6924,8 @@
           "SourceString": "【火力能解决大多数问题。】",
           "LocalizedString": "【火力能解决大多数问题。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500073": {
         "Id": 33500073,
@@ -6441,7 +6973,8 @@
           "SourceString": "【火力能解决大多数问题。】",
           "LocalizedString": "【火力能解决大多数问题。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500074": {
         "Id": 33500074,
@@ -6489,7 +7022,8 @@
           "SourceString": "【火力能解决大多数问题。】",
           "LocalizedString": "【火力能解决大多数问题。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500081": {
         "Id": 33500081,
@@ -6542,7 +7076,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500082": {
         "Id": 33500082,
@@ -6590,7 +7125,8 @@
           "SourceString": "【这可是真正的贵族礼炮！】",
           "LocalizedString": "【这可是真正的贵族礼炮！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500083": {
         "Id": 33500083,
@@ -6638,7 +7174,8 @@
           "SourceString": "【这可是真正的贵族礼炮！】",
           "LocalizedString": "【这可是真正的贵族礼炮！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500084": {
         "Id": 33500084,
@@ -6686,7 +7223,8 @@
           "SourceString": "【这可是真正的贵族礼炮！】",
           "LocalizedString": "【这可是真正的贵族礼炮！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500091": {
         "Id": 33500091,
@@ -6739,7 +7277,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500092": {
         "Id": 33500092,
@@ -6787,7 +7326,8 @@
           "SourceString": "【可别小看街头涂鸦！】",
           "LocalizedString": "【可别小看街头涂鸦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500093": {
         "Id": 33500093,
@@ -6835,7 +7375,8 @@
           "SourceString": "【可别小看街头涂鸦！】",
           "LocalizedString": "【可别小看街头涂鸦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500094": {
         "Id": 33500094,
@@ -6883,7 +7424,8 @@
           "SourceString": "【可别小看街头涂鸦！】",
           "LocalizedString": "【可别小看街头涂鸦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500101": {
         "Id": 33500101,
@@ -6936,7 +7478,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500102": {
         "Id": 33500102,
@@ -6984,7 +7527,8 @@
           "SourceString": "【随我的节奏一起舞动起来吧！】",
           "LocalizedString": "【随我的节奏一起舞动起来吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500103": {
         "Id": 33500103,
@@ -7032,7 +7576,8 @@
           "SourceString": "【随我的节奏一起舞动起来吧！】",
           "LocalizedString": "【随我的节奏一起舞动起来吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500104": {
         "Id": 33500104,
@@ -7080,7 +7625,8 @@
           "SourceString": "【随我的节奏一起舞动起来吧！】",
           "LocalizedString": "【随我的节奏一起舞动起来吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500111": {
         "Id": 33500111,
@@ -7133,7 +7679,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500112": {
         "Id": 33500112,
@@ -7181,7 +7728,8 @@
           "SourceString": "【没人能逃过我的眼睛！】",
           "LocalizedString": "【没人能逃过我的眼睛！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500113": {
         "Id": 33500113,
@@ -7229,7 +7777,8 @@
           "SourceString": "【没人能逃过我的眼睛！】",
           "LocalizedString": "【没人能逃过我的眼睛！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500114": {
         "Id": 33500114,
@@ -7277,7 +7826,8 @@
           "SourceString": "【没人能逃过我的眼睛！】",
           "LocalizedString": "【没人能逃过我的眼睛！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500121": {
         "Id": 33500121,
@@ -7330,7 +7880,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500122": {
         "Id": 33500122,
@@ -7378,7 +7929,8 @@
           "SourceString": "【你们，只是盲目地活着！】",
           "LocalizedString": "【你们，只是盲目地活着！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500123": {
         "Id": 33500123,
@@ -7426,7 +7978,8 @@
           "SourceString": "【你们，只是盲目地活着！】",
           "LocalizedString": "【你们，只是盲目地活着！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500124": {
         "Id": 33500124,
@@ -7474,7 +8027,8 @@
           "SourceString": "【你们，只是盲目地活着！】",
           "LocalizedString": "【你们，只是盲目地活着！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500131": {
         "Id": 33500131,
@@ -7527,7 +8081,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500132": {
         "Id": 33500132,
@@ -7575,7 +8130,8 @@
           "SourceString": "【我看到的是你们看不到的东西。】",
           "LocalizedString": "【我看到的是你们看不到的东西。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500133": {
         "Id": 33500133,
@@ -7623,7 +8179,8 @@
           "SourceString": "【我看到的是你们看不到的东西。】",
           "LocalizedString": "【我看到的是你们看不到的东西。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500134": {
         "Id": 33500134,
@@ -7671,7 +8228,8 @@
           "SourceString": "【我看到的是你们看不到的东西。】",
           "LocalizedString": "【我看到的是你们看不到的东西。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500141": {
         "Id": 33500141,
@@ -7724,7 +8282,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500142": {
         "Id": 33500142,
@@ -7772,7 +8331,8 @@
           "SourceString": "【就连你的影子也会背叛你！】",
           "LocalizedString": "【就连你的影子也会背叛你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500143": {
         "Id": 33500143,
@@ -7820,7 +8380,8 @@
           "SourceString": "【就连你的影子也会背叛你！】",
           "LocalizedString": "【就连你的影子也会背叛你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500144": {
         "Id": 33500144,
@@ -7868,7 +8429,8 @@
           "SourceString": "【就连你的影子也会背叛你！】",
           "LocalizedString": "【就连你的影子也会背叛你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500151": {
         "Id": 33500151,
@@ -7921,7 +8483,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500152": {
         "Id": 33500152,
@@ -7969,7 +8532,8 @@
           "SourceString": "【只要战意不息，我就永远不会倒下！】",
           "LocalizedString": "【只要战意不息，我就永远不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500153": {
         "Id": 33500153,
@@ -8017,7 +8581,8 @@
           "SourceString": "【只要战意不息，我就永远不会倒下！】",
           "LocalizedString": "【只要战意不息，我就永远不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500154": {
         "Id": 33500154,
@@ -8065,7 +8630,8 @@
           "SourceString": "【只要战意不息，我就永远不会倒下！】",
           "LocalizedString": "【只要战意不息，我就永远不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500161": {
         "Id": 33500161,
@@ -8118,7 +8684,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500162": {
         "Id": 33500162,
@@ -8166,7 +8733,8 @@
           "SourceString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】",
           "LocalizedString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500163": {
         "Id": 33500163,
@@ -8214,7 +8782,8 @@
           "SourceString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】",
           "LocalizedString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500164": {
         "Id": 33500164,
@@ -8262,7 +8831,8 @@
           "SourceString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】",
           "LocalizedString": "【挡在我面前的垃圾，都给我粉碎成渣吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500171": {
         "Id": 33500171,
@@ -8315,7 +8885,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500172": {
         "Id": 33500172,
@@ -8363,7 +8934,8 @@
           "SourceString": "【没事啦没事啦，只是帮个小忙而已。】",
           "LocalizedString": "【没事啦没事啦，只是帮个小忙而已。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500173": {
         "Id": 33500173,
@@ -8411,7 +8983,8 @@
           "SourceString": "【没事啦没事啦，只是帮个小忙而已。】",
           "LocalizedString": "【没事啦没事啦，只是帮个小忙而已。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500174": {
         "Id": 33500174,
@@ -8459,7 +9032,8 @@
           "SourceString": "【没事啦没事啦，只是帮个小忙而已。】",
           "LocalizedString": "【没事啦没事啦，只是帮个小忙而已。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500181": {
         "Id": 33500181,
@@ -8512,7 +9086,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500182": {
         "Id": 33500182,
@@ -8560,7 +9135,8 @@
           "SourceString": "【想要感谢我的话，就和我一起拿下胜利吧！】",
           "LocalizedString": "【想要感谢我的话，就和我一起拿下胜利吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500183": {
         "Id": 33500183,
@@ -8608,7 +9184,8 @@
           "SourceString": "【想要感谢我的话，就和我一起拿下胜利吧！】",
           "LocalizedString": "【想要感谢我的话，就和我一起拿下胜利吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500184": {
         "Id": 33500184,
@@ -8656,7 +9233,8 @@
           "SourceString": "【想要感谢我的话，就和我一起拿下胜利吧！】",
           "LocalizedString": "【想要感谢我的话，就和我一起拿下胜利吧！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500191": {
         "Id": 33500191,
@@ -8709,7 +9287,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500192": {
         "Id": 33500192,
@@ -8757,7 +9336,8 @@
           "SourceString": "【星辰会庇佑你！】",
           "LocalizedString": "【星辰会庇佑你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500193": {
         "Id": 33500193,
@@ -8805,7 +9385,8 @@
           "SourceString": "【星辰会庇佑你！】",
           "LocalizedString": "【星辰会庇佑你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500194": {
         "Id": 33500194,
@@ -8853,7 +9434,8 @@
           "SourceString": "【星辰会庇佑你！】",
           "LocalizedString": "【星辰会庇佑你！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500201": {
         "Id": 33500201,
@@ -8906,7 +9488,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500202": {
         "Id": 33500202,
@@ -8954,7 +9537,8 @@
           "SourceString": "【需要我帮忙吗？我责无旁贷！】",
           "LocalizedString": "【需要我帮忙吗？我责无旁贷！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500203": {
         "Id": 33500203,
@@ -9002,7 +9586,8 @@
           "SourceString": "【需要我帮忙吗？我责无旁贷！】",
           "LocalizedString": "【需要我帮忙吗？我责无旁贷！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500204": {
         "Id": 33500204,
@@ -9050,7 +9635,8 @@
           "SourceString": "【需要我帮忙吗？我责无旁贷！】",
           "LocalizedString": "【需要我帮忙吗？我责无旁贷！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500211": {
         "Id": 33500211,
@@ -9103,7 +9689,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500212": {
         "Id": 33500212,
@@ -9151,7 +9738,8 @@
           "SourceString": "【菲！赶走他们！】",
           "LocalizedString": "【菲！赶走他们！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500213": {
         "Id": 33500213,
@@ -9199,7 +9787,8 @@
           "SourceString": "【菲！赶走他们！】",
           "LocalizedString": "【菲！赶走他们！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500214": {
         "Id": 33500214,
@@ -9247,7 +9836,8 @@
           "SourceString": "【菲！赶走他们！】",
           "LocalizedString": "【菲！赶走他们！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500221": {
         "Id": 33500221,
@@ -9300,7 +9890,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500222": {
         "Id": 33500222,
@@ -9348,7 +9939,8 @@
           "SourceString": "【你也想跳舞吗？】",
           "LocalizedString": "【你也想跳舞吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500223": {
         "Id": 33500223,
@@ -9396,7 +9988,8 @@
           "SourceString": "【你也想跳舞吗？】",
           "LocalizedString": "【你也想跳舞吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500224": {
         "Id": 33500224,
@@ -9444,7 +10037,8 @@
           "SourceString": "【你也想跳舞吗？】",
           "LocalizedString": "【你也想跳舞吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500231": {
         "Id": 33500231,
@@ -9497,7 +10091,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500232": {
         "Id": 33500232,
@@ -9545,7 +10140,8 @@
           "SourceString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】",
           "LocalizedString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500233": {
         "Id": 33500233,
@@ -9593,7 +10189,8 @@
           "SourceString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】",
           "LocalizedString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500234": {
         "Id": 33500234,
@@ -9641,7 +10238,8 @@
           "SourceString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】",
           "LocalizedString": "【你听到香奈美的歌声时，香奈美已经看到你了哦！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500241": {
         "Id": 33500241,
@@ -9652,8 +10250,8 @@
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500241_Name",
-          "SourceString": "偶像真人秀",
-          "LocalizedString": "偶像真人秀"
+          "SourceString": "偶像演唱会",
+          "LocalizedString": "偶像演唱会"
         },
         "Role": 137,
         "Quality": 2,
@@ -9694,7 +10292,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500242": {
         "Id": 33500242,
@@ -9705,8 +10304,8 @@
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500242_Name",
-          "SourceString": "偶像真人秀",
-          "LocalizedString": "偶像真人秀"
+          "SourceString": "偶像演唱会",
+          "LocalizedString": "偶像演唱会"
         },
         "Role": 137,
         "Quality": 2,
@@ -9742,7 +10341,8 @@
           "SourceString": "【粉丝数量急速上升中☆】",
           "LocalizedString": "【粉丝数量急速上升中☆】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500243": {
         "Id": 33500243,
@@ -9753,8 +10353,8 @@
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500243_Name",
-          "SourceString": "偶像真人秀",
-          "LocalizedString": "偶像真人秀"
+          "SourceString": "偶像演唱会",
+          "LocalizedString": "偶像演唱会"
         },
         "Role": 137,
         "Quality": 2,
@@ -9790,7 +10390,8 @@
           "SourceString": "【粉丝数量急速上升中☆】",
           "LocalizedString": "【粉丝数量急速上升中☆】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500244": {
         "Id": 33500244,
@@ -9801,8 +10402,8 @@
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500244_Name",
-          "SourceString": "偶像真人秀",
-          "LocalizedString": "偶像真人秀"
+          "SourceString": "偶像演唱会",
+          "LocalizedString": "偶像演唱会"
         },
         "Role": 137,
         "Quality": 2,
@@ -9838,7 +10439,8 @@
           "SourceString": "【粉丝数量急速上升中☆】",
           "LocalizedString": "【粉丝数量急速上升中☆】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500251": {
         "Id": 33500251,
@@ -9891,7 +10493,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500252": {
         "Id": 33500252,
@@ -9939,7 +10542,8 @@
           "SourceString": "【在彻底击倒……那个人之前，我绝不会倒下！】",
           "LocalizedString": "【在彻底击倒……那个人之前，我绝不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500253": {
         "Id": 33500253,
@@ -9987,7 +10591,8 @@
           "SourceString": "【在彻底击倒……那个人之前，我绝不会倒下！】",
           "LocalizedString": "【在彻底击倒……那个人之前，我绝不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500254": {
         "Id": 33500254,
@@ -10035,7 +10640,8 @@
           "SourceString": "【在彻底击倒……那个人之前，我绝不会倒下！】",
           "LocalizedString": "【在彻底击倒……那个人之前，我绝不会倒下！】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500261": {
         "Id": 33500261,
@@ -10054,12 +10660,12 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33500261_Captions",
-          "SourceString": "击败被绝招沉默角色数 {0}",
-          "LocalizedString": "击败被绝招沉默角色数 {0}"
+          "SourceString": "被绝招沉默的人次 {0}",
+          "LocalizedString": "被绝招沉默的人次 {0}"
         },
         "Param1": 0,
         "Param2": [
-          10
+          600
         ],
         "Param3": 0,
         "Param4": [],
@@ -10074,8 +10680,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33500261_Explain",
-          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人",
-          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人"
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -10088,7 +10694,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500262": {
         "Id": 33500262,
@@ -10107,12 +10714,12 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33500262_Captions",
-          "SourceString": "击败被绝招沉默角色数 {0}",
-          "LocalizedString": "击败被绝招沉默角色数 {0}"
+          "SourceString": "被绝招沉默的人次 {0}",
+          "LocalizedString": "被绝招沉默的人次 {0}"
         },
         "Param1": 0,
         "Param2": [
-          30
+          1800
         ],
         "Param3": 0,
         "Param4": [],
@@ -10127,8 +10734,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33500262_Explain",
-          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人",
-          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人"
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -10136,7 +10743,8 @@
           "SourceString": "【当你无法发出声音时，就意味着死亡已然不远。】",
           "LocalizedString": "【当你无法发出声音时，就意味着死亡已然不远。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500263": {
         "Id": 33500263,
@@ -10155,12 +10763,12 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33500263_Captions",
-          "SourceString": "击败被绝招沉默角色数 {0}",
-          "LocalizedString": "击败被绝招沉默角色数 {0}"
+          "SourceString": "被绝招沉默的人次 {0}",
+          "LocalizedString": "被绝招沉默的人次 {0}"
         },
         "Param1": 0,
         "Param2": [
-          100
+          6000
         ],
         "Param3": 0,
         "Param4": [],
@@ -10175,8 +10783,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33500263_Explain",
-          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人",
-          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人"
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -10184,7 +10792,8 @@
           "SourceString": "【当你无法发出声音时，就意味着死亡已然不远。】",
           "LocalizedString": "【当你无法发出声音时，就意味着死亡已然不远。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500264": {
         "Id": 33500264,
@@ -10203,12 +10812,12 @@
         "Captions": {
           "Namespace": "Achievement",
           "Key": "33500264_Captions",
-          "SourceString": "击败被绝招沉默角色数 {0}",
-          "LocalizedString": "击败被绝招沉默角色数 {0}"
+          "SourceString": "被绝招沉默的人次 {0}",
+          "LocalizedString": "被绝招沉默的人次 {0}"
         },
         "Param1": 0,
         "Param2": [
-          200
+          12000
         ],
         "Param3": 0,
         "Param4": [],
@@ -10223,8 +10832,8 @@
         "Explain": {
           "Namespace": "Achievement",
           "Key": "33500264_Explain",
-          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人",
-          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信击败 <Chat-Self>{0}</> 个被绝招沉默的敌人"
+          "SourceString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次",
+          "LocalizedString": "一般爆破/排位爆破的匹配比赛中，使用信的脉冲过载，沉默敌人达到  <Chat-Self>{0}</>  人次"
         },
         "Details": {
           "Namespace": "Achievement",
@@ -10232,7 +10841,8 @@
           "SourceString": "【当你无法发出声音时，就意味着死亡已然不远。】",
           "LocalizedString": "【当你无法发出声音时，就意味着死亡已然不远。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500271": {
         "Id": 33500271,
@@ -10285,7 +10895,8 @@
             "BehaviorId": 0,
             "Num": 1
           }
-        ]
+        ],
+        "DisplayOrder": 1
       },
       "33500272": {
         "Id": 33500272,
@@ -10333,7 +10944,8 @@
           "SourceString": "【扬起风暴，带走砂砾。】",
           "LocalizedString": "【扬起风暴，带走砂砾。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500273": {
         "Id": 33500273,
@@ -10381,7 +10993,8 @@
           "SourceString": "【扬起风暴，带走砂砾。】",
           "LocalizedString": "【扬起风暴，带走砂砾。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500274": {
         "Id": 33500274,
@@ -10429,7 +11042,8 @@
           "SourceString": "【扬起风暴，带走砂砾。】",
           "LocalizedString": "【扬起风暴，带走砂砾。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500281": {
         "Id": 33500281,
@@ -10482,7 +11096,8 @@
             "BehaviorId": 0,
             "Num": -1
           }
-        ]
+        ],
+        "DisplayOrder": 3
       },
       "33500282": {
         "Id": 33500282,
@@ -10530,7 +11145,8 @@
           "SourceString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】",
           "LocalizedString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500283": {
         "Id": 33500283,
@@ -10578,7 +11194,8 @@
           "SourceString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】",
           "LocalizedString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500284": {
         "Id": 33500284,
@@ -10626,7 +11243,8 @@
           "SourceString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】",
           "LocalizedString": "【你们称我为“邪恶”吗？那我，就以这邪恶的姿态降临吧。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 3
       },
       "33500291": {
         "Id": 33500291,
@@ -10674,7 +11292,8 @@
           "SourceString": "【你所建立的纽带，都将成为明日的道标。】",
           "LocalizedString": "【你所建立的纽带，都将成为明日的道标。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500292": {
         "Id": 33500292,
@@ -10722,7 +11341,8 @@
           "SourceString": "【你所建立的纽带，都将成为明日的道标。】",
           "LocalizedString": "【你所建立的纽带，都将成为明日的道标。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500293": {
         "Id": 33500293,
@@ -10770,7 +11390,8 @@
           "SourceString": "【你所建立的纽带，都将成为明日的道标。】",
           "LocalizedString": "【你所建立的纽带，都将成为明日的道标。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500294": {
         "Id": 33500294,
@@ -10818,7 +11439,8 @@
           "SourceString": "【你所建立的纽带，都将成为明日的道标。】",
           "LocalizedString": "【你所建立的纽带，都将成为明日的道标。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 1
       },
       "33500301": {
         "Id": 33500301,
@@ -10866,7 +11488,8 @@
           "SourceString": "【与你接触的每个瞬间，都让我无法忘记。】",
           "LocalizedString": "【与你接触的每个瞬间，都让我无法忘记。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500302": {
         "Id": 33500302,
@@ -10914,7 +11537,8 @@
           "SourceString": "【与你接触的每个瞬间，都让我无法忘记。】",
           "LocalizedString": "【与你接触的每个瞬间，都让我无法忘记。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500311": {
         "Id": 33500311,
@@ -10962,7 +11586,8 @@
           "SourceString": "【这是属于我们的开始，不要离去。】",
           "LocalizedString": "【这是属于我们的开始，不要离去。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500312": {
         "Id": 33500312,
@@ -11010,7 +11635,8 @@
           "SourceString": "【这是属于我们的开始，不要离去。】",
           "LocalizedString": "【这是属于我们的开始，不要离去。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500321": {
         "Id": 33500321,
@@ -11058,7 +11684,8 @@
           "SourceString": "【挥笔写下的梦想，行书里藏着无法忘却的过往。】",
           "LocalizedString": "【挥笔写下的梦想，行书里藏着无法忘却的过往。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       },
       "33500322": {
         "Id": 33500322,
@@ -11106,13 +11733,14 @@
           "SourceString": "【挥笔写下的梦想，行书里藏着无法忘却的过往。】",
           "LocalizedString": "【挥笔写下的梦想，行书里藏着无法忘却的过往。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       },
       "33500351": {
         "Id": 33500351,
         "Group": 3350035,
         "Level": 1,
-        "NextId": 33500342,
+        "NextId": 33500352,
         "Type": 5,
         "Name": {
           "Namespace": "Achievement",
@@ -11154,7 +11782,8 @@
           "SourceString": "【月光下，是你在召唤我吗？】",
           "LocalizedString": "【月光下，是你在召唤我吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500352": {
         "Id": 33500352,
@@ -11202,19 +11831,20 @@
           "SourceString": "【月光下，是你在召唤我吗？】",
           "LocalizedString": "【月光下，是你在召唤我吗？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500361": {
         "Id": 33500361,
         "Group": 3350036,
         "Level": 1,
-        "NextId": 33500352,
+        "NextId": 33500362,
         "Type": 5,
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500361_Name",
-          "SourceString": "阔步于曙光的独角兽",
-          "LocalizedString": "阔步于曙光的独角兽"
+          "SourceString": "曙光中的独角兽",
+          "LocalizedString": "曙光中的独角兽"
         },
         "Role": 105,
         "Quality": 2,
@@ -11250,7 +11880,8 @@
           "SourceString": "【朝阳下，数着脚步走向你。】",
           "LocalizedString": "【朝阳下，数着脚步走向你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       },
       "33500362": {
         "Id": 33500362,
@@ -11261,8 +11892,8 @@
         "Name": {
           "Namespace": "Achievement",
           "Key": "33500362_Name",
-          "SourceString": "阔步于曙光的独角兽",
-          "LocalizedString": "阔步于曙光的独角兽"
+          "SourceString": "曙光中的独角兽",
+          "LocalizedString": "曙光中的独角兽"
         },
         "Role": 105,
         "Quality": 2,
@@ -11298,13 +11929,14 @@
           "SourceString": "【朝阳下，数着脚步走向你。】",
           "LocalizedString": "【朝阳下，数着脚步走向你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       },
       "33500391": {
         "Id": 33500391,
         "Group": 3350039,
         "Level": 1,
-        "NextId": 33500372,
+        "NextId": 33500392,
         "Type": 5,
         "Name": {
           "Namespace": "Achievement",
@@ -11346,7 +11978,8 @@
           "SourceString": "【我期待的，究竟是哪一颗明亮的星？】",
           "LocalizedString": "【我期待的，究竟是哪一颗明亮的星？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500392": {
         "Id": 33500392,
@@ -11394,13 +12027,14 @@
           "SourceString": "【我期待的，究竟是哪一颗明亮的星？】",
           "LocalizedString": "【我期待的，究竟是哪一颗明亮的星？】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 2
       },
       "33500401": {
         "Id": 33500401,
         "Group": 3350040,
         "Level": 1,
-        "NextId": 33500382,
+        "NextId": 33500402,
         "Type": 5,
         "Name": {
           "Namespace": "Achievement",
@@ -11442,7 +12076,8 @@
           "SourceString": "【期待中相见，相见后心安，心安时确定，敬与你。】",
           "LocalizedString": "【期待中相见，相见后心安，心安时确定，敬与你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       },
       "33500402": {
         "Id": 33500402,
@@ -11490,7 +12125,400 @@
           "SourceString": "【期待中相见，相见后心安，心安时确定，敬与你。】",
           "LocalizedString": "【期待中相见，相见后心安，心安时确定，敬与你。】"
         },
-        "TaskPurposes": []
+        "TaskPurposes": [],
+        "DisplayOrder": 4
+      },
+      "33500431": {
+        "Id": 33500431,
+        "Group": 3350043,
+        "Level": 1,
+        "NextId": 33500432,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500431_Name",
+          "SourceString": "未曾遗忘的笑声",
+          "LocalizedString": "未曾遗忘的笑声"
+        },
+        "Role": 128,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500431_Captions",
+          "SourceString": "阅读拉薇的角色小传达 {0}篇",
+          "LocalizedString": "阅读拉薇的角色小传达 {0}篇"
+        },
+        "Param1": 52,
+        "Param2": [
+          3
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500431,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500431,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500431_Explain",
+          "SourceString": "阅读拉薇的角色小传达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读拉薇的角色小传达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500431_Details",
+          "SourceString": "【饮茶，共酌，聊天，谈梦，与你。】",
+          "LocalizedString": "【饮茶，共酌，聊天，谈梦，与你。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 2
+      },
+      "33500432": {
+        "Id": 33500432,
+        "Group": 3350043,
+        "Level": 2,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500432_Name",
+          "SourceString": "未曾遗忘的笑声",
+          "LocalizedString": "未曾遗忘的笑声"
+        },
+        "Role": 128,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500432_Captions",
+          "SourceString": "阅读拉薇的角色小传达 {0}篇",
+          "LocalizedString": "阅读拉薇的角色小传达 {0}篇"
+        },
+        "Param1": 52,
+        "Param2": [
+          5
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500432,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500432,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500432_Explain",
+          "SourceString": "阅读拉薇的角色小传达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读拉薇的角色小传达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500432_Details",
+          "SourceString": "【饮茶，共酌，聊天，谈梦，与你。】",
+          "LocalizedString": "【饮茶，共酌，聊天，谈梦，与你。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 2
+      },
+      "33500441": {
+        "Id": 33500441,
+        "Group": 3350044,
+        "Level": 1,
+        "NextId": 33500442,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500441_Name",
+          "SourceString": "走向决意的怒号",
+          "LocalizedString": "走向决意的怒号"
+        },
+        "Role": 128,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500441_Captions",
+          "SourceString": "阅读拉薇的羁绊之物剧情达 {0}篇",
+          "LocalizedString": "阅读拉薇的羁绊之物剧情达 {0}篇"
+        },
+        "Param1": 53,
+        "Param2": [
+          2
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500441,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500441,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500441_Explain",
+          "SourceString": "阅读拉薇的羁绊之物剧情达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读拉薇的羁绊之物剧情达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500441_Details",
+          "SourceString": "【号鸣，起行，碎杯，并肩，和我。】",
+          "LocalizedString": "【号鸣，起行，碎杯，并肩，和我。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 4
+      },
+      "33500442": {
+        "Id": 33500442,
+        "Group": 3350044,
+        "Level": 2,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500442_Name",
+          "SourceString": "走向决意的怒号",
+          "LocalizedString": "走向决意的怒号"
+        },
+        "Role": 128,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500442_Captions",
+          "SourceString": "阅读拉薇的羁绊之物剧情达 {0}篇",
+          "LocalizedString": "阅读拉薇的羁绊之物剧情达 {0}篇"
+        },
+        "Param1": 53,
+        "Param2": [
+          4
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500442,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500442,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500442_Explain",
+          "SourceString": "阅读拉薇的羁绊之物剧情达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读拉薇的羁绊之物剧情达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500442_Details",
+          "SourceString": "【号鸣，起行，碎杯，并肩，和我。】",
+          "LocalizedString": "【号鸣，起行，碎杯，并肩，和我。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 4
+      },
+      "33500471": {
+        "Id": 33500471,
+        "Group": 3350047,
+        "Level": 1,
+        "NextId": 33500472,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500471_Name",
+          "SourceString": "再见啦光辉的冒险",
+          "LocalizedString": "再见啦光辉的冒险"
+        },
+        "Role": 124,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500471_Captions",
+          "SourceString": "阅读心夏的角色小传达 {0}篇",
+          "LocalizedString": "阅读心夏的角色小传达 {0}篇"
+        },
+        "Param1": 52,
+        "Param2": [
+          3
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500471,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500471,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500471_Explain",
+          "SourceString": "阅读心夏的角色小传达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读心夏的角色小传达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500471_Details",
+          "SourceString": "【不成熟的冒险就到这里啦，我们终将会再次相遇。】",
+          "LocalizedString": "【不成熟的冒险就到这里啦，我们终将会再次相遇。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 2
+      },
+      "33500472": {
+        "Id": 33500472,
+        "Group": 3350047,
+        "Level": 2,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500472_Name",
+          "SourceString": "再见啦光辉的冒险",
+          "LocalizedString": "再见啦光辉的冒险"
+        },
+        "Role": 124,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500472_Captions",
+          "SourceString": "阅读心夏的角色小传达 {0}篇",
+          "LocalizedString": "阅读心夏的角色小传达 {0}篇"
+        },
+        "Param1": 52,
+        "Param2": [
+          5
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500472,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500472,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500472_Explain",
+          "SourceString": "阅读心夏的角色小传达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读心夏的角色小传达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500472_Details",
+          "SourceString": "【不成熟的冒险就到这里啦，我们终将会再次相遇。】",
+          "LocalizedString": "【不成熟的冒险就到这里啦，我们终将会再次相遇。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 2
+      },
+      "33500481": {
+        "Id": 33500481,
+        "Group": 3350048,
+        "Level": 1,
+        "NextId": 33500482,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500481_Name",
+          "SourceString": "晨曦里起航的初心",
+          "LocalizedString": "晨曦里起航的初心"
+        },
+        "Role": 124,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500481_Captions",
+          "SourceString": "阅读心夏的羁绊之物剧情达 {0}篇",
+          "LocalizedString": "阅读心夏的羁绊之物剧情达 {0}篇"
+        },
+        "Param1": 53,
+        "Param2": [
+          2
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500481,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500481,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500481_Explain",
+          "SourceString": "阅读心夏的羁绊之物剧情达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读心夏的羁绊之物剧情达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500481_Details",
+          "SourceString": "【下一趟旅行，我会以更好的样子航行到你面前，“好久不见”。】",
+          "LocalizedString": "【下一趟旅行，我会以更好的样子航行到你面前，“好久不见”。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 4
+      },
+      "33500482": {
+        "Id": 33500482,
+        "Group": 3350048,
+        "Level": 2,
+        "NextId": 0,
+        "Type": 5,
+        "Name": {
+          "Namespace": "Achievement",
+          "Key": "33500482_Name",
+          "SourceString": "晨曦里起航的初心",
+          "LocalizedString": "晨曦里起航的初心"
+        },
+        "Role": 124,
+        "Quality": 2,
+        "Captions": {
+          "Namespace": "Achievement",
+          "Key": "33500482_Captions",
+          "SourceString": "阅读心夏的羁绊之物剧情达 {0}篇",
+          "LocalizedString": "阅读心夏的羁绊之物剧情达 {0}篇"
+        },
+        "Param1": 53,
+        "Param2": [
+          4
+        ],
+        "Param3": 0,
+        "Param4": [],
+        "Param5": [],
+        "Prize": [
+          {
+            "ItemId": 33500482,
+            "ItemAmount": 1
+          }
+        ],
+        "Priority": 500482,
+        "Explain": {
+          "Namespace": "Achievement",
+          "Key": "33500482_Explain",
+          "SourceString": "阅读心夏的羁绊之物剧情达 <Chat-Self>{0}</> 篇",
+          "LocalizedString": "阅读心夏的羁绊之物剧情达 <Chat-Self>{0}</> 篇"
+        },
+        "Details": {
+          "Namespace": "Achievement",
+          "Key": "33500482_Details",
+          "SourceString": "【下一趟旅行，我会以更好的样子航行到你面前，“好久不见”。】",
+          "LocalizedString": "【下一趟旅行，我会以更好的样子航行到你面前，“好久不见”。】"
+        },
+        "TaskPurposes": [],
+        "DisplayOrder": 4
       }
     }
   }

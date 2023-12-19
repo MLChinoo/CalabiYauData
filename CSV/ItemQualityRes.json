@@ -24,15 +24,7 @@
           "SourceString": "Initial",
           "LocalizedString": "Initial"
         },
-        "Color": "ececec",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "ececec"
       },
       "2": {
         "QualityId": 1,
@@ -48,15 +40,7 @@
           "SourceString": "Excellent",
           "LocalizedString": "Excellent"
         },
-        "Color": "ececec",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "ececec"
       },
       "3": {
         "QualityId": 2,
@@ -72,15 +56,7 @@
           "SourceString": "Exquisite",
           "LocalizedString": "Exquisite"
         },
-        "Color": "60a3f7",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "60a3f7"
       },
       "4": {
         "QualityId": 3,
@@ -96,15 +72,7 @@
           "SourceString": "Superior",
           "LocalizedString": "Superior"
         },
-        "Color": "f285ff",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "f285ff"
       },
       "5": {
         "QualityId": 4,
@@ -120,15 +88,7 @@
           "SourceString": "Perfect",
           "LocalizedString": "Perfect"
         },
-        "Color": "ffc555",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "ffc555"
       },
       "6": {
         "QualityId": 5,
@@ -144,15 +104,7 @@
           "SourceString": "Legendary",
           "LocalizedString": "Legendary"
         },
-        "Color": "f85555",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "f85555"
       },
       "7": {
         "QualityId": 6,
@@ -168,15 +120,7 @@
           "SourceString": "Secret",
           "LocalizedString": "Secret"
         },
-        "Color": "f78653",
-        "IconItemQuality": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "IconItemQualityDescrip": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        }
+        "Color": "f78653"
       }
     }
   }

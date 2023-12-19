@@ -42,6 +42,10 @@
         "Tag": "GC.Blocked2D.Particle",
         "DevComment": "禁止2D时，角色3P粒子"
       },
+      "GC.DamageFactor": {
+        "Tag": "GC.DamageFactor",
+        "DevComment": "伤害加深"
+      },
       "GC.Stealth": {
         "Tag": "GC.Stealth",
         "DevComment": "隐身"
@@ -113,6 +117,10 @@
       "GC.Reiichi.P.Active": {
         "Tag": "GC.Reiichi.P.Active",
         "DevComment": "令一被动激活效果"
+      },
+      "GC.Reiichi.P.Trigger": {
+        "Tag": "GC.Reiichi.P.Trigger",
+        "DevComment": "令一被动触发效果"
       },
       "GC.Reiichi.P.ScreenEffect": {
         "Tag": "GC.Reiichi.P.ScreenEffect",
@@ -297,6 +305,46 @@
       "GC.Weaknessess": {
         "Tag": "GC.Weaknessess",
         "DevComment": "易损"
+      },
+      "GC.Flavia.Q.Butterfly": {
+        "Tag": "GC.Flavia.Q.Butterfly",
+        "DevComment": "芙拉薇娅Q蝴蝶效果"
+      },
+      "GC.Flavia.Q.Wave": {
+        "Tag": "GC.Flavia.Q.Wave",
+        "DevComment": "芙拉薇娅Q触发效果"
+      },
+      "GC.Flavia.Blind": {
+        "Tag": "GC.Flavia.Blind",
+        "DevComment": "芙拉薇娅致盲效果"
+      },
+      "GC.Flavia.X.Stealth": {
+        "Tag": "GC.Flavia.X.Stealth",
+        "DevComment": "芙拉薇娅大招对圈外隐身"
+      },
+      "GC.Aika.Q": {
+        "Tag": "GC.Aika.Q",
+        "DevComment": "艾卡Q"
+      },
+      "GC.Aika.Enhanced.Q.Self": {
+        "Tag": "GC.Aika.Enhanced.Q.Self",
+        "DevComment": "艾卡红怒Q自己效果"
+      },
+      "GC.Aika.Enhanced.Q.Enemy": {
+        "Tag": "GC.Aika.Enhanced.Q.Enemy",
+        "DevComment": "艾卡红怒Q敌人效果"
+      },
+      "GC.Aika.P": {
+        "Tag": "GC.Aika.P",
+        "DevComment": "艾卡被动"
+      },
+      "GC.Aika.X": {
+        "Tag": "GC.Aika.X",
+        "DevComment": "艾卡X"
+      },
+      "GC.IceZone": {
+        "Tag": "GC.IceZone",
+        "DevComment": "冰面效果"
       }
     }
   }

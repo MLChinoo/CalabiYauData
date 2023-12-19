@@ -3,7 +3,6 @@
     "Type": "CurveTable",
     "Name": "CT_RoundConfig",
     "Class": "UScriptClass'CurveTable'",
-    "CurveTableMode": "SimpleCurves",
     "Rows": {
       "WinExceedRound": {
         "InterpMode": "RCIM_Linear",
@@ -23,6 +22,14 @@
           {
             "Time": 3.0,
             "Value": 2.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -47,6 +54,14 @@
           {
             "Time": 3.0,
             "Value": 8.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 5.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 5.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -62,15 +77,23 @@
           },
           {
             "Time": 1.0,
-            "Value": 0.0
+            "Value": 1.0
           },
           {
             "Time": 2.0,
-            "Value": 0.0
+            "Value": 1.0
           },
           {
             "Time": 3.0,
             "Value": 1.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -95,6 +118,14 @@
           {
             "Time": 3.0,
             "Value": 3.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -118,6 +149,14 @@
           },
           {
             "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
             "Value": 0.0
           }
         ],
@@ -143,6 +182,14 @@
           {
             "Time": 3.0,
             "Value": 0.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -167,6 +214,14 @@
           {
             "Time": 3.0,
             "Value": 3.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,

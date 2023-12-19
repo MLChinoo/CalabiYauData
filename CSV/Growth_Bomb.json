@@ -14,47 +14,78 @@
         "RoleId": 101,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -64,6 +95,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -97,8 +167,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part1Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -111,50 +181,100 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part2Desc_Index1",
-            "SourceString": "准镜倍率提升",
-            "LocalizedString": "准镜倍率提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part5Desc_Index0",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_Part5Desc_Index1",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_QDesc_Index0",
+            "SourceString": "射程增加5米",
+            "LocalizedString": "射程增加5米"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_QDesc_Index1",
+            "SourceString": "上限增加至3个",
+            "LocalizedString": "上限增加至3个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加2秒",
+            "LocalizedString": "敌方暴露时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_DefaultProperty1_Index0",
-            "SourceString": "射速|60|100",
-            "LocalizedString": "射速|60|100"
+            "SourceString": "射速|60|1200",
+            "LocalizedString": "射速|60|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -189,8 +309,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -201,8 +321,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -281,161 +401,175 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part1Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part1Level2_Index0",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
-          }
-        ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part2Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part2Level2_Index0",
-            "SourceString": "放大倍率|0.75",
-            "LocalizedString": "放大倍率|0.75"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part2Level2_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part5Level1": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "101_Part5Level1_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "101_Part5Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "101_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
           }
         ],
-        "Part5Level2": [
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "101_Part5Level2_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
+            "Key": "101_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "101_Part5Level2_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
+            "Key": "101_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_Part5Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "输出",
+            "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "101_PartName_Index3",
-            "SourceString": "人机",
-            "LocalizedString": "人机"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "101_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "132": {
         "RoleId": 132,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -445,6 +579,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -478,64 +651,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part1Desc_Index0",
-            "SourceString": "基础射速提升",
-            "LocalizedString": "基础射速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part2Desc_Index1",
-            "SourceString": "准镜倍率提升",
-            "LocalizedString": "准镜倍率提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part4Desc_Index0",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part5Desc_Index0",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_Part5Desc_Index1",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_QDesc_Index1",
+            "SourceString": "持续时间增加3秒",
+            "LocalizedString": "持续时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_PassiveDesc_Index0",
+            "SourceString": "吸甲量提升50%",
+            "LocalizedString": "吸甲量提升50%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_DefaultProperty1_Index0",
-            "SourceString": "射速|50|100",
-            "LocalizedString": "射速|50|100"
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -558,8 +781,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_DefaultProperty1_Index4",
-            "SourceString": "弹夹容量|20|50",
-            "LocalizedString": "弹夹容量|20|50"
+            "SourceString": "弹夹容量|25|50",
+            "LocalizedString": "弹夹容量|25|50"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -570,8 +793,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -582,8 +805,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -662,161 +885,193 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_Part1Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part1Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_Part1Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part2Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part1Level2": [
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "132_Part1Level2_Index0",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
+            "Key": "132_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.211",
+            "LocalizedString": "弦化伤害|*0.211"
           }
         ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part2Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part2Level2_Index0",
-            "SourceString": "放大倍率|0.75",
-            "LocalizedString": "放大倍率|0.75"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part2Level2_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
-          }
-        ],
-        "Part4Level1": [
+        "Part4Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "132_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "Key": "132_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
           }
         ],
-        "Part5Level1": [
+        "Part5Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "132_Part5Level1_Index0",
+            "Key": "132_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "132_Part5Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part5Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part5Level2_Index0",
-            "SourceString": "精准|*0.3",
-            "LocalizedString": "精准|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "132_Part5Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "132_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "132_PartName_Index3",
-            "SourceString": "精准",
-            "LocalizedString": "精准"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "132_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "146": {
         "RoleId": 146,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -826,6 +1081,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          0,
+          1,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -859,64 +1153,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part1Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "基础射速提升",
+            "LocalizedString": "基础射速提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part1Desc_Index1",
-            "SourceString": "切换为三连发模式",
-            "LocalizedString": "切换为三连发模式"
+            "SourceString": "三连发射击模式",
+            "LocalizedString": "三连发射击模式"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part2Desc_Index1",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part4Desc_Index0",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part5Desc_Index0",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_Part5Desc_Index1",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_QDesc_Index0",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_QDesc_Index1",
+            "SourceString": "上限增加至2个",
+            "LocalizedString": "上限增加至2个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_PassiveDesc_Index0",
+            "SourceString": "恢复速度提升100%",
+            "LocalizedString": "恢复速度提升100%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_DefaultProperty1_Index0",
-            "SourceString": "射速|55|100",
-            "LocalizedString": "射速|55|100"
+            "SourceString": "射速|55|1200",
+            "LocalizedString": "射速|55|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -951,8 +1295,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -963,8 +1307,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -1043,164 +1387,187 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part1Level1_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part1Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part1Level2_Index0",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
-          }
-        ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part2Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part2Level2_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part2Level2_Index1",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
-          }
-        ],
-        "Part4Level1": [
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part1Level11": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "146_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "CultureInvariantString": null
           }
         ],
-        "Part5Level1": [
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "146_Part5Level1_Index0",
+            "Key": "146_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_Part5Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "146_Part5Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "146_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
           }
         ],
-        "Part5Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "146_Part5Level2_Index0",
+            "Key": "146_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "146_Part5Level2_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
+            "Key": "146_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "输出",
+            "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "146_PartName_Index3",
             "SourceString": "精准",
             "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "146_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "133": {
         "RoleId": 133,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1210,6 +1577,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -1243,42 +1649,42 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part1Desc_Index0",
-            "SourceString": "基础射速提升",
-            "LocalizedString": "基础射速提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part2Desc_Index0",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           }
         ],
         "Part5Desc": [
@@ -1291,16 +1697,66 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_Part5Desc_Index1",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_QDesc_Index0",
+            "SourceString": "持续时间增加5秒",
+            "LocalizedString": "持续时间增加5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_QDesc_Index1",
+            "SourceString": "上限增加至2个",
+            "LocalizedString": "上限增加至2个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_PassiveDesc_Index0",
+            "SourceString": "悬浮时重力减少",
+            "LocalizedString": "悬浮时重力减少"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_DefaultProperty1_Index0",
-            "SourceString": "射速|65|100",
-            "LocalizedString": "射速|65|100"
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -1335,8 +1791,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -1347,8 +1803,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -1427,161 +1883,193 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part1Level2": [
+        "Part2Level01": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part1Level2_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
+            "CultureInvariantString": null
           }
         ],
-        "Part2Level1": [
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "133_Part2Level1_Index0",
+            "Key": "133_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_Part4Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_Part4Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "133_Part2Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "133_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
           }
         ],
-        "Part2Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "133_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part2Level2_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
-          {
-            "CultureInvariantString": null
-          }
-        ],
-        "Part5Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part5Level1_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part5Level1_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
-          }
-        ],
-        "Part5Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "133_Part5Level2_Index0",
+            "Key": "133_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "133_Part5Level2_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "Key": "133_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_PartName_Index1",
-            "SourceString": "操控",
-            "LocalizedString": "操控"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "133_PartName_Index3",
-            "SourceString": "精准",
-            "LocalizedString": "精准"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "133_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "112": {
         "RoleId": 112,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1591,6 +2079,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          0,
+          1,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -1624,8 +2151,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part1Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -1638,50 +2165,100 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part2Desc_Index1",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part4Desc_Index0",
-            "SourceString": "远距离伤害提升",
-            "LocalizedString": "远距离伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part5Desc_Index0",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_Part5Desc_Index1",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_QDesc_Index1",
+            "SourceString": "持续时间增加3秒",
+            "LocalizedString": "持续时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_PassiveDesc_Index0",
+            "SourceString": "晶体回复量增加25点",
+            "LocalizedString": "晶体回复量增加25点"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_DefaultProperty1_Index0",
-            "SourceString": "射速|50|100",
-            "LocalizedString": "射速|50|100"
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -1716,8 +2293,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -1728,8 +2305,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -1808,161 +2385,187 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part1Level1_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part1Level2": [
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part2Level1": [
+        "Part1Level11": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part2Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "CultureInvariantString": null
           }
         ],
-        "Part2Level2": [
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "112_Part2Level2_Index0",
+            "Key": "112_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.177",
+            "LocalizedString": "弦化伤害|*0.177"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_Part5Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "112_Part2Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "112_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
           }
         ],
-        "Part4Level1": [
-          {
-            "CultureInvariantString": null
-          }
-        ],
-        "Part4Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "112_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part5Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part5Level1_Index0",
-            "SourceString": "操控|*0.3",
-            "LocalizedString": "操控|*0.3"
+            "Key": "112_Part5Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "112_Part5Level1_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
-          }
-        ],
-        "Part5Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part5Level2_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "112_Part5Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "112_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "输出",
+            "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "112_PartName_Index3",
             "SourceString": "精准",
             "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "112_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "128": {
         "RoleId": 128,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1972,6 +2575,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -2005,64 +2647,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part1Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part1Desc_Index1",
-            "SourceString": "远距离伤害提升",
-            "LocalizedString": "远距离伤害提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part2Desc_Index0",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part5Desc_Index0",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_Part5Desc_Index1",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_QDesc_Index1",
+            "SourceString": "敌方暴露时间增加3秒",
+            "LocalizedString": "敌方暴露时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加2秒",
+            "LocalizedString": "敌方暴露时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_DefaultProperty1_Index0",
-            "SourceString": "射速|65|100",
-            "LocalizedString": "射速|65|100"
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2097,8 +2789,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2109,8 +2801,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -2189,89 +2881,74 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part1Level1_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
+            "Key": "128_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.286",
+            "LocalizedString": "有效衰减|*0.286"
           }
         ],
-        "Part1Level2": [
+        "Part1Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part1Level2_Index0",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "Key": "128_Part1Level11_Index0",
+            "SourceString": "移动速度|*0.084",
+            "LocalizedString": "移动速度|*0.084"
           }
         ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "128_Part2Level1_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "128_Part2Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "128_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "128_Part2Level2_Index1",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "128_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
+        "Part2Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part5Level1": [
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part5Level1_Index0",
+            "Key": "128_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.215",
+            "LocalizedString": "弦化伤害|*0.215"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_Part5Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part5Level1_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
+            "Key": "128_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
           }
         ],
-        "Part5Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part5Level2_Index0",
+            "Key": "128_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "128_Part5Level2_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
+            "Key": "128_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
@@ -2284,69 +2961,113 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_PartName_Index1",
-            "SourceString": "操控",
-            "LocalizedString": "操控"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "128_PartName_Index3",
             "SourceString": "精准",
             "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "128_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "108": {
         "RoleId": 108,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -2356,6 +3077,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -2389,64 +3149,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part1Desc_Index0",
-            "SourceString": "切换全自动模式",
-            "LocalizedString": "切换全自动模式"
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "全自动射击模式",
+            "LocalizedString": "全自动射击模式"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part2Desc_Index0",
-            "SourceString": "准镜倍率提升",
-            "LocalizedString": "准镜倍率提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part4Desc_Index0",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part5Desc_Index0",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_Part5Desc_Index1",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_QDesc_Index0",
+            "SourceString": "射速和人机工效提升50%",
+            "LocalizedString": "射速和人机工效提升50%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_QDesc_Index1",
+            "SourceString": "每秒回甲量增加3点",
+            "LocalizedString": "每秒回甲量增加3点"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_PassiveDesc_Index0",
+            "SourceString": "弱化时间增加2秒",
+            "LocalizedString": "弱化时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_DefaultProperty1_Index0",
-            "SourceString": "射速|25|100",
-            "LocalizedString": "射速|25|100"
+            "SourceString": "射速|25|1200",
+            "LocalizedString": "射速|25|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2481,8 +3291,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2493,8 +3303,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -2573,89 +3383,59 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "108_Part1Level1_Index0",
-            "SourceString": "开火模式切换|4",
-            "LocalizedString": "开火模式切换|4"
+            "Key": "108_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.2",
+            "LocalizedString": "有效衰减|*0.2"
           }
         ],
-        "Part1Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part1Level2_Index0",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
-          }
-        ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part2Level1_Index0",
-            "SourceString": "放大倍率|1.5",
-            "LocalizedString": "放大倍率|1.5"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part2Level1_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part2Level2_Index1",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part4Level1": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "108_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "Key": "108_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.186",
+            "LocalizedString": "弦化伤害|*0.186"
           }
         ],
-        "Part5Level1": [
+        "Part2Level11": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part5Level1_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "108_Part5Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "CultureInvariantString": null
           }
         ],
-        "Part5Level2": [
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "108_Part5Level2_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
+            "Key": "108_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "108_Part5Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "108_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_Part5Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
           }
         ],
         "PartName": [
@@ -2668,69 +3448,113 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "108_PartName_Index3",
-            "SourceString": "人机",
-            "LocalizedString": "人机"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "108_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "107": {
         "RoleId": 107,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -2740,6 +3564,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -2773,42 +3636,42 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part1Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part1Desc_Index1",
-            "SourceString": "远距离伤害提升",
-            "LocalizedString": "远距离伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part2Desc_Index0",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           }
         ],
         "Part5Desc": [
@@ -2821,16 +3684,66 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_Part5Desc_Index1",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_QDesc_Index0",
+            "SourceString": "持续时间增加15秒",
+            "LocalizedString": "持续时间增加15秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_QDesc_Index1",
+            "SourceString": "上限增加至3个",
+            "LocalizedString": "上限增加至3个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加3秒",
+            "LocalizedString": "敌方暴露时间增加3秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_DefaultProperty1_Index0",
-            "SourceString": "射速|20|100",
-            "LocalizedString": "射速|20|100"
+            "SourceString": "射速|20|1200",
+            "LocalizedString": "射速|20|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2865,8 +3778,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -2877,8 +3790,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -2957,158 +3870,181 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "107_Part1Level1_Index0",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "107_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.446",
+            "LocalizedString": "装填速度|*0.446"
           }
         ],
-        "Part1Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part1Level2_Index0",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part2Level1_Index0",
-            "SourceString": "精准|*0.3",
-            "LocalizedString": "精准|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part2Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.444",
-            "LocalizedString": "瞄准速度|*0.444"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part2Level2_Index1",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part5Level1": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "107_Part5Level1_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
+            "Key": "107_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.162",
+            "LocalizedString": "弦化伤害|*0.162"
           }
         ],
-        "Part5Level2": [
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "107_Part5Level2_Index0",
+            "Key": "107_Part4Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_Part4Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "107_Part5Level2_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_PartName_Index1",
-            "SourceString": "操控",
-            "LocalizedString": "操控"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "107_PartName_Index3",
-            "SourceString": "精准",
-            "LocalizedString": "精准"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "107_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "105": {
         "RoleId": 105,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 1,
+        "QMax1": [
+          1
+        ],
         "QNeed": [
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 2,
+        "PassiveMax1": [
+          1,
+          1
+        ],
         "PassiveNeed": [
           250,
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -3118,6 +4054,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -3151,8 +4126,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part1Desc_Index0",
-            "SourceString": "连续开火射速提升",
-            "LocalizedString": "连续开火射速提升"
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3165,50 +4140,100 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part2Desc_Index1",
-            "SourceString": "准镜倍率提升",
-            "LocalizedString": "准镜倍率提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part4Desc_Index0",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "备弹数量提升",
+            "LocalizedString": "备弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part5Desc_Index0",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_Part5Desc_Index1",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_QDesc_Index0",
+            "SourceString": "机枪过热速度变慢",
+            "LocalizedString": "机枪过热速度变慢"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_PassiveDesc_Index0",
+            "SourceString": "护盾最大值提升",
+            "LocalizedString": "护盾最大值提升"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_PassiveDesc_Index1",
+            "SourceString": "护盾恢复增加100%",
+            "LocalizedString": "护盾恢复增加100%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_DefaultProperty1_Index0",
-            "SourceString": "射速|50|100",
-            "LocalizedString": "射速|50|100"
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3243,8 +4268,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3255,8 +4280,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -3335,155 +4360,190 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part1Level1_Index0",
-            "SourceString": "射速|*0.48",
-            "LocalizedString": "射速|*0.48"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part1Level1_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
-          }
-        ],
-        "Part1Level2": [
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.571",
-            "LocalizedString": "瞄准速度|*0.571"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part2Level2_Index0",
-            "SourceString": "放大倍率|0.75",
-            "LocalizedString": "放大倍率|0.75"
-          }
-        ],
-        "Part4Level1": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "105_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "Key": "105_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.177",
+            "LocalizedString": "弦化伤害|*0.177"
           }
         ],
-        "Part5Level1": [
+        "Part2Level11": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part5Level1_Index0",
-            "SourceString": "操控|*0.3",
-            "LocalizedString": "操控|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "105_Part5Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "CultureInvariantString": null
           }
         ],
-        "Part5Level2": [
+        "Part4Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "105_Part5Level2_Index0",
+            "Key": "105_Part4Level01_Index0",
+            "SourceString": "移动速度|*-0.04",
+            "LocalizedString": "移动速度|*-0.04"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_Part4Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_Part5Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "105_Part5Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "105_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "输出",
+            "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "105_PartName_Index3",
             "SourceString": "精准",
             "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "105_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "124": {
         "RoleId": 124,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -3493,6 +4553,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -3532,58 +4631,108 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "蓄力速度提升",
+            "LocalizedString": "蓄力速度提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part2Desc_Index1",
-            "SourceString": "更换为快速瞄具",
-            "LocalizedString": "更换为快速瞄具"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part4Desc_Index0",
-            "SourceString": "远距离伤害提升",
-            "LocalizedString": "远距离伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part5Desc_Index0",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_Part5Desc_Index1",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_QDesc_Index1",
+            "SourceString": "提升治疗速度100%",
+            "LocalizedString": "提升治疗速度100%"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_PassiveDesc_Index0",
+            "SourceString": "提升救起血量50点",
+            "LocalizedString": "提升救起血量50点"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_DefaultProperty1_Index0",
-            "SourceString": "射速|5|100",
-            "LocalizedString": "射速|5|100"
+            "SourceString": "射速|5|1200",
+            "LocalizedString": "射速|5|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3618,8 +4767,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|7|10",
-            "LocalizedString": "拉栓速度|7|10"
+            "SourceString": "拉栓速度|70|100",
+            "LocalizedString": "拉栓速度|70|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3630,8 +4779,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -3710,83 +4859,65 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part1Level1_Index0",
+            "Key": "124_Part1Level01_Index0",
             "SourceString": "拉栓速度|*0.4",
             "LocalizedString": "拉栓速度|*0.4"
           }
         ],
-        "Part1Level2": [
+        "Part1Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part1Level2_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
+            "Key": "124_Part1Level11_Index0",
+            "SourceString": "瞄准速度|*0.16533",
+            "LocalizedString": "瞄准速度|*0.16533"
           }
         ],
-        "Part2Level1": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.4",
-            "LocalizedString": "瞄准速度|*0.4"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "124_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*1",
-            "LocalizedString": "瞄准速度|*1"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "124_Part2Level2_Index1",
+            "Key": "124_Part2Level01_Index0",
             "SourceString": "放大倍率|-1",
             "LocalizedString": "放大倍率|-1"
           }
         ],
-        "Part4Level1": [
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.175",
+            "LocalizedString": "弦化伤害|*0.175"
+          }
+        ],
+        "Part4Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "Key": "124_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
           }
         ],
-        "Part5Level1": [
+        "Part5Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part5Level1_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "124_Part5Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "Key": "124_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
           }
         ],
-        "Part5Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "124_Part5Level2_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "124_Part5Level2_Index1",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
+            "Key": "124_Part5Level11_Index0",
+            "SourceString": "移动速度|*0.092",
+            "LocalizedString": "移动速度|*0.092"
           }
         ],
         "PartName": [
@@ -3799,69 +4930,113 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "124_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "124_PartName_Index2",
             "SourceString": "输出",
             "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
+            "Key": "124_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Bomb",
             "Key": "124_PartName_Index3",
-            "SourceString": "操控",
-            "LocalizedString": "操控"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "124_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "110": {
         "RoleId": 110,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -3871,6 +5046,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -3904,64 +5118,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part1Desc_Index0",
-            "SourceString": "单发弹丸数提升",
-            "LocalizedString": "单发弹丸数提升"
+            "SourceString": "弹丸数提升",
+            "LocalizedString": "弹丸数提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part1Desc_Index1",
-            "SourceString": "切换为独头弹",
-            "LocalizedString": "切换为独头弹"
+            "SourceString": "独头弹模式",
+            "LocalizedString": "独头弹模式"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part2Desc_Index0",
-            "SourceString": "散射控制提升",
-            "LocalizedString": "散射控制提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part4Desc_Index0",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part5Desc_Index0",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_Part5Desc_Index1",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_QDesc_Index1",
+            "SourceString": "自动上弹数翻倍",
+            "LocalizedString": "自动上弹数翻倍"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_PassiveDesc_Index0",
+            "SourceString": "持续时间增加0.5秒",
+            "LocalizedString": "持续时间增加0.5秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_DefaultProperty1_Index0",
-            "SourceString": "射速|15|100",
-            "LocalizedString": "射速|15|100"
+            "SourceString": "射速|15|1200",
+            "LocalizedString": "射速|15|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -3996,8 +5260,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -4008,8 +5272,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -4088,71 +5352,65 @@
             "LocalizedString": "散发减少|0.5"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part1Level2": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part2Level1": [
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "110_Part2Level1_Index0",
+            "Key": "110_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_Part4Level01_Index0",
+            "SourceString": "装填速度|*-0.1",
+            "LocalizedString": "装填速度|*-0.1"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_Part4Level11_Index0",
+            "SourceString": "有效衰减|*0.4",
+            "LocalizedString": "有效衰减|*0.4"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.086",
+            "LocalizedString": "移动速度|*0.086"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_Part5Level11_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part2Level1_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.444",
-            "LocalizedString": "瞄准速度|*0.444"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part2Level2_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "CultureInvariantString": null
-          }
-        ],
-        "Part4Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part5Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part5Level1_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part5Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "110_Part5Level2_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
           }
         ],
         "PartName": [
@@ -4165,69 +5423,113 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_PartName_Index2",
-            "SourceString": "输出",
-            "LocalizedString": "输出"
+            "SourceString": "弹药",
+            "LocalizedString": "弹药"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "110_PartName_Index3",
-            "SourceString": "弹药",
-            "LocalizedString": "弹药"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "110_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "109": {
         "RoleId": 109,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -4237,6 +5539,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -4270,64 +5611,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part1Desc_Index0",
-            "SourceString": "基础射速提升",
-            "LocalizedString": "基础射速提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part2Desc_Index1",
-            "SourceString": "更换为快速瞄具",
-            "LocalizedString": "更换为快速瞄具"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part5Desc_Index0",
-            "SourceString": "后座力控制提升",
-            "LocalizedString": "后座力控制提升"
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_Part5Desc_Index1",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_QDesc_Index0",
+            "SourceString": "持续时间增加5秒",
+            "LocalizedString": "持续时间增加5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_QDesc_Index1",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_PassiveDesc_Index0",
+            "SourceString": "激活时间缩短1.5秒",
+            "LocalizedString": "激活时间缩短1.5秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_DefaultProperty1_Index0",
-            "SourceString": "射速|15|100",
-            "LocalizedString": "射速|15|100"
+            "SourceString": "射速|15|1200",
+            "LocalizedString": "射速|15|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -4362,8 +5753,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -4374,8 +5765,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -4454,155 +5845,181 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.446",
+            "LocalizedString": "装填速度|*0.446"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part1Level2": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "109_Part1Level2_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
+            "Key": "109_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.171",
+            "LocalizedString": "弦化伤害|*0.171"
           }
         ],
-        "Part2Level1": [
+        "Part2Level11": [
           {
-            "Namespace": "Growth_Bomb",
-            "Key": "109_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.444",
-            "LocalizedString": "瞄准速度|*0.444"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "109_Part2Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "CultureInvariantString": null
           }
         ],
-        "Part2Level2": [
+        "Part4Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "109_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*1",
-            "LocalizedString": "瞄准速度|*1"
-          },
+            "Key": "109_Part4Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
+          }
+        ],
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "109_Part2Level2_Index1",
+            "Key": "109_Part4Level11_Index0",
+            "SourceString": "移动速度|*0.09",
+            "LocalizedString": "移动速度|*0.09"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_Part5Level01_Index0",
             "SourceString": "放大倍率|-1",
             "LocalizedString": "放大倍率|-1"
           }
         ],
-        "Part4Level1": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "109_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
-          {
-            "CultureInvariantString": null
-          }
-        ],
-        "Part5Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "109_Part5Level1_Index0",
+            "Key": "109_Part5Level11_Index0",
             "SourceString": "操控|*0.3",
             "LocalizedString": "操控|*0.3"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "109_Part5Level1_Index1",
-            "SourceString": "精准|*-0.04995",
-            "LocalizedString": "精准|*-0.04995"
-          }
-        ],
-        "Part5Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "109_Part5Level2_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
           }
         ],
         "PartName": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_PartName_Index0",
-            "SourceString": "核心",
-            "LocalizedString": "核心"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "109_PartName_Index3",
             "SourceString": "操控",
             "LocalizedString": "操控"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "109_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "131": {
         "RoleId": 131,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -4612,6 +6029,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -4645,64 +6101,114 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part1Desc_Index0",
-            "SourceString": "基础射速提升",
-            "LocalizedString": "基础射速提升"
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part2Desc_Index0",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part2Desc_Index1",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part4Desc_Index0",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part4Desc_Index1",
-            "SourceString": "对头部伤害提升",
-            "LocalizedString": "对头部伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part5Desc_Index0",
-            "SourceString": "腰射散射控制提升",
-            "LocalizedString": "腰射散射控制提升"
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_Part5Desc_Index1",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_QDesc_Index0",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_QDesc_Index1",
+            "SourceString": "增加1次冲刺次数",
+            "LocalizedString": "增加1次冲刺次数"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_PassiveDesc_Index0",
+            "SourceString": "进入隐身加快50%",
+            "LocalizedString": "进入隐身加快50%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_DefaultProperty1_Index0",
-            "SourceString": "射速|65|100",
-            "LocalizedString": "射速|65|100"
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -4737,8 +6243,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|0|10",
-            "LocalizedString": "拉栓速度|0|10"
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -4749,8 +6255,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -4829,89 +6335,74 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "131_Part1Level1_Index0",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "Key": "131_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.4",
+            "LocalizedString": "有效衰减|*0.4"
           }
         ],
-        "Part1Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part1Level2_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
-          }
-        ],
-        "Part2Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part2Level1_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part2Level1_Index1",
-            "SourceString": "移动速度|*-0.054",
-            "LocalizedString": "移动速度|*-0.054"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*0.666",
-            "LocalizedString": "瞄准速度|*0.666"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part2Level2_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
-          }
-        ],
-        "Part4Level1": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "131_Part4Level1_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
-          }
-        ],
-        "Part4Level2": [
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part5Level1": [
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "131_Part5Level1_Index0",
+            "Key": "131_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.215",
+            "LocalizedString": "弦化伤害|*0.215"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_Part4Level01_Index0",
+            "SourceString": "移动速度|*0.084",
+            "LocalizedString": "移动速度|*0.084"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.299",
+            "LocalizedString": "装填速度|*0.299"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_Part5Level01_Index0",
             "SourceString": "精准|*0.3",
             "LocalizedString": "精准|*0.3"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "131_Part5Level1_Index1",
-            "SourceString": "瞄准速度|*-0.117",
-            "LocalizedString": "瞄准速度|*-0.117"
+            "Key": "131_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
           }
         ],
-        "Part5Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "131_Part5Level2_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
+            "Key": "131_Part5Level11_Index0",
+            "SourceString": "瞄准速度|*0.429",
+            "LocalizedString": "瞄准速度|*0.429"
           },
           {
             "Namespace": "Growth_Bomb",
-            "Key": "131_Part5Level2_Index1",
-            "SourceString": "操控|*-0.066",
-            "LocalizedString": "操控|*-0.066"
+            "Key": "131_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
           }
         ],
         "PartName": [
@@ -4924,69 +6415,113 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_PartName_Index1",
-            "SourceString": "人机",
-            "LocalizedString": "人机"
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "操控",
+            "LocalizedString": "操控"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "131_PartName_Index3",
-            "SourceString": "操控",
-            "LocalizedString": "操控"
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "131_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "137": {
         "RoleId": 137,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -4996,6 +6531,45 @@
           4,
           8,
           6
+        ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [
+          18101001,
+          50,
+          18201001,
+          50,
+          18301001,
+          50,
+          18401001,
+          50,
+          18501001,
+          50,
+          18601001,
+          50,
+          18701001,
+          50,
+          18801001,
+          50
         ],
         "AssistShoot": [
           {
@@ -5035,58 +6609,108 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part1Desc_Index1",
-            "SourceString": "弹匣载弹数提升",
-            "LocalizedString": "弹匣载弹数提升"
+            "SourceString": "蓄力速度提升",
+            "LocalizedString": "蓄力速度提升"
           }
         ],
         "Part2Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part2Desc_Index0",
-            "SourceString": "开镜速度提升",
-            "LocalizedString": "开镜速度提升"
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part2Desc_Index1",
-            "SourceString": "更换为快速瞄具",
-            "LocalizedString": "更换为快速瞄具"
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part4Desc_Index0",
-            "SourceString": "远距离伤害提升",
-            "LocalizedString": "远距离伤害提升"
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part4Desc_Index1",
-            "SourceString": "对弦化伤害提升",
-            "LocalizedString": "对弦化伤害提升"
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part5Desc_Index0",
-            "SourceString": "最大跑速提升",
-            "LocalizedString": "最大跑速提升"
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_Part5Desc_Index1",
-            "SourceString": "换弹速度提升",
-            "LocalizedString": "换弹速度提升"
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_QDesc_Index1",
+            "SourceString": "持续时间增加2秒",
+            "LocalizedString": "持续时间增加2秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_PassiveDesc_Index0",
+            "SourceString": "持续时间增加0.25秒",
+            "LocalizedString": "持续时间增加0.25秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
           }
         ],
         "DefaultProperty1": [
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_DefaultProperty1_Index0",
-            "SourceString": "射速|5|100",
-            "LocalizedString": "射速|5|100"
+            "SourceString": "射速|5|1200",
+            "LocalizedString": "射速|5|1200"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -5121,8 +6745,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_DefaultProperty1_Index6",
-            "SourceString": "拉栓速度|6|10",
-            "LocalizedString": "拉栓速度|6|10"
+            "SourceString": "拉栓速度|60|100",
+            "LocalizedString": "拉栓速度|60|100"
           },
           {
             "Namespace": "Growth_Bomb",
@@ -5133,8 +6757,8 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_DefaultProperty1_Index8",
-            "SourceString": "弦化伤害|65|100",
-            "LocalizedString": "弦化伤害|65|100"
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
           }
         ],
         "DefaultProperty2": [
@@ -5213,77 +6837,65 @@
             "LocalizedString": "散发减少|0.99"
           }
         ],
-        "Part1Level1": [
+        "Part1Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part1Level1_Index0",
-            "SourceString": "拉栓速度|*0.3",
-            "LocalizedString": "拉栓速度|*0.3"
+            "Key": "137_Part1Level01_Index0",
+            "SourceString": "拉栓速度|*0.5",
+            "LocalizedString": "拉栓速度|*0.5"
           }
         ],
-        "Part1Level2": [
+        "Part1Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part1Level2_Index0",
-            "SourceString": "装填速度|*-0.117",
-            "LocalizedString": "装填速度|*-0.117"
+            "Key": "137_Part1Level11_Index0",
+            "SourceString": "瞄准速度|*0.165",
+            "LocalizedString": "瞄准速度|*0.165"
           }
         ],
-        "Part2Level1": [
+        "Part2Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part2Level1_Index0",
-            "SourceString": "瞄准速度|*0.363",
-            "LocalizedString": "瞄准速度|*0.363"
-          }
-        ],
-        "Part2Level2": [
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "137_Part2Level2_Index0",
-            "SourceString": "瞄准速度|*1",
-            "LocalizedString": "瞄准速度|*1"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "137_Part2Level2_Index1",
+            "Key": "137_Part2Level01_Index0",
             "SourceString": "放大倍率|-1",
             "LocalizedString": "放大倍率|-1"
           }
         ],
-        "Part4Level1": [
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.165",
+            "LocalizedString": "弦化伤害|*0.165"
+          }
+        ],
+        "Part4Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "Part4Level2": [
+        "Part4Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part4Level2_Index0",
-            "SourceString": "弦化伤害|*0.3",
-            "LocalizedString": "弦化伤害|*0.3"
+            "Key": "137_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
           }
         ],
-        "Part5Level1": [
+        "Part5Level01": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part5Level1_Index0",
-            "SourceString": "移动速度|*0.16",
-            "LocalizedString": "移动速度|*0.16"
-          },
-          {
-            "Namespace": "Growth_Bomb",
-            "Key": "137_Part5Level1_Index1",
-            "SourceString": "精准|*-0.0666",
-            "LocalizedString": "精准|*-0.0666"
+            "Key": "137_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.401",
+            "LocalizedString": "瞄准速度|*0.401"
           }
         ],
-        "Part5Level2": [
+        "Part5Level11": [
           {
             "Namespace": "Growth_Bomb",
-            "Key": "137_Part5Level2_Index0",
-            "SourceString": "装填速度|*0.35",
-            "LocalizedString": "装填速度|*0.35"
+            "Key": "137_Part5Level11_Index0",
+            "SourceString": "移动速度|*0.092",
+            "LocalizedString": "移动速度|*0.092"
           }
         ],
         "PartName": [
@@ -5296,23 +6908,36 @@
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_PartName_Index1",
-            "SourceString": "瞄准",
-            "LocalizedString": "瞄准"
+            "SourceString": "输出",
+            "LocalizedString": "输出"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_PartName_Index2",
-            "SourceString": "伤害",
-            "LocalizedString": "伤害"
+            "SourceString": "续航",
+            "LocalizedString": "续航"
           },
           {
             "Namespace": "Growth_Bomb",
             "Key": "137_PartName_Index3",
-            "SourceString": "精准",
-            "LocalizedString": "精准"
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Bomb",
+            "Key": "137_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
           }
         ],
-        "AttackSpeedWeight": 5
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       }
     }
   }

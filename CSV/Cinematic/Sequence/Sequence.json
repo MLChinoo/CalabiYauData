@@ -10,6 +10,286 @@
       }
     },
     "Rows": {
+      "99013": {
+        "Id": 99013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Q_Block-Down.Q_Block-Down",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99014": {
+        "Id": 99014,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Shoot_Close-Door.Shoot_Close-Door",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99020": {
+        "Id": 99020,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_12.Voc_12",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99021": {
+        "Id": 99021,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot1.Voc_Shoot1",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99022": {
+        "Id": 99022,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot2.Voc_Shoot2",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99023": {
+        "Id": 99023,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot3.Voc_Shoot3",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99024": {
+        "Id": 99024,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot4.Voc_Shoot4",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "99025": {
+        "Id": 99025,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Block-Down.Block-Down",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": false,
+        "IsHideOthers": true,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 0.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
       "9900008": {
         "Id": 9900008,
         "Asset": {
@@ -20,10 +300,10 @@
         "MapId": 97001,
         "SequenceMode": "ESequenceModeType::CinematicMode",
         "AllowSkipTime": 0.0,
-        "IsHideUi": true,
+        "IsHideUi": false,
         "IsBlockBackgroundMusic": true,
-        "IsHidePlayer": true,
-        "IsHideOthers": true,
+        "IsHidePlayer": false,
+        "IsHideOthers": false,
         "LoopNum": 1,
         "DefaultPlayRate": 1.0,
         "EndCameraSetting": {
@@ -55,10 +335,10 @@
         "MapId": 97002,
         "SequenceMode": "ESequenceModeType::CinematicMode",
         "AllowSkipTime": 0.0,
-        "IsHideUi": true,
+        "IsHideUi": false,
         "IsBlockBackgroundMusic": true,
-        "IsHidePlayer": true,
-        "IsHideOthers": true,
+        "IsHidePlayer": false,
+        "IsHideOthers": false,
         "LoopNum": 1,
         "DefaultPlayRate": 1.0,
         "EndCameraSetting": {
@@ -535,10 +815,10 @@
         },
         "Description": ""
       },
-      "25133001": {
-        "Id": 25133001,
+      "25101001": {
+        "Id": 25101001,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -570,10 +850,10 @@
         },
         "Description": ""
       },
-      "25101001": {
-        "Id": 25101001,
+      "25101106": {
+        "Id": 25101106,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S106/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -640,10 +920,185 @@
         },
         "Description": ""
       },
-      "25146001": {
-        "Id": 25146001,
+      "25101206": {
+        "Id": 25101206,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S206/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25105001": {
+        "Id": 25105001,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25105201": {
+        "Id": 25105201,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25107001": {
+        "Id": 25107001,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25107206": {
+        "Id": 25107206,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S206/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25108001": {
+        "Id": 25108001,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -679,6 +1134,76 @@
         "Id": 25109001,
         "Asset": {
           "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25110001": {
+        "Id": 25110001,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25110104": {
+        "Id": 25110104,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S104/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -815,10 +1340,150 @@
         },
         "Description": ""
       },
+      "25124102": {
+        "Id": 25124102,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S102/SelectRoleSequence/SelectRoleSequence_KokonaShiki_S102.SelectRoleSequence_KokonaShiki_S102",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25124103": {
+        "Id": 25124103,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S103/SelectRoleSequence/SelectRoleSequence_KokonaShiki_S103.SelectRoleSequence_KokonaShiki_S103",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.000001,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25124201": {
+        "Id": 25124201,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.000002,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
       "25128001": {
         "Id": 25128001,
         "Asset": {
           "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S001/SelectRoleSequence/SelectRoleSequence1.SelectRoleSequence1",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "25128201": {
+        "Id": 25128201,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -920,185 +1585,10 @@
         },
         "Description": ""
       },
-      "25105001": {
-        "Id": 25105001,
+      "25133001": {
+        "Id": 25133001,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25107001": {
-        "Id": 25107001,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25110001": {
-        "Id": 25110001,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146201": {
-        "Id": 25146201,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146206": {
-        "Id": 25146206,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S206/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25105201": {
-        "Id": 25105201,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -1200,10 +1690,10 @@
         },
         "Description": ""
       },
-      "25108001": {
-        "Id": 25108001,
+      "25137103": {
+        "Id": 25137103,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S103/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -1235,10 +1725,10 @@
         },
         "Description": ""
       },
-      "25101002": {
-        "Id": 25101002,
+      "25146001": {
+        "Id": 25146001,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/MatchEndSequence/WinSequence.WinSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -1270,10 +1760,10 @@
         },
         "Description": ""
       },
-      "25101006": {
-        "Id": 25101006,
+      "25146201": {
+        "Id": 25146201,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/MatchEndSequence/WinSequence.WinSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -1305,1095 +1795,10 @@
         },
         "Description": ""
       },
-      "25105002": {
-        "Id": 25105002,
+      "25146206": {
+        "Id": 25146206,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25107002": {
-        "Id": 25107002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25108002": {
-        "Id": 25108002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25109002": {
-        "Id": 25109002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25110002": {
-        "Id": 25110002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25112002": {
-        "Id": 25112002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Fuchsia/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25124002": {
-        "Id": 25124002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25128002": {
-        "Id": 25128002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25131002": {
-        "Id": 25131002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Yvette/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25132002": {
-        "Id": 25132002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Ming/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25133002": {
-        "Id": 25133002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146002": {
-        "Id": 25146002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146102": {
-        "Id": 25146102,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146202": {
-        "Id": 25146202,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S206/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25137002": {
-        "Id": 25137002,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S001/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25137102": {
-        "Id": 25137102,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S101/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25146003": {
-        "Id": 25146003,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/EndingSequence.EndingSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99013": {
-        "Id": 99013,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Q_Block-Down.Q_Block-Down",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99014": {
-        "Id": 99014,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Shoot_Close-Door.Shoot_Close-Door",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99020": {
-        "Id": 99020,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_12.Voc_12",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99021": {
-        "Id": 99021,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot1.Voc_Shoot1",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99022": {
-        "Id": 99022,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot2.Voc_Shoot2",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99023": {
-        "Id": 99023,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot3.Voc_Shoot3",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99024": {
-        "Id": 99024,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Voc_Shoot4.Voc_Shoot4",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "99025": {
-        "Id": 99025,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Maps/Envi_Train/Sequence/Sequence/Block-Down.Block-Down",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": true,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "26146001": {
-        "Id": 26146001,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/Mvp.Mvp",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "9614601": {
-        "Id": 9614601,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Cinematics/Apartment/XingHui/N201/N1_01_WakeUp.N1_01_WakeUp",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::ApartmentMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": true,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "9614602": {
-        "Id": 9614602,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Cinematics/Apartment/XingHui/N201/N1_02_BeReady.N1_02_BeReady",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::ApartmentMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": true,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "9614603": {
-        "Id": 9614603,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Cinematics/Apartment/XingHui/N201/N1_03_Pledge.N1_03_Pledge",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::ApartmentMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": true,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "9614604": {
-        "Id": 9614604,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/Cinematics/Apartment/XingHui/N201/N1_04_End.N1_04_End",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::ApartmentMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": false,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": true,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 0.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "26105201": {
-        "Id": 26105201,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/MatchEndSequence/WinSequence.WinSequence",
-          "SubPathString": ""
-        },
-        "IsPreLoad": false,
-        "MapId": 0,
-        "SequenceMode": "ESequenceModeType::NormalMode",
-        "AllowSkipTime": -1.0,
-        "IsHideUi": false,
-        "IsBlockBackgroundMusic": false,
-        "IsHidePlayer": true,
-        "IsHideOthers": false,
-        "LoopNum": 1,
-        "DefaultPlayRate": 1.0,
-        "EndCameraSetting": {
-          "IsSmoothTransition": false,
-          "CameraPos": {
-            "X": 0.0,
-            "Y": -678.0,
-            "Z": 62.0
-          },
-          "CameraRot": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "BlendTime": 1.0,
-          "BlendFunction": "VTBlend_Cubic",
-          "BlendExp": 2.0,
-          "bLockOutgoing": false
-        },
-        "Description": ""
-      },
-      "25105103": {
-        "Id": 25105103,
-        "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S103/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S206/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -2460,10 +1865,10 @@
         },
         "Description": ""
       },
-      "26105103": {
-        "Id": 26105103,
+      "25105103": {
+        "Id": 25105103,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S103/MatchEndSequence/WinSequence.WinSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S103/SelectRoleSequence/SelectRoleSequence.SelectRoleSequence",
           "SubPathString": ""
         },
         "IsPreLoad": false,
@@ -2495,10 +1900,2705 @@
         },
         "Description": ""
       },
-      "26105104": {
-        "Id": 26105104,
+      "31010011": {
+        "Id": 31010011,
         "Asset": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S104/MatchEndSequence/WinSequence.WinSequence",
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/MatchEndSequence/Michele001_Win.Michele001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31010012": {
+        "Id": 31010012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/MatchEndSequence/Michele001_Lose.Michele001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31010013": {
+        "Id": 31010013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S001/MatchEndSequence/Michele001_MVP.Michele001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31012011": {
+        "Id": 31012011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/MatchEndSequence/Michele201_Win.Michele201_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31012012": {
+        "Id": 31012012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/MatchEndSequence/Michele201_Lose.Michele201_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31012013": {
+        "Id": 31012013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/MatchEndSequence/Michele201_MVP.Michele201_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31012061": {
+        "Id": 31012061,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S206/MatchEndSequence/Michele206_Win.Michele206_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31012062": {
+        "Id": 31012062,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S206/MatchEndSequence/Michele206_Lose.Michele206_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31460011": {
+        "Id": 31460011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/HuiXing001_Win.HuiXing001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31460012": {
+        "Id": 31460012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/HuiXing001_Lose.HuiXing001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31460013": {
+        "Id": 31460013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S001/MatchEndSequence/HuiXing001_MVP.HuiXing001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31462011": {
+        "Id": 31462011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/MatchEndSequence/HuiXing201_Win.HuiXing201_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31462012": {
+        "Id": 31462012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/MatchEndSequence/HuiXing201_Lose.HuiXing201_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31462013": {
+        "Id": 31462013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/MatchEndSequence/HuiXing201_MVP.HuiXing201_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31462061": {
+        "Id": 31462061,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S206/MatchEndSequence/HuiXing206_Win.HuiXing206_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31462062": {
+        "Id": 31462062,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S206/MatchEndSequence/HuiXing206_Lose.HuiXing206_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31050011": {
+        "Id": 31050011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/MatchEndSequence/Audrey001_Win.Audrey001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31050012": {
+        "Id": 31050012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/MatchEndSequence/Audrey001_Lose.Audrey001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31050013": {
+        "Id": 31050013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S001/MatchEndSequence/Audrey001_MVP.Audrey001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31052011": {
+        "Id": 31052011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/MatchEndSequence/Audrey201_Win.Audrey201_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31052012": {
+        "Id": 31052012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/MatchEndSequence/Audrey201_Lose.Audrey201_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31052013": {
+        "Id": 31052013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/MatchEndSequence/Audrey201_MVP.Audrey201_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31310011": {
+        "Id": 31310011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Yvette/S001/MatchEndSequence/Yvette001_Win.Yvette001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31310012": {
+        "Id": 31310012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Yvette/S001/MatchEndSequence/Yvette001_Lose.Yvette001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31310013": {
+        "Id": 31310013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Yvette/S001/MatchEndSequence/Yvette001_MVP.Yvette001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31070011": {
+        "Id": 31070011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/MatchEndSequence/Maddelena001_Win.Maddelena001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31070012": {
+        "Id": 31070012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/MatchEndSequence/Maddelena001_Lose.Maddelena001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31070013": {
+        "Id": 31070013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S001/MatchEndSequence/Maddelena001_MVP.Maddelena001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31072061": {
+        "Id": 31072061,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S206/MatchEndSequence/Maddelena206_Win.Maddelena206_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31072062": {
+        "Id": 31072062,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Maddelena/S206/MatchEndSequence/Maddelena206_Lose.Maddelena206_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31320011": {
+        "Id": 31320011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Ming/S001/MatchEndSequence/Ming001_Win.Ming001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31320012": {
+        "Id": 31320012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Ming/S001/MatchEndSequence/Ming001_Lose.Ming001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31320013": {
+        "Id": 31320013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Ming/S001/MatchEndSequence/Ming001_MVP.Ming001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31370011": {
+        "Id": 31370011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S001/MatchEndSequence/Kanami001_Win.Kanami001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31370012": {
+        "Id": 31370012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S001/MatchEndSequence/Kanami001_Lose.Kanami001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31370013": {
+        "Id": 31370013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S001/MatchEndSequence/Kanami001_MVP.Kanami001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371011": {
+        "Id": 31371011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S101/MatchEndSequence/Kanami101_Win.Kanami101_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371012": {
+        "Id": 31371012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S101/MatchEndSequence/Kanami101_Lose.Kanami101_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371013": {
+        "Id": 31371013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S101/MatchEndSequence/Kanami101_MVP.Kanami101_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371031": {
+        "Id": 31371031,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S103/MatchEndSequence/Kanami103_Win.Kanami103_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371032": {
+        "Id": 31371032,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S103/MatchEndSequence/Kanami103_Lose.Kanami103_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31371033": {
+        "Id": 31371033,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Kanami/S103/MatchEndSequence/Kanami103_MVP.Kanami103_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31120011": {
+        "Id": 31120011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Fuchsia/S001/MatchEndSequence/Fuchsia001_Win.Fuchsia001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31120012": {
+        "Id": 31120012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Fuchsia/S001/MatchEndSequence/Fuchsia001_Lose.Fuchsia001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31120013": {
+        "Id": 31120013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Fuchsia/S001/MatchEndSequence/Fuchsia001_MVP.Fuchsia001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31280011": {
+        "Id": 31280011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S001/MatchEndSequence/Lawine001_Win.Lawine001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31280012": {
+        "Id": 31280012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S001/MatchEndSequence/Lawine001_Lose.Lawine001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31280013": {
+        "Id": 31280013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S001/MatchEndSequence/Lawine001_MVP.Lawine001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31282011": {
+        "Id": 31282011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S201/MatchEndSequence/Lawine201_Win.Lawine201_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31282012": {
+        "Id": 31282012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S201/MatchEndSequence/Lawine201_Lose.Lawine201_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31282013": {
+        "Id": 31282013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Lawine/S201/MatchEndSequence/Lawine201_MVP.Lawine201_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31240011": {
+        "Id": 31240011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S001/MatchEndSequence/KokonaShiki001_Win.KokonaShiki001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31240012": {
+        "Id": 31240012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S001/MatchEndSequence/KokonaShiki001_Lose.KokonaShiki001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31240013": {
+        "Id": 31240013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S001/MatchEndSequence/KokonaShiki001_MVP.KokonaShiki001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241011": {
+        "Id": 31241011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S101/MatchEndSequence/KokonaShiki101_Win.KokonaShiki101_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241012": {
+        "Id": 31241012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S101/MatchEndSequence/KokonaShiki101_Lose.KokonaShiki101_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241013": {
+        "Id": 31241013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S101/MatchEndSequence/KokonaShiki101_MVP.KokonaShiki101_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241021": {
+        "Id": 31241021,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S102/MatchEndSequence/KokonaShiki102_Win.KokonaShiki102_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241022": {
+        "Id": 31241022,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S102/MatchEndSequence/KokonaShiki102_Lose.KokonaShiki102_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31241023": {
+        "Id": 31241023,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S102/MatchEndSequence/KokonaShiki102_MVP.KokonaShiki102_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31242011": {
+        "Id": 31242011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S201/MatchEndSequence/KokonaShiki201_Win.KokonaShiki201_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31242012": {
+        "Id": 31242012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S201/MatchEndSequence/KokonaShiki201_Lose.KokonaShiki201_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31242013": {
+        "Id": 31242013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/KokonaShiki/S201/MatchEndSequence/KokonaShiki201_MVP.KokonaShiki201_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31330011": {
+        "Id": 31330011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/MatchEndSequence/Meredith001_Win.Meredith001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31330012": {
+        "Id": 31330012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/MatchEndSequence/Meredith001_Lose.Meredith001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31330013": {
+        "Id": 31330013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Meredith/S001/MatchEndSequence/Meredith001_MVP.Meredith001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31100011": {
+        "Id": 31100011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/MatchEndSequence/MoBai001_Win.MoBai001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31100012": {
+        "Id": 31100012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/MatchEndSequence/MoBai001_Lose.MoBai001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31100013": {
+        "Id": 31100013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/MoBai/S001/MatchEndSequence/MoBai001_MVP.MoBai001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31090011": {
+        "Id": 31090011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S001/MatchEndSequence/Reiichi001_Win.Reiichi001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31090012": {
+        "Id": 31090012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S001/MatchEndSequence/Reiichi001_Lose.Reiichi001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31090013": {
+        "Id": 31090013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S001/MatchEndSequence/Reiichi001_MVP.Reiichi001_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31091041": {
+        "Id": 31091041,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S104/MatchEndSequence/Reiichi104_Win.Reiichi104_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31091042": {
+        "Id": 31091042,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S104/MatchEndSequence/Reiichi104_Lose.Reiichi104_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31091043": {
+        "Id": 31091043,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Reiichi/S104/MatchEndSequence/Reiichi104_MVP.Reiichi104_MVP",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31080011": {
+        "Id": 31080011,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/MatchEndSequence/Nobunaga001_Win.Nobunaga001_Win",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31080012": {
+        "Id": 31080012,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/MatchEndSequence/Nobunaga001_Lose.Nobunaga001_Lose",
+          "SubPathString": ""
+        },
+        "IsPreLoad": false,
+        "MapId": 0,
+        "SequenceMode": "ESequenceModeType::NormalMode",
+        "AllowSkipTime": -1.0,
+        "IsHideUi": false,
+        "IsBlockBackgroundMusic": false,
+        "IsHidePlayer": true,
+        "IsHideOthers": false,
+        "LoopNum": 1,
+        "DefaultPlayRate": 1.0,
+        "EndCameraSetting": {
+          "IsSmoothTransition": false,
+          "CameraPos": {
+            "X": 0.0,
+            "Y": -678.0,
+            "Z": 62.0
+          },
+          "CameraRot": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "BlendTime": 1.0,
+          "BlendFunction": "VTBlend_Cubic",
+          "BlendExp": 2.0,
+          "bLockOutgoing": false
+        },
+        "Description": ""
+      },
+      "31080013": {
+        "Id": 31080013,
+        "Asset": {
+          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Nobunaga/S001/MatchEndSequence/Nobunaga001_MVP.Nobunaga001_MVP",
           "SubPathString": ""
         },
         "IsPreLoad": false,

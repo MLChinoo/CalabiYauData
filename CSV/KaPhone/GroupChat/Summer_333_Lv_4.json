@@ -82,12 +82,12 @@
           "SubPathString": ""
         },
         "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Texture",
+        "ContentType": "ECyCommunicationContentType::TextureBig",
         "TextContent": {
           "CultureInvariantString": null
         },
         "TextureContent": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/ChatShare/T_Dynamic_ChatShare_60001002.T_Dynamic_ChatShare_60001002",
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/ChatShare/T_Dynamic_ChatShare_60002002.T_Dynamic_ChatShare_60002002",
           "SubPathString": ""
         },
         "AkOnEvent": {

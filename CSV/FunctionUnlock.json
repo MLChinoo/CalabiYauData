@@ -128,8 +128,8 @@
         "Name": {
           "Namespace": "FunctionUnlock",
           "Key": "25_Name",
-          "SourceString": "故事",
-          "LocalizedString": "故事"
+          "SourceString": "引航手册",
+          "LocalizedString": "引航手册"
         },
         "Type": 2,
         "SubFunction": [],
@@ -138,7 +138,7 @@
           "CultureInvariantString": null
         },
         "BluePrint": "CinematicCloister",
-        "RedDot": "None",
+        "RedDot": "BPGuidBook",
         "Proxy": "None"
       },
       "30": {
@@ -525,7 +525,7 @@
           "CultureInvariantString": null
         },
         "BluePrint": "HermesTopUpPage",
-        "RedDot": "None",
+        "RedDot": "HermesTopUp",
         "Proxy": "None"
       },
       "64": {

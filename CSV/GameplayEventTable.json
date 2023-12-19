@@ -394,6 +394,94 @@
         "Tag": "Event.Summon.Destroy.Meredith.X.Projectile",
         "DevComment": "梅瑞迪斯大招技能子弹销毁"
       },
+      "Event.Summon.Spawn.Aika.X.Projectile": {
+        "Tag": "Event.Summon.Spawn.Aika.X.Projectile",
+        "DevComment": "艾卡大招技能子弹出生"
+      },
+      "Event.Summon.Destroy.Aika.X.Projectile": {
+        "Tag": "Event.Summon.Destroy.Aika.X.Projectile",
+        "DevComment": "艾卡大招技能子弹销毁"
+      },
+      "Event.Summon.Spawn.Aika.Q": {
+        "Tag": "Event.Summon.Spawn.Aika.Q",
+        "DevComment": "艾卡Q技能召唤物出生"
+      },
+      "Event.Summon.Destroy.Aika.Q": {
+        "Tag": "Event.Summon.Destroy.Aika.Q",
+        "DevComment": "艾卡Q技能召唤物销毁"
+      },
+      "Event.Summon.Leave.Aika.Q": {
+        "Tag": "Event.Summon.Leave.Aika.Q",
+        "DevComment": "离开艾卡Q技能召唤物"
+      },
+      "Event.Summon.Spawn.Aika.X.Enhanced.Projectile": {
+        "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Projectile",
+        "DevComment": "艾卡红怒增强版大招技能子弹出生"
+      },
+      "Event.Summon.Destroy.Aika.X.Enhanced.Projectile": {
+        "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Projectile",
+        "DevComment": "艾卡红怒增强版大招技能子弹销毁"
+      },
+      "Event.Summon.Spawn.Aika.Enhanced.Q": {
+        "Tag": "Event.Summon.Spawn.Aika.Enhanced.Q",
+        "DevComment": "艾卡红怒增强版Q技能召唤物出生"
+      },
+      "Event.Summon.Destroy.Aika.Enhanced.Q": {
+        "Tag": "Event.Summon.Destroy.Aika.Enhanced.Q",
+        "DevComment": "艾卡红怒增强版Q技能召唤物销毁"
+      },
+      "Event.Summon.Spawn.Aika.X.Summon": {
+        "Tag": "Event.Summon.Spawn.Aika.X.Summon",
+        "DevComment": "艾卡大招技能召唤物生成"
+      },
+      "Event.Summon.Destroy.Aika.X.Summon": {
+        "Tag": "Event.Summon.Destroy.Aika.X.Summon",
+        "DevComment": "艾卡大招技能召唤物销毁"
+      },
+      "Event.Summon.Spawn.Aika.X.Enhanced.Summon": {
+        "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Summon",
+        "DevComment": "艾卡红怒大招技能召唤物生成"
+      },
+      "Event.Summon.Destroy.Aika.X.Enhanced.Summon": {
+        "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Summon",
+        "DevComment": "艾卡红怒大招技能召唤物销毁"
+      },
+      "Event.Summon.Spawn.Galatea.P": {
+        "Tag": "Event.Summon.Spawn.Galatea.P",
+        "DevComment": "加拉蒂亚P技能召唤物出生"
+      },
+      "Event.Summon.Leave.Galatea.P": {
+        "Tag": "Event.Summon.Leave.Galatea.P",
+        "DevComment": "加拉蒂亚P技能召唤物超时"
+      },
+      "Event.Summon.Destroy.Galatea.P": {
+        "Tag": "Event.Summon.Destroy.Galatea.P",
+        "DevComment": "加拉蒂亚P技能召唤物销毁"
+      },
+      "Event.Summon.Death.Galatea.P": {
+        "Tag": "Event.Summon.Death.Galatea.P",
+        "DevComment": "加拉蒂亚P技能召唤物死亡"
+      },
+      "Event.Summon.Spawn.Galatea.Q": {
+        "Tag": "Event.Summon.Spawn.Galatea.Q",
+        "DevComment": "加拉蒂亚Q技能召唤物出生"
+      },
+      "Event.Summon.Leave.Galatea.Q": {
+        "Tag": "Event.Summon.Leave.Galatea.Q",
+        "DevComment": "加拉蒂亚Q技能召唤物超时"
+      },
+      "Event.Summon.Destroy.Galatea.Q": {
+        "Tag": "Event.Summon.Destroy.Galatea.Q",
+        "DevComment": "加拉蒂亚Q技能召唤物销毁"
+      },
+      "Event.Summon.Spawn.Galatea.Q.Projectile": {
+        "Tag": "Event.Summon.Spawn.Galatea.Q.Projectile",
+        "DevComment": "加拉蒂亚Q技能发射物生成"
+      },
+      "Event.Summon.Destroy.Galatea.Q.Projectile": {
+        "Tag": "Event.Summon.Destroy.Galatea.Q.Projectile",
+        "DevComment": "加拉蒂亚Q技能发射物销毁"
+      },
       "Event.Summon.Spawn.Huixing.Q": {
         "Tag": "Event.Summon.Spawn.Huixing.Q",
         "DevComment": "星绘Q技能召唤物出生"
@@ -766,6 +854,10 @@
         "Tag": "Event.GuideEnemy.KillAll",
         "DevComment": "击杀所有敌人"
       },
+      "Event.Guide.TeamGuide.FinishedTrainFlagUpload": {
+        "Tag": "Event.Guide.TeamGuide.FinishedTrainFlagUpload",
+        "DevComment": "团竞引导-完成玩家类型选择任务"
+      },
       "Event.Task.Begin": {
         "Tag": "Event.Task.Begin",
         "DevComment": "任务开始"
@@ -802,44 +894,84 @@
         "Tag": "Event.RoundEnd",
         "DevComment": "回合结束"
       },
-      "Event.GameState.RoleSelect": {
-        "Tag": "Event.GameState.RoleSelect",
+      "Event.GameState.RoleSelect.Begin": {
+        "Tag": "Event.GameState.RoleSelect.Begin",
         "DevComment": "游戏状态-角色选择阶段"
       },
-      "Event.GameState.RoleReselect": {
-        "Tag": "Event.GameState.RoleReselect",
+      "Event.GameState.RoleSelect.End": {
+        "Tag": "Event.GameState.RoleSelect.End",
+        "DevComment": "游戏状态-角色选择阶段"
+      },
+      "Event.GameState.RoleReselect.Begin": {
+        "Tag": "Event.GameState.RoleReselect.Begin",
         "DevComment": "游戏状态-角色重新选择阶段"
       },
-      "Event.GameState.RoleLoad": {
-        "Tag": "Event.GameState.RoleLoad",
+      "Event.GameState.RoleReselect.End": {
+        "Tag": "Event.GameState.RoleReselect.End",
+        "DevComment": "游戏状态-角色重新选择阶段"
+      },
+      "Event.GameState.RoleLoad.Begin": {
+        "Tag": "Event.GameState.RoleLoad.Begin",
         "DevComment": "游戏状态-角色加载阶段"
       },
-      "Event.GameState.ReStart": {
-        "Tag": "Event.GameState.ReStart",
+      "Event.GameState.RoleLoad.End": {
+        "Tag": "Event.GameState.RoleLoad.End",
+        "DevComment": "游戏状态-角色加载阶段"
+      },
+      "Event.GameState.ReStart.Begin": {
+        "Tag": "Event.GameState.ReStart.Begin",
         "DevComment": "游戏状态-重新开始"
       },
-      "Event.GameState.Prepare": {
-        "Tag": "Event.GameState.Prepare",
+      "Event.GameState.ReStart.End": {
+        "Tag": "Event.GameState.ReStart.End",
+        "DevComment": "游戏状态-重新开始"
+      },
+      "Event.GameState.Prepare.Begin": {
+        "Tag": "Event.GameState.Prepare.Begin",
         "DevComment": "游戏状态-角色准备阶段"
       },
-      "Event.GameState.Warmup": {
-        "Tag": "Event.GameState.Warmup",
+      "Event.GameState.Prepare.End": {
+        "Tag": "Event.GameState.Prepare.End",
+        "DevComment": "游戏状态-角色准备阶段"
+      },
+      "Event.GameState.Warmup.Begin": {
+        "Tag": "Event.GameState.Warmup.Begin",
         "DevComment": "游戏状态-热身阶段"
       },
-      "Event.GameState.Fight": {
-        "Tag": "Event.GameState.Fight",
+      "Event.GameState.Warmup.End": {
+        "Tag": "Event.GameState.Warmup.End",
+        "DevComment": "游戏状态-热身阶段"
+      },
+      "Event.GameState.Fight.Begin": {
+        "Tag": "Event.GameState.Fight.Begin",
         "DevComment": "游戏状态-游戏战斗阶段"
       },
-      "Event.GameState.FightPlaced": {
-        "Tag": "Event.GameState.FightPlaced",
+      "Event.GameState.Fight.End": {
+        "Tag": "Event.GameState.Fight.End",
+        "DevComment": "游戏状态-游戏战斗阶段"
+      },
+      "Event.GameState.FightPlaced.Begin": {
+        "Tag": "Event.GameState.FightPlaced.Begin",
         "DevComment": "游戏状态-埋包后的战斗阶段"
       },
-      "Event.GameState.FightEnd": {
-        "Tag": "Event.GameState.FightEnd",
+      "Event.GameState.FightPlaced.End": {
+        "Tag": "Event.GameState.FightPlaced.End",
+        "DevComment": "游戏状态-埋包后的战斗阶段"
+      },
+      "Event.GameState.FightEnd.Begin": {
+        "Tag": "Event.GameState.FightEnd.Begin",
         "DevComment": "游戏状态-游戏单局默认结束"
       },
-      "Event.GameState.GameEnd": {
-        "Tag": "Event.GameState.GameEnd",
+      "Event.GameState.FightEnd.End": {
+        "Tag": "Event.GameState.FightEnd.End",
+        "DevComment": "游戏状态-游戏单局默认结束"
+      },
+      "Event.GameState.GameEnd.Begin": {
+        "Tag": "Event.GameState.GameEnd.Begin",
+        "DevComment": "游戏状态-游戏全场结束"
+      },
+      "Event.GameState.GameEnd.End": {
+        "Tag": "Event.GameState.GameEnd.End",
         "DevComment": "游戏状态-游戏全场结束"
       },
       "Event.GameState.FinalStage": {
@@ -1985,6 +2117,34 @@
       "Event.Spar.SpawnMovingSpar": {
         "Tag": "Event.Spar.SpawnMovingSpar",
         "DevComment": "开始生成可移动晶体"
+      },
+      "Event.Accumulator.Flavia.Q": {
+        "Tag": "Event.Accumulator.Flavia.Q",
+        "DevComment": "芙拉薇娅Q累加器触发"
+      },
+      "Event.Accumulator.Flavia.P.CD": {
+        "Tag": "Event.Accumulator.Flavia.P.CD",
+        "DevComment": "芙拉薇娅P减CD累加器触发"
+      },
+      "Event.Accumulator.Flavia.P.Xpoint": {
+        "Tag": "Event.Accumulator.Flavia.P.Xpoint",
+        "DevComment": "芙拉薇娅P加大招点累加器触发"
+      },
+      "Event.Summon.Leave.Fuchsia.Q": {
+        "Tag": "Event.Summon.Leave.Fuchsia.Q",
+        "DevComment": "绯莎Q面罩消失"
+      },
+      "Event.Weapon.Work.Begin": {
+        "Tag": "Event.Weapon.Work.Begin",
+        "DevComment": "武器Work状态开始"
+      },
+      "Event.Weapon.Work.End": {
+        "Tag": "Event.Weapon.Work.End",
+        "DevComment": "武器Work状态结束"
+      },
+      "Event.Summon.Spawn.Flavia.Q": {
+        "Tag": "Event.Summon.Spawn.Flavia.Q",
+        "DevComment": "芙拉薇娅Q召唤物生成"
       }
     }
   }

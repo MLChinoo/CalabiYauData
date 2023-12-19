@@ -48,8 +48,11 @@
         "WebViewInstalWarning": "没有检测到webview2运行环境，无法使用webview2进行游戏内支付，将自动打开浏览器支付的选项。",
         "MSDKAutoLoginFailed": "你没有成功连接卡丘世界，请再次手动尝试。",
         "MSDKErrorYouthTimeOut": "该账号未能成功登录，请再尝试手动登录。",
+        "WeGameQuit": "WeGame已退出",
         "QuitGame": "退出游戏",
-        "WeGameQuit": "WeGane已退出"
+        "AskForResourceRepair": "将删除所有更新文件，修复后需重新下载，可能耗时较长。是否确定修复？",
+        "ResourceRepairSuccessed": "修复成功，请重启游戏。",
+        "ResourceRepairFailed": "更新模块加载错误，修复失败。"
       }
     },
     "StringTableId": 0

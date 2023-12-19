@@ -63,7 +63,7 @@
             "LoopTimes": 0,
             "WaveDelay": 1.0,
             "SummonCount": 2,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "9903",
@@ -125,7 +125,7 @@
             "LoopTimes": 0,
             "WaveDelay": 1.0,
             "SummonCount": 1,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "9901"
@@ -186,7 +186,7 @@
             "LoopTimes": 0,
             "WaveDelay": 1.0,
             "SummonCount": 3,
-            "EveryTimeDelay": 1.0,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "9923",
@@ -249,7 +249,7 @@
             "LoopTimes": 0,
             "WaveDelay": 0.0,
             "SummonCount": 0,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "9923",
@@ -311,7 +311,7 @@
             "LoopTimes": 0,
             "WaveDelay": 0.1,
             "SummonCount": 2,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "150001",
@@ -373,7 +373,7 @@
             "LoopTimes": 0,
             "WaveDelay": 0.1,
             "SummonCount": 3,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "160001",
@@ -436,54 +436,13 @@
             "LoopTimes": 0,
             "WaveDelay": 0.0,
             "SummonCount": 4,
-            "EveryTimeDelay": 0.2,
+            "EveryTimeDelay": 0.1,
             "EveryTimeCount": 1,
             "SpawnPointTags": [
               "17001",
               "17002",
               "17003",
               "17004"
-            ]
-          }
-        ]
-      },
-      "1": {
-        "Id": 1,
-        "LifeTime": 1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": false,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::Guide",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::Begin",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 1,
-            "WaveDelay": 0.0,
-            "SummonCount": 1,
-            "EveryTimeDelay": 0.2,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "EnemyDefaultSpawnPoint"
             ]
           }
         ]

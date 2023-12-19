@@ -284,7 +284,7 @@
       },
       "UIEvent.Injured.Owner.C4": {
         "Tag": "UIEvent.Injured.Owner.C4",
-        "DevComment": "炸弹携带者被击倒时在非A/B区"
+        "DevComment": "炸弹携带者被击倒时在非安装区"
       },
       "UIEvent.Injured.Owner.C4.A": {
         "Tag": "UIEvent.Injured.Owner.C4.A",
@@ -293,6 +293,10 @@
       "UIEvent.Injured.Owner.C4.B": {
         "Tag": "UIEvent.Injured.Owner.C4.B",
         "DevComment": "炸弹携带者被击倒时在B区"
+      },
+      "UIEvent.Injured.Owner.C4.C": {
+        "Tag": "UIEvent.Injured.Owner.C4.C",
+        "DevComment": "炸弹携带者被击倒时在C区"
       },
       "UIEvent.MarkPoint.DangerSignal": {
         "Tag": "UIEvent.MarkPoint.DangerSignal",
@@ -505,6 +509,14 @@
       "UIEvent.Game.Spar.AlmostOver.RichMan": {
         "Tag": "UIEvent.Game.Spar.AlmostOver.RichMan",
         "DevComment": "二阶段距离获胜目标10%（高能弦者)"
+      },
+      "UIEvent.Game.HideSeek.BecomeSeeker": {
+        "Tag": "UIEvent.Game.HideSeek.BecomeSeeker",
+        "DevComment": "你是追击方，请等待逃跑方躲藏完毕"
+      },
+      "UIEvent.Game.HideSeek.BecomeHider": {
+        "Tag": "UIEvent.Game.HideSeek.BecomeHider",
+        "DevComment": "你是逃跑方，请尽快躲藏"
       }
     }
   }

@@ -45,7 +45,8 @@
         "CollapsedByUIs": [
           "BigMap",
           "SelectRolePage",
-          "SelectRoleTeamPage"
+          "SelectRoleTeamPage",
+          "GrowthPage"
         ],
         "BlockedByUIs": []
       },
@@ -64,7 +65,8 @@
           "ScorePage"
         ],
         "BlockedByUIs": [
-          "ScreenEffect_FlashGrenade"
+          "ScreenEffect_FlashGrenade",
+          "ScorePage"
         ]
       },
       "GrowthPage": {
@@ -139,7 +141,9 @@
         "HidedByUIs": [],
         "CollapsedByUIs": [],
         "BlockedByUIs": [
-          "TipoffPlayerPage"
+          "TipoffPlayerPage",
+          "ResultTimeDilationPage",
+          "HintPge"
         ]
       },
       "ChatPage": {
@@ -208,6 +212,27 @@
         "CollapsedByUIs": [
           "AudreyPressState"
         ],
+        "BlockedByUIs": []
+      },
+      "PracticeChallengeChoose": {
+        "ClosedByUIs": [],
+        "HidedByUIs": [
+          "SelectRolePage",
+          "SelectRolePracticePage"
+        ],
+        "CollapsedByUIs": [],
+        "BlockedByUIs": [
+          "SelectRolePage",
+          "SelectRolePracticePage"
+        ]
+      },
+      "PracticeChallengeScore": {
+        "ClosedByUIs": [],
+        "HidedByUIs": [
+          "SelectRolePage",
+          "SelectRolePracticePage"
+        ],
+        "CollapsedByUIs": [],
         "BlockedByUIs": []
       }
     }

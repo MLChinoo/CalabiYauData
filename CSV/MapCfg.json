@@ -26,6 +26,7 @@
         },
         "Type": 2,
         "Order": 3,
+        "MatchPattern": 3,
         "Bots": 10,
         "Scene": "/Game/PaperMan/Maps/Envi_FZFBase/Envi_FZFBase_Bomb/Envi_FZFBase",
         "Minimap2d": {
@@ -56,7 +57,7 @@
           "Y": 7500.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_200.T_Dynamic_Map_Career_200",
@@ -80,6 +81,14 @@
         },
         "IconMapSpectatorRoleSelect": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_200.T_Dynamic_Map_Observer_200",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_200.T_Dynamic_Map_HideSeek_200",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "Thumb3Title": {
@@ -121,6 +130,7 @@
         },
         "Type": 4,
         "Order": 3,
+        "MatchPattern": 1,
         "Bots": 15,
         "Scene": "/Game/PaperMan/Maps/Envi_FZFBase/Envi_FZFBase_TDM/Envi_FZFBase_TDM",
         "Minimap2d": {
@@ -151,7 +161,7 @@
           "Y": 7500.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_200.T_Dynamic_Map_Career_200",
@@ -177,6 +187,14 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_400.T_Dynamic_Map_HideSeek_400",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
         "Thumb3Title": {
           "Namespace": "MapCfg",
           "Key": "400_Thumb3Title",
@@ -186,8 +204,8 @@
         "Thumb3Desc": {
           "Namespace": "MapCfg",
           "Key": "400_Thumb3Desc",
-          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
-          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具"
         },
         "WorldViewDesc": {
           "Namespace": "MapCfg",
@@ -216,6 +234,7 @@
         },
         "Type": 2,
         "Order": 1,
+        "MatchPattern": 3,
         "Bots": 10,
         "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_Bomb/Envi_Umeda",
         "Minimap2d": {
@@ -246,7 +265,7 @@
           "Y": 7609.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
@@ -270,6 +289,14 @@
         },
         "IconMapSpectatorRoleSelect": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_201.T_Dynamic_Map_Observer_201",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_201.T_Dynamic_Map_HideSeek_201",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "Thumb3Title": {
@@ -311,6 +338,7 @@
         },
         "Type": 3,
         "Order": 1,
+        "MatchPattern": 1,
         "Bots": 10,
         "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_Spar/Envi_Umeda_Spar",
         "Minimap2d": {
@@ -341,7 +369,7 @@
           "Y": 7609.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
@@ -364,6 +392,14 @@
           "SubPathString": ""
         },
         "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_301.T_Dynamic_Map_HideSeek_301",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
           "AssetPathName": "None",
           "SubPathString": ""
         },
@@ -406,6 +442,7 @@
         },
         "Type": 4,
         "Order": 1,
+        "MatchPattern": 1,
         "Bots": 15,
         "Scene": "/Game/PaperMan/Maps/Envi_Umeda/Envi_Umeda_TDM_Tri/Envi_Umeda_TDM_Tri",
         "Minimap2d": {
@@ -436,7 +473,7 @@
           "Y": 7609.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_201.T_Dynamic_Map_Career_201",
@@ -462,6 +499,14 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_401.T_Dynamic_Map_HideSeek_401",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
         "Thumb3Title": {
           "Namespace": "MapCfg",
           "Key": "401_Thumb3Title",
@@ -471,8 +516,8 @@
         "Thumb3Desc": {
           "Namespace": "MapCfg",
           "Key": "401_Thumb3Desc",
-          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
-          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具"
         },
         "WorldViewDesc": {
           "Namespace": "MapCfg",
@@ -501,6 +546,7 @@
         },
         "Type": 2,
         "Order": 2,
+        "MatchPattern": 3,
         "Bots": 10,
         "Scene": "/Game/PaperMan/Maps/Envi_Olgk/Envi_Olgk_Bomb/Envi_Olgk",
         "Minimap2d": {
@@ -531,7 +577,7 @@
           "Y": 11370.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_202.T_Dynamic_Map_Career_202",
@@ -555,6 +601,14 @@
         },
         "IconMapSpectatorRoleSelect": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_202.T_Dynamic_Map_Observer_202",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_202.T_Dynamic_Map_HideSeek_202",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "Thumb3Title": {
@@ -596,6 +650,7 @@
         },
         "Type": 4,
         "Order": 2,
+        "MatchPattern": 1,
         "Bots": 15,
         "Scene": "/Game/PaperMan/Maps/Envi_Olgk/Envi_Olgk_TDM/Envi_Olgk_TDM",
         "Minimap2d": {
@@ -626,7 +681,7 @@
           "Y": 11370.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_202.T_Dynamic_Map_Career_202",
@@ -652,6 +707,14 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_402.T_Dynamic_Map_HideSeek_402",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
         "Thumb3Title": {
           "Namespace": "MapCfg",
           "Key": "402_Thumb3Title",
@@ -661,8 +724,8 @@
         "Thumb3Desc": {
           "Namespace": "MapCfg",
           "Key": "402_Thumb3Desc",
-          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
-          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具"
         },
         "WorldViewDesc": {
           "Namespace": "MapCfg",
@@ -691,6 +754,7 @@
         },
         "Type": 2,
         "Order": 4,
+        "MatchPattern": 3,
         "Bots": 10,
         "Scene": "/Game/PaperMan/Maps/Envi_Fyz/Envi_Fyz_Bomb/Envi_Fyz",
         "Minimap2d": {
@@ -721,7 +785,7 @@
           "Y": 9000.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_204.T_Dynamic_Map_Career_204",
@@ -745,6 +809,14 @@
         },
         "IconMapSpectatorRoleSelect": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_204.T_Dynamic_Map_Observer_204",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_204.T_Dynamic_Map_HideSeek_204",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "Thumb3Title": {
@@ -786,6 +858,7 @@
         },
         "Type": 4,
         "Order": 4,
+        "MatchPattern": 1,
         "Bots": 15,
         "Scene": "/Game/PaperMan/Maps/Envi_Fyz/Envi_Fyz_TDM/Envi_Fyz_TDM",
         "Minimap2d": {
@@ -809,14 +882,14 @@
         "MinimapLefttoplocation": {
           "X": -9000.0,
           "Y": -9000.0,
-          "Z": 0.0
+          "Z": 1.0
         },
         "MinimapRightbottomlocation": {
           "X": 9000.0,
           "Y": 9000.0,
-          "Z": 0.0
+          "Z": 1.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_204.T_Dynamic_Map_Career_204",
@@ -842,6 +915,14 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_204.T_Dynamic_Map_Observer_204",
           "SubPathString": ""
         },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_404.T_Dynamic_Map_HideSeek_404",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
         "Thumb3Title": {
           "Namespace": "MapCfg",
           "Key": "404_Thumb3Title",
@@ -851,14 +932,326 @@
         "Thumb3Desc": {
           "Namespace": "MapCfg",
           "Key": "404_Thumb3Desc",
-          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招",
-          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·该模式无法使用战术道具和绝招"
+          "SourceString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具",
+          "LocalizedString": "·战斗中可随时更换角色\n·决战阶段会出现危险的逆弦化风暴，注意躲避\n·每次二连击杀，将随机获得一个战术道具"
         },
         "WorldViewDesc": {
           "Namespace": "MapCfg",
           "Key": "404_WorldViewDesc",
           "SourceString": "组队不过是为了各自的立场而战",
           "LocalizedString": "组队不过是为了各自的立场而战"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "110": {
+        "Id": 110,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "110_Name",
+          "SourceString": "莱特园区",
+          "LocalizedString": "莱特园区"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "110_Desc",
+          "SourceString": "莱特园区地处伊莱特隆城市的西角，是场论与弦化研讨会的常驻场地。整个园区的环境优美，有一种自由开放的学术氛围。",
+          "LocalizedString": "莱特园区地处伊莱特隆城市的西角，是场论与弦化研讨会的常驻场地。整个园区的环境优美，有一种自由开放的学术氛围。"
+        },
+        "Type": 1,
+        "Order": 4,
+        "MatchPattern": 1,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Ltyq/Envi_Ltyq",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_110.T_Dynamic_Map_Mini2D_110",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -6750.0,
+          "Y": -6750.0,
+          "Z": 1.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 6750.0,
+          "Y": 6750.0,
+          "Z": 1.0
+        },
+        "MinimapZoom": 1.0,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_110.T_Dynamic_Map_Career_110",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_110.T_Dynamic_Map_Career_title_110",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_110.T_Dynamic_Map_Mini2_110",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_110.T_Dynamic_Map_Introduce_110",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_110.T_Dynamic_Map_Strategy_110",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_110.T_Dynamic_Map_Observer_110",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_110.T_Dynamic_Map_HideSeek_110",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "110_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "110_Thumb3Desc",
+          "SourceString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招",
+          "LocalizedString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "110_WorldViewDesc",
+          "SourceString": "混沌之战危机四伏",
+          "LocalizedString": "混沌之战危机四伏"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "112": {
+        "Id": 112,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "112_Name",
+          "SourceString": "2号仓库",
+          "LocalizedString": "2号仓库"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "112_Desc",
+          "SourceString": "2号仓库位于繁忙的欧拉港口，它看似极为平常，却有着特殊的用途。据情报透露，从欧泊提纯中心运输来的晶体被系统随机调配到了某个编号为02的仓库内……",
+          "LocalizedString": "2号仓库位于繁忙的欧拉港口，它看似极为平常，却有着特殊的用途。据情报透露，从欧泊提纯中心运输来的晶体被系统随机调配到了某个编号为02的仓库内……"
+        },
+        "Type": 1,
+        "Order": 5,
+        "MatchPattern": 1,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_Iceworld/Envi_Ice",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_112.T_Dynamic_Map_Mini2D_112",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -3000.0,
+          "Y": -3000.0,
+          "Z": 1.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 3000.0,
+          "Y": 3000.0,
+          "Z": 1.0
+        },
+        "MinimapZoom": 1.0,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_112.T_Dynamic_Map_Career_112",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_112.T_Dynamic_Map_Career_title_112",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_112.T_Dynamic_Map_Mini2_112",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_112.T_Dynamic_Map_Introduce_112",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_112.T_Dynamic_Map_Strategy_112",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_112.T_Dynamic_Map_Observer_112",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_112.T_Dynamic_Map_HideSeek_112",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "112_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "112_Thumb3Desc",
+          "SourceString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招",
+          "LocalizedString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "112_WorldViewDesc",
+          "SourceString": "混沌之战危机四伏",
+          "LocalizedString": "混沌之战危机四伏"
+        },
+        "BattleBGM": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
+          "SubPathString": ""
+        }
+      },
+      "113": {
+        "Id": 113,
+        "Name": {
+          "Namespace": "MapCfg",
+          "Key": "113_Name",
+          "SourceString": "花明弓道馆",
+          "LocalizedString": "花明弓道馆"
+        },
+        "Desc": {
+          "Namespace": "MapCfg",
+          "Key": "113_Desc",
+          "SourceString": "花明弓道馆是一家历史悠久的弓道馆，它地处于88区的西南一隅，环境僻静清幽，吸引了许多弓道高手慕名而来。",
+          "LocalizedString": "花明弓道馆是一家历史悠久的弓道馆，它地处于88区的西南一隅，环境僻静清幽，吸引了许多弓道高手慕名而来。"
+        },
+        "Type": 1,
+        "Order": 2,
+        "MatchPattern": 1,
+        "Bots": 10,
+        "Scene": "/Game/PaperMan/Maps/Envi_BloodStrike/Envi_BloodStrike",
+        "Minimap2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2D/T_Dynamic_Map_Mini2D_113.T_Dynamic_Map_Mini2D_113",
+          "SubPathString": ""
+        },
+        "MinimapBlock2d": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Block/T_Dynamic_Map_Block_1.T_Dynamic_Map_Block_1",
+          "SubPathString": ""
+        },
+        "MinimapPixelsize": {
+          "X": 1024.0,
+          "Y": 1024.0,
+          "Z": 0.0
+        },
+        "MinimapCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MinimapLefttoplocation": {
+          "X": -4800.0,
+          "Y": -4800.0,
+          "Z": 1.0
+        },
+        "MinimapRightbottomlocation": {
+          "X": 4800.0,
+          "Y": 4800.0,
+          "Z": 1.0
+        },
+        "MinimapZoom": 0.8,
+        "BigmapZoom": 1.2,
+        "IconMapCareer": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_113.T_Dynamic_Map_Career_113",
+          "SubPathString": ""
+        },
+        "IconMapCareerTitle": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/CareerMap/T_Dynamic_Map_Career_title_113.T_Dynamic_Map_Career_title_113",
+          "SubPathString": ""
+        },
+        "IconMapMini2": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Mini2/T_Dynamic_Map_Mini2_113.T_Dynamic_Map_Mini2_113",
+          "SubPathString": ""
+        },
+        "IconMapIntro": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Introduce/T_Dynamic_Map_Introduce_113.T_Dynamic_Map_Introduce_113",
+          "SubPathString": ""
+        },
+        "IconMapStrategy": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Strategy/T_Dynamic_Map_Strategy_113.T_Dynamic_Map_Strategy_113",
+          "SubPathString": ""
+        },
+        "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/Observer/T_Dynamic_Map_Observer_113.T_Dynamic_Map_Observer_113",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_113.T_Dynamic_Map_HideSeek_113",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Thumb3Title": {
+          "Namespace": "MapCfg",
+          "Key": "113_Thumb3Title",
+          "SourceString": "设定",
+          "LocalizedString": "设定"
+        },
+        "Thumb3Desc": {
+          "Namespace": "MapCfg",
+          "Key": "113_Thumb3Desc",
+          "SourceString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招",
+          "LocalizedString": "·该模式默认点选枪械属性，可自定义修改\n·可依靠连续击杀来获得战术道具奖励\n·该模式划分了固定的重生区域\n·战斗中可切换角色，但无法释放主动技能与绝招"
+        },
+        "WorldViewDesc": {
+          "Namespace": "MapCfg",
+          "Key": "113_WorldViewDesc",
+          "SourceString": "混沌之战危机四伏",
+          "LocalizedString": "混沌之战危机四伏"
         },
         "BattleBGM": {
           "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_TeamMatch_WarmUp.Bgm_TeamMatch_WarmUp",
@@ -881,6 +1274,7 @@
         },
         "Type": 5,
         "Order": 0,
+        "MatchPattern": 0,
         "Bots": 0,
         "Scene": "/Game/PaperMan/Maps/DebugMaps/GuideNovice/NoviceBaseGuide/NoviceBaseGuide",
         "Minimap2d": {
@@ -911,7 +1305,7 @@
           "Y": 0.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "None",
@@ -934,6 +1328,14 @@
           "SubPathString": ""
         },
         "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_1000.T_Dynamic_Map_HideSeek_1000",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
           "AssetPathName": "None",
           "SubPathString": ""
         },
@@ -973,6 +1375,7 @@
         },
         "Type": 6,
         "Order": 0,
+        "MatchPattern": 0,
         "Bots": 0,
         "Scene": "/Game/PaperMan/Maps/Envi_Train_Aim/Envi_Train_Aim",
         "Minimap2d": {
@@ -1003,7 +1406,7 @@
           "Y": 15635.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "None",
@@ -1026,6 +1429,14 @@
           "SubPathString": ""
         },
         "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_1002.T_Dynamic_Map_HideSeek_1002",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
           "AssetPathName": "None",
           "SubPathString": ""
         },
@@ -1065,6 +1476,7 @@
         },
         "Type": 5,
         "Order": 999,
+        "MatchPattern": 0,
         "Bots": 9,
         "Scene": "/Game/PaperMan/Maps/Envi_Train_TDM/Envi_Train_TDM",
         "Minimap2d": {
@@ -1095,7 +1507,7 @@
           "Y": 7609.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "None",
@@ -1118,6 +1530,14 @@
           "SubPathString": ""
         },
         "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_1003.T_Dynamic_Map_HideSeek_1003",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
           "AssetPathName": "None",
           "SubPathString": ""
         },
@@ -1157,6 +1577,7 @@
         },
         "Type": 0,
         "Order": 0,
+        "MatchPattern": 0,
         "Bots": 0,
         "Scene": "/Game/PaperMan/Maps/Lobby/Lobby_new/Lobby",
         "Minimap2d": {
@@ -1187,7 +1608,7 @@
           "Y": 0.0,
           "Z": 0.0
         },
-        "MinimapZoom": 0.6,
+        "MinimapZoom": 1.0,
         "BigmapZoom": 1.2,
         "IconMapCareer": {
           "AssetPathName": "None",
@@ -1210,6 +1631,14 @@
           "SubPathString": ""
         },
         "IconMapSpectatorRoleSelect": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconMapHideSeek": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Map/HideSeek/T_Dynamic_Map_HideSeek_1001.T_Dynamic_Map_HideSeek_1001",
+          "SubPathString": ""
+        },
+        "IconMapHideSeekLog": {
           "AssetPathName": "None",
           "SubPathString": ""
         },

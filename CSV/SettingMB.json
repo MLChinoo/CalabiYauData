@@ -223,8 +223,8 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "104_Tips",
-          "SourceString": "选择按下右开火按钮时，是否同时肩射或开镜",
-          "LocalizedString": "选择按下右开火按钮时，是否同时肩射或开镜"
+          "SourceString": "选择按下右开火按钮时，是否同时开镜",
+          "LocalizedString": "选择按下右开火按钮时，是否同时开镜"
         },
         "Max": 0,
         "Min": 0,
@@ -594,51 +594,42 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "Namespace": "SettingMB",
-          "Key": "112_Title",
-          "SourceString": "None",
-          "LocalizedString": "None"
+          "CultureInvariantString": null
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "112_Name",
-          "SourceString": "触发方式",
-          "LocalizedString": "触发方式"
+          "SourceString": "右开火按钮转动视角",
+          "LocalizedString": "右开火按钮转动视角"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "112_Options_Index0",
-            "SourceString": "点击",
-            "LocalizedString": "点击"
+            "SourceString": "开启",
+            "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
             "Key": "112_Options_Index1",
-            "SourceString": "长按",
-            "LocalizedString": "长按"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "112_Options_Index2",
-            "SourceString": "混合",
-            "LocalizedString": "混合"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "112_Tips",
-          "SourceString": "肩射：使人物快速抬起武器，从而进行较为准确的射击\n选择“混合”时，通过点击或长按都可以触发相应动作",
-          "LocalizedString": "肩射：使人物快速抬起武器，从而进行较为准确的射击\n选择“混合”时，通过点击或长按都可以触发相应动作"
+          "SourceString": "选择按下右开火按钮时，是否可以同时拖动屏幕来转动视角",
+          "LocalizedString": "选择按下右开火按钮时，是否可以同时拖动屏幕来转动视角"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "ShoulderModeTouch",
+        "Indexkey": "Switch_FireRotationAbility",
         "DefaultOption2": "",
-        "Status": 1
+        "Status": 0
       },
       "113": {
         "Id": 113,
@@ -652,40 +643,49 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "113_Title",
+          "SourceString": "None",
+          "LocalizedString": "None"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "113_Name",
-          "SourceString": "肩射按钮转动视角",
-          "LocalizedString": "肩射按钮转动视角"
+          "SourceString": "触发方式",
+          "LocalizedString": "触发方式"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "113_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
+            "SourceString": "点击",
+            "LocalizedString": "点击"
           },
           {
             "Namespace": "SettingMB",
             "Key": "113_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "113_Options_Index2",
+            "SourceString": "混合",
+            "LocalizedString": "混合"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "113_Tips",
-          "SourceString": "选择按下肩射按钮时，是否可以同时拖动屏幕来转动视角",
-          "LocalizedString": "选择按下肩射按钮时，是否可以同时拖动屏幕来转动视角"
+          "SourceString": "肩射：使人物快速抬起武器，从而进行较为准确的射击\n选择“混合”时，通过点击或长按都可以触发相应动作",
+          "LocalizedString": "肩射：使人物快速抬起武器，从而进行较为准确的射击\n选择“混合”时，通过点击或长按都可以触发相应动作"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_ShoulderModeRotate",
+        "Indexkey": "ShoulderModeTouch",
         "DefaultOption2": "",
         "Status": 1
       },
@@ -701,51 +701,42 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "Namespace": "SettingMB",
-          "Key": "114_Title",
-          "SourceString": "开镜",
-          "LocalizedString": "开镜"
+          "CultureInvariantString": null
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "114_Name",
-          "SourceString": "触发方式",
-          "LocalizedString": "触发方式"
+          "SourceString": "肩射按钮转动视角",
+          "LocalizedString": "肩射按钮转动视角"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "114_Options_Index0",
-            "SourceString": "点击",
-            "LocalizedString": "点击"
+            "SourceString": "开启",
+            "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
             "Key": "114_Options_Index1",
-            "SourceString": "长按",
-            "LocalizedString": "长按"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "114_Options_Index2",
-            "SourceString": "混合",
-            "LocalizedString": "混合"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "114_Tips",
-          "SourceString": "开镜：使人物以瞄准镜瞄准，从而进行更为精准的射击\n选择“混合”时，通过点击或长按都可以触发相应动作",
-          "LocalizedString": "开镜：使人物以瞄准镜瞄准，从而进行更为精准的射击\n选择“混合”时，通过点击或长按都可以触发相应动作"
+          "SourceString": "选择按下肩射按钮时，是否可以同时拖动屏幕来转动视角",
+          "LocalizedString": "选择按下肩射按钮时，是否可以同时拖动屏幕来转动视角"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "AnimModeTouch",
+        "Indexkey": "Switch_ShoulderModeRotate",
         "DefaultOption2": "",
-        "Status": 0
+        "Status": 1
       },
       "115": {
         "Id": 115,
@@ -759,40 +750,49 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "115_Title",
+          "SourceString": "开镜",
+          "LocalizedString": "开镜"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "115_Name",
-          "SourceString": "开镜按钮转动视角",
-          "LocalizedString": "开镜按钮转动视角"
+          "SourceString": "触发方式",
+          "LocalizedString": "触发方式"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "115_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
+            "SourceString": "点击",
+            "LocalizedString": "点击"
           },
           {
             "Namespace": "SettingMB",
             "Key": "115_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "115_Options_Index2",
+            "SourceString": "混合",
+            "LocalizedString": "混合"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "115_Tips",
-          "SourceString": "选择按下开镜按钮时，是否可以同时拖动屏幕来转动视角",
-          "LocalizedString": "选择按下开镜按钮时，是否可以同时拖动屏幕来转动视角"
+          "SourceString": "开镜：使人物以瞄准镜瞄准，从而进行更为精准的射击\n选择“混合”时，通过点击或长按都可以触发相应动作",
+          "LocalizedString": "开镜：使人物以瞄准镜瞄准，从而进行更为精准的射击\n选择“混合”时，通过点击或长按都可以触发相应动作"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_AimModeRotate",
+        "Indexkey": "AnimModeTouch",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -808,49 +808,40 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "Namespace": "SettingMB",
-          "Key": "116_Title",
-          "SourceString": "陀螺仪",
-          "LocalizedString": "陀螺仪"
+          "CultureInvariantString": null
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "116_Name",
-          "SourceString": "陀螺仪",
-          "LocalizedString": "陀螺仪"
+          "SourceString": "开镜按钮转动视角",
+          "LocalizedString": "开镜按钮转动视角"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "116_Options_Index0",
-            "SourceString": "关",
-            "LocalizedString": "关"
+            "SourceString": "开启",
+            "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
             "Key": "116_Options_Index1",
-            "SourceString": "开镜开启",
-            "LocalizedString": "开镜开启"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "116_Options_Index2",
-            "SourceString": "总是开启",
-            "LocalizedString": "总是开启"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "116_Tips",
-          "SourceString": "选择启用陀螺仪的场景。开启陀螺仪后，可通过旋转设备转动视角",
-          "LocalizedString": "选择启用陀螺仪的场景。开启陀螺仪后，可通过旋转设备转动视角"
+          "SourceString": "选择按下开镜按钮时，是否可以同时拖动屏幕来转动视角",
+          "LocalizedString": "选择按下开镜按钮时，是否可以同时拖动屏幕来转动视角"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Gyro",
+        "Indexkey": "Switch_AimModeRotate",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -871,35 +862,19 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "117_Name",
-          "SourceString": "陀螺仪X轴反向",
-          "LocalizedString": "陀螺仪X轴反向"
+          "SourceString": "轻型武器自动开镜设置距离",
+          "LocalizedString": "轻型武器自动开镜设置距离"
         },
-        "UiType": 3,
-        "Options": [
-          {
-            "Namespace": "SettingMB",
-            "Key": "117_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "117_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
-          }
-        ],
-        "DefaultOptions": 2,
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1,
         "Tips": {
-          "Namespace": "SettingMB",
-          "Key": "117_Tips",
-          "SourceString": "开启后，视角转动的方向与设备旋转的X轴方向相反",
-          "LocalizedString": "开启后，视角转动的方向与设备旋转的X轴方向相反"
+          "CultureInvariantString": null
         },
-        "Max": 0,
-        "Min": 0,
-        "Step": 0,
-        "Indexkey": "GyroReverse_X",
+        "Max": 20000,
+        "Min": 5000,
+        "Step": 1000,
+        "Indexkey": "AutoFireMaxDistance1",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -920,35 +895,19 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "118_Name",
-          "SourceString": "陀螺仪Y轴反向",
-          "LocalizedString": "陀螺仪Y轴反向"
+          "SourceString": "射手步枪自动开镜设置距离",
+          "LocalizedString": "射手步枪自动开镜设置距离"
         },
-        "UiType": 3,
-        "Options": [
-          {
-            "Namespace": "SettingMB",
-            "Key": "118_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "118_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
-          }
-        ],
-        "DefaultOptions": 2,
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1,
         "Tips": {
-          "Namespace": "SettingMB",
-          "Key": "118_Tips",
-          "SourceString": "开启后，视角转动的方向与设备旋转的Y轴方向相反",
-          "LocalizedString": "开启后，视角转动的方向与设备旋转的Y轴方向相反"
+          "CultureInvariantString": null
         },
-        "Max": 0,
-        "Min": 0,
-        "Step": 0,
-        "Indexkey": "GyroReverse_Y",
+        "Max": 20000,
+        "Min": 5000,
+        "Step": 1000,
+        "Indexkey": "AutoFireMaxDistance2",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -964,43 +923,24 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "Namespace": "SettingMB",
-          "Key": "119_Title",
-          "SourceString": "地图",
-          "LocalizedString": "地图"
+          "CultureInvariantString": null
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "119_Name",
-          "SourceString": "小地图旋转",
-          "LocalizedString": "小地图旋转"
+          "SourceString": "栓动步枪自动开镜设置距离",
+          "LocalizedString": "栓动步枪自动开镜设置距离"
         },
-        "UiType": 3,
-        "Options": [
-          {
-            "Namespace": "SettingMB",
-            "Key": "119_Options_Index0",
-            "SourceString": "旋转",
-            "LocalizedString": "旋转"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "119_Options_Index1",
-            "SourceString": "固定",
-            "LocalizedString": "固定"
-          }
-        ],
+        "UiType": 1,
+        "Options": [],
         "DefaultOptions": 1,
         "Tips": {
-          "Namespace": "SettingMB",
-          "Key": "119_Tips",
-          "SourceString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上定：角色转向时，角色图标向相应方向旋转，小地图不旋转",
-          "LocalizedString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上定：角色转向时，角色图标向相应方向旋转，小地图不旋转"
+          "CultureInvariantString": null
         },
-        "Max": 0,
-        "Min": 0,
-        "Step": 0,
-        "Indexkey": "MapRotationStyle",
+        "Max": 20000,
+        "Min": 5000,
+        "Step": 1000,
+        "Indexkey": "AutoFireMaxDistance3",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1021,22 +961,19 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "120_Name",
-          "SourceString": "小地图缩放",
-          "LocalizedString": "小地图缩放"
+          "SourceString": "副武器自动开镜设置距离",
+          "LocalizedString": "副武器自动开镜设置距离"
         },
         "UiType": 1,
         "Options": [],
-        "DefaultOptions": 500,
+        "DefaultOptions": 1,
         "Tips": {
-          "Namespace": "SettingMB",
-          "Key": "120_Tips",
-          "SourceString": "小地图的内容在模块中的缩小/放大比例",
-          "LocalizedString": "小地图的内容在模块中的缩小/放大比例"
+          "CultureInvariantString": null
         },
-        "Max": 1000,
-        "Min": 300,
-        "Step": 10,
-        "Indexkey": "MapScale",
+        "Max": 20000,
+        "Min": 5000,
+        "Step": 1000,
+        "Indexkey": "AutoFireMaxDistance4",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1054,43 +991,49 @@
         "Title": {
           "Namespace": "SettingMB",
           "Key": "121_Title",
-          "SourceString": "其他",
-          "LocalizedString": "其他"
+          "SourceString": "陀螺仪",
+          "LocalizedString": "陀螺仪"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "121_Name",
-          "SourceString": "自动拾取战术道具",
-          "LocalizedString": "自动拾取战术道具"
+          "SourceString": "陀螺仪",
+          "LocalizedString": "陀螺仪"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "121_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
+            "SourceString": "关",
+            "LocalizedString": "关"
           },
           {
             "Namespace": "SettingMB",
             "Key": "121_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
+            "SourceString": "开镜开启",
+            "LocalizedString": "开镜开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "121_Options_Index2",
+            "SourceString": "总是开启",
+            "LocalizedString": "总是开启"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "121_Tips",
-          "SourceString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具",
-          "LocalizedString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具"
+          "SourceString": "选择启用陀螺仪的场景。开启陀螺仪后，可通过旋转设备转动视角",
+          "LocalizedString": "选择启用陀螺仪的场景。开启陀螺仪后，可通过旋转设备转动视角"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_AutoPickUp",
+        "Indexkey": "Gyro",
         "DefaultOption2": "",
-        "Status": 1
+        "Status": 0
       },
       "122": {
         "Id": 122,
@@ -1109,8 +1052,8 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "122_Name",
-          "SourceString": "疾跑锁定设置",
-          "LocalizedString": "疾跑锁定设置"
+          "SourceString": "陀螺仪X轴反向",
+          "LocalizedString": "陀螺仪X轴反向"
         },
         "UiType": 3,
         "Options": [
@@ -1131,15 +1074,15 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "122_Tips",
-          "SourceString": "开启后，推动左虚拟摇杆时，继续向上滑动屏幕至锁定区域，可以在松开摇杆后使角色继续向前冲刺",
-          "LocalizedString": "开启后，推动左虚拟摇杆时，继续向上滑动屏幕至锁定区域，可以在松开摇杆后使角色继续向前冲刺"
+          "SourceString": "开启后，视角转动的方向与设备旋转的X轴方向相反",
+          "LocalizedString": "开启后，视角转动的方向与设备旋转的X轴方向相反"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_RunLockSetting",
+        "Indexkey": "GyroReverse_X",
         "DefaultOption2": "",
-        "Status": 1
+        "Status": 0
       },
       "123": {
         "Id": 123,
@@ -1158,8 +1101,8 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "123_Name",
-          "SourceString": "自动贴墙",
-          "LocalizedString": "自动贴墙"
+          "SourceString": "陀螺仪Y轴反向",
+          "LocalizedString": "陀螺仪Y轴反向"
         },
         "UiType": 3,
         "Options": [
@@ -1180,15 +1123,15 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "123_Tips",
-          "SourceString": "当角色贴近可弦化的墙面并继续保持前进时，自动弦化贴墙",
-          "LocalizedString": "当角色贴近可弦化的墙面并继续保持前进时，自动弦化贴墙"
+          "SourceString": "开启后，视角转动的方向与设备旋转的Y轴方向相反",
+          "LocalizedString": "开启后，视角转动的方向与设备旋转的Y轴方向相反"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_AutoInWall",
+        "Indexkey": "GyroReverse_Y",
         "DefaultOption2": "",
-        "Status": 1
+        "Status": 0
       },
       "124": {
         "Id": 124,
@@ -1202,46 +1145,43 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "124_Title",
+          "SourceString": "地图",
+          "LocalizedString": "地图"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "124_Name",
-          "SourceString": "智能贴墙",
-          "LocalizedString": "智能贴墙"
+          "SourceString": "小地图旋转",
+          "LocalizedString": "小地图旋转"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "124_Options_Index0",
-            "SourceString": "顶墙自动贴墙",
-            "LocalizedString": "顶墙自动贴墙"
+            "SourceString": "旋转",
+            "LocalizedString": "旋转"
           },
           {
             "Namespace": "SettingMB",
             "Key": "124_Options_Index1",
-            "SourceString": "左摇杆贴墙",
-            "LocalizedString": "左摇杆贴墙"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "124_Options_Index2",
-            "SourceString": "不自动贴墙",
-            "LocalizedString": "不自动贴墙"
+            "SourceString": "固定",
+            "LocalizedString": "固定"
           }
         ],
-        "DefaultOptions": 3,
+        "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "124_Tips",
-          "SourceString": "选择角色在靠近可弦化的墙面时，弦化贴墙的方式\n顶墙自动贴墙：角色靠近可弦化的墙面并继续保持前进时，在短暂延迟后自动贴墙\n左摇杆贴墙：角色靠近可弦化的墙面后，摇杆上方出现一个贴墙标记，拖动摇杆至该标记后，即可在能够贴墙时自动贴墙\n不自动贴墙：需要点击单独的贴墙按钮贴墙",
-          "LocalizedString": "选择角色在靠近可弦化的墙面时，弦化贴墙的方式\n顶墙自动贴墙：角色靠近可弦化的墙面并继续保持前进时，在短暂延迟后自动贴墙\n左摇杆贴墙：角色靠近可弦化的墙面后，摇杆上方出现一个贴墙标记，拖动摇杆至该标记后，即可在能够贴墙时自动贴墙\n不自动贴墙：需要点击单独的贴墙按钮贴墙"
+          "SourceString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上定：角色转向时，角色图标向相应方向旋转，小地图不旋转",
+          "LocalizedString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上定：角色转向时，角色图标向相应方向旋转，小地图不旋转"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "SmartAutoInWall",
+        "Indexkey": "MapRotationStyle",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1262,19 +1202,22 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "125_Name",
-          "SourceString": "顶墙自动贴墙延迟",
-          "LocalizedString": "顶墙自动贴墙延迟"
+          "SourceString": "小地图缩放",
+          "LocalizedString": "小地图缩放"
         },
         "UiType": 1,
         "Options": [],
-        "DefaultOptions": 750,
+        "DefaultOptions": 500,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "125_Tips",
+          "SourceString": "小地图的内容在模块中的缩小/放大比例",
+          "LocalizedString": "小地图的内容在模块中的缩小/放大比例"
         },
-        "Max": 2000,
-        "Min": 0,
-        "Step": 50,
-        "Indexkey": "AutoInWallDelayTime",
+        "Max": 1000,
+        "Min": 300,
+        "Step": 10,
+        "Indexkey": "MapScale",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1290,13 +1233,16 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "126_Title",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "126_Name",
-          "SourceString": "贴墙上墙时自动跳跃",
-          "LocalizedString": "贴墙上墙时自动跳跃"
+          "SourceString": "自动拾取战术道具",
+          "LocalizedString": "自动拾取战术道具"
         },
         "UiType": 3,
         "Options": [
@@ -1317,15 +1263,15 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "126_Tips",
-          "SourceString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃",
-          "LocalizedString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃"
+          "SourceString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具",
+          "LocalizedString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "MBSwitch_AutoJumpOnWall",
+        "Indexkey": "Switch_AutoPickUp",
         "DefaultOption2": "",
-        "Status": 0
+        "Status": 1
       },
       "127": {
         "Id": 127,
@@ -1344,24 +1290,37 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "127_Name",
-          "SourceString": "贴墙上墙自动跳跃延迟",
-          "LocalizedString": "贴墙上墙自动跳跃延迟"
+          "SourceString": "疾跑锁定设置",
+          "LocalizedString": "疾跑锁定设置"
         },
-        "UiType": 1,
-        "Options": [],
-        "DefaultOptions": 200,
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "127_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "127_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "127_Tips",
-          "SourceString": "调整贴墙上墙时自动跳跃的延迟时间",
-          "LocalizedString": "调整贴墙上墙时自动跳跃的延迟时间"
+          "SourceString": "开启后，推动左虚拟摇杆时，继续向上滑动屏幕至锁定区域，可以在松开摇杆后使角色继续向前冲刺",
+          "LocalizedString": "开启后，推动左虚拟摇杆时，继续向上滑动屏幕至锁定区域，可以在松开摇杆后使角色继续向前冲刺"
         },
-        "Max": 1000,
+        "Max": 0,
         "Min": 0,
-        "Step": 50,
-        "Indexkey": "MBAutoJumpDelayTime",
+        "Step": 0,
+        "Indexkey": "Switch_RunLockSetting",
         "DefaultOption2": "",
-        "Status": 0
+        "Status": 1
       },
       "128": {
         "Id": 128,
@@ -1380,43 +1339,37 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "128_Name",
-          "SourceString": "弦化操作模式",
-          "LocalizedString": "弦化操作模式"
+          "SourceString": "自动贴墙",
+          "LocalizedString": "自动贴墙"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "128_Options_Index0",
-            "SourceString": "独立按钮模式",
-            "LocalizedString": "独立按钮模式"
+            "SourceString": "开启",
+            "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
             "Key": "128_Options_Index1",
-            "SourceString": "手势操作模式",
-            "LocalizedString": "手势操作模式"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "128_Options_Index2",
-            "SourceString": "默认",
-            "LocalizedString": "默认"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           }
         ],
-        "DefaultOptions": 3,
+        "DefaultOptions": 2,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "128_Tips",
-          "SourceString": "选择弦化相关动作的操作方法\n独立按钮模式：不对弦化操作作任何简化\n手势操作模式：仅将贴墙与跳跃操作合并至一个按钮\n默认：最为精简的按扭操作",
-          "LocalizedString": "选择弦化相关动作的操作方法\n独立按钮模式：不对弦化操作作任何简化\n手势操作模式：仅将贴墙与跳跃操作合并至一个按钮\n默认：最为精简的按扭操作"
+          "SourceString": "当角色贴近可弦化的墙面并继续保持前进时，自动弦化贴墙",
+          "LocalizedString": "当角色贴近可弦化的墙面并继续保持前进时，自动弦化贴墙"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "StringOptMode",
-        "DefaultOption2": "3,2,1",
-        "Status": 0
+        "Indexkey": "Switch_AutoInWall",
+        "DefaultOption2": "",
+        "Status": 1
       },
       "129": {
         "Id": 129,
@@ -1435,35 +1388,41 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "129_Name",
-          "SourceString": "快捷连跳",
-          "LocalizedString": "快捷连跳"
+          "SourceString": "智能贴墙",
+          "LocalizedString": "智能贴墙"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "129_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
+            "SourceString": "顶墙自动贴墙",
+            "LocalizedString": "顶墙自动贴墙"
           },
           {
             "Namespace": "SettingMB",
             "Key": "129_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
+            "SourceString": "左摇杆贴墙",
+            "LocalizedString": "左摇杆贴墙"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "129_Options_Index2",
+            "SourceString": "不自动贴墙",
+            "LocalizedString": "不自动贴墙"
           }
         ],
-        "DefaultOptions": 1,
+        "DefaultOptions": 3,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "129_Tips",
-          "SourceString": "开启后，按住跳跃键可自动做出二段跳和飘飞动作",
-          "LocalizedString": "开启后，按住跳跃键可自动做出二段跳和飘飞动作"
+          "SourceString": "选择角色在靠近可弦化的墙面时，弦化贴墙的方式\n顶墙自动贴墙：角色靠近可弦化的墙面并继续保持前进时，在短暂延迟后自动贴墙\n左摇杆贴墙：角色靠近可弦化的墙面后，摇杆上方出现一个贴墙标记，拖动摇杆至该标记后，即可在能够贴墙时自动贴墙\n不自动贴墙：需要点击单独的贴墙按钮贴墙",
+          "LocalizedString": "选择角色在靠近可弦化的墙面时，弦化贴墙的方式\n顶墙自动贴墙：角色靠近可弦化的墙面并继续保持前进时，在短暂延迟后自动贴墙\n左摇杆贴墙：角色靠近可弦化的墙面后，摇杆上方出现一个贴墙标记，拖动摇杆至该标记后，即可在能够贴墙时自动贴墙\n不自动贴墙：需要点击单独的贴墙按钮贴墙"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_QuickJump",
+        "Indexkey": "SmartAutoInWall",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1484,32 +1443,22 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "130_Name",
-          "SourceString": "左标记按钮",
-          "LocalizedString": "左标记按钮"
+          "SourceString": "顶墙自动贴墙延迟",
+          "LocalizedString": "顶墙自动贴墙延迟"
         },
-        "UiType": 3,
-        "Options": [
-          {
-            "Namespace": "SettingMB",
-            "Key": "130_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "130_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
-          }
-        ],
-        "DefaultOptions": 2,
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 750,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "130_Tips",
+          "SourceString": "调整顶墙自动贴墙的延迟时间",
+          "LocalizedString": "调整顶墙自动贴墙的延迟时间"
         },
-        "Max": 0,
+        "Max": 2000,
         "Min": 0,
-        "Step": 0,
-        "Indexkey": "Switch_LeftMarkPoint",
+        "Step": 50,
+        "Indexkey": "AutoInWallDelayTime",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1530,35 +1479,35 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "131_Name",
-          "SourceString": "侧身模式",
-          "LocalizedString": "侧身模式"
+          "SourceString": "贴墙上墙时自动跳跃",
+          "LocalizedString": "贴墙上墙时自动跳跃"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "131_Options_Index0",
-            "SourceString": "长按",
-            "LocalizedString": "长按"
+            "SourceString": "开启",
+            "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
             "Key": "131_Options_Index1",
-            "SourceString": "切换",
-            "LocalizedString": "切换"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           }
         ],
-        "DefaultOptions": 2,
+        "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "131_Tips",
-          "SourceString": "长按：按住保持侧身；切换：点击切换侧身",
-          "LocalizedString": "长按：按住保持侧身；切换：点击切换侧身"
+          "SourceString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃",
+          "LocalizedString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "ButtonStyle_MBSideMode",
+        "Indexkey": "MBSwitch_AutoJumpOnWall",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1579,35 +1528,22 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "132_Name",
-          "SourceString": "飘飞模式",
-          "LocalizedString": "飘飞模式"
+          "SourceString": "贴墙上墙自动跳跃延迟",
+          "LocalizedString": "贴墙上墙自动跳跃延迟"
         },
-        "UiType": 3,
-        "Options": [
-          {
-            "Namespace": "SettingMB",
-            "Key": "132_Options_Index0",
-            "SourceString": "长按",
-            "LocalizedString": "长按"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "132_Options_Index1",
-            "SourceString": "切换",
-            "LocalizedString": "切换"
-          }
-        ],
-        "DefaultOptions": 2,
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 200,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "132_Tips",
-          "SourceString": "长按：按住保持飘飞；切换：点击切换飘飞",
-          "LocalizedString": "长按：按住保持飘飞；切换：点击切换飘飞"
+          "SourceString": "调整贴墙上墙时自动跳跃的延迟时间",
+          "LocalizedString": "调整贴墙上墙时自动跳跃的延迟时间"
         },
-        "Max": 0,
+        "Max": 1000,
         "Min": 0,
-        "Step": 0,
-        "Indexkey": "ButtonStyle_MBFlyMode",
+        "Step": 50,
+        "Indexkey": "MBAutoJumpDelayTime",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1628,54 +1564,42 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "133_Name",
-          "SourceString": "红点层级管理",
-          "LocalizedString": "红点层级管理"
+          "SourceString": "弦化操作模式",
+          "LocalizedString": "弦化操作模式"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "133_Options_Index0",
-            "SourceString": "白色",
-            "LocalizedString": "白色"
+            "SourceString": "独立按钮模式",
+            "LocalizedString": "独立按钮模式"
           },
           {
             "Namespace": "SettingMB",
             "Key": "133_Options_Index1",
-            "SourceString": "蓝色",
-            "LocalizedString": "蓝色"
+            "SourceString": "手势操作模式",
+            "LocalizedString": "手势操作模式"
           },
           {
             "Namespace": "SettingMB",
             "Key": "133_Options_Index2",
-            "SourceString": "紫色",
-            "LocalizedString": "紫色"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "133_Options_Index3",
-            "SourceString": "橙色",
-            "LocalizedString": "橙色"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "133_Options_Index4",
-            "SourceString": "红色",
-            "LocalizedString": "红色"
+            "SourceString": "默认",
+            "LocalizedString": "默认"
           }
         ],
-        "DefaultOptions": 2,
+        "DefaultOptions": 3,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "133_Tips",
-          "SourceString": "获得所选品质及以上的物品时触发红点提示，保存后将在下次登录游戏时生效",
-          "LocalizedString": "获得所选品质及以上的物品时触发红点提示，保存后将在下次登录游戏时生效"
+          "SourceString": "选择弦化相关动作的操作方法\n独立按钮模式：不对弦化操作作任何简化\n手势操作模式：仅将贴墙与跳跃操作合并至一个按钮\n默认：最为精简的按扭操作",
+          "LocalizedString": "选择弦化相关动作的操作方法\n独立按钮模式：不对弦化操作作任何简化\n手势操作模式：仅将贴墙与跳跃操作合并至一个按钮\n默认：最为精简的按扭操作"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "RedDotColor",
-        "DefaultOption2": "",
+        "Indexkey": "StringOptMode",
+        "DefaultOption2": "3,2,1",
         "Status": 0
       },
       "134": {
@@ -1695,8 +1619,8 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "134_Name",
-          "SourceString": "快速切枪功能",
-          "LocalizedString": "快速切枪功能"
+          "SourceString": "快捷连跳",
+          "LocalizedString": "快捷连跳"
         },
         "UiType": 3,
         "Options": [
@@ -1717,13 +1641,13 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "134_Tips",
-          "SourceString": "快速切枪功能描述",
-          "LocalizedString": "快速切枪功能描述"
+          "SourceString": "开启后，按住跳跃键可自动做出二段跳和飘飞动作",
+          "LocalizedString": "开启后，按住跳跃键可自动做出二段跳和飘飞动作"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_ShowQuickSwitchWeapon",
+        "Indexkey": "Switch_QuickJump",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1744,8 +1668,8 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "135_Name",
-          "SourceString": "无子弹切枪",
-          "LocalizedString": "无子弹切枪"
+          "SourceString": "左标记按钮",
+          "LocalizedString": "左标记按钮"
         },
         "UiType": 3,
         "Options": [
@@ -1762,17 +1686,17 @@
             "LocalizedString": "关闭"
           }
         ],
-        "DefaultOptions": 1,
+        "DefaultOptions": 2,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "135_Tips",
-          "SourceString": "无子弹切枪描述",
-          "LocalizedString": "无子弹切枪描述"
+          "SourceString": "开启后，左侧会出现额外标记按钮",
+          "LocalizedString": "开启后，左侧会出现额外标记按钮"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "Switch_NoAmmoSwitchWeapon",
+        "Indexkey": "Switch_LeftMarkPoint",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1793,20 +1717,185 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "136_Name",
-          "SourceString": "好友申请保护",
-          "LocalizedString": "好友申请保护"
+          "SourceString": "侧身模式",
+          "LocalizedString": "侧身模式"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "136_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "136_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "136_Tips",
+          "SourceString": "长按：按住保持侧身；切换：点击切换侧身",
+          "LocalizedString": "长按：按住保持侧身；切换：点击切换侧身"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_MBSideMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "137": {
+        "Id": 137,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "137_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "137_Name",
+          "SourceString": "飘飞模式",
+          "LocalizedString": "飘飞模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "137_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "137_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "137_Tips",
+          "SourceString": "长按：按住保持飘飞；切换：点击切换飘飞",
+          "LocalizedString": "长按：按住保持飘飞；切换：点击切换飘飞"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_MBFlyMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "138": {
+        "Id": 138,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "138_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "138_Name",
+          "SourceString": "红点层级管理",
+          "LocalizedString": "红点层级管理"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "138_Options_Index0",
+            "SourceString": "白色",
+            "LocalizedString": "白色"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "138_Options_Index1",
+            "SourceString": "蓝色",
+            "LocalizedString": "蓝色"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "138_Options_Index2",
+            "SourceString": "紫色",
+            "LocalizedString": "紫色"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "138_Options_Index3",
+            "SourceString": "橙色",
+            "LocalizedString": "橙色"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "138_Options_Index4",
+            "SourceString": "红色",
+            "LocalizedString": "红色"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "138_Tips",
+          "SourceString": "获得所选品质及以上的物品时触发红点提示，保存后将在下次登录游戏时生效",
+          "LocalizedString": "获得所选品质及以上的物品时触发红点提示，保存后将在下次登录游戏时生效"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RedDotColor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "139": {
+        "Id": 139,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "139_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "139_Name",
+          "SourceString": "快速切枪功能",
+          "LocalizedString": "快速切枪功能"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "139_Options_Index0",
             "SourceString": "开启",
             "LocalizedString": "开启"
           },
           {
             "Namespace": "SettingMB",
-            "Key": "136_Options_Index1",
+            "Key": "139_Options_Index1",
             "SourceString": "关闭",
             "LocalizedString": "关闭"
           }
@@ -1814,7 +1903,105 @@
         "DefaultOptions": 2,
         "Tips": {
           "Namespace": "SettingMB",
-          "Key": "136_Tips",
+          "Key": "139_Tips",
+          "SourceString": "开启后，游戏中会出现独立的快速切枪按键",
+          "LocalizedString": "开启后，游戏中会出现独立的快速切枪按键"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_ShowQuickSwitchWeapon",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "140": {
+        "Id": 140,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "140_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "140_Name",
+          "SourceString": "无子弹切枪",
+          "LocalizedString": "无子弹切枪"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "140_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "140_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "140_Tips",
+          "SourceString": "武器子弹打空后，会自动切换到另一把武器",
+          "LocalizedString": "武器子弹打空后，会自动切换到另一把武器"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_NoAmmoSwitchWeapon",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "141": {
+        "Id": 141,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "141_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "141_Name",
+          "SourceString": "好友申请保护",
+          "LocalizedString": "好友申请保护"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "141_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "141_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "141_Tips",
           "SourceString": "开启则不接收任何好友申请，关闭则接收好友申请",
           "LocalizedString": "开启则不接收任何好友申请，关闭则接收好友申请"
         },
@@ -1822,6 +2009,238 @@
         "Min": 0,
         "Step": 0,
         "Indexkey": "Switch_FriendApplyProtect",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "142": {
+        "Id": 142,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "142_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "142_Name",
+          "SourceString": "准星伤害反馈",
+          "LocalizedString": "准星伤害反馈"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "142_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "142_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "142_Tips",
+          "SourceString": "开启则显示斜十字准星反馈，关闭则不显示斜十字准星反馈",
+          "LocalizedString": "开启则显示斜十字准星反馈，关闭则不显示斜十字准星反馈"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_CrossHairDamageFeedBack",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "143": {
+        "Id": 143,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "143_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "143_Name",
+          "SourceString": "冲刺灵敏度设置",
+          "LocalizedString": "冲刺灵敏度设置"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "143_Tips",
+          "SourceString": "移动左摇杆到触发冲刺时的灵敏度。冲刺灵敏度越高，越容易触发冲刺操作",
+          "LocalizedString": "移动左摇杆到触发冲刺时的灵敏度。冲刺灵敏度越高，越容易触发冲刺操作"
+        },
+        "Max": 100000,
+        "Min": 1000,
+        "Step": 1000,
+        "Indexkey": "SprintInputThreshold",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "144": {
+        "Id": 144,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "144_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "144_Name",
+          "SourceString": "跳跃按钮转动视角",
+          "LocalizedString": "跳跃按钮转动视角"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "144_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "144_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "144_Tips",
+          "SourceString": "选择按下跳跃按钮时，是否可以同时拖动屏幕来转动视角",
+          "LocalizedString": "选择按下跳跃按钮时，是否可以同时拖动屏幕来转动视角"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_JumpRotationAbility",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "145": {
+        "Id": 145,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "145_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "145_Name",
+          "SourceString": "弦化按钮转动视角",
+          "LocalizedString": "弦化按钮转动视角"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "145_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "145_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "145_Tips",
+          "SourceString": "选择按下弦化按钮时，是否可以同时拖动屏幕来转动视角",
+          "LocalizedString": "选择按下弦化按钮时，是否可以同时拖动屏幕来转动视角"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_SlideRotationAbility",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "146": {
+        "Id": 146,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "146_Type",
+          "SourceString": "基础",
+          "LocalizedString": "基础"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "146_Name",
+          "SourceString": "固定显示左摇杆",
+          "LocalizedString": "固定显示左摇杆"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "146_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "146_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "146_Tips",
+          "SourceString": "开启后，左摇杆不会跟随手指位置出现；关闭时，左摇杆会跟随手指位置出现",
+          "LocalizedString": "开启后，左摇杆不会跟随手指位置出现；关闭时，左摇杆会跟随手指位置出现"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_FixedLeftJoystick",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -1877,7 +2296,10 @@
         ],
         "DefaultOptions": 3,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "201_Tips",
+          "SourceString": "调整全局的灵敏度",
+          "LocalizedString": "调整全局的灵敏度"
         },
         "Max": 0,
         "Min": 0,
@@ -1912,8 +2334,8 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "202_Tips",
-          "SourceString": "全局灵敏度倍率",
-          "LocalizedString": "全局灵敏度倍率"
+          "SourceString": "调整全局灵敏度倍率系数",
+          "LocalizedString": "调整全局灵敏度倍率系数"
         },
         "Max": 20000,
         "Min": 10,
@@ -2063,21 +2485,24 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "206_Name",
-          "SourceString": "肩射灵敏度",
-          "LocalizedString": "肩射灵敏度"
+          "SourceString": "副武器开镜灵敏度",
+          "LocalizedString": "副武器开镜灵敏度"
         },
         "UiType": 1,
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "206_Tips",
+          "SourceString": "副武器开镜时的灵敏度倍率",
+          "LocalizedString": "副武器开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimShoulderSensitivity",
         "DefaultOption2": "1000, 1000, 1000",
-        "Status": 1
+        "Status": 0
       },
       "207": {
         "Id": 207,
@@ -2109,7 +2534,7 @@
           "LocalizedString": "突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimSightSensitivity_OnePointTwoFive",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2145,7 +2570,7 @@
           "LocalizedString": "射手步枪开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimSightSensitivity_TwoTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2181,7 +2606,7 @@
           "LocalizedString": "栓动步枪开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimSightSensitivity_FourTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2214,7 +2639,7 @@
           "CultureInvariantString": null
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimSightSensitivity_EightTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2244,10 +2669,13 @@
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "211_Tips",
+          "SourceString": "使用技能时的灵敏度倍率",
+          "LocalizedString": "使用技能时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "AnimSightSensitivity_Skill",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2309,21 +2737,24 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "213_Name",
-          "SourceString": "肩射灵敏度",
-          "LocalizedString": "肩射灵敏度"
+          "SourceString": "副武器开镜灵敏度",
+          "LocalizedString": "副武器开镜灵敏度"
         },
         "UiType": 1,
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "213_Tips",
+          "SourceString": "副武器开镜时的灵敏度倍率",
+          "LocalizedString": "副武器开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimShoulderSensitivity",
         "DefaultOption2": "1000, 1000, 1000",
-        "Status": 1
+        "Status": 0
       },
       "214": {
         "Id": 214,
@@ -2355,7 +2786,7 @@
           "LocalizedString": "按下开火键或自动开火时，突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimSightSensitivity_OnePointTwoFive",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2391,7 +2822,7 @@
           "LocalizedString": "按下开火键或自动开火时，射手步枪开镜时的开镜灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimSightSensitivity_TwoTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2427,7 +2858,7 @@
           "LocalizedString": "按下开火键或自动开火时，栓动步枪开镜时的开镜灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimSightSensitivity_FourTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2460,7 +2891,7 @@
           "CultureInvariantString": null
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimSightSensitivity_EightTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2490,10 +2921,13 @@
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "218_Tips",
+          "SourceString": "使用技能开火时的灵敏度倍率",
+          "LocalizedString": "使用技能开火时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "FireAnimSightSensitivity_Skill",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2555,21 +2989,24 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "220_Name",
-          "SourceString": "肩射灵敏度",
-          "LocalizedString": "肩射灵敏度"
+          "SourceString": "副武器开镜灵敏度",
+          "LocalizedString": "副武器开镜灵敏度"
         },
         "UiType": 1,
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "220_Tips",
+          "SourceString": "副武器开镜时的灵敏度倍率",
+          "LocalizedString": "副武器开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroShoulderSensitivity",
         "DefaultOption2": "1000, 1000, 1000",
-        "Status": 1
+        "Status": 0
       },
       "221": {
         "Id": 221,
@@ -2601,7 +3038,7 @@
           "LocalizedString": "突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroSightSensitivity_OnePointTwoFive",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2637,7 +3074,7 @@
           "LocalizedString": "射手步枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroSightSensitivity_TwoTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2673,7 +3110,7 @@
           "LocalizedString": "栓动步枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroSightSensitivity_FourTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2706,7 +3143,7 @@
           "CultureInvariantString": null
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroSightSensitivity_EightTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2736,10 +3173,13 @@
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "225_Tips",
+          "SourceString": "使用技能时的陀螺仪灵敏度倍率",
+          "LocalizedString": "使用技能时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroSightSensitivity_Skill",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2801,21 +3241,24 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "227_Name",
-          "SourceString": "肩射灵敏度",
-          "LocalizedString": "肩射灵敏度"
+          "SourceString": "副武器开镜灵敏度",
+          "LocalizedString": "副武器开镜灵敏度"
         },
         "UiType": 1,
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "227_Tips",
+          "SourceString": "副武器开镜时的灵敏度倍率",
+          "LocalizedString": "副武器开镜时的灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireShoulderSensitivity",
         "DefaultOption2": "1000, 1000, 1000",
-        "Status": 1
+        "Status": 0
       },
       "228": {
         "Id": 228,
@@ -2847,7 +3290,7 @@
           "LocalizedString": "按下开火键或自动开火时，突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireSightSensitivity_OnePointTwoFive",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2883,7 +3326,7 @@
           "LocalizedString": "按下开火键或自动开火时，射手步枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireSightSensitivity_TwoTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2919,7 +3362,7 @@
           "LocalizedString": "按下开火键或自动开火时，栓动步枪开镜时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireSightSensitivity_FourTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2952,7 +3395,7 @@
           "CultureInvariantString": null
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireSightSensitivity_EightTimes",
         "DefaultOption2": "1000, 1000, 1000",
@@ -2982,10 +3425,13 @@
         "Options": [],
         "DefaultOptions": 1000,
         "Tips": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "232_Tips",
+          "SourceString": "使用技能开火时的陀螺仪灵敏度倍率",
+          "LocalizedString": "使用技能开火时的陀螺仪灵敏度倍率"
         },
         "Max": 5000,
-        "Min": 100,
+        "Min": 10,
         "Step": 10,
         "Indexkey": "GyroFireSightSensitivity_Skill",
         "DefaultOption2": "1000, 1000, 1000",
@@ -4919,35 +5365,53 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "506_Name",
-          "SourceString": "声音穿透",
-          "LocalizedString": "声音穿透"
+          "SourceString": "空间音频",
+          "LocalizedString": "空间音频"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "506_Options_Index0",
-            "SourceString": "开启",
-            "LocalizedString": "开启"
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
           },
           {
             "Namespace": "SettingMB",
             "Key": "506_Options_Index1",
-            "SourceString": "关闭",
-            "LocalizedString": "关闭"
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "506_Options_Index2",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "506_Options_Index3",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "506_Options_Index4",
+            "SourceString": "自定义",
+            "LocalizedString": "自定义"
           }
         ],
-        "DefaultOptions": 2,
+        "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "506_Tips",
-          "SourceString": "开启声音穿透，即墙体和障碍物对声音传播不进行阻挡 ",
-          "LocalizedString": "开启声音穿透，即墙体和障碍物对声音传播不进行阻挡 "
+          "SourceString": "选择游戏内音效的空间音频效果。\n\n如果遇到音频卡顿，可通过降低空间音频效果缓解。\n如果遇到所有枪声、脚步声无声，可能存在硬件兼容性问题，尝试关闭空间音频效果或将音频输出配置修改为HRTF声效以解决问题。",
+          "LocalizedString": "选择游戏内音效的空间音频效果。\n\n如果遇到音频卡顿，可通过降低空间音频效果缓解。\n如果遇到所有枪声、脚步声无声，可能存在硬件兼容性问题，尝试关闭空间音频效果或将音频输出配置修改为HRTF声效以解决问题。"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "SoundTransmissionLevel",
+        "Indexkey": "SpatialAudioType",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -4992,7 +5456,7 @@
             "LocalizedString": "房间和障碍物"
           }
         ],
-        "DefaultOptions": 2,
+        "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "507_Tips",
@@ -5094,8 +5558,8 @@
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "509_Tips",
-          "SourceString": "选择游戏角色配音使用的语言\n对局外的日语配音尚在制作中，敬请期待；目前选择“日语”选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音",
-          "LocalizedString": "选择游戏角色配音使用的语言\n对局外的日语配音尚在制作中，敬请期待；目前选择“日语”选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音"
+          "SourceString": "选择游戏角色配音使用的语言。\n\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。",
+          "LocalizedString": "选择游戏角色配音使用的语言。\n\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。"
         },
         "Max": 0,
         "Min": 0,
@@ -5121,47 +5585,35 @@
         "Name": {
           "Namespace": "SettingMB",
           "Key": "510_Name",
-          "SourceString": "音频输出配置",
-          "LocalizedString": "音频输出配置"
+          "SourceString": "系统播报",
+          "LocalizedString": "系统播报"
         },
         "UiType": 3,
         "Options": [
           {
             "Namespace": "SettingMB",
             "Key": "510_Options_Index0",
-            "SourceString": "耳机/立体声",
-            "LocalizedString": "耳机/立体声"
+            "SourceString": "默认语音",
+            "LocalizedString": "默认语音"
           },
           {
             "Namespace": "SettingMB",
             "Key": "510_Options_Index1",
-            "SourceString": "HRTF声效",
-            "LocalizedString": "HRTF声效"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "510_Options_Index2",
-            "SourceString": "7.1环绕声",
-            "LocalizedString": "7.1环绕声"
-          },
-          {
-            "Namespace": "SettingMB",
-            "Key": "510_Options_Index3",
-            "SourceString": "杜比全景声",
-            "LocalizedString": "杜比全景声"
+            "SourceString": "香奈美语音",
+            "LocalizedString": "香奈美语音"
           }
         ],
         "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "510_Tips",
-          "SourceString": "选择游戏中立体声或环绕声呈现的方式\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。\n7.1环绕声：拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n杜比全景声：若设备支持，可体验沉浸式的Dolby Atmos音效，带来环绕式的精准三维空间音效。",
-          "LocalizedString": "选择游戏中立体声或环绕声呈现的方式\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。\n7.1环绕声：拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n杜比全景声：若设备支持，可体验沉浸式的Dolby Atmos音效，带来环绕式的精准三维空间音效。"
+          "SourceString": "选择系统播报语音",
+          "LocalizedString": "选择系统播报语音"
         },
         "Max": 0,
         "Min": 0,
         "Step": 0,
-        "Indexkey": "VoiceEffect_Mobile",
+        "Indexkey": "SystemAnnouncementVoice",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -5177,30 +5629,52 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "Namespace": "SettingMB",
-          "Key": "511_Title",
-          "SourceString": "语音聊天",
-          "LocalizedString": "语音聊天"
+          "CultureInvariantString": null
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "511_Name",
-          "SourceString": "麦克风音量",
-          "LocalizedString": "麦克风音量"
+          "SourceString": "音频输出配置",
+          "LocalizedString": "音频输出配置"
         },
-        "UiType": 2,
-        "Options": [],
-        "DefaultOptions": 50000,
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "SettingMB",
+            "Key": "511_Options_Index0",
+            "SourceString": "耳机/立体声",
+            "LocalizedString": "耳机/立体声"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "511_Options_Index1",
+            "SourceString": "HRTF声效",
+            "LocalizedString": "HRTF声效"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "511_Options_Index2",
+            "SourceString": "7.1环绕声",
+            "LocalizedString": "7.1环绕声"
+          },
+          {
+            "Namespace": "SettingMB",
+            "Key": "511_Options_Index3",
+            "SourceString": "杜比全景声",
+            "LocalizedString": "杜比全景声"
+          }
+        ],
+        "DefaultOptions": 1,
         "Tips": {
           "Namespace": "SettingMB",
           "Key": "511_Tips",
-          "SourceString": "玩家输入的语音音量",
-          "LocalizedString": "玩家输入的语音音量"
+          "SourceString": "选择游戏中脚步声、枪弹声、技能音效等其他游戏内声音呈现的方式，不同选择有不同的3D空间化效果。\n\n\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。启用HRTF时请关闭其他3D音效处理程序。\n\n7.1环绕声：若设备或环境支持，将拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n\n杜比全景声：若设备或环境支持，可体验沉浸式的杜比全景声（Dolby Atmos），能够以萦绕于用户头顶上方及四周的震撼灵动音效，让你在游戏中拔得头筹，充分体验紧张刺激的氛围，仿佛穿越到游戏之中。",
+          "LocalizedString": "选择游戏中脚步声、枪弹声、技能音效等其他游戏内声音呈现的方式，不同选择有不同的3D空间化效果。\n\n\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。启用HRTF时请关闭其他3D音效处理程序。\n\n7.1环绕声：若设备或环境支持，将拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n\n杜比全景声：若设备或环境支持，可体验沉浸式的杜比全景声（Dolby Atmos），能够以萦绕于用户头顶上方及四周的震撼灵动音效，让你在游戏中拔得头筹，充分体验紧张刺激的氛围，仿佛穿越到游戏之中。"
         },
-        "Max": 100000,
+        "Max": 0,
         "Min": 0,
-        "Step": 1000,
-        "Indexkey": "MicrophoneVolume",
+        "Step": 0,
+        "Indexkey": "VoiceEffect_Mobile",
         "DefaultOption2": "",
         "Status": 0
       },
@@ -5216,11 +5690,50 @@
           "CultureInvariantString": null
         },
         "Title": {
-          "CultureInvariantString": null
+          "Namespace": "SettingMB",
+          "Key": "512_Title",
+          "SourceString": "语音聊天",
+          "LocalizedString": "语音聊天"
         },
         "Name": {
           "Namespace": "SettingMB",
           "Key": "512_Name",
+          "SourceString": "麦克风音量",
+          "LocalizedString": "麦克风音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "SettingMB",
+          "Key": "512_Tips",
+          "SourceString": "玩家输入的语音音量",
+          "LocalizedString": "玩家输入的语音音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "MicrophoneVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "513": {
+        "Id": 513,
+        "Type": {
+          "Namespace": "SettingMB",
+          "Key": "513_Type",
+          "SourceString": "声音",
+          "LocalizedString": "声音"
+        },
+        "SubType": {
+          "CultureInvariantString": null
+        },
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "SettingMB",
+          "Key": "513_Name",
           "SourceString": "语音聊天音量",
           "LocalizedString": "语音聊天音量"
         },
@@ -5229,7 +5742,7 @@
         "DefaultOptions": 50000,
         "Tips": {
           "Namespace": "SettingMB",
-          "Key": "512_Tips",
+          "Key": "513_Tips",
           "SourceString": "接受其他玩家输入的语音音量",
           "LocalizedString": "接受其他玩家输入的语音音量"
         },

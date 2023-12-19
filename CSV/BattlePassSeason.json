@@ -16,43 +16,79 @@
           "Ticks": 638265528000000000
         },
         "Finish": {
-          "Ticks": 638345880000000000
+          "Ticks": 638332056000000000
         },
         "Name": {
           "Namespace": "BattlePassSeason",
           "Key": "1_Name",
-          "SourceString": "S0.黎明伊始",
-          "LocalizedString": "S0.黎明伊始"
+          "SourceString": "S1.赤刃行动",
+          "LocalizedString": "S1.赤刃行动"
+        },
+        "DivisionBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/FinalDivision/WBP_SeasonFinalDivision_Id1.WBP_SeasonFinalDivision_Id1_C",
+          "SubPathString": ""
+        },
+        "AwardBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/SeasonAward/WBP_SeasonAward_Id1.WBP_SeasonAward_Id1_C",
+          "SubPathString": ""
+        },
+        "ContentBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/UpdateContent/WBP_SeasonUpdateContent_Id1.WBP_SeasonUpdateContent_Id1_C",
+          "SubPathString": ""
         }
       },
       "2": {
         "Id": 2,
         "Start": {
-          "Ticks": 638345880000000000
+          "Ticks": 638332056000000000
         },
         "Finish": {
-          "Ticks": 638430552000000000
+          "Ticks": 638399448000000000
         },
         "Name": {
           "Namespace": "BattlePassSeason",
           "Key": "2_Name",
-          "SourceString": "S0.黎明伊始",
-          "LocalizedString": "S0.黎明伊始"
+          "SourceString": "S2.低语暗云",
+          "LocalizedString": "S2.低语暗云"
+        },
+        "DivisionBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/FinalDivision/WBP_SeasonFinalDivision_Id2.WBP_SeasonFinalDivision_Id2_C",
+          "SubPathString": ""
+        },
+        "AwardBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/SeasonAward/WBP_SeasonAward_Id2.WBP_SeasonAward_Id2_C",
+          "SubPathString": ""
+        },
+        "ContentBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/UpdateContent/WBP_SeasonUpdateContent_Id2.WBP_SeasonUpdateContent_Id2_C",
+          "SubPathString": ""
         }
       },
       "3": {
         "Id": 3,
         "Start": {
-          "Ticks": 638430552000000000
+          "Ticks": 638399448000000000
         },
         "Finish": {
-          "Ticks": 638189496000000000
+          "Ticks": 638505720000000000
         },
         "Name": {
           "Namespace": "BattlePassSeason",
           "Key": "3_Name",
-          "SourceString": "S0.黎明伊始",
-          "LocalizedString": "S0.黎明伊始"
+          "SourceString": "S3.黎明伊始",
+          "LocalizedString": "S3.黎明伊始"
+        },
+        "DivisionBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/FinalDivision/WBP_SeasonFinalDivision_Id3.WBP_SeasonFinalDivision_Id3_C",
+          "SubPathString": ""
+        },
+        "AwardBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/SeasonAward/WBP_SeasonAward_Id3.WBP_SeasonAward_Id3_C",
+          "SubPathString": ""
+        },
+        "ContentBlueprint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/NewSeason/UpdateContent/WBP_SeasonUpdateContent_Id3.WBP_SeasonUpdateContent_Id3_C",
+          "SubPathString": ""
         }
       }
     }

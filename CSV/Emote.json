@@ -33,10 +33,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000001.T_Dynamic_Emote_60000001",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -50,7 +46,8 @@
         "GainParam1": [],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20105001
       },
       "60000002": {
         "Id": 60000002,
@@ -75,10 +72,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000002.T_Dynamic_Emote_60000002",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -87,15 +80,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000002_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20128001
       },
       "60000003": {
         "Id": 60000003,
@@ -120,10 +116,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000003.T_Dynamic_Emote_60000003",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -132,15 +124,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000003_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20132001
       },
       "60000004": {
         "Id": 60000004,
@@ -165,10 +160,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000004.T_Dynamic_Emote_60000004",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -177,15 +168,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000004_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20146001
       },
       "60000005": {
         "Id": 60000005,
@@ -210,10 +204,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000005.T_Dynamic_Emote_60000005",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -229,7 +219,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20146001
       },
       "60000006": {
         "Id": 60000006,
@@ -254,10 +245,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000006.T_Dynamic_Emote_60000006",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -273,13 +260,14 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20108001
       },
       "60000007": {
         "Id": 60000007,
         "DefaultEquip": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60000007_Name",
@@ -298,10 +286,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000007.T_Dynamic_Emote_60000007",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -317,13 +301,14 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20133001
       },
       "60000008": {
         "Id": 60000008,
         "DefaultEquip": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60000008_Name",
@@ -342,10 +327,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000008.T_Dynamic_Emote_60000008",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -354,20 +335,24 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          60000008
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
-        }
+          "Namespace": "Emote",
+          "Key": "60000008_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
+        },
+        "RoleSkinId": 20112001
       },
       "60000009": {
         "Id": 60000009,
         "DefaultEquip": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60000009_Name",
@@ -386,10 +371,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000009.T_Dynamic_Emote_60000009",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -398,20 +379,24 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          60000009
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
-        }
+          "Namespace": "Emote",
+          "Key": "60000009_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
+        },
+        "RoleSkinId": 20112001
       },
       "60000010": {
         "Id": 60000010,
         "DefaultEquip": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60000010_Name",
@@ -430,10 +415,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000010.T_Dynamic_Emote_60000010",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -449,7 +430,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20133001
       },
       "60000011": {
         "Id": 60000011,
@@ -474,10 +456,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000011.T_Dynamic_Emote_60000011",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -493,7 +471,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20131001
       },
       "60000012": {
         "Id": 60000012,
@@ -518,10 +497,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000012.T_Dynamic_Emote_60000012",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -537,7 +512,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20131001
       },
       "60000013": {
         "Id": 60000013,
@@ -562,10 +538,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000013.T_Dynamic_Emote_60000013",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -581,7 +553,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20124001
       },
       "60000014": {
         "Id": 60000014,
@@ -606,10 +579,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000014.T_Dynamic_Emote_60000014",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -625,7 +594,8 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
-        }
+        },
+        "RoleSkinId": 20124001
       },
       "60000015": {
         "Id": 60000015,
@@ -650,10 +620,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000015.T_Dynamic_Emote_60000015",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -662,15 +628,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000015_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20137001
       },
       "60000016": {
         "Id": 60000016,
@@ -695,10 +664,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000016.T_Dynamic_Emote_60000016",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -707,15 +672,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000016_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20137001
       },
       "60000017": {
         "Id": 60000017,
@@ -740,10 +708,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000017.T_Dynamic_Emote_60000017",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -752,15 +716,18 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Emote",
           "Key": "60000017_GainParam2",
           "SourceString": "特别行动",
           "LocalizedString": "特别行动"
-        }
+        },
+        "RoleSkinId": 20137001
       },
       "60000031": {
         "Id": 60000031,
@@ -785,10 +752,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000031.T_Dynamic_Emote_60000031",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -805,7 +768,8 @@
           "Key": "60000031_GainParam2",
           "SourceString": "宿舍-米雪儿",
           "LocalizedString": "宿舍-米雪儿"
-        }
+        },
+        "RoleSkinId": 20101201
       },
       "60000032": {
         "Id": 60000032,
@@ -830,10 +794,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000032.T_Dynamic_Emote_60000032",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -850,7 +810,8 @@
           "Key": "60000032_GainParam2",
           "SourceString": "宿舍-米雪儿",
           "LocalizedString": "宿舍-米雪儿"
-        }
+        },
+        "RoleSkinId": 20101201
       },
       "60000033": {
         "Id": 60000033,
@@ -875,10 +836,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000033.T_Dynamic_Emote_60000033",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -895,7 +852,8 @@
           "Key": "60000033_GainParam2",
           "SourceString": "宿舍-米雪儿",
           "LocalizedString": "宿舍-米雪儿"
-        }
+        },
+        "RoleSkinId": 20101201
       },
       "60000034": {
         "Id": 60000034,
@@ -920,10 +878,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000034.T_Dynamic_Emote_60000034",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -940,7 +894,8 @@
           "Key": "60000034_GainParam2",
           "SourceString": "宿舍-米雪儿",
           "LocalizedString": "宿舍-米雪儿"
-        }
+        },
+        "RoleSkinId": 20101201
       },
       "60000035": {
         "Id": 60000035,
@@ -956,17 +911,13 @@
         "Desc": {
           "Namespace": "Emote",
           "Key": "60000035_Desc",
-          "SourceString": "”请多关照哦~“",
-          "LocalizedString": "”请多关照哦~“"
+          "SourceString": "“请多关照哦~”",
+          "LocalizedString": "“请多关照哦~”"
         },
         "Quality": 2,
         "SortId": 2022,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000035.T_Dynamic_Emote_60000035",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -985,7 +936,8 @@
           "Key": "60000035_GainParam2",
           "SourceString": "宿舍-米雪儿",
           "LocalizedString": "宿舍-米雪儿"
-        }
+        },
+        "RoleSkinId": 20101201
       },
       "60000036": {
         "Id": 60000036,
@@ -1001,17 +953,13 @@
         "Desc": {
           "Namespace": "Emote",
           "Key": "60000036_Desc",
-          "SourceString": "”患者……变多了呢。“",
-          "LocalizedString": "”患者……变多了呢。“"
+          "SourceString": "“患者……变多了呢。”",
+          "LocalizedString": "“患者……变多了呢。”"
         },
         "Quality": 2,
         "SortId": 2023,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000036.T_Dynamic_Emote_60000036",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1030,7 +978,8 @@
           "Key": "60000036_GainParam2",
           "SourceString": "宿舍-星绘",
           "LocalizedString": "宿舍-星绘"
-        }
+        },
+        "RoleSkinId": 20146201
       },
       "60000037": {
         "Id": 60000037,
@@ -1055,10 +1004,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000037.T_Dynamic_Emote_60000037",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1075,7 +1020,8 @@
           "Key": "60000037_GainParam2",
           "SourceString": "宿舍-星绘",
           "LocalizedString": "宿舍-星绘"
-        }
+        },
+        "RoleSkinId": 20146201
       },
       "60000038": {
         "Id": 60000038,
@@ -1100,10 +1046,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000038.T_Dynamic_Emote_60000038",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1120,7 +1062,8 @@
           "Key": "60000038_GainParam2",
           "SourceString": "宿舍-星绘",
           "LocalizedString": "宿舍-星绘"
-        }
+        },
+        "RoleSkinId": 20146201
       },
       "60000039": {
         "Id": 60000039,
@@ -1145,10 +1088,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000039.T_Dynamic_Emote_60000039",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1165,7 +1104,8 @@
           "Key": "60000039_GainParam2",
           "SourceString": "宿舍-星绘",
           "LocalizedString": "宿舍-星绘"
-        }
+        },
+        "RoleSkinId": 20146201
       },
       "60000040": {
         "Id": 60000040,
@@ -1190,10 +1130,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000040.T_Dynamic_Emote_60000040",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1210,7 +1146,8 @@
           "Key": "60000040_GainParam2",
           "SourceString": "宿舍-星绘",
           "LocalizedString": "宿舍-星绘"
-        }
+        },
+        "RoleSkinId": 20146201
       },
       "60000041": {
         "Id": 60000041,
@@ -1235,10 +1172,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000041.T_Dynamic_Emote_60000041",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1255,7 +1188,8 @@
           "Key": "60000041_GainParam2",
           "SourceString": "宿舍-奥黛丽",
           "LocalizedString": "宿舍-奥黛丽"
-        }
+        },
+        "RoleSkinId": 20105201
       },
       "60000042": {
         "Id": 60000042,
@@ -1280,10 +1214,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000042.T_Dynamic_Emote_60000042",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1300,7 +1230,8 @@
           "Key": "60000042_GainParam2",
           "SourceString": "宿舍-奥黛丽",
           "LocalizedString": "宿舍-奥黛丽"
-        }
+        },
+        "RoleSkinId": 20105201
       },
       "60000043": {
         "Id": 60000043,
@@ -1325,10 +1256,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000043.T_Dynamic_Emote_60000043",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1345,7 +1272,8 @@
           "Key": "60000043_GainParam2",
           "SourceString": "宿舍-奥黛丽",
           "LocalizedString": "宿舍-奥黛丽"
-        }
+        },
+        "RoleSkinId": 20105201
       },
       "60000044": {
         "Id": 60000044,
@@ -1370,10 +1298,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000044.T_Dynamic_Emote_60000044",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1390,7 +1314,8 @@
           "Key": "60000044_GainParam2",
           "SourceString": "宿舍-奥黛丽",
           "LocalizedString": "宿舍-奥黛丽"
-        }
+        },
+        "RoleSkinId": 20105201
       },
       "60000045": {
         "Id": 60000045,
@@ -1415,10 +1340,6 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000045.T_Dynamic_Emote_60000045",
           "SubPathString": ""
         },
-        "IconBig": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
         "BluePrint": {
           "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
           "SubPathString": ""
@@ -1435,13 +1356,1566 @@
           "Key": "60000045_GainParam2",
           "SourceString": "宿舍-奥黛丽",
           "LocalizedString": "宿舍-奥黛丽"
-        }
+        },
+        "RoleSkinId": 20105201
+      },
+      "60000050": {
+        "Id": 60000050,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000050_Name",
+          "SourceString": "星绘-注射",
+          "LocalizedString": "星绘-注射"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000050_Desc",
+          "SourceString": "“没事，不会痛的，大概吧？”",
+          "LocalizedString": "“没事，不会痛的，大概吧？”"
+        },
+        "Quality": 2,
+        "SortId": 2033,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000050.T_Dynamic_Emote_60000050",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000050_GainParam2",
+          "SourceString": "套装赠品",
+          "LocalizedString": "套装赠品"
+        },
+        "RoleSkinId": 20146102
+      },
+      "60000051": {
+        "Id": 60000051,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000051_Name",
+          "SourceString": "星绘-治疗",
+          "LocalizedString": "星绘-治疗"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000051_Desc",
+          "SourceString": "“反、反对暴力……”",
+          "LocalizedString": "“反、反对暴力……”"
+        },
+        "Quality": 2,
+        "SortId": 2034,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000051.T_Dynamic_Emote_60000051",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000051_GainParam2",
+          "SourceString": "套装赠品",
+          "LocalizedString": "套装赠品"
+        },
+        "RoleSkinId": 20146102
+      },
+      "60000052": {
+        "Id": 60000052,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000052_Name",
+          "SourceString": "米雪儿-发财",
+          "LocalizedString": "米雪儿-发财"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000052_Desc",
+          "SourceString": "“财源滚滚，手气旺旺！”",
+          "LocalizedString": "“财源滚滚，手气旺旺！”"
+        },
+        "Quality": 2,
+        "SortId": 2035,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000052.T_Dynamic_Emote_60000052",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000052
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000052_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20101108
+      },
+      "60000053": {
+        "Id": 60000053,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000053_Name",
+          "SourceString": "米雪儿-幺鸡",
+          "LocalizedString": "米雪儿-幺鸡"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000053_Desc",
+          "SourceString": "“幺鸡虽小，没它和不了~”",
+          "LocalizedString": "“幺鸡虽小，没它和不了~”"
+        },
+        "Quality": 2,
+        "SortId": 2036,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000053.T_Dynamic_Emote_60000053",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000053
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000053_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20101108
+      },
+      "60000054": {
+        "Id": 60000054,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000054_Name",
+          "SourceString": "米雪儿-红中",
+          "LocalizedString": "米雪儿-红中"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000054_Desc",
+          "SourceString": "“红中在手，好运我有~”",
+          "LocalizedString": "“红中在手，好运我有~”"
+        },
+        "Quality": 2,
+        "SortId": 2037,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000054.T_Dynamic_Emote_60000054",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000054
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000054_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20101108
+      },
+      "60000055": {
+        "Id": 60000055,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000055_Name",
+          "SourceString": "香奈美-纪念时刻",
+          "LocalizedString": "香奈美-纪念时刻"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000055_Desc",
+          "SourceString": "“来，笑一个~”",
+          "LocalizedString": "“来，笑一个~”"
+        },
+        "Quality": 2,
+        "SortId": 2038,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000055.T_Dynamic_Emote_60000055",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000055
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000055_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20137103
+      },
+      "60000056": {
+        "Id": 60000056,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000056_Name",
+          "SourceString": "米雪儿-甜蜜视线",
+          "LocalizedString": "米雪儿-甜蜜视线"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000056_Desc",
+          "SourceString": "“你知道甜甜圈里的世界是什么样子吗？”",
+          "LocalizedString": "“你知道甜甜圈里的世界是什么样子吗？”"
+        },
+        "Quality": 2,
+        "SortId": 2039,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000056.T_Dynamic_Emote_60000056",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000056
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000056_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20101106
+      },
+      "60000057": {
+        "Id": 60000057,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000057_Name",
+          "SourceString": "伊薇特-请你喝",
+          "LocalizedString": "伊薇特-请你喝"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000057_Desc",
+          "SourceString": "“这可是菲亲手冰的奶茶哦。”",
+          "LocalizedString": "“这可是菲亲手冰的奶茶哦。”"
+        },
+        "Quality": 2,
+        "SortId": 2040,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000057.T_Dynamic_Emote_60000057",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000057
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000057_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20131104
+      },
+      "60000058": {
+        "Id": 60000058,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000058_Name",
+          "SourceString": "绯莎-警觉",
+          "LocalizedString": "绯莎-警觉"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000058_Desc",
+          "SourceString": "“呱！被发现了呱！”",
+          "LocalizedString": "“呱！被发现了呱！”"
+        },
+        "Quality": 2,
+        "SortId": 2041,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000058.T_Dynamic_Emote_60000058",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000058
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000058_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20112001
+      },
+      "60000059": {
+        "Id": 60000059,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000059_Name",
+          "SourceString": "香奈美-玉玉青葱",
+          "LocalizedString": "香奈美-玉玉青葱"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000059_Desc",
+          "SourceString": "吃完倒头就睡。",
+          "LocalizedString": "吃完倒头就睡。"
+        },
+        "Quality": 2,
+        "SortId": 2042,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000059.T_Dynamic_Emote_60000059",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          60000059
+        ],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000059_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        },
+        "RoleSkinId": 20137104
+      },
+      "60000060": {
+        "Id": 60000060,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000060_Name",
+          "SourceString": "伊薇特-只吃一口",
+          "LocalizedString": "伊薇特-只吃一口"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000060_Desc",
+          "SourceString": "“我就吃一口，就一小口。”",
+          "LocalizedString": "“我就吃一口，就一小口。”"
+        },
+        "Quality": 2,
+        "SortId": 2043,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000060.T_Dynamic_Emote_60000060",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000060
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20131101
+      },
+      "60000061": {
+        "Id": 60000061,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000061_Name",
+          "SourceString": "白墨-狗仔趴趴",
+          "LocalizedString": "白墨-狗仔趴趴"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000061_Desc",
+          "SourceString": "陷入吸狗无法自拔。",
+          "LocalizedString": "陷入吸狗无法自拔。"
+        },
+        "Quality": 2,
+        "SortId": 2044,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000061.T_Dynamic_Emote_60000061",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000061
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000062": {
+        "Id": 60000062,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000062_Name",
+          "SourceString": "玛德蕾娜-发现情况",
+          "LocalizedString": "玛德蕾娜-发现情况"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000062_Desc",
+          "SourceString": "“让我看看前面出现了什么！”",
+          "LocalizedString": "“让我看看前面出现了什么！”"
+        },
+        "Quality": 2,
+        "SortId": 2045,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000062.T_Dynamic_Emote_60000062",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000062_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20107104
+      },
+      "60000063": {
+        "Id": 60000063,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000063_Name",
+          "SourceString": "玛德蕾娜-登陆",
+          "LocalizedString": "玛德蕾娜-登陆"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000063_Desc",
+          "SourceString": "“这儿现在是我的地盘了！”",
+          "LocalizedString": "“这儿现在是我的地盘了！”"
+        },
+        "Quality": 2,
+        "SortId": 2046,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000063.T_Dynamic_Emote_60000063",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000063_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20107104
+      },
+      "60000064": {
+        "Id": 60000064,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000064_Name",
+          "SourceString": "心夏-向你致敬",
+          "LocalizedString": "心夏-向你致敬"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000064_Desc",
+          "SourceString": "“工程师心夏，向你致敬~！”",
+          "LocalizedString": "“工程师心夏，向你致敬~！”"
+        },
+        "Quality": 2,
+        "SortId": 2047,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000064.T_Dynamic_Emote_60000064",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000064_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20124103
+      },
+      "60000065": {
+        "Id": 60000065,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000065_Name",
+          "SourceString": "心夏-问题诊断",
+          "LocalizedString": "心夏-问题诊断"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000065_Desc",
+          "SourceString": "“究竟是哪儿出问题了呢？”",
+          "LocalizedString": "“究竟是哪儿出问题了呢？”"
+        },
+        "Quality": 2,
+        "SortId": 2048,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000065.T_Dynamic_Emote_60000065",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000065_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20124103
+      },
+      "60000066": {
+        "Id": 60000066,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000066_Name",
+          "SourceString": "星绘-星球与你",
+          "LocalizedString": "星绘-星球与你"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000066_Desc",
+          "SourceString": "“我有一颗想要送你的星星。”",
+          "LocalizedString": "“我有一颗想要送你的星星。”"
+        },
+        "Quality": 2,
+        "SortId": 2049,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000066.T_Dynamic_Emote_60000066",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000066_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20146104
+      },
+      "60000067": {
+        "Id": 60000067,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000067_Name",
+          "SourceString": "星绘-星芒闪烁",
+          "LocalizedString": "星绘-星芒闪烁"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000067_Desc",
+          "SourceString": "“神秘的力量就在你的手中。”",
+          "LocalizedString": "“神秘的力量就在你的手中。”"
+        },
+        "Quality": 2,
+        "SortId": 2050,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000067.T_Dynamic_Emote_60000067",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000067_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20146104
+      },
+      "60000068": {
+        "Id": 60000068,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000068_Name",
+          "SourceString": "拉薇-凶恶小狼",
+          "LocalizedString": "拉薇-凶恶小狼"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000068_Desc",
+          "SourceString": "“内有饿狼，还请小心。”",
+          "LocalizedString": "“内有饿狼，还请小心。”"
+        },
+        "Quality": 2,
+        "SortId": 2051,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000068.T_Dynamic_Emote_60000068",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000068_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20128105
+      },
+      "60000069": {
+        "Id": 60000069,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000069_Name",
+          "SourceString": "伊薇特-修修补补",
+          "LocalizedString": "伊薇特-修修补补"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000069_Desc",
+          "SourceString": "“世界破破烂烂，伊薇特修修补补。”",
+          "LocalizedString": "“世界破破烂烂，伊薇特修修补补。”"
+        },
+        "Quality": 2,
+        "SortId": 2052,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000069.T_Dynamic_Emote_60000069",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000069_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20131106
+      },
+      "60000070": {
+        "Id": 60000070,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000070_Name",
+          "SourceString": "心夏-一叶障目",
+          "LocalizedString": "心夏-一叶障目"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000070_Desc",
+          "SourceString": "“你看不见我，对吧？”",
+          "LocalizedString": "“你看不见我，对吧？”"
+        },
+        "Quality": 2,
+        "SortId": 2053,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000070.T_Dynamic_Emote_60000070",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60000070_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        },
+        "RoleSkinId": 20124104
+      },
+      "60000071": {
+        "Id": 60000071,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000071_Name",
+          "SourceString": "米雪儿-我丢！",
+          "LocalizedString": "米雪儿-我丢！"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000071_Desc",
+          "SourceString": "“我要是认真起来，丢出去的可不只是大喵！”",
+          "LocalizedString": "“我要是认真起来，丢出去的可不只是大喵！”"
+        },
+        "Quality": 2,
+        "SortId": 2054,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000071.T_Dynamic_Emote_60000071",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000071
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000072": {
+        "Id": 60000072,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000072_Name",
+          "SourceString": "米雪儿-捞薯条",
+          "LocalizedString": "米雪儿-捞薯条"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000072_Desc",
+          "SourceString": "“新鲜的薯条最美味了。”",
+          "LocalizedString": "“新鲜的薯条最美味了。”"
+        },
+        "Quality": 2,
+        "SortId": 2055,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000072.T_Dynamic_Emote_60000072",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000072
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000073": {
+        "Id": 60000073,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000073_Name",
+          "SourceString": "米雪儿-偷看一下",
+          "LocalizedString": "米雪儿-偷看一下"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000073_Desc",
+          "SourceString": "“啊！你在做什么？”",
+          "LocalizedString": "“啊！你在做什么？”"
+        },
+        "Quality": 2,
+        "SortId": 2056,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000073.T_Dynamic_Emote_60000073",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000073
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000074": {
+        "Id": 60000074,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000074_Name",
+          "SourceString": "令-小镇的救赎",
+          "LocalizedString": "令-小镇的救赎"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000074_Desc",
+          "SourceString": "“一场雨把我困在了这里。”",
+          "LocalizedString": "“一场雨把我困在了这里。”"
+        },
+        "Quality": 2,
+        "SortId": 2057,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000074.T_Dynamic_Emote_60000074",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000074
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000075": {
+        "Id": 60000075,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000075_Name",
+          "SourceString": "令-小心岔路",
+          "LocalizedString": "令-小心岔路"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000075_Desc",
+          "SourceString": "“错过一道路口，就可能永远绕不回来。”",
+          "LocalizedString": "“错过一道路口，就可能永远绕不回来。”"
+        },
+        "Quality": 2,
+        "SortId": 2058,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000075.T_Dynamic_Emote_60000075",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000075
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000076": {
+        "Id": 60000076,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000076_Name",
+          "SourceString": "白墨-交个朋友",
+          "LocalizedString": "白墨-交个朋友"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000076_Desc",
+          "SourceString": "“靓仔，这是你掉的吗？”",
+          "LocalizedString": "“靓仔，这是你掉的吗？”"
+        },
+        "Quality": 2,
+        "SortId": 2059,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000076.T_Dynamic_Emote_60000076",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000076
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000077": {
+        "Id": 60000077,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000077_Name",
+          "SourceString": "白墨-自我陶醉",
+          "LocalizedString": "白墨-自我陶醉"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000077_Desc",
+          "SourceString": "“我就是这条街上最靓的仔。”",
+          "LocalizedString": "“我就是这条街上最靓的仔。”"
+        },
+        "Quality": 2,
+        "SortId": 2060,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000077.T_Dynamic_Emote_60000077",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000077
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000078": {
+        "Id": 60000078,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000078_Name",
+          "SourceString": "白墨-合影留念",
+          "LocalizedString": "白墨-合影留念"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000078_Desc",
+          "SourceString": "“我刚才倒下的姿势还挺帅吧？”",
+          "LocalizedString": "“我刚才倒下的姿势还挺帅吧？”"
+        },
+        "Quality": 2,
+        "SortId": 2061,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000078.T_Dynamic_Emote_60000078",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000078
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000079": {
+        "Id": 60000079,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000079_Name",
+          "SourceString": "心夏-只睡一下",
+          "LocalizedString": "心夏-只睡一下"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000079_Desc",
+          "SourceString": "ZZZZZZZ……",
+          "LocalizedString": "ZZZZZZZ……"
+        },
+        "Quality": 2,
+        "SortId": 2062,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000079.T_Dynamic_Emote_60000079",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000079
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000080": {
+        "Id": 60000080,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000080_Name",
+          "SourceString": "心夏-发现目标",
+          "LocalizedString": "心夏-发现目标"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000080_Desc",
+          "SourceString": "“不好，是新开的烧烤摊！这下不得不尝了！”",
+          "LocalizedString": "“不好，是新开的烧烤摊！这下不得不尝了！”"
+        },
+        "Quality": 2,
+        "SortId": 2063,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000080.T_Dynamic_Emote_60000080",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000080
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000081": {
+        "Id": 60000081,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000081_Name",
+          "SourceString": "玛德蕾娜-美好愿望",
+          "LocalizedString": "玛德蕾娜-美好愿望"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000081_Desc",
+          "SourceString": "“愿颜料涂满世界。”",
+          "LocalizedString": "“愿颜料涂满世界。”"
+        },
+        "Quality": 2,
+        "SortId": 2064,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000081.T_Dynamic_Emote_60000081",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000081
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000082": {
+        "Id": 60000082,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000082_Name",
+          "SourceString": "玛德蕾娜-使劲吹",
+          "LocalizedString": "玛德蕾娜-使劲吹"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000082_Desc",
+          "SourceString": "“你能吹得比我好吗？”",
+          "LocalizedString": "“你能吹得比我好吗？”"
+        },
+        "Quality": 2,
+        "SortId": 2065,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000082.T_Dynamic_Emote_60000082",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000082
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000083": {
+        "Id": 60000083,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000083_Name",
+          "SourceString": "拉薇-剪刀手笔记",
+          "LocalizedString": "拉薇-剪刀手笔记"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000083_Desc",
+          "SourceString": "“用小本本记下来。”",
+          "LocalizedString": "“用小本本记下来。”"
+        },
+        "Quality": 2,
+        "SortId": 2066,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000083.T_Dynamic_Emote_60000083",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000083
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000084": {
+        "Id": 60000084,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000084_Name",
+          "SourceString": "拉薇-磨刀",
+          "LocalizedString": "拉薇-磨刀"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000084_Desc",
+          "SourceString": "看来有人需要“料理”一下。",
+          "LocalizedString": "看来有人需要“料理”一下。"
+        },
+        "Quality": 2,
+        "SortId": 2067,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000084.T_Dynamic_Emote_60000084",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000084
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000085": {
+        "Id": 60000085,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000085_Name",
+          "SourceString": "明-强者",
+          "LocalizedString": "明-强者"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000085_Desc",
+          "SourceString": "“拜托，你很弱耶。”",
+          "LocalizedString": "“拜托，你很弱耶。”"
+        },
+        "Quality": 2,
+        "SortId": 2068,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000085.T_Dynamic_Emote_60000085",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000085
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
+      },
+      "60000086": {
+        "Id": 60000086,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60000086_Name",
+          "SourceString": "明-你小子",
+          "LocalizedString": "明-你小子"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60000086_Desc",
+          "SourceString": "“敢来普雷顿，没你好果子吃！”",
+          "LocalizedString": "“敢来普雷顿，没你好果子吃！”"
+        },
+        "Quality": 2,
+        "SortId": 2069,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60000086.T_Dynamic_Emote_60000086",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          60000086
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        },
+        "RoleSkinId": 20110101
       },
       "60001001": {
         "Id": 60001001,
         "DefaultEquip": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60001001_Name",
@@ -1455,13 +2929,9 @@
           "LocalizedString": "“正好，为你煮了点茶。”"
         },
         "Quality": 2,
-        "SortId": 2033,
+        "SortId": 2070,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001001.T_Dynamic_Emote_60001001",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1480,13 +2950,14 @@
           "Key": "60001001_GainParam2",
           "SourceString": "宿舍-拉薇",
           "LocalizedString": "宿舍-拉薇"
-        }
+        },
+        "RoleSkinId": 20128201
       },
       "60001002": {
         "Id": 60001002,
         "DefaultEquip": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60001002_Name",
@@ -1500,13 +2971,9 @@
           "LocalizedString": "“令人头疼……”"
         },
         "Quality": 2,
-        "SortId": 2034,
+        "SortId": 2071,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001002.T_Dynamic_Emote_60001002",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1525,13 +2992,14 @@
           "Key": "60001002_GainParam2",
           "SourceString": "宿舍-拉薇",
           "LocalizedString": "宿舍-拉薇"
-        }
+        },
+        "RoleSkinId": 20128201
       },
       "60001003": {
         "Id": 60001003,
         "DefaultEquip": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60001003_Name",
@@ -1545,13 +3013,9 @@
           "LocalizedString": "“还有这种事么？”"
         },
         "Quality": 2,
-        "SortId": 2035,
+        "SortId": 2072,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001003.T_Dynamic_Emote_60001003",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1570,13 +3034,14 @@
           "Key": "60001003_GainParam2",
           "SourceString": "宿舍-拉薇",
           "LocalizedString": "宿舍-拉薇"
-        }
+        },
+        "RoleSkinId": 20128201
       },
       "60001004": {
         "Id": 60001004,
         "DefaultEquip": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60001004_Name",
@@ -1590,13 +3055,9 @@
           "LocalizedString": "“你也对花卉感兴趣吗？”"
         },
         "Quality": 2,
-        "SortId": 2036,
+        "SortId": 2073,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001004.T_Dynamic_Emote_60001004",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1615,13 +3076,14 @@
           "Key": "60001004_GainParam2",
           "SourceString": "宿舍-拉薇",
           "LocalizedString": "宿舍-拉薇"
-        }
+        },
+        "RoleSkinId": 20128201
       },
       "60001005": {
         "Id": 60001005,
         "DefaultEquip": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Emote",
           "Key": "60001005_Name",
@@ -1635,13 +3097,9 @@
           "LocalizedString": "“不错的提议。”"
         },
         "Quality": 2,
-        "SortId": 2037,
+        "SortId": 2074,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001005.T_Dynamic_Emote_60001005",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1660,7 +3118,302 @@
           "Key": "60001005_GainParam2",
           "SourceString": "宿舍-拉薇",
           "LocalizedString": "宿舍-拉薇"
-        }
+        },
+        "RoleSkinId": 20128201
+      },
+      "60001006": {
+        "Id": 60001006,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001006_Name",
+          "SourceString": "心夏-淡淡忧伤",
+          "LocalizedString": "心夏-淡淡忧伤"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001006_Desc",
+          "SourceString": "“没关系，我自己调理一会儿……”",
+          "LocalizedString": "“没关系，我自己调理一会儿……”"
+        },
+        "Quality": 2,
+        "SortId": 2075,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001006.T_Dynamic_Emote_60001006",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001006_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001007": {
+        "Id": 60001007,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001007_Name",
+          "SourceString": "心夏-好困哦",
+          "LocalizedString": "心夏-好困哦"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001007_Desc",
+          "SourceString": "“真的不能再睡会儿吗？”",
+          "LocalizedString": "“真的不能再睡会儿吗？”"
+        },
+        "Quality": 2,
+        "SortId": 2076,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001007.T_Dynamic_Emote_60001007",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001007_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001008": {
+        "Id": 60001008,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001008_Name",
+          "SourceString": "心夏-诶嘿",
+          "LocalizedString": "心夏-诶嘿"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001008_Desc",
+          "SourceString": "“你的帅气前辈突然出现！”",
+          "LocalizedString": "“你的帅气前辈突然出现！”"
+        },
+        "Quality": 2,
+        "SortId": 2077,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001008.T_Dynamic_Emote_60001008",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001008_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001009": {
+        "Id": 60001009,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001009_Name",
+          "SourceString": "心夏-赞",
+          "LocalizedString": "心夏-赞"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001009_Desc",
+          "SourceString": "“不愧是你，太强了！”",
+          "LocalizedString": "“不愧是你，太强了！”"
+        },
+        "Quality": 2,
+        "SortId": 2078,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001009.T_Dynamic_Emote_60001009",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001009_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001010": {
+        "Id": 60001010,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001010_Name",
+          "SourceString": "心夏-忙得飞起",
+          "LocalizedString": "心夏-忙得飞起"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001010_Desc",
+          "SourceString": "工作量+1+1+1+1……",
+          "LocalizedString": "工作量+1+1+1+1……"
+        },
+        "Quality": 2,
+        "SortId": 2079,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001010.T_Dynamic_Emote_60001010",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001010_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001011": {
+        "Id": 60001011,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001011_Name",
+          "SourceString": "心夏-最好的搭档",
+          "LocalizedString": "心夏-最好的搭档"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001011_Desc",
+          "SourceString": "“我们在一起，就会了不起！”",
+          "LocalizedString": "“我们在一起，就会了不起！”"
+        },
+        "Quality": 2,
+        "SortId": 2080,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001011.T_Dynamic_Emote_60001011",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001011_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
+      },
+      "60001012": {
+        "Id": 60001012,
+        "DefaultEquip": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Emote",
+          "Key": "60001012_Name",
+          "SourceString": "心夏-生气气",
+          "LocalizedString": "心夏-生气气"
+        },
+        "Desc": {
+          "Namespace": "Emote",
+          "Key": "60001012_Desc",
+          "SourceString": "“和你绝交三分钟！”",
+          "LocalizedString": "“和你绝交三分钟！”"
+        },
+        "Quality": 2,
+        "SortId": 2081,
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001012.T_Dynamic_Emote_60001012",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoleEmote/RoleEmote_0.RoleEmote_0_C",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Emote",
+          "Key": "60001012_GainParam2",
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
+        },
+        "RoleSkinId": 20124201
       },
       "60002001": {
         "Id": 60002001,
@@ -1677,13 +3430,9 @@
           "CultureInvariantString": null
         },
         "Quality": 2,
-        "SortId": 2038,
+        "SortId": 2082,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60002001.T_Dynamic_Emote_60002001",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1702,7 +3451,8 @@
           "Key": "60002001_GainParam2",
           "SourceString": "短信",
           "LocalizedString": "短信"
-        }
+        },
+        "RoleSkinId": 0
       },
       "60002002": {
         "Id": 60002002,
@@ -1719,13 +3469,9 @@
           "CultureInvariantString": null
         },
         "Quality": 2,
-        "SortId": 2039,
+        "SortId": 2083,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60002002.T_Dynamic_Emote_60002002",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1744,7 +3490,8 @@
           "Key": "60002002_GainParam2",
           "SourceString": "短信",
           "LocalizedString": "短信"
-        }
+        },
+        "RoleSkinId": 0
       },
       "60002003": {
         "Id": 60002003,
@@ -1761,13 +3508,9 @@
           "CultureInvariantString": null
         },
         "Quality": 2,
-        "SortId": 2040,
+        "SortId": 2084,
         "IconItem": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60002003.T_Dynamic_Emote_60002003",
-          "SubPathString": ""
-        },
-        "IconBig": {
-          "AssetPathName": "None",
           "SubPathString": ""
         },
         "BluePrint": {
@@ -1786,7 +3529,8 @@
           "Key": "60002003_GainParam2",
           "SourceString": "短信",
           "LocalizedString": "短信"
-        }
+        },
+        "RoleSkinId": 0
       }
     }
   }

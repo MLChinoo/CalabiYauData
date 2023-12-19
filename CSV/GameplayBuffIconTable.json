@@ -158,14 +158,6 @@
         "Tag": "BuffIcon.Strong.Arousal.Starlight",
         "DevComment": "星光携带"
       },
-      "BuffIcon.Weak.GameMode.StealSpar": {
-        "Tag": "BuffIcon.Weak.GameMode.StealSpar",
-        "DevComment": "采矿模式偷矿"
-      },
-      "BuffIcon.Weak.GameMode.PickSpar": {
-        "Tag": "BuffIcon.Weak.GameMode.PickSpar",
-        "DevComment": "采矿模式运矿"
-      },
       "BuffIcon.Strong.SpaceTeleport": {
         "Tag": "BuffIcon.Strong.SpaceTeleport",
         "DevComment": "星绘传送中"

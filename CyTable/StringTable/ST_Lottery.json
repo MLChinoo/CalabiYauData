@@ -6,7 +6,7 @@
     "StringTable": {
       "TableNamespace": "",
       "KeysToMetaData": {
-        "LotteryBonusHint": "再进行{0}次复现，必出 <Red-TxtType>{1}品质</> 或以上物品！",
+        "LotteryBonusHint": "再进行{0}次复现，必出 <Red-TxtType>{1}品质</> 或以上物品！ ",
         "Orange": "橙色",
         "Red": "红色",
         "Purple": "紫色",
@@ -20,7 +20,12 @@
         "Emote": "表情",
         "Action": "动作",
         "Voice": "语音",
-        "Card": "芯片"
+        "Card": "芯片",
+        "CountDown_DayHour": "{0}天{1}小时后结束",
+        "CountDown_HourMinus": "{0}小时{1}分钟后结束",
+        "CountDown_Minus": "{0}分钟后结束",
+        "LotteryOutOfDate": "不在开放时间内",
+        "LotteryBonusHistory": "再进行<Orange-Bold16>{0}</>次复现，必出<Orange-Bold16>橙色或以上品质</>的物品；再进行<Red-Bold16>{1}</>次复现，必出<Red-Bold16>红色品质</>物品。"
       }
     },
     "StringTableId": 0

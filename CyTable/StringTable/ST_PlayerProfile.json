@@ -11,7 +11,7 @@
         "EditBusinessCard": "芯片工艺",
         "Collection": "{0} / {1}",
         "RoleGameCount": "{0} 场",
-        "GameModeTeam": "团队乱斗",
+        "GameModeTeam": "无限团竞",
         "GameModeBomb": "一般爆破",
         "GameModeRankBomb": "排位爆破",
         "JoinTimeFormat": "{0}-{1}-{2}",
@@ -25,7 +25,12 @@
         "Achieve": "核心",
         "DoesRebackCardSelect": "你选用的方案有组件未解锁，确定还原之前选择并保存吗？",
         "GameModeMine": "芯核争夺",
-        "GameModeTeam3": "团队乱斗"
+        "GameModeTeam3": "团队乱斗",
+        "LevelReward": "等级奖励",
+        "GameModeRoom": "自定义",
+        "GameModeTeam5": "团队乱斗",
+        "GameModePushCar": "推车模式",
+        "GameModeHindSeek": "喷漆潜行"
       }
     },
     "StringTableId": 0

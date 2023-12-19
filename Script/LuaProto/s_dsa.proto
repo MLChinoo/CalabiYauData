@@ -1,11 +1,10 @@
 
-‹$
+ß'
 s_dsa.protoncmd_ds
-enum.protopublic.proto"ñ
+enum.protopublic.proto"Ñ
 ds_creatematch_req
 room_id (RroomId
-map_id (RmapId
-nvn (Rnvn&
+map_id (RmapId&
 mode (2.ncmd_cs.ERoomModeRmode1
 players (2.ncmd_ds.ds_player_infoRplayers2
 	sync_flag (2.ncmd_cs.EMsgSyncFlagRsyncFlag/
@@ -36,7 +35,7 @@ primaryExp#
 personality_type (2.ncmd_cs.EPersonalityTypeRpersonalityType"I
 ds_decal_info
 	decal_pos (RdecalPos
-	config_id (RconfigId"ê
+	config_id (RconfigId"Û
 ds_role_info
 role_id (RroleId
 skin_id (RskinId1
@@ -47,7 +46,12 @@ primaryExp#
 
 flutter_id (R	flutterId(
 advanced_skin_id (RadvancedSkinIdB
-personalities	 (2.ncmd_ds.ds_personality_infoRpersonalities"™
+personalities	 (2.ncmd_ds.ds_personality_infoRpersonalities
+custom_mask
+ (R
+customMask(
+custom_mask_list (RcustomMaskList
+weight (Rweight"Å
 ds_player_info
 	player_id (RplayerId
 nick (Rnick#
@@ -73,7 +77,11 @@ robot_type (2.ncmd_cs.ERobotTypeR	robotType
 friend_ids (R	friendIds
 pos (Rpos#
 player_serial (RplayerSerial
-mmr (Rmmr"A
+mmr (Rmmr
+	is_leader (RisLeader
+
+is_referee (R	isReferee
+rank_pos (RrankPos"A
 ds_creatematch_res
 code (Rcode
 room_id (RroomId"g
@@ -165,4 +173,10 @@ task_datas (2.ncmd_ds.ds_task_dataR	taskDatas"ï
 	file_path (	RfilePath"=
 ds_ace_unsafe_ntf
 reason (Rreason
-msg (	Rmsgbproto3
+msg (	Rmsg"e
+ds_report_progress_ntf
+room_id (RroomId
+progress (Rprogress
+scores (Rscores":
+ds_game_rule_ntf&
+rule (2.ncmd_cs.room_ruleRrulebproto3

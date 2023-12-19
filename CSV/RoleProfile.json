@@ -225,8 +225,8 @@
         "Desc": {
           "Namespace": "RoleProfile",
           "Key": "105_Desc",
-          "SourceString": "乌尔比诺小有名气的佣兵，优雅华丽的大小姐。",
-          "LocalizedString": "乌尔比诺小有名气的佣兵，优雅华丽的大小姐。"
+          "SourceString": "乌尔比诺小有名气的富商，格罗夫家族的当家人。",
+          "LocalizedString": "乌尔比诺小有名气的富商，格罗夫家族的当家人。"
         },
         "Sex": {
           "Namespace": "RoleProfile",
@@ -269,8 +269,8 @@
         "Height": {
           "Namespace": "RoleProfile",
           "Key": "105_Height",
-          "SourceString": "166CM",
-          "LocalizedString": "166CM"
+          "SourceString": "168CM",
+          "LocalizedString": "168CM"
         },
         "Weight": {
           "Namespace": "RoleProfile",
@@ -435,8 +435,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "132_Apartment",
-          "SourceString": "普雷顿铁西区",
-          "LocalizedString": "普雷顿铁西区"
+          "SourceString": "普雷顿西铁区",
+          "LocalizedString": "普雷顿西铁区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -461,8 +461,8 @@
         "Height": {
           "Namespace": "RoleProfile",
           "Key": "132_Height",
-          "SourceString": "168CM",
-          "LocalizedString": "168CM"
+          "SourceString": "166CM",
+          "LocalizedString": "166CM"
         },
         "Weight": {
           "Namespace": "RoleProfile",
@@ -609,8 +609,8 @@
         "Desc": {
           "Namespace": "RoleProfile",
           "Key": "107_Desc",
-          "SourceString": "阳光开朗的服装绘师，在追求艺术的道路上行至远方。",
-          "LocalizedString": "阳光开朗的服装绘师，在追求艺术的道路上行至远方。"
+          "SourceString": "阳光开朗的艺术家，常常莫名卷入各种麻烦。",
+          "LocalizedString": "阳光开朗的艺术家，常常莫名卷入各种麻烦。"
         },
         "Sex": {
           "Namespace": "RoleProfile",
@@ -627,8 +627,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "107_Apartment",
-          "SourceString": "艾顿城艺芸区",
-          "LocalizedString": "艾顿城艺芸区"
+          "SourceString": "伊莱特隆20-1区",
+          "LocalizedString": "伊莱特隆20-1区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -819,8 +819,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "128_Apartment",
-          "SourceString": "未知",
-          "LocalizedString": "未知"
+          "SourceString": "未公开",
+          "LocalizedString": "未公开"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1011,8 +1011,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "108_Apartment",
-          "SourceString": "埃利蒙德东2区",
-          "LocalizedString": "埃利蒙德东2区"
+          "SourceString": "埃利蒙德5区",
+          "LocalizedString": "埃利蒙德5区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1203,8 +1203,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "110_Apartment",
-          "SourceString": "艾顿城艺芸区",
-          "LocalizedString": "艾顿城艺芸区"
+          "SourceString": "艾顿城云顶花园",
+          "LocalizedString": "艾顿城云顶花园"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1395,8 +1395,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "146_Apartment",
-          "SourceString": "纽特朗88区/斯崔恩东198区",
-          "LocalizedString": "纽特朗88区/斯崔恩东198区"
+          "SourceString": "纽特朗88区",
+          "LocalizedString": "纽特朗88区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1587,8 +1587,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "133_Apartment",
-          "SourceString": "未知",
-          "LocalizedString": "未知"
+          "SourceString": "S12基地",
+          "LocalizedString": "S12基地"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1779,8 +1779,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "131_Apartment",
-          "SourceString": "斯崔恩风曳镇",
-          "LocalizedString": "斯崔恩风曳镇"
+          "SourceString": "斯崔恩曳风区",
+          "LocalizedString": "斯崔恩曳风区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -1971,14 +1971,14 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "112_Apartment",
-          "SourceString": "纽特朗88区",
-          "LocalizedString": "纽特朗88区"
+          "SourceString": "伊莱特隆13-5区",
+          "LocalizedString": "伊莱特隆13-5区"
         },
         "Title": {
           "Namespace": "RoleProfile",
           "Key": "112_Title",
-          "SourceString": "无悲的刀锋",
-          "LocalizedString": "无悲的刀锋"
+          "SourceString": "幼鲨",
+          "LocalizedString": "幼鲨"
         },
         "CvCn": {
           "Namespace": "RoleProfile",
@@ -2139,8 +2139,8 @@
         "NameEn": {
           "Namespace": "RoleProfile",
           "Key": "124_NameEn",
-          "SourceString": "KokonaShiki",
-          "LocalizedString": "KokonaShiki"
+          "SourceString": "Kokona",
+          "LocalizedString": "Kokona"
         },
         "Desc": {
           "Namespace": "RoleProfile",
@@ -2163,8 +2163,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "124_Apartment",
-          "SourceString": "伊莱特隆大学城",
-          "LocalizedString": "伊莱特隆大学城"
+          "SourceString": "埃利蒙德3区",
+          "LocalizedString": "埃利蒙德3区"
         },
         "Title": {
           "Namespace": "RoleProfile",
@@ -2573,8 +2573,8 @@
         "Height": {
           "Namespace": "RoleProfile",
           "Key": "137_Height",
-          "SourceString": "160CM",
-          "LocalizedString": "160CM"
+          "SourceString": "161CM",
+          "LocalizedString": "161CM"
         },
         "Weight": {
           "Namespace": "RoleProfile",
@@ -2739,8 +2739,8 @@
         "Apartment": {
           "Namespace": "RoleProfile",
           "Key": "109_Apartment",
-          "SourceString": "普雷顿柯西街区",
-          "LocalizedString": "普雷顿柯西街区"
+          "SourceString": "普雷顿东丹区",
+          "LocalizedString": "普雷顿东丹区"
         },
         "Title": {
           "Namespace": "RoleProfile",

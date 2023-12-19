@@ -163,16 +163,80 @@
         },
         "CommunicationList": [
           {
-            "12801001": null
+            "12801003": {
+              "ObjectName": "DataTable'Lawine_128_Lv_3'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Lawine/Lawine_128_Lv_3.0"
+            }
           },
           {
-            "12801002": null
+            "12801005": {
+              "ObjectName": "DataTable'Lawine_128_Lv_5'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Lawine/Lawine_128_Lv_5.0"
+            }
           },
           {
-            "12801003": null
+            "12801007": {
+              "ObjectName": "DataTable'Lawine_128_Lv_7'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Lawine/Lawine_128_Lv_7.0"
+            }
           },
           {
-            "12801004": null
+            "12801009": {
+              "ObjectName": "DataTable'Lawine_128_Lv_9'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Lawine/Lawine_128_Lv_9.0"
+            }
+          },
+          {
+            "12801001": {
+              "ObjectName": "DataTable'Lawine_128_Lv_1'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Lawine/Lawine_128_Lv_1.0"
+            }
+          }
+        ]
+      },
+      "12401": {
+        "bNeedShowFavorability": true,
+        "RoleId": 124,
+        "ChatNickName": {
+          "Namespace": "",
+          "Key": "BE2E30DE43CD981266119A95D2DA4DDE",
+          "SourceString": "心夏",
+          "LocalizedString": "心夏"
+        },
+        "ChatAvatar": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+          "SubPathString": ""
+        },
+        "CommunicationList": [
+          {
+            "12401001": {
+              "ObjectName": "DataTable'Kokona_124_Lv_1'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Kokona/Kokona_124_Lv_1.0"
+            }
+          },
+          {
+            "12401003": {
+              "ObjectName": "DataTable'Kokona_124_Lv_3'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Kokona/Kokona_124_Lv_3.0"
+            }
+          },
+          {
+            "12401005": {
+              "ObjectName": "DataTable'Kokona_124_Lv_5'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Kokona/Kokona_124_Lv_5.0"
+            }
+          },
+          {
+            "12401007": {
+              "ObjectName": "DataTable'Kokona_124_Lv_7'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Kokona/Kokona_124_Lv_7.0"
+            }
+          },
+          {
+            "12401009": {
+              "ObjectName": "DataTable'Kokona_124_Lv_9'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/Kokona/Kokona_124_Lv_9.0"
+            }
           }
         ]
       },
@@ -218,6 +282,40 @@
             "33302005": {
               "ObjectName": "DataTable'Summer_333_Lv_5'",
               "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/GroupChat/Summer_333_Lv_5.0"
+            }
+          }
+        ]
+      },
+      "33402": {
+        "bNeedShowFavorability": false,
+        "RoleId": 0,
+        "ChatNickName": {
+          "Namespace": "",
+          "Key": "AB2787604EAD7B80E4EA5FB137D4E6AA",
+          "SourceString": "甜梦游乐园",
+          "LocalizedString": "甜梦游乐园"
+        },
+        "ChatAvatar": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_33402.T_Dynamic_RolePorfile_33402",
+          "SubPathString": ""
+        },
+        "CommunicationList": [
+          {
+            "33402001": {
+              "ObjectName": "DataTable'Amusement_334_Lv_1'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/ActivityChat/Amusement_334_Lv_1.0"
+            }
+          },
+          {
+            "33402002": {
+              "ObjectName": "DataTable'Amusement_334_Lv_2'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/ActivityChat/Amusement_334_Lv_2.0"
+            }
+          },
+          {
+            "33402003": {
+              "ObjectName": "DataTable'Amusement_334_Lv_3'",
+              "ObjectPath": "PM/Content/PaperMan/CSV/KaPhone/ActivityChat/Amusement_334_Lv_3.0"
             }
           }
         ]

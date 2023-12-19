@@ -174,9 +174,13 @@
         "Tag": "Buff.Weak.SlowDown.Q.Ming",
         "DevComment": "明Q技能减速"
       },
-      "Buff.Strong.SlowUp.Q.Ming": {
-        "Tag": "Buff.Strong.SlowUp.Q.Ming",
-        "DevComment": "明Q技能加速"
+      "Buff.Strong.SlowUp.Q.Ming.Duration": {
+        "Tag": "Buff.Strong.SlowUp.Q.Ming.Duration",
+        "DevComment": "明Q技能加速延迟"
+      },
+      "Buff.Strong.SlowUp.Q.Ming.Infinite": {
+        "Tag": "Buff.Strong.SlowUp.Q.Ming.Infinite",
+        "DevComment": "明Q技能加速持续"
       },
       "Buff.Weak.SlowDown.X.Ming": {
         "Tag": "Buff.Weak.SlowDown.X.Ming",
@@ -341,6 +345,70 @@
       "Buff.GameMode.RichManRescueSelf": {
         "Tag": "Buff.GameMode.RichManRescueSelf",
         "DevComment": "晶体战-采矿王自起"
+      },
+      "Buff.Weak.Blind.Flavia": {
+        "Tag": "Buff.Weak.Blind.Flavia",
+        "DevComment": "芙拉薇娅Q技能致盲"
+      },
+      "Buff.Strong.Q.Flavia": {
+        "Tag": "Buff.Strong.Q.Flavia",
+        "DevComment": "芙拉薇娅Q技能反制buff"
+      },
+      "Buff.Flavia.X.Butterfly": {
+        "Tag": "Buff.Flavia.X.Butterfly",
+        "DevComment": "芙拉薇娅X技能等待重生"
+      },
+      "Buff.Flavia.X.DeathProtection": {
+        "Tag": "Buff.Flavia.X.DeathProtection",
+        "DevComment": "芙拉薇娅X技能死亡保护"
+      },
+      "Buff.Aika.P.FireAmmo": {
+        "Tag": "Buff.Aika.P.FireAmmo",
+        "DevComment": "焰弹"
+      },
+      "Buff.Aika.P.FireAmmo.Duration": {
+        "Tag": "Buff.Aika.P.FireAmmo.Duration",
+        "DevComment": "焰弹持续"
+      },
+      "Buff.Aika.P.FireAmmo.Instant": {
+        "Tag": "Buff.Aika.P.FireAmmo.Instant",
+        "DevComment": "焰弹立即"
+      },
+      "Buff.Aika.P.FireAmmo.Damage2D": {
+        "Tag": "Buff.Aika.P.FireAmmo.Damage2D",
+        "DevComment": "焰弹2D增伤"
+      },
+      "Buff.Weak.FireSub.P.Aika": {
+        "Tag": "Buff.Weak.FireSub.P.Aika",
+        "DevComment": "怒气衰减"
+      },
+      "Buff.Aika.Q.InsideDamageDuration": {
+        "Tag": "Buff.Aika.Q.InsideDamageDuration",
+        "DevComment": "火圈内持续伤害"
+      },
+      "Buff.Aika.Q.FireWallDamageInstant": {
+        "Tag": "Buff.Aika.Q.FireWallDamageInstant",
+        "DevComment": "火墙墙体伤害"
+      },
+      "Buff.Aika.CleanEnergy": {
+        "Tag": "Buff.Aika.CleanEnergy",
+        "DevComment": "清怒"
+      },
+      "Buff.Aika.Q.Enhanced.FireInside.Self": {
+        "Tag": "Buff.Aika.Q.Enhanced.FireInside.Self",
+        "DevComment": "红怒Q下自己在范围内的标记"
+      },
+      "Buff.Aika.Q.Enhanced.FireInside.Enemy": {
+        "Tag": "Buff.Aika.Q.Enhanced.FireInside.Enemy",
+        "DevComment": "红怒Q下敌人在范围内的标记"
+      },
+      "Buff.Flavia.X.Sight": {
+        "Tag": "Buff.Flavia.X.Sight",
+        "DevComment": "芙拉薇娅隐身可见标记"
+      },
+      "Buff.Flavia.X.Inside": {
+        "Tag": "Buff.Flavia.X.Inside",
+        "DevComment": "芙拉薇娅大招范围内标记"
       }
     }
   }

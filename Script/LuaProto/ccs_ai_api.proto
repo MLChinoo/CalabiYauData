@@ -1,5 +1,5 @@
 
-»
+¾
 ccs_ai_api.protoccs_aiccs_ai_state.protoccs_ai_action.protoccs_state_diff.proto">
 	APIResult
 code (Rcode
@@ -78,4 +78,4 @@ diff_state (2.ccs_ai.DiffAIStateInfoR	diffState
 statistics_info (2.ccs_ai.StatisticsInfoRstatisticsInfo
 token (	Rtoken"C
 StatisticsInfoResponse)
-result (2.ccs_ai.APIResultRresultBHbproto3
+result (2.ccs_ai.APIResultRresultBHøbproto3

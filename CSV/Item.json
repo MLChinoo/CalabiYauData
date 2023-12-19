@@ -45,6 +45,7 @@
         "EffectId": [
           0
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -61,6 +62,118 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "10001_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "10401": {
+        "Id": 10401,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "10401_Name",
+          "SourceString": "特别行动加速卡（赛季）",
+          "LocalizedString": "特别行动加速卡（赛季）"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "10401_Desc",
+          "SourceString": "可以使用一定数量的特别行动加速卡立刻完成特别行动进程中的每周任务。",
+          "LocalizedString": "可以使用一定数量的特别行动加速卡立刻完成特别行动进程中的每周任务。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10401.T_Dynamic_Item_10401",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10401.T_Dynamic_BigItem_10401",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3002,
+        "ItemType": 1,
+        "EffectId": [
+          0
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 100,
+        "LimitNum": 9999,
+        "LimitType": 1,
+        "LimitParam": 100,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "10401_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "10402": {
+        "Id": 10402,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "10402_Name",
+          "SourceString": "特别行动加速卡（永久）",
+          "LocalizedString": "特别行动加速卡（永久）"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "10402_Desc",
+          "SourceString": "可以使用一定数量的特别行动加速卡立刻完成特别行动进程中的每周任务。",
+          "LocalizedString": "可以使用一定数量的特别行动加速卡立刻完成特别行动进程中的每周任务。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10402.T_Dynamic_Item_10402",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10402.T_Dynamic_BigItem_10402",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3003,
+        "ItemType": 1,
+        "EffectId": [
+          0
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 100,
+        "LimitNum": 9999,
+        "LimitType": 1,
+        "LimitParam": 100,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "10402_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -95,11 +208,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3002,
+        "SortId": 3004,
         "ItemType": 1,
         "EffectId": [
           10201
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -155,6 +269,7 @@
         "EffectId": [
           10202
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -171,6 +286,174 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "10202_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "10203": {
+        "Id": 10203,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "10203_Name",
+          "SourceString": "5000经验卡",
+          "LocalizedString": "5000经验卡"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "10203_Desc",
+          "SourceString": "使用后立即获得5000点账号经验",
+          "LocalizedString": "使用后立即获得5000点账号经验"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10203.T_Dynamic_Item_10203",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10203.T_Dynamic_BigItem_10203",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4002,
+        "ItemType": 1,
+        "EffectId": [
+          10203
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "10203_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "10501": {
+        "Id": 10501,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "10501_Name",
+          "SourceString": "排位加星卡",
+          "LocalizedString": "排位加星卡"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "10501_Desc",
+          "SourceString": "使用后，下一次排位模式比赛胜利时，额外加一颗星。（禁闭夸克及以上段位无法使用、无法生效）",
+          "LocalizedString": "使用后，下一次排位模式比赛胜利时，额外加一颗星。（禁闭夸克及以上段位无法使用、无法生效）"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10501.T_Dynamic_Item_10501",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10501.T_Dynamic_BigItem_10501",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4003,
+        "ItemType": 1,
+        "EffectId": [
+          10501
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 50,
+        "LimitNum": 10,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "10501_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "10502": {
+        "Id": 10502,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "10502_Name",
+          "SourceString": "排位保星卡",
+          "LocalizedString": "排位保星卡"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "10502_Desc",
+          "SourceString": "使用后，下一次排位模式比赛失败时，避免掉星或掉段。（禁闭夸克及以上段位无法使用、无法生效）",
+          "LocalizedString": "使用后，下一次排位模式比赛失败时，避免掉星或掉段。（禁闭夸克及以上段位无法使用、无法生效）"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10502.T_Dynamic_Item_10502",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10502.T_Dynamic_BigItem_10502",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4004,
+        "ItemType": 1,
+        "EffectId": [
+          10502
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 50,
+        "LimitNum": 10,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "10502_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -210,6 +493,7 @@
         "EffectId": [
           0
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": false,
         "SaleType": 0,
@@ -263,6 +547,7 @@
         "EffectId": [
           0
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": false,
         "SaleType": 0,
@@ -316,6 +601,7 @@
         "EffectId": [
           0
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": false,
         "SaleType": 0,
@@ -364,11 +650,12 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4002,
+        "SortId": 4005,
         "ItemType": 2,
         "EffectId": [
           20011
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -419,11 +706,12 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4003,
+        "SortId": 4006,
         "ItemType": 2,
         "EffectId": [
           20019
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -474,11 +762,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3003,
+        "SortId": 3005,
         "ItemType": 2,
         "EffectId": [
           21001
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -529,11 +818,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3004,
+        "SortId": 3006,
         "ItemType": 2,
         "EffectId": [
           21002
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -584,11 +874,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3005,
+        "SortId": 3007,
         "ItemType": 2,
         "EffectId": [
           21003
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -639,11 +930,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3006,
+        "SortId": 3008,
         "ItemType": 2,
         "EffectId": [
           21004
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -660,6 +952,174 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "21004_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "21005": {
+        "Id": 21005,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "21005_Name",
+          "SourceString": "古怪胜负礼盒",
+          "LocalizedString": "古怪胜负礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "21005_Desc",
+          "SourceString": "“嘿嘿，我愿赌服输，下次还要多来找我玩哦？”——盒子里的纸条如此写道",
+          "LocalizedString": "“嘿嘿，我愿赌服输，下次还要多来找我玩哦？”——盒子里的纸条如此写道"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_21005.T_Dynamic_Item_21005",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_21005.T_Dynamic_BigItem_21005",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3009,
+        "ItemType": 2,
+        "EffectId": [
+          21005
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "21005_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "21006": {
+        "Id": 21006,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "21006_Name",
+          "SourceString": "随机角色体验卡礼盒",
+          "LocalizedString": "随机角色体验卡礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "21006_Desc",
+          "SourceString": "可以获得随机一个角色7天体验卡，包含白墨、心夏、梅瑞狄斯、香奈美、绯莎。",
+          "LocalizedString": "可以获得随机一个角色7天体验卡，包含白墨、心夏、梅瑞狄斯、香奈美、绯莎。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_25002.T_Dynamic_Item_25002",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_25002.T_Dynamic_BigItem_25002",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3010,
+        "ItemType": 2,
+        "EffectId": [
+          21006
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "21006_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "21007": {
+        "Id": 21007,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "21007_Name",
+          "SourceString": "灰狼奇遇幸运礼盒",
+          "LocalizedString": "灰狼奇遇幸运礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "21007_Desc",
+          "SourceString": "“出演原来要提前入场吗？没办法，那就先上台排练一下吧。”——大灰狼，某不愿透露姓名的无业人士\n（开启80次必得完美品质角色时装或武器外观其中之一，开启160次必集齐一套完美品质角色时装和武器外观）",
+          "LocalizedString": "“出演原来要提前入场吗？没办法，那就先上台排练一下吧。”——大灰狼，某不愿透露姓名的无业人士\n（开启80次必得完美品质角色时装或武器外观其中之一，开启160次必集齐一套完美品质角色时装和武器外观）"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_21007.T_Dynamic_Item_21007",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_21007.T_Dynamic_BigItem_21007",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3011,
+        "ItemType": 2,
+        "EffectId": [
+          21007
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "21007_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -694,11 +1154,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3007,
+        "SortId": 3012,
         "ItemType": 2,
         "EffectId": [
           22001
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -749,11 +1210,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3008,
+        "SortId": 3013,
         "ItemType": 2,
         "EffectId": [
           22002
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -804,11 +1266,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3009,
+        "SortId": 3014,
         "ItemType": 2,
         "EffectId": [
           22003
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -859,11 +1322,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3010,
+        "SortId": 3015,
         "ItemType": 2,
         "EffectId": [
           22004
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -880,6 +1344,174 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "22004_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "25001": {
+        "Id": 25001,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "25001_Name",
+          "SourceString": "自选礼盒",
+          "LocalizedString": "自选礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "25001_Desc",
+          "SourceString": "可以从中任意选择一个道具",
+          "LocalizedString": "可以从中任意选择一个道具"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_25001.T_Dynamic_Item_25001",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_25001.T_Dynamic_BigItem_25001",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3016,
+        "ItemType": 2,
+        "EffectId": [
+          25001
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 1,
+        "LimitParam": 100,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "25001_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "25002": {
+        "Id": 25002,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "25002_Name",
+          "SourceString": "角色体验卡自选礼盒",
+          "LocalizedString": "角色体验卡自选礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "25002_Desc",
+          "SourceString": "可以任意选择一个角色7天体验卡，包含白墨、心夏、梅瑞狄斯、香奈美。",
+          "LocalizedString": "可以任意选择一个角色7天体验卡，包含白墨、心夏、梅瑞狄斯、香奈美。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_25002.T_Dynamic_Item_25002",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_25002.T_Dynamic_BigItem_25002",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3017,
+        "ItemType": 2,
+        "EffectId": [
+          25002
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 1,
+        "LimitParam": 100,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "25002_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "25003": {
+        "Id": 25003,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "25003_Name",
+          "SourceString": "喷漆自选礼盒",
+          "LocalizedString": "喷漆自选礼盒"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "25003_Desc",
+          "SourceString": "可以从中任意选择一个喷漆。",
+          "LocalizedString": "可以从中任意选择一个喷漆。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_30001.T_Dynamic_Item_30001",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_30001.T_Dynamic_BigItem_30001",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3017,
+        "ItemType": 2,
+        "EffectId": [
+          25003
+        ],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 1,
+        "LimitParam": 100,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "25003_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -917,9 +1549,10 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4004,
+        "SortId": 4007,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -973,9 +1606,10 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4005,
+        "SortId": 4008,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1028,10 +1662,11 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
-        "Quality": 2,
-        "SortId": 2001,
+        "Quality": 4,
+        "SortId": 4009,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1085,9 +1720,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3011,
+        "SortId": 3019,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1140,10 +1776,11 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
-        "Quality": 2,
-        "SortId": 2002,
+        "Quality": 3,
+        "SortId": 3020,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1197,9 +1834,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2003,
+        "SortId": 2001,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1253,9 +1891,10 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4006,
+        "SortId": 4010,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1309,9 +1948,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2004,
+        "SortId": 2002,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1365,9 +2005,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3012,
+        "SortId": 3021,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1420,10 +2061,11 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
-        "Quality": 2,
-        "SortId": 2005,
+        "Quality": 4,
+        "SortId": 4011,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1477,9 +2119,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2006,
+        "SortId": 2003,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1533,9 +2176,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2007,
+        "SortId": 2004,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1589,9 +2233,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2008,
+        "SortId": 2005,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1645,9 +2290,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3013,
+        "SortId": 3022,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1701,9 +2347,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2009,
+        "SortId": 2006,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1757,9 +2404,10 @@
           "SubPathString": ""
         },
         "Quality": 2,
-        "SortId": 2010,
+        "SortId": 2007,
         "ItemType": 1,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1816,6 +2464,7 @@
         "SortId": 1001,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1872,6 +2521,7 @@
         "SortId": 1002,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1928,6 +2578,7 @@
         "SortId": 1003,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -1984,6 +2635,7 @@
         "SortId": 1004,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2040,6 +2692,7 @@
         "SortId": 1005,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2096,6 +2749,7 @@
         "SortId": 1006,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2152,6 +2806,7 @@
         "SortId": 1007,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2208,6 +2863,7 @@
         "SortId": 1008,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2264,6 +2920,7 @@
         "SortId": 1009,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2320,6 +2977,7 @@
         "SortId": 1010,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2376,6 +3034,7 @@
         "SortId": 1011,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2432,6 +3091,7 @@
         "SortId": 1012,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2488,6 +3148,7 @@
         "SortId": 1013,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2544,6 +3205,7 @@
         "SortId": 1014,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2600,6 +3262,7 @@
         "SortId": 1015,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2656,6 +3319,7 @@
         "SortId": 1016,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2712,6 +3376,7 @@
         "SortId": 1017,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2768,6 +3433,7 @@
         "SortId": 1018,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2824,6 +3490,7 @@
         "SortId": 1019,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2880,6 +3547,7 @@
         "SortId": 1020,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2896,6 +3564,234 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "30036_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "30037": {
+        "Id": 30037,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "30037_Name",
+          "SourceString": "莲蓉蛋黄月饼",
+          "LocalizedString": "莲蓉蛋黄月饼"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "30037_Desc",
+          "SourceString": "以其光滑的莲蓉馅和咸蛋黄的独特搭配而著名，味道甜美且鲜美。",
+          "LocalizedString": "以其光滑的莲蓉馅和咸蛋黄的独特搭配而著名，味道甜美且鲜美。"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "30037_Tag",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_30037.T_Dynamic_Item_30037",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_30037.T_Dynamic_BigItem_30037",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3023,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "30037_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "30038": {
+        "Id": 30038,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "30038_Name",
+          "SourceString": "五仁月饼",
+          "LocalizedString": "五仁月饼"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "30038_Desc",
+          "SourceString": "多种坚果和糖果馅料的混合，味道丰富多样，是秋实节的传统食物。",
+          "LocalizedString": "多种坚果和糖果馅料的混合，味道丰富多样，是秋实节的传统食物。"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "30038_Tag",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_30038.T_Dynamic_Item_30038",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_30038.T_Dynamic_BigItem_30038",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3024,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "30038_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "30039": {
+        "Id": 30039,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "30039_Name",
+          "SourceString": "豆沙月饼",
+          "LocalizedString": "豆沙月饼"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "30039_Desc",
+          "SourceString": "细腻的红豆馅，甜而不腻，常常被视为秋实节的经典之选。",
+          "LocalizedString": "细腻的红豆馅，甜而不腻，常常被视为秋实节的经典之选。"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "30039_Tag",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_30039.T_Dynamic_Item_30039",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_30039.T_Dynamic_BigItem_30039",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3025,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "30039_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "30040": {
+        "Id": 30040,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "30040_Name",
+          "SourceString": "火腿月饼",
+          "LocalizedString": "火腿月饼"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "30040_Desc",
+          "SourceString": "内含的咸肉馅，结合酥脆外皮，味道咸香独特，是经典的传统特色食物。",
+          "LocalizedString": "内含的咸肉馅，结合酥脆外皮，味道咸香独特，是经典的传统特色食物。"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "30040_Tag",
+          "SourceString": "食物",
+          "LocalizedString": "食物"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_30040.T_Dynamic_Item_30040",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_30040.T_Dynamic_BigItem_30040",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3026,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "30040_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -2930,11 +3826,12 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4007,
+        "SortId": 4012,
         "ItemType": 1,
         "EffectId": [
           40001
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -2985,11 +3882,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3014,
+        "SortId": 3027,
         "ItemType": 0,
         "EffectId": [
           40002
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3040,11 +3938,12 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3015,
+        "SortId": 3028,
         "ItemType": 0,
         "EffectId": [
           40003
         ],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3095,9 +3994,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3016,
+        "SortId": 3029,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3151,9 +4051,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3017,
+        "SortId": 3030,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3207,9 +4108,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3018,
+        "SortId": 3031,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3263,9 +4165,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3019,
+        "SortId": 3032,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3319,9 +4222,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3020,
+        "SortId": 3033,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3375,9 +4279,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3021,
+        "SortId": 3034,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3431,9 +4336,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3022,
+        "SortId": 3035,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3487,9 +4393,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3023,
+        "SortId": 3036,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3543,9 +4450,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3024,
+        "SortId": 3037,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3599,9 +4507,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3025,
+        "SortId": 3038,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3655,9 +4564,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3026,
+        "SortId": 3039,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3711,9 +4621,10 @@
           "SubPathString": ""
         },
         "Quality": 3,
-        "SortId": 3027,
+        "SortId": 3040,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": true,
         "SaleType": 0,
@@ -3730,6 +4641,1402 @@
         "GainParam2": {
           "Namespace": "Item",
           "Key": "50012_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50013": {
+        "Id": 50013,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50013_Name",
+          "SourceString": "奥黛丽的红茶杯",
+          "LocalizedString": "奥黛丽的红茶杯"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50013_Desc",
+          "SourceString": "女仆活动中奥黛丽的活动道具",
+          "LocalizedString": "女仆活动中奥黛丽的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50013_Tag",
+          "SourceString": "女仆活动",
+          "LocalizedString": "女仆活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50013.T_Dynamic_Item_50013",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50013.T_Dynamic_BigItem_50013",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3041,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50013_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50014": {
+        "Id": 50014,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50014_Name",
+          "SourceString": "香奈美的麦克风",
+          "LocalizedString": "香奈美的麦克风"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50014_Desc",
+          "SourceString": "女仆活动中香奈美的活动道具",
+          "LocalizedString": "女仆活动中香奈美的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50014_Tag",
+          "SourceString": "女仆活动",
+          "LocalizedString": "女仆活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50014.T_Dynamic_Item_50014",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50014.T_Dynamic_BigItem_50014",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3042,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50014_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50015": {
+        "Id": 50015,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50015_Name",
+          "SourceString": "伊维特的小熊",
+          "LocalizedString": "伊维特的小熊"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50015_Desc",
+          "SourceString": "女仆活动中伊维特的活动道具",
+          "LocalizedString": "女仆活动中伊维特的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50015_Tag",
+          "SourceString": "女仆活动",
+          "LocalizedString": "女仆活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50015.T_Dynamic_Item_50015",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50015.T_Dynamic_BigItem_50015",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3043,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50015_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50016": {
+        "Id": 50016,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50016_Name",
+          "SourceString": "月饼总数图标",
+          "LocalizedString": "月饼总数图标"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50016_Desc",
+          "SourceString": "中秋活动中的活动道具",
+          "LocalizedString": "中秋活动中的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50016_Tag",
+          "SourceString": "中秋活动",
+          "LocalizedString": "中秋活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50016.T_Dynamic_Item_50016",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50016.T_Dynamic_BigItem_50016",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3044,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50016_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50017": {
+        "Id": 50017,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50017_Name",
+          "SourceString": "兑换券",
+          "LocalizedString": "兑换券"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50017_Desc",
+          "SourceString": "中秋活动中的活动道具",
+          "LocalizedString": "中秋活动中的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50017_Tag",
+          "SourceString": "中秋活动",
+          "LocalizedString": "中秋活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50017.T_Dynamic_Item_50017",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50017.T_Dynamic_BigItem_50017",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3045,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50017_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50018": {
+        "Id": 50018,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50018_Name",
+          "SourceString": "印章",
+          "LocalizedString": "印章"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50018_Desc",
+          "SourceString": "国潮活动中的活动货币",
+          "LocalizedString": "国潮活动中的活动货币"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50018_Tag",
+          "SourceString": "国潮活动",
+          "LocalizedString": "国潮活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50018.T_Dynamic_Item_50018",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50018.T_Dynamic_BigItem_50018",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3046,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50018_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50019": {
+        "Id": 50019,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50019_Name",
+          "SourceString": "经验商店币",
+          "LocalizedString": "经验商店币"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50019_Desc",
+          "SourceString": "赛季冲刺活动中的兑换货币",
+          "LocalizedString": "赛季冲刺活动中的兑换货币"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50019_Tag",
+          "SourceString": "赛季冲刺活动",
+          "LocalizedString": "赛季冲刺活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50019.T_Dynamic_Item_50019",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50019.T_Dynamic_BigItem_50019",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3042,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50019_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50020": {
+        "Id": 50020,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50020_Name",
+          "SourceString": "云霄冰激凌",
+          "LocalizedString": "云霄冰激凌"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50020_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50020_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50020.T_Dynamic_Item_50020",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50020.T_Dynamic_BigItem_50020",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3043,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50020_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50021": {
+        "Id": 50021,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50021_Name",
+          "SourceString": "旋转木马棒棒糖",
+          "LocalizedString": "旋转木马棒棒糖"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50021_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50021_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50021.T_Dynamic_Item_50021",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50021.T_Dynamic_BigItem_50021",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3044,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50021_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50022": {
+        "Id": 50022,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50022_Name",
+          "SourceString": "纸杯摩天轮",
+          "LocalizedString": "纸杯摩天轮"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50022_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50022_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50022.T_Dynamic_Item_50022",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50022.T_Dynamic_BigItem_50022",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3045,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50022_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50023": {
+        "Id": 50023,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50023_Name",
+          "SourceString": "糖果气球",
+          "LocalizedString": "糖果气球"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50023_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50023_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50023.T_Dynamic_Item_50023",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50023.T_Dynamic_BigItem_50023",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3046,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50023_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50024": {
+        "Id": 50024,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50024_Name",
+          "SourceString": "巧克力香蕉船",
+          "LocalizedString": "巧克力香蕉船"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50024_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50024_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50024.T_Dynamic_Item_50024",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50024.T_Dynamic_BigItem_50024",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3047,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50024_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50025": {
+        "Id": 50025,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50025_Name",
+          "SourceString": "姜饼人火车",
+          "LocalizedString": "姜饼人火车"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50025_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50025_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50025.T_Dynamic_Item_50025",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50025.T_Dynamic_BigItem_50025",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3048,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50025_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50026": {
+        "Id": 50026,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50026_Name",
+          "SourceString": "蛋糕城堡",
+          "LocalizedString": "蛋糕城堡"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50026_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50026_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50026.T_Dynamic_Item_50026",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50026.T_Dynamic_BigItem_50026",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3049,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50026_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50027": {
+        "Id": 50027,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50027_Name",
+          "SourceString": "甜甜圈碰碰车",
+          "LocalizedString": "甜甜圈碰碰车"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50027_Desc",
+          "SourceString": "游乐园活动中的刮卡图案",
+          "LocalizedString": "游乐园活动中的刮卡图案"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50027_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50027.T_Dynamic_Item_50027",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50027.T_Dynamic_BigItem_50027",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3050,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50027_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50028": {
+        "Id": 50028,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50028_Name",
+          "SourceString": "甜品券",
+          "LocalizedString": "甜品券"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50028_Desc",
+          "SourceString": "游乐园活动中的兑换货币",
+          "LocalizedString": "游乐园活动中的兑换货币"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50028_Tag",
+          "SourceString": "游乐园活动",
+          "LocalizedString": "游乐园活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50028.T_Dynamic_Item_50028",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50028.T_Dynamic_BigItem_50028",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3051,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50028_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50029": {
+        "Id": 50029,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50029_Name",
+          "SourceString": "心夏道具",
+          "LocalizedString": "心夏道具"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50029_Desc",
+          "SourceString": "太空活动中奥黛丽的活动道具",
+          "LocalizedString": "太空活动中奥黛丽的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50029_Tag",
+          "SourceString": "太空活动",
+          "LocalizedString": "太空活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50029.T_Dynamic_Item_50029",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50029.T_Dynamic_BigItem_50029",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3057,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50029_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50030": {
+        "Id": 50030,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50030_Name",
+          "SourceString": "玛德雷娜道具",
+          "LocalizedString": "玛德雷娜道具"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50030_Desc",
+          "SourceString": "太空活动中香奈美的活动道具",
+          "LocalizedString": "太空活动中香奈美的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50030_Tag",
+          "SourceString": "太空活动",
+          "LocalizedString": "太空活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50030.T_Dynamic_Item_50030",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50030.T_Dynamic_BigItem_50030",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3058,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50030_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50031": {
+        "Id": 50031,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50031_Name",
+          "SourceString": "星绘道具",
+          "LocalizedString": "星绘道具"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50031_Desc",
+          "SourceString": "太空活动中伊维特的活动道具",
+          "LocalizedString": "太空活动中伊维特的活动道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50031_Tag",
+          "SourceString": "太空活动",
+          "LocalizedString": "太空活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50031.T_Dynamic_Item_50031",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50031.T_Dynamic_BigItem_50031",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3059,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50031_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50032": {
+        "Id": 50032,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50032_Name",
+          "SourceString": "奖章",
+          "LocalizedString": "奖章"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50032_Desc",
+          "SourceString": "冰雪节主题活动的活动代币道具",
+          "LocalizedString": "冰雪节主题活动的活动代币道具"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50032_Tag",
+          "SourceString": "冰雪节主题活动",
+          "LocalizedString": "冰雪节主题活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50032.T_Dynamic_Item_50032",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50032.T_Dynamic_BigItem_50032",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3060,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50032_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50033": {
+        "Id": 50033,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50033_Name",
+          "SourceString": "苹安果",
+          "LocalizedString": "苹安果"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50033_Desc",
+          "SourceString": "童话活动的活动代币",
+          "LocalizedString": "童话活动的活动代币"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50033_Tag",
+          "SourceString": "童话主题活动",
+          "LocalizedString": "童话主题活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50033.T_Dynamic_Item_50033",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50033.T_Dynamic_BigItem_50033",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3061,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50033_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50034": {
+        "Id": 50034,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50034_Name",
+          "SourceString": "音符",
+          "LocalizedString": "音符"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50034_Desc",
+          "SourceString": "古典乐活动的活动代币",
+          "LocalizedString": "古典乐活动的活动代币"
+        },
+        "Tag": {
+          "Namespace": "Item",
+          "Key": "50034_Tag",
+          "SourceString": "古典乐主题活动",
+          "LocalizedString": "古典乐主题活动"
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50034.T_Dynamic_Item_50034",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50034.T_Dynamic_BigItem_50034",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3062,
+        "ItemType": 0,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50034_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50035": {
+        "Id": 50035,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50035_Name",
+          "SourceString": "星绘的信物",
+          "LocalizedString": "星绘的信物"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50035_Desc",
+          "SourceString": "通过完成特殊挑战获得的信物，上面似乎能感受到来自星庇所的特殊氛围，在未来也许可以用这个信物兑换其他有意思的礼物。",
+          "LocalizedString": "通过完成特殊挑战获得的信物，上面似乎能感受到来自星庇所的特殊氛围，在未来也许可以用这个信物兑换其他有意思的礼物。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50035.T_Dynamic_Item_50035",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50035.T_Dynamic_BigItem_50035",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3063,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50035_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50036": {
+        "Id": 50036,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50036_Name",
+          "SourceString": "香奈美的信物",
+          "LocalizedString": "香奈美的信物"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50036_Desc",
+          "SourceString": "通过完成特殊挑战获得的信物，贴近仔细倾听似乎能听到歌声与欢呼声，在未来也许可以用这个信物兑换其他有意思的礼物。",
+          "LocalizedString": "通过完成特殊挑战获得的信物，贴近仔细倾听似乎能听到歌声与欢呼声，在未来也许可以用这个信物兑换其他有意思的礼物。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50036.T_Dynamic_Item_50036",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50036.T_Dynamic_BigItem_50036",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3064,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50036_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "50037": {
+        "Id": 50037,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "50037_Name",
+          "SourceString": "米雪儿的信物",
+          "LocalizedString": "米雪儿的信物"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "50037_Desc",
+          "SourceString": "通过完成特殊挑战获得的信物，置入手中仿佛可以感受到抚摸小猫时的松软触感，在未来也许可以用这个信物兑换其他有意思的礼物。",
+          "LocalizedString": "通过完成特殊挑战获得的信物，置入手中仿佛可以感受到抚摸小猫时的松软触感，在未来也许可以用这个信物兑换其他有意思的礼物。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_50037.T_Dynamic_Item_50037",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_50037.T_Dynamic_BigItem_50037",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 3,
+        "SortId": 3065,
+        "ItemType": 1,
+        "EffectId": [],
+        "TransId": 0,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 0,
+        "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "50037_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }
@@ -3764,13 +6071,68 @@
           "SubPathString": ""
         },
         "Quality": 4,
-        "SortId": 4008,
+        "SortId": 4013,
         "ItemType": 0,
         "EffectId": [],
+        "TransId": 0,
         "ConvertItemid": 0,
         "Superposition": false,
         "SaleType": 0,
         "SaleParam": 0,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "51001_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201011011": {
+        "Id": 201011011,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201011011_Name",
+          "SourceString": "盗垒猫体验卡：1天",
+          "LocalizedString": "盗垒猫体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201011011_Desc",
+          "SourceString": "使用后可在1天内体验角色时装盗垒猫。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色时装盗垒猫。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201011011.T_Dynamic_Item_201011011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201011011.T_Dynamic_BigItem_201011011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4014,
+        "ItemType": 1,
+        "EffectId": [
+          201011011
+        ],
+        "TransId": 20101101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
         "LimitNum": 9999,
         "LimitType": 0,
         "LimitParam": 0,
@@ -3782,7 +6144,2415 @@
         ],
         "GainParam2": {
           "Namespace": "Item",
-          "Key": "51001_GainParam2",
+          "Key": "201011011_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101011071": {
+        "Id": 101011071,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101011071_Name",
+          "SourceString": "全垒打体验卡：1天",
+          "LocalizedString": "全垒打体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101011071_Desc",
+          "SourceString": "使用后可在1天内体验武器皮肤全垒打。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验武器皮肤全垒打。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101011071.T_Dynamic_Item_101011071",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101011071.T_Dynamic_BigItem_101011071",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4015,
+        "ItemType": 1,
+        "EffectId": [
+          101011071
+        ],
+        "TransId": 10101107,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101011071_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201011077": {
+        "Id": 201011077,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201011077_Name",
+          "SourceString": "踏浪远航体验卡：7天",
+          "LocalizedString": "踏浪远航体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201011077_Desc",
+          "SourceString": "使用后可在7天内体验角色时装踏浪远航。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装踏浪远航。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201011071.T_Dynamic_Item_201011071",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201011071.T_Dynamic_BigItem_201011071",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4016,
+        "ItemType": 1,
+        "EffectId": [
+          201011077
+        ],
+        "TransId": 20101107,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201011077_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201321057": {
+        "Id": 201321057,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201321057_Name",
+          "SourceString": "九黎长风体验卡：7天",
+          "LocalizedString": "九黎长风体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201321057_Desc",
+          "SourceString": "使用后可在7天内体验角色时装九黎长风。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装九黎长风。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201321051.T_Dynamic_Item_201321051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201321051.T_Dynamic_BigItem_201321051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4017,
+        "ItemType": 1,
+        "EffectId": [
+          201321057
+        ],
+        "TransId": 20132105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201321057_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101021097": {
+        "Id": 101021097,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101021097_Name",
+          "SourceString": "苍银传说体验卡：7天",
+          "LocalizedString": "苍银传说体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101021097_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤苍银传说。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤苍银传说。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101021091.T_Dynamic_Item_101021091",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101021091.T_Dynamic_BigItem_101021091",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4018,
+        "ItemType": 1,
+        "EffectId": [
+          101021097
+        ],
+        "TransId": 10102109,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101021097_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201011087": {
+        "Id": 201011087,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201011087_Name",
+          "SourceString": "麻雀东风体验卡：7天",
+          "LocalizedString": "麻雀东风体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201011087_Desc",
+          "SourceString": "使用后可在7天内体验角色时装麻雀东风。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装麻雀东风。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201011081.T_Dynamic_Item_201011081",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201011081.T_Dynamic_BigItem_201011081",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4019,
+        "ItemType": 1,
+        "EffectId": [
+          201011087
+        ],
+        "TransId": 20101108,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201011087_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101011097": {
+        "Id": 101011097,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101011097_Name",
+          "SourceString": "雀神体验卡：7天",
+          "LocalizedString": "雀神体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101011097_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤雀神。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤雀神。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101011091.T_Dynamic_Item_101011091",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101011091.T_Dynamic_BigItem_101011091",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4020,
+        "ItemType": 1,
+        "EffectId": [
+          101011097
+        ],
+        "TransId": 10101109,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101011097_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201101047": {
+        "Id": 201101047,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201101047_Name",
+          "SourceString": "苍天牧歌体验卡：7天",
+          "LocalizedString": "苍天牧歌体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201101047_Desc",
+          "SourceString": "使用后可在7天内体验角色时装苍天牧歌。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装苍天牧歌。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201101041.T_Dynamic_Item_201101041",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201101041.T_Dynamic_BigItem_201101041",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4021,
+        "ItemType": 1,
+        "EffectId": [
+          201101047
+        ],
+        "TransId": 20110104,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201101047_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "106021057": {
+        "Id": 106021057,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "106021057_Name",
+          "SourceString": "野马体验卡：7天",
+          "LocalizedString": "野马体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "106021057_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤野马。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤野马。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_106021051.T_Dynamic_Item_106021051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_106021051.T_Dynamic_BigItem_106021051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4022,
+        "ItemType": 1,
+        "EffectId": [
+          106021057
+        ],
+        "TransId": 10602105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "106021057_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201081037": {
+        "Id": 201081037,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201081037_Name",
+          "SourceString": "鹤翼无双体验卡：7天",
+          "LocalizedString": "鹤翼无双体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201081037_Desc",
+          "SourceString": "使用后可在7天内体验角色时装鹤翼无双。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装鹤翼无双。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201081031.T_Dynamic_Item_201081031",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201081031.T_Dynamic_BigItem_201081031",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4023,
+        "ItemType": 1,
+        "EffectId": [
+          201081037
+        ],
+        "TransId": 20108103,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201081037_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "103041037": {
+        "Id": 103041037,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "103041037_Name",
+          "SourceString": "夕归体验卡：7天",
+          "LocalizedString": "夕归体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "103041037_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤全垒打。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤全垒打。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_103041031.T_Dynamic_Item_103041031",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_103041031.T_Dynamic_BigItem_103041031",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4024,
+        "ItemType": 1,
+        "EffectId": [
+          103041037
+        ],
+        "TransId": 10304103,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "103041037_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111001": {
+        "Id": 111001,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111001_Name",
+          "SourceString": "白墨体验卡：1天",
+          "LocalizedString": "白墨体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111001_Desc",
+          "SourceString": "使用后可在1天内体验角色白墨。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色白墨。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111001.T_Dynamic_Item_111001",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111001.T_Dynamic_BigItem_111001",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4025,
+        "ItemType": 1,
+        "EffectId": [
+          111001
+        ],
+        "TransId": 110,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111001_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "112401": {
+        "Id": 112401,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "112401_Name",
+          "SourceString": "心夏体验卡：1天",
+          "LocalizedString": "心夏体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "112401_Desc",
+          "SourceString": "使用后可在1天内体验角色心夏。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色心夏。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_112401.T_Dynamic_Item_112401",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_112401.T_Dynamic_BigItem_112401",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4026,
+        "ItemType": 1,
+        "EffectId": [
+          112401
+        ],
+        "TransId": 124,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "112401_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113301": {
+        "Id": 113301,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113301_Name",
+          "SourceString": "梅瑞狄斯体验卡：1天",
+          "LocalizedString": "梅瑞狄斯体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113301_Desc",
+          "SourceString": "使用后可在1天内体验角色梅瑞狄斯。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色梅瑞狄斯。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113301.T_Dynamic_Item_113301",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113301.T_Dynamic_BigItem_113301",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4027,
+        "ItemType": 1,
+        "EffectId": [
+          113301
+        ],
+        "TransId": 133,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113301_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113701": {
+        "Id": 113701,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113701_Name",
+          "SourceString": "香奈美体验卡：1天",
+          "LocalizedString": "香奈美体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113701_Desc",
+          "SourceString": "使用后可在1天内体验角色香奈美。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色香奈美。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113701.T_Dynamic_Item_113701",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113701.T_Dynamic_BigItem_113701",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4028,
+        "ItemType": 1,
+        "EffectId": [
+          113701
+        ],
+        "TransId": 137,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113701_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111201": {
+        "Id": 111201,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111201_Name",
+          "SourceString": "绯莎体验卡：1天",
+          "LocalizedString": "绯莎体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111201_Desc",
+          "SourceString": "使用后可在1天内体验角色绯莎。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验角色绯莎。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111201.T_Dynamic_Item_111201",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111201.T_Dynamic_BigItem_111201",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4029,
+        "ItemType": 1,
+        "EffectId": [
+          111201
+        ],
+        "TransId": 112,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111201_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111003": {
+        "Id": 111003,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111003_Name",
+          "SourceString": "白墨体验卡：3天",
+          "LocalizedString": "白墨体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111003_Desc",
+          "SourceString": "使用后可在3天内体验角色白墨。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色白墨。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111001.T_Dynamic_Item_111001",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111001.T_Dynamic_BigItem_111001",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4030,
+        "ItemType": 1,
+        "EffectId": [
+          111003
+        ],
+        "TransId": 110,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111003_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "112403": {
+        "Id": 112403,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "112403_Name",
+          "SourceString": "心夏体验卡：3天",
+          "LocalizedString": "心夏体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "112403_Desc",
+          "SourceString": "使用后可在3天内体验角色心夏。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色心夏。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_112401.T_Dynamic_Item_112401",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_112401.T_Dynamic_BigItem_112401",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4031,
+        "ItemType": 1,
+        "EffectId": [
+          112403
+        ],
+        "TransId": 124,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "112403_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113303": {
+        "Id": 113303,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113303_Name",
+          "SourceString": "梅瑞狄斯体验卡：3天",
+          "LocalizedString": "梅瑞狄斯体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113303_Desc",
+          "SourceString": "使用后可在3天内体验角色梅瑞狄斯。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色梅瑞狄斯。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113301.T_Dynamic_Item_113301",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113301.T_Dynamic_BigItem_113301",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4032,
+        "ItemType": 1,
+        "EffectId": [
+          113303
+        ],
+        "TransId": 133,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113303_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113703": {
+        "Id": 113703,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113703_Name",
+          "SourceString": "香奈美体验卡：3天",
+          "LocalizedString": "香奈美体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113703_Desc",
+          "SourceString": "使用后可在3天内体验角色香奈美。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色香奈美。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113701.T_Dynamic_Item_113701",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113701.T_Dynamic_BigItem_113701",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4033,
+        "ItemType": 1,
+        "EffectId": [
+          113703
+        ],
+        "TransId": 137,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113703_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111203": {
+        "Id": 111203,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111203_Name",
+          "SourceString": "绯莎体验卡：3天",
+          "LocalizedString": "绯莎体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111203_Desc",
+          "SourceString": "使用后可在3天内体验角色绯莎。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色绯莎。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111201.T_Dynamic_Item_111201",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111201.T_Dynamic_BigItem_111201",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4034,
+        "ItemType": 1,
+        "EffectId": [
+          111203
+        ],
+        "TransId": 112,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111203_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111007": {
+        "Id": 111007,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111007_Name",
+          "SourceString": "白墨体验卡：7天",
+          "LocalizedString": "白墨体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111007_Desc",
+          "SourceString": "使用后可在7天内体验角色白墨。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色白墨。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111001.T_Dynamic_Item_111001",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111001.T_Dynamic_BigItem_111001",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4035,
+        "ItemType": 1,
+        "EffectId": [
+          111007
+        ],
+        "TransId": 110,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111007_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "112407": {
+        "Id": 112407,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "112407_Name",
+          "SourceString": "心夏体验卡：7天",
+          "LocalizedString": "心夏体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "112407_Desc",
+          "SourceString": "使用后可在7天内体验角色心夏。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色心夏。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_112401.T_Dynamic_Item_112401",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_112401.T_Dynamic_BigItem_112401",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4036,
+        "ItemType": 1,
+        "EffectId": [
+          112407
+        ],
+        "TransId": 124,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "112407_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113307": {
+        "Id": 113307,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113307_Name",
+          "SourceString": "梅瑞狄斯体验卡：7天",
+          "LocalizedString": "梅瑞狄斯体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113307_Desc",
+          "SourceString": "使用后可在7天内体验角色梅瑞狄斯。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色梅瑞狄斯。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113301.T_Dynamic_Item_113301",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113301.T_Dynamic_BigItem_113301",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4037,
+        "ItemType": 1,
+        "EffectId": [
+          113307
+        ],
+        "TransId": 133,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113307_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "113707": {
+        "Id": 113707,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "113707_Name",
+          "SourceString": "香奈美体验卡：7天",
+          "LocalizedString": "香奈美体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "113707_Desc",
+          "SourceString": "使用后可在7天内体验角色香奈美。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色香奈美。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_113701.T_Dynamic_Item_113701",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_113701.T_Dynamic_BigItem_113701",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4038,
+        "ItemType": 1,
+        "EffectId": [
+          113707
+        ],
+        "TransId": 137,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "113707_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "111207": {
+        "Id": 111207,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "111207_Name",
+          "SourceString": "绯莎体验卡：7天",
+          "LocalizedString": "绯莎体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "111207_Desc",
+          "SourceString": "使用后可在7天内体验角色香绯莎。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色香绯莎。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_111201.T_Dynamic_Item_111201",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_111201.T_Dynamic_BigItem_111201",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4039,
+        "ItemType": 1,
+        "EffectId": [
+          111207
+        ],
+        "TransId": 112,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "111207_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201101037": {
+        "Id": 201101037,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201101037_Name",
+          "SourceString": "时代冲击体验卡：7天",
+          "LocalizedString": "时代冲击体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201101037_Desc",
+          "SourceString": "使用后可在7天内体验角色时装时代冲击。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装时代冲击。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201101031.T_Dynamic_Item_201101031",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201101031.T_Dynamic_BigItem_201101031",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4040,
+        "ItemType": 1,
+        "EffectId": [
+          201101037
+        ],
+        "TransId": 20110103,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201101037_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "106021017": {
+        "Id": 106021017,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "106021017_Name",
+          "SourceString": "无羁时代体验卡：7天",
+          "LocalizedString": "无羁时代体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "106021017_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤无羁时代。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤无羁时代。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_106021011.T_Dynamic_Item_106021011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_106021011.T_Dynamic_BigItem_106021011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4041,
+        "ItemType": 1,
+        "EffectId": [
+          106021017
+        ],
+        "TransId": 10602101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "106021017_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201281043": {
+        "Id": 201281043,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201281043_Name",
+          "SourceString": "片翼刀锋体验卡：3天",
+          "LocalizedString": "片翼刀锋体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201281043_Desc",
+          "SourceString": "使用后可在3天内体验角色时装片翼刀锋。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色时装片翼刀锋。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201281041.T_Dynamic_Item_201281041",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201281041.T_Dynamic_BigItem_201281041",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4042,
+        "ItemType": 1,
+        "EffectId": [
+          201281043
+        ],
+        "TransId": 20128104,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201281043_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101041013": {
+        "Id": 101041013,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101041013_Name",
+          "SourceString": "风暴序曲体验卡：3天",
+          "LocalizedString": "风暴序曲体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101041013_Desc",
+          "SourceString": "使用后可在3天内体验武器皮肤风暴序曲。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验武器皮肤风暴序曲。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101041011.T_Dynamic_Item_101041011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101041011.T_Dynamic_BigItem_101041011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4043,
+        "ItemType": 1,
+        "EffectId": [
+          101041013
+        ],
+        "TransId": 10104101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 15,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101041013_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201281047": {
+        "Id": 201281047,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201281047_Name",
+          "SourceString": "片翼刀锋体验卡：7天",
+          "LocalizedString": "片翼刀锋体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201281047_Desc",
+          "SourceString": "使用后可在7天内体验角色时装片翼刀锋。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装片翼刀锋。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201281041.T_Dynamic_Item_201281041",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201281041.T_Dynamic_BigItem_201281041",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4044,
+        "ItemType": 1,
+        "EffectId": [
+          201281047
+        ],
+        "TransId": 20128104,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201281047_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101041017": {
+        "Id": 101041017,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101041017_Name",
+          "SourceString": "风暴序曲体验卡：7天",
+          "LocalizedString": "风暴序曲体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101041017_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤风暴序曲。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤风暴序曲。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101041011.T_Dynamic_Item_101041011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101041011.T_Dynamic_BigItem_101041011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4045,
+        "ItemType": 1,
+        "EffectId": [
+          101041017
+        ],
+        "TransId": 10104101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101041017_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201321027": {
+        "Id": 201321027,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201321027_Name",
+          "SourceString": "高效协同体验卡：7天",
+          "LocalizedString": "高效协同体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201321027_Desc",
+          "SourceString": "使用后可在7天内体验角色时装高效协同。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装高效协同。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201321021.T_Dynamic_Item_201321021",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201321021.T_Dynamic_BigItem_201321021",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4046,
+        "ItemType": 1,
+        "EffectId": [
+          201321027
+        ],
+        "TransId": 20132102,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201321027_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101021057": {
+        "Id": 101021057,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101021057_Name",
+          "SourceString": "反逆信标体验卡：7天",
+          "LocalizedString": "反逆信标体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101021057_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤反逆信标。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤反逆信标。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101021051.T_Dynamic_Item_101021051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101021051.T_Dynamic_BigItem_101021051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4047,
+        "ItemType": 1,
+        "EffectId": [
+          101021057
+        ],
+        "TransId": 10102105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101021057_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201321023": {
+        "Id": 201321023,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201321023_Name",
+          "SourceString": "高效协同体验卡：3天",
+          "LocalizedString": "高效协同体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201321023_Desc",
+          "SourceString": "使用后可在3天内体验角色时装高效协同。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验角色时装高效协同。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201321021.T_Dynamic_Item_201321021",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201321021.T_Dynamic_BigItem_201321021",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4046,
+        "ItemType": 1,
+        "EffectId": [
+          201321023
+        ],
+        "TransId": 20132102,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201321023_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101021053": {
+        "Id": 101021053,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101021053_Name",
+          "SourceString": "反逆信标体验卡：3天",
+          "LocalizedString": "反逆信标体验卡：3天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101021053_Desc",
+          "SourceString": "使用后可在3天内体验武器皮肤反逆信标。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在3天内体验武器皮肤反逆信标。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101021051.T_Dynamic_Item_101021051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101021051.T_Dynamic_BigItem_101021051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4047,
+        "ItemType": 1,
+        "EffectId": [
+          101021053
+        ],
+        "TransId": 10102105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101021053_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201321017": {
+        "Id": 201321017,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201321017_Name",
+          "SourceString": "逐夜之火体验卡：7天",
+          "LocalizedString": "逐夜之火体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201321017_Desc",
+          "SourceString": "使用后可在7天内体验角色时装逐夜之火。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装逐夜之火。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201321011.T_Dynamic_Item_201321011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201321011.T_Dynamic_BigItem_201321011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4050,
+        "ItemType": 1,
+        "EffectId": [
+          201321017
+        ],
+        "TransId": 20132101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201321017_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101021087": {
+        "Id": 101021087,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101021087_Name",
+          "SourceString": "燃烧夜火体验卡：7天",
+          "LocalizedString": "燃烧夜火体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101021087_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤燃烧夜火。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤燃烧夜火。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101021081.T_Dynamic_Item_101021081",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101021081.T_Dynamic_BigItem_101021081",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4051,
+        "ItemType": 1,
+        "EffectId": [
+          101021087
+        ],
+        "TransId": 10102108,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101021087_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201011017": {
+        "Id": 201011017,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201011017_Name",
+          "SourceString": "盗垒猫体验卡：7天",
+          "LocalizedString": "盗垒猫体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201011017_Desc",
+          "SourceString": "使用后可在7天内体验角色时装盗垒猫。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验角色时装盗垒猫。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201011011.T_Dynamic_Item_201011011",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201011011.T_Dynamic_BigItem_201011011",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4052,
+        "ItemType": 1,
+        "EffectId": [
+          201011017
+        ],
+        "TransId": 20101101,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201011017_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101011077": {
+        "Id": 101011077,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101011077_Name",
+          "SourceString": "全垒打体验卡：7天",
+          "LocalizedString": "全垒打体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101011077_Desc",
+          "SourceString": "使用后可在7天内体验武器皮肤全垒打。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验武器皮肤全垒打。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101011071.T_Dynamic_Item_101011071",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101011071.T_Dynamic_BigItem_101011071",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4053,
+        "ItemType": 1,
+        "EffectId": [
+          101011077
+        ],
+        "TransId": 10101107,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101011077_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201281051": {
+        "Id": 201281051,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201281051_Name",
+          "SourceString": "灰狼奇遇体验卡：1天",
+          "LocalizedString": "灰狼奇遇体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201281051_Desc",
+          "SourceString": "使用后可在1天内体验拉薇角色时装灰狼奇遇。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验拉薇角色时装灰狼奇遇。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201281051.T_Dynamic_Item_201281051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201281051.T_Dynamic_BigItem_201281051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4054,
+        "ItemType": 1,
+        "EffectId": [
+          201281051
+        ],
+        "TransId": 20128105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201281051_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101041081": {
+        "Id": 101041081,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101041081_Name",
+          "SourceString": "狼齿体验卡：1天",
+          "LocalizedString": "狼齿体验卡：1天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101041081_Desc",
+          "SourceString": "使用后可在1天内体验影袭武器皮肤狼齿。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在1天内体验影袭武器皮肤狼齿。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101041081.T_Dynamic_Item_101041081",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101041081.T_Dynamic_BigItem_101041081",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4055,
+        "ItemType": 1,
+        "EffectId": [
+          101041081
+        ],
+        "TransId": 10104108,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 5,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101041081_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "201281057": {
+        "Id": 201281057,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "201281057_Name",
+          "SourceString": "灰狼奇遇体验卡：7天",
+          "LocalizedString": "灰狼奇遇体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "201281057_Desc",
+          "SourceString": "使用后可在7天内体验拉薇角色时装灰狼奇遇。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验拉薇角色时装灰狼奇遇。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_201281051.T_Dynamic_Item_201281051",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_201281051.T_Dynamic_BigItem_201281051",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4056,
+        "ItemType": 1,
+        "EffectId": [
+          201281057
+        ],
+        "TransId": 20128105,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "201281057_GainParam2",
+          "SourceString": "获取方式的文字说明",
+          "LocalizedString": "获取方式的文字说明"
+        }
+      },
+      "101041087": {
+        "Id": 101041087,
+        "Name": {
+          "Namespace": "Item",
+          "Key": "101041087_Name",
+          "SourceString": "狼齿体验卡：7天",
+          "LocalizedString": "狼齿体验卡：7天"
+        },
+        "Desc": {
+          "Namespace": "Item",
+          "Key": "101041087_Desc",
+          "SourceString": "使用后可在7天内体验影袭武器皮肤狼齿。重复使用会延长有效时间。",
+          "LocalizedString": "使用后可在7天内体验影袭武器皮肤狼齿。重复使用会延长有效时间。"
+        },
+        "Tag": {
+          "CultureInvariantString": null
+        },
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_101041081.T_Dynamic_Item_101041081",
+          "SubPathString": ""
+        },
+        "IconDisplayItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_101041081.T_Dynamic_BigItem_101041081",
+          "SubPathString": ""
+        },
+        "Model": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Quality": 4,
+        "SortId": 4057,
+        "ItemType": 1,
+        "EffectId": [
+          101041087
+        ],
+        "TransId": 10104108,
+        "ConvertItemid": 0,
+        "Superposition": true,
+        "SaleType": 6,
+        "SaleParam": 35,
+        "LimitNum": 9999,
+        "LimitType": 0,
+        "LimitParam": 0,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [
+          0
+        ],
+        "GainParam2": {
+          "Namespace": "Item",
+          "Key": "101041087_GainParam2",
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         }

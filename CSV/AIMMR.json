@@ -12,91 +12,91 @@
     "Rows": {
       "1": {
         "AiLevel": 1,
-        "Mmr": 1000
+        "Mmr": 0
       },
       "2": {
         "AiLevel": 2,
-        "Mmr": 1100
+        "Mmr": 1
       },
       "3": {
         "AiLevel": 3,
-        "Mmr": 1200
+        "Mmr": 2
       },
       "4": {
         "AiLevel": 4,
-        "Mmr": 1500
+        "Mmr": 3
       },
       "5": {
         "AiLevel": 5,
-        "Mmr": 1800
+        "Mmr": 4
       },
       "6": {
         "AiLevel": 6,
-        "Mmr": 2100
+        "Mmr": 400
       },
       "7": {
         "AiLevel": 7,
-        "Mmr": 2400
+        "Mmr": 800
       },
       "8": {
         "AiLevel": 8,
-        "Mmr": 2700
+        "Mmr": 1200
       },
       "9": {
         "AiLevel": 9,
-        "Mmr": 3000
+        "Mmr": 1600
       },
       "10": {
         "AiLevel": 10,
-        "Mmr": 3300
+        "Mmr": 2000
       },
       "11": {
         "AiLevel": 11,
-        "Mmr": 3600
+        "Mmr": 2400
       },
       "12": {
         "AiLevel": 12,
-        "Mmr": 3900
+        "Mmr": 2800
       },
       "13": {
         "AiLevel": 13,
-        "Mmr": 4200
+        "Mmr": 3200
       },
       "14": {
         "AiLevel": 14,
-        "Mmr": 4500
+        "Mmr": 3600
       },
       "15": {
         "AiLevel": 15,
-        "Mmr": 4800
+        "Mmr": 4000
       },
       "16": {
         "AiLevel": 16,
-        "Mmr": 5100
+        "Mmr": 4400
       },
       "17": {
         "AiLevel": 17,
-        "Mmr": 5400
+        "Mmr": 4800
       },
       "18": {
         "AiLevel": 18,
-        "Mmr": 5700
+        "Mmr": 5200
       },
       "19": {
         "AiLevel": 19,
-        "Mmr": 6000
+        "Mmr": 5600
       },
       "20": {
         "AiLevel": 20,
-        "Mmr": 6300
+        "Mmr": 6000
       },
       "21": {
         "AiLevel": 21,
-        "Mmr": 6600
+        "Mmr": 6400
       },
       "22": {
         "AiLevel": 22,
-        "Mmr": 6900
+        "Mmr": 6800
       },
       "23": {
         "AiLevel": 23,
@@ -104,11 +104,11 @@
       },
       "24": {
         "AiLevel": 24,
-        "Mmr": 7500
+        "Mmr": 7600
       },
       "25": {
         "AiLevel": 25,
-        "Mmr": 7800
+        "Mmr": 8000
       }
     }
   }

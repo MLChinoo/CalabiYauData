@@ -1144,6 +1144,15 @@
           "LocalizedString": "排队中啦(3076)"
         }
       },
+      "3077": {
+        "ErrorCodeId": 3077,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "3077_ErrorDesc",
+          "SourceString": "功能暂时关闭(3077)",
+          "LocalizedString": "功能暂时关闭(3077)"
+        }
+      },
       "3100": {
         "ErrorCodeId": 3100,
         "ErrorDesc": {
@@ -1239,8 +1248,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "4002_ErrorDesc",
-          "SourceString": "邀请已失效，无法进入队伍~ (4002)",
-          "LocalizedString": "邀请已失效，无法进入队伍~ (4002)"
+          "SourceString": "邀请已失效，对方已不在发起邀请时的队伍中~ (4002)",
+          "LocalizedString": "邀请已失效，对方已不在发起邀请时的队伍中~ (4002)"
         }
       },
       "4003": {
@@ -1358,6 +1367,15 @@
           "Key": "4017_ErrorDesc",
           "SourceString": "目前匹配中，不可以切换哦（4017）",
           "LocalizedString": "目前匹配中，不可以切换哦（4017）"
+        }
+      },
+      "4018": {
+        "ErrorCodeId": 4018,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "4018_ErrorDesc",
+          "SourceString": "该代码对应的模式不存在哦 (4018)",
+          "LocalizedString": "该代码对应的模式不存在哦 (4018)"
         }
       },
       "5001": {
@@ -1763,6 +1781,15 @@
           "Key": "8302_ErrorDesc",
           "SourceString": "抱歉~找不到该名片的部分(8302)",
           "LocalizedString": "抱歉~找不到该名片的部分(8302)"
+        }
+      },
+      "8320": {
+        "ErrorCodeId": 8320,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "8320_ErrorDesc",
+          "SourceString": "称号不存在或者已过期(8320)",
+          "LocalizedString": "称号不存在或者已过期(8320)"
         }
       },
       "8351": {
@@ -2386,6 +2413,51 @@
           "LocalizedString": "获取消息太过频繁，请稍后再试哦(20316)"
         }
       },
+      "20317": {
+        "ErrorCodeId": 20317,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20317_ErrorDesc",
+          "SourceString": "系统已禁止大厅聊天(20317)",
+          "LocalizedString": "系统已禁止大厅聊天(20317)"
+        }
+      },
+      "20318": {
+        "ErrorCodeId": 20318,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20318_ErrorDesc",
+          "SourceString": "系统已禁止战斗聊天(20318)",
+          "LocalizedString": "系统已禁止战斗聊天(20318)"
+        }
+      },
+      "20319": {
+        "ErrorCodeId": 20319,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20319_ErrorDesc",
+          "SourceString": "系统已禁止私聊(20319)",
+          "LocalizedString": "系统已禁止私聊(20319)"
+        }
+      },
+      "20320": {
+        "ErrorCodeId": 20320,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20320_ErrorDesc",
+          "SourceString": "系统已禁止队伍聊天(20320)",
+          "LocalizedString": "系统已禁止队伍聊天(20320)"
+        }
+      },
+      "20321": {
+        "ErrorCodeId": 20321,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20321_ErrorDesc",
+          "SourceString": "系统已禁止房间聊天(20321)",
+          "LocalizedString": "系统已禁止房间聊天(20321)"
+        }
+      },
       "20501": {
         "ErrorCodeId": 20501,
         "ErrorDesc": {
@@ -2800,6 +2872,15 @@
           "LocalizedString": "订单已支付（20715）"
         }
       },
+      "20716": {
+        "ErrorCodeId": 20716,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "20716_ErrorDesc",
+          "SourceString": "服务器当前禁止充值(20716)",
+          "LocalizedString": "服务器当前禁止充值(20716)"
+        }
+      },
       "20801": {
         "ErrorCodeId": 20801,
         "ErrorDesc": {
@@ -2994,8 +3075,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20970_ErrorDesc",
-          "SourceString": "夏日音乐节活动物品不足哦（20970）",
-          "LocalizedString": "夏日音乐节活动物品不足哦（20970）"
+          "SourceString": "活动物品不足哦（20970）",
+          "LocalizedString": "活动物品不足哦（20970）"
         }
       },
       "20971": {
@@ -3003,8 +3084,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20971_ErrorDesc",
-          "SourceString": "夏日音乐节活动阶段未完成（20971）",
-          "LocalizedString": "夏日音乐节活动阶段未完成（20971）"
+          "SourceString": "活动阶段未完成（20971）",
+          "LocalizedString": "活动阶段未完成（20971）"
         }
       },
       "20972": {
@@ -3012,8 +3093,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20972_ErrorDesc",
-          "SourceString": "夏日音乐节活动配置错误（20972）",
-          "LocalizedString": "夏日音乐节活动配置错误（20972）"
+          "SourceString": "活动配置错误（20972）",
+          "LocalizedString": "活动配置错误（20972）"
         }
       },
       "20973": {
@@ -3021,8 +3102,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20973_ErrorDesc",
-          "SourceString": "夏日音乐节活动阶段奖励已被领取（20973）",
-          "LocalizedString": "夏日音乐节活动阶段奖励已被领取（20973）"
+          "SourceString": "活动阶段奖励已被领取（20973）",
+          "LocalizedString": "活动阶段奖励已被领取（20973）"
         }
       },
       "20974": {
@@ -3030,8 +3111,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20974_ErrorDesc",
-          "SourceString": "夏日音乐节活动交付池已空（20974）",
-          "LocalizedString": "夏日音乐节活动交付池已空（20974）"
+          "SourceString": "活动交付池已空（20974）",
+          "LocalizedString": "活动交付池已空（20974）"
         }
       },
       "20975": {
@@ -3039,8 +3120,8 @@
         "ErrorDesc": {
           "Namespace": "ErrorCode",
           "Key": "20975_ErrorDesc",
-          "SourceString": "夏日音乐节活动该格子已被翻开（20975）",
-          "LocalizedString": "夏日音乐节活动该格子已被翻开（20975）"
+          "SourceString": "活动该格子已被开启（20975）",
+          "LocalizedString": "活动该格子已被开启（20975）"
         }
       },
       "20980": {
@@ -3115,6 +3196,42 @@
           "LocalizedString": "米雪儿游戏时间活动有格子尚未开启（20995）"
         }
       },
+      "21100": {
+        "ErrorCodeId": 21100,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21100_ErrorDesc",
+          "SourceString": "活动物品不足哦（21100）",
+          "LocalizedString": "活动物品不足哦（21100）"
+        }
+      },
+      "21101": {
+        "ErrorCodeId": 21101,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21101_ErrorDesc",
+          "SourceString": "活动阶段未完成（21101）",
+          "LocalizedString": "活动阶段未完成（21101）"
+        }
+      },
+      "21102": {
+        "ErrorCodeId": 21102,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21102_ErrorDesc",
+          "SourceString": "活动配置错误（21102）",
+          "LocalizedString": "活动配置错误（21102）"
+        }
+      },
+      "21103": {
+        "ErrorCodeId": 21103,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21103_ErrorDesc",
+          "SourceString": "活动阶段奖励已被领取（21103）",
+          "LocalizedString": "活动阶段奖励已被领取（21103）"
+        }
+      },
       "21001": {
         "ErrorCodeId": 21001,
         "ErrorDesc": {
@@ -3176,6 +3293,186 @@
           "Key": "21007_ErrorDesc",
           "SourceString": "添加激活码失败啦(21007)",
           "LocalizedString": "添加激活码失败啦(21007)"
+        }
+      },
+      "21108": {
+        "ErrorCodeId": 21108,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21108_ErrorDesc",
+          "SourceString": "中秋活动物品不足哦（21108）",
+          "LocalizedString": "中秋活动物品不足哦（21108）"
+        }
+      },
+      "21109": {
+        "ErrorCodeId": 21109,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21109_ErrorDesc",
+          "SourceString": "中秋活动阶段未完成（21109）",
+          "LocalizedString": "中秋活动阶段未完成（21109）"
+        }
+      },
+      "21110": {
+        "ErrorCodeId": 21110,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21110_ErrorDesc",
+          "SourceString": "中秋活动配置错误（21110）",
+          "LocalizedString": "中秋活动配置错误（21110）"
+        }
+      },
+      "21111": {
+        "ErrorCodeId": 21111,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21111_ErrorDesc",
+          "SourceString": "购买数量错误（21111）",
+          "LocalizedString": "购买数量错误（21111）"
+        }
+      },
+      "21112": {
+        "ErrorCodeId": 21112,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21112_ErrorDesc",
+          "SourceString": "请求参数错误（21112）",
+          "LocalizedString": "请求参数错误（21112）"
+        }
+      },
+      "21113": {
+        "ErrorCodeId": 21113,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21113_ErrorDesc",
+          "SourceString": "已经领取过奖励（21113）",
+          "LocalizedString": "已经领取过奖励（21113）"
+        }
+      },
+      "21114": {
+        "ErrorCodeId": 21114,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21114_ErrorDesc",
+          "SourceString": "已经领取过阶段奖励（21114）",
+          "LocalizedString": "已经领取过阶段奖励（21114）"
+        }
+      },
+      "21115": {
+        "ErrorCodeId": 21115,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21115_ErrorDesc",
+          "SourceString": "活动物品不足哦（21115）",
+          "LocalizedString": "活动物品不足哦（21115）"
+        }
+      },
+      "21116": {
+        "ErrorCodeId": 21116,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21116_ErrorDesc",
+          "SourceString": "活动配置错误（21116）",
+          "LocalizedString": "活动配置错误（21116）"
+        }
+      },
+      "21117": {
+        "ErrorCodeId": 21117,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21117_ErrorDesc",
+          "SourceString": "购买数量错误（21117）",
+          "LocalizedString": "购买数量错误（21117）"
+        }
+      },
+      "21118": {
+        "ErrorCodeId": 21118,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21118_ErrorDesc",
+          "SourceString": "请求参数错误（21118）",
+          "LocalizedString": "请求参数错误（21118）"
+        }
+      },
+      "21120": {
+        "ErrorCodeId": 21120,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21120_ErrorDesc",
+          "SourceString": "不符合活动条件（21120）",
+          "LocalizedString": "不符合活动条件（21120）"
+        }
+      },
+      "21121": {
+        "ErrorCodeId": 21121,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21121_ErrorDesc",
+          "SourceString": "对方招募已满员,请输入其它的招募口令（21121）",
+          "LocalizedString": "对方招募已满员,请输入其它的招募口令（21121）"
+        }
+      },
+      "21122": {
+        "ErrorCodeId": 21122,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21122_ErrorDesc",
+          "SourceString": "已经绑定过（21122）",
+          "LocalizedString": "已经绑定过（21122）"
+        }
+      },
+      "21123": {
+        "ErrorCodeId": 21123,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21123_ErrorDesc",
+          "SourceString": "活动物品不足哦（21123）",
+          "LocalizedString": "活动物品不足哦（21123）"
+        }
+      },
+      "21124": {
+        "ErrorCodeId": 21124,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21124_ErrorDesc",
+          "SourceString": "活动配置错误（21124）",
+          "LocalizedString": "活动配置错误（21124）"
+        }
+      },
+      "21125": {
+        "ErrorCodeId": 21125,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21125_ErrorDesc",
+          "SourceString": "购买数量错误（21125）",
+          "LocalizedString": "购买数量错误（21125）"
+        }
+      },
+      "21126": {
+        "ErrorCodeId": 21126,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21126_ErrorDesc",
+          "SourceString": "请求参数错误（21126）",
+          "LocalizedString": "请求参数错误（21126）"
+        }
+      },
+      "21135": {
+        "ErrorCodeId": 21135,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21135_ErrorDesc",
+          "SourceString": "请输入正确的招募口令 (21135)",
+          "LocalizedString": "请输入正确的招募口令 (21135)"
+        }
+      },
+      "21136": {
+        "ErrorCodeId": 21136,
+        "ErrorDesc": {
+          "Namespace": "ErrorCode",
+          "Key": "21136_ErrorDesc",
+          "SourceString": "此玩家还不是招募教官身份哦, 请输入正确的招募口令信息 (21136)",
+          "LocalizedString": "此玩家还不是招募教官身份哦, 请输入正确的招募口令信息 (21136)"
         }
       }
     }

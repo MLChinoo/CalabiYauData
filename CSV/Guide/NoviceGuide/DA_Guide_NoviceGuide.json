@@ -61,6 +61,37 @@
           }
         }
       },
+      "GuideAIRoleConfig": {
+        "RoleId": 133,
+        "MaxArmor": 0,
+        "DefaultWeaponSlot": "EWeaponSlotTypes::WeaponSlot_Fist"
+      },
+      "SpawnAIConfigArray": [
+        {
+          "AIType": 0,
+          "TeamId": 1,
+          "RoleId": 220,
+          "RoleSkinId": 0,
+          "PlayerName": "",
+          "SpawnCount": 4,
+          "PlayerStartTagArray": [
+            "EnemyDefaultSpawnPoint"
+          ]
+        }
+      ],
+      "SpawnGuideAIConfigArray": [
+        {
+          "AIType": 0,
+          "TeamId": 0,
+          "RoleId": 133,
+          "RoleSkinId": 0,
+          "PlayerName": "",
+          "SpawnCount": 0,
+          "PlayerStartTagArray": [
+            "GuideAISpawnPoint"
+          ]
+        }
+      ],
       "DataTableConfig": {
         "TaskDataTablePtr": {
           "AssetPathName": "/Game/PaperMan/CSV/Guide/NoviceGuide/DT_Guide_NoviceGuide_Task.DT_Guide_NoviceGuide_Task",
@@ -88,6 +119,10 @@
         },
         "UIGuideDataTablePtr": {
           "AssetPathName": "/Game/PaperMan/CSV/Guide/NoviceGuide/DT_Guide_NoviceGuide_UIGuide.DT_Guide_NoviceGuide_UIGuide",
+          "SubPathString": ""
+        },
+        "GuideAITaskDatatablePtr": {
+          "AssetPathName": "/Game/PaperMan/CSV/Guide/NoviceGuide/DT_Guide_NoviceGuide_GuideAITask.DT_Guide_NoviceGuide_GuideAITask",
           "SubPathString": ""
         }
       }

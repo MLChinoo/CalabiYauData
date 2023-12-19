@@ -24,7 +24,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 30
+            "ItemAmount": 40
           }
         ],
         "Permanent": true,
@@ -75,7 +75,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -119,14 +119,65 @@
         "Desc": {
           "Namespace": "BattlePassDayTask",
           "Key": "10003_Desc",
-          "SourceString": "累计获得5回合比赛胜利",
-          "LocalizedString": "累计获得5回合比赛胜利"
+          "SourceString": "累计击中25次敌人",
+          "LocalizedString": "累计击中25次敌人"
         },
         "Type": 1,
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
+          }
+        ],
+        "Permanent": false,
+        "TaskConditions": [
+          {
+            "MainCondition": {
+              "MainType": "ECyTaskMainConditionType::Battle",
+              "GameCondition": "ECyTaskGameConditionType::None",
+              "GameResult": "ECyGameResultType::None",
+              "RoundResult": "ECyRoundResultType::None",
+              "bFriendTeam": false,
+              "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+              "bHeadshot": false,
+              "bFirstKill": false,
+              "bRevenge": false,
+              "MultiKillLimit": 0,
+              "HitDistLimit": 0,
+              "bBlind": false,
+              "ActionCondition": "ECyTaskActionConditionType::None",
+              "RoleIds": [],
+              "MeshModes": [],
+              "EnemyMeshModes": [],
+              "WeaponTypes": [],
+              "SkillTypes": [],
+              "Num": 25,
+              "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+              "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+            },
+            "LimitConditions": []
+          }
+        ],
+        "TaskLimit": {
+          "GameTypes": [],
+          "ModeTypes": []
+        }
+      },
+      "10004": {
+        "Id": 10004,
+        "Difficult": 1,
+        "Circle": false,
+        "Desc": {
+          "Namespace": "BattlePassDayTask",
+          "Key": "10004_Desc",
+          "SourceString": "累计完成5回合比赛",
+          "LocalizedString": "累计完成5回合比赛"
+        },
+        "Type": 1,
+        "Prize": [
+          {
+            "ItemId": 4,
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -136,7 +187,7 @@
               "MainType": "ECyTaskMainConditionType::Game",
               "GameCondition": "ECyTaskGameConditionType::RoundNum",
               "GameResult": "ECyGameResultType::None",
-              "RoundResult": "ECyRoundResultType::Win",
+              "RoundResult": "ECyRoundResultType::None",
               "bFriendTeam": false,
               "BattleCondition": "ECyTaskBattleConditionType::None",
               "bHeadshot": false,
@@ -163,13 +214,13 @@
           "ModeTypes": []
         }
       },
-      "10004": {
-        "Id": 10004,
+      "10005": {
+        "Id": 10005,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10004_Desc",
+          "Key": "10005_Desc",
           "SourceString": "击败或参与击败敌人累计15次",
           "LocalizedString": "击败或参与击败敌人累计15次"
         },
@@ -177,7 +228,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -214,13 +265,13 @@
           "ModeTypes": []
         }
       },
-      "10005": {
-        "Id": 10005,
+      "10006": {
+        "Id": 10006,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10005_Desc",
+          "Key": "10006_Desc",
           "SourceString": "累计造成3000点伤害",
           "LocalizedString": "累计造成3000点伤害"
         },
@@ -228,7 +279,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -265,13 +316,13 @@
           "ModeTypes": []
         }
       },
-      "10006": {
-        "Id": 10006,
+      "10007": {
+        "Id": 10007,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10006_Desc",
+          "Key": "10007_Desc",
           "SourceString": "击败敌人累计10次",
           "LocalizedString": "击败敌人累计10次"
         },
@@ -279,7 +330,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -316,13 +367,13 @@
           "ModeTypes": []
         }
       },
-      "10007": {
-        "Id": 10007,
+      "10008": {
+        "Id": 10008,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10007_Desc",
+          "Key": "10008_Desc",
           "SourceString": "使用战术道具累计5次",
           "LocalizedString": "使用战术道具累计5次"
         },
@@ -330,7 +381,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -369,13 +420,64 @@
           "ModeTypes": []
         }
       },
-      "10008": {
-        "Id": 10008,
+      "10009": {
+        "Id": 10009,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10008_Desc",
+          "Key": "10009_Desc",
+          "SourceString": "使用喷漆或动作次数累计5次",
+          "LocalizedString": "使用喷漆或动作次数累计5次"
+        },
+        "Type": 1,
+        "Prize": [
+          {
+            "ItemId": 4,
+            "ItemAmount": 30
+          }
+        ],
+        "Permanent": false,
+        "TaskConditions": [
+          {
+            "MainCondition": {
+              "MainType": "ECyTaskMainConditionType::Action",
+              "GameCondition": "ECyTaskGameConditionType::None",
+              "GameResult": "ECyGameResultType::None",
+              "RoundResult": "ECyRoundResultType::None",
+              "bFriendTeam": false,
+              "BattleCondition": "ECyTaskBattleConditionType::None",
+              "bHeadshot": false,
+              "bFirstKill": false,
+              "bRevenge": false,
+              "MultiKillLimit": 0,
+              "HitDistLimit": 0,
+              "bBlind": false,
+              "ActionCondition": "ECyTaskActionConditionType::UseGraffitiOrActionNum",
+              "RoleIds": [],
+              "MeshModes": [],
+              "EnemyMeshModes": [],
+              "WeaponTypes": [],
+              "SkillTypes": [],
+              "Num": 5,
+              "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+              "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+            },
+            "LimitConditions": []
+          }
+        ],
+        "TaskLimit": {
+          "GameTypes": [],
+          "ModeTypes": []
+        }
+      },
+      "10010": {
+        "Id": 10010,
+        "Difficult": 1,
+        "Circle": false,
+        "Desc": {
+          "Namespace": "BattlePassDayTask",
+          "Key": "10010_Desc",
           "SourceString": "使用技能累计10次",
           "LocalizedString": "使用技能累计10次"
         },
@@ -383,7 +485,7 @@
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -423,21 +525,21 @@
           "ModeTypes": []
         }
       },
-      "10009": {
-        "Id": 10009,
+      "10011": {
+        "Id": 10011,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10009_Desc",
-          "SourceString": "使用大招技能累计2次",
-          "LocalizedString": "使用大招技能累计2次"
+          "Key": "10011_Desc",
+          "SourceString": "累计为我方恢复血量或护甲数500点",
+          "LocalizedString": "累计为我方恢复血量或护甲数500点"
         },
         "Type": 1,
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -449,7 +551,7 @@
               "GameResult": "ECyGameResultType::None",
               "RoundResult": "ECyRoundResultType::None",
               "bFriendTeam": false,
-              "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+              "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
               "bHeadshot": false,
               "bFirstKill": false,
               "bRevenge": false,
@@ -461,10 +563,8 @@
               "MeshModes": [],
               "EnemyMeshModes": [],
               "WeaponTypes": [],
-              "SkillTypes": [
-                "ECyPlayerSkillType::X"
-              ],
-              "Num": 2,
+              "SkillTypes": [],
+              "Num": 500,
               "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
               "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
             },
@@ -476,21 +576,72 @@
           "ModeTypes": []
         }
       },
-      "10010": {
-        "Id": 10010,
+      "10012": {
+        "Id": 10012,
         "Difficult": 1,
         "Circle": false,
         "Desc": {
           "Namespace": "BattlePassDayTask",
-          "Key": "10010_Desc",
-          "SourceString": "累计救助队友2次",
-          "LocalizedString": "累计救助队友2次"
+          "Key": "10012_Desc",
+          "SourceString": "弦化飘飞距离累计2000米",
+          "LocalizedString": "弦化飘飞距离累计2000米"
         },
         "Type": 1,
         "Prize": [
           {
             "ItemId": 4,
-            "ItemAmount": 25
+            "ItemAmount": 30
+          }
+        ],
+        "Permanent": false,
+        "TaskConditions": [
+          {
+            "MainCondition": {
+              "MainType": "ECyTaskMainConditionType::Battle",
+              "GameCondition": "ECyTaskGameConditionType::None",
+              "GameResult": "ECyGameResultType::None",
+              "RoundResult": "ECyRoundResultType::None",
+              "bFriendTeam": false,
+              "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+              "bHeadshot": false,
+              "bFirstKill": false,
+              "bRevenge": false,
+              "MultiKillLimit": 0,
+              "HitDistLimit": 0,
+              "bBlind": false,
+              "ActionCondition": "ECyTaskActionConditionType::None",
+              "RoleIds": [],
+              "MeshModes": [],
+              "EnemyMeshModes": [],
+              "WeaponTypes": [],
+              "SkillTypes": [],
+              "Num": 2000,
+              "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+              "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+            },
+            "LimitConditions": []
+          }
+        ],
+        "TaskLimit": {
+          "GameTypes": [],
+          "ModeTypes": []
+        }
+      },
+      "10013": {
+        "Id": 10013,
+        "Difficult": 1,
+        "Circle": false,
+        "Desc": {
+          "Namespace": "BattlePassDayTask",
+          "Key": "10013_Desc",
+          "SourceString": "拾取死亡掉落物次数10次",
+          "LocalizedString": "拾取死亡掉落物次数10次"
+        },
+        "Type": 1,
+        "Prize": [
+          {
+            "ItemId": 4,
+            "ItemAmount": 30
           }
         ],
         "Permanent": false,
@@ -509,64 +660,13 @@
               "MultiKillLimit": 0,
               "HitDistLimit": 0,
               "bBlind": false,
-              "ActionCondition": "ECyTaskActionConditionType::RescueNum",
+              "ActionCondition": "ECyTaskActionConditionType::PickupDeathDropNum",
               "RoleIds": [],
               "MeshModes": [],
               "EnemyMeshModes": [],
               "WeaponTypes": [],
               "SkillTypes": [],
-              "Num": 2,
-              "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-              "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
-            },
-            "LimitConditions": []
-          }
-        ],
-        "TaskLimit": {
-          "GameTypes": [],
-          "ModeTypes": []
-        }
-      },
-      "10011": {
-        "Id": 10011,
-        "Difficult": 1,
-        "Circle": false,
-        "Desc": {
-          "Namespace": "BattlePassDayTask",
-          "Key": "10011_Desc",
-          "SourceString": "累计获得对局能量点2000个",
-          "LocalizedString": "累计获得对局能量点2000个"
-        },
-        "Type": 1,
-        "Prize": [
-          {
-            "ItemId": 4,
-            "ItemAmount": 25
-          }
-        ],
-        "Permanent": false,
-        "TaskConditions": [
-          {
-            "MainCondition": {
-              "MainType": "ECyTaskMainConditionType::Battle",
-              "GameCondition": "ECyTaskGameConditionType::None",
-              "GameResult": "ECyGameResultType::None",
-              "RoundResult": "ECyRoundResultType::None",
-              "bFriendTeam": false,
-              "BattleCondition": "ECyTaskBattleConditionType::GrowthPointNum",
-              "bHeadshot": false,
-              "bFirstKill": false,
-              "bRevenge": false,
-              "MultiKillLimit": 0,
-              "HitDistLimit": 0,
-              "bBlind": false,
-              "ActionCondition": "ECyTaskActionConditionType::None",
-              "RoleIds": [],
-              "MeshModes": [],
-              "EnemyMeshModes": [],
-              "WeaponTypes": [],
-              "SkillTypes": [],
-              "Num": 2000,
+              "Num": 10,
               "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
               "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
             },

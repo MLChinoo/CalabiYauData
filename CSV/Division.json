@@ -53,7 +53,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 5,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "1": {
         "Id": 1,
@@ -98,7 +99,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 1,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "2": {
         "Id": 2,
@@ -143,7 +145,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 1,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "3": {
         "Id": 3,
@@ -188,7 +191,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 1,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "4": {
         "Id": 4,
@@ -224,8 +228,8 @@
         "Ratio": 83,
         "TotalStar": 3,
         "MinStar": 13,
-        "ScoreMax": 150,
-        "ScoreProtect": 50,
+        "ScoreMax": 180,
+        "ScoreProtect": 60,
         "Inherit": 2,
         "GroupMin": 0,
         "GroupMax": 10,
@@ -233,7 +237,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "5": {
         "Id": 5,
@@ -269,8 +274,8 @@
         "Ratio": 79,
         "TotalStar": 3,
         "MinStar": 17,
-        "ScoreMax": 150,
-        "ScoreProtect": 50,
+        "ScoreMax": 180,
+        "ScoreProtect": 60,
         "Inherit": 3,
         "GroupMin": 0,
         "GroupMax": 10,
@@ -278,7 +283,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "6": {
         "Id": 6,
@@ -314,8 +320,8 @@
         "Ratio": 75,
         "TotalStar": 3,
         "MinStar": 21,
-        "ScoreMax": 150,
-        "ScoreProtect": 50,
+        "ScoreMax": 180,
+        "ScoreProtect": 60,
         "Inherit": 3,
         "GroupMin": 0,
         "GroupMax": 10,
@@ -323,7 +329,8 @@
         "Group5Max": 10,
         "LoseTimes": 2,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "7": {
         "Id": 7,
@@ -359,8 +366,8 @@
         "Ratio": 71,
         "TotalStar": 4,
         "MinStar": 25,
-        "ScoreMax": 225,
-        "ScoreProtect": 75,
+        "ScoreMax": 210,
+        "ScoreProtect": 70,
         "Inherit": 4,
         "GroupMin": 0,
         "GroupMax": 14,
@@ -368,7 +375,8 @@
         "Group5Max": 14,
         "LoseTimes": 3,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "8": {
         "Id": 8,
@@ -404,8 +412,8 @@
         "Ratio": 67,
         "TotalStar": 4,
         "MinStar": 30,
-        "ScoreMax": 225,
-        "ScoreProtect": 75,
+        "ScoreMax": 210,
+        "ScoreProtect": 70,
         "Inherit": 4,
         "GroupMin": 0,
         "GroupMax": 14,
@@ -413,7 +421,8 @@
         "Group5Max": 14,
         "LoseTimes": 3,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "9": {
         "Id": 9,
@@ -449,8 +458,8 @@
         "Ratio": 63,
         "TotalStar": 4,
         "MinStar": 35,
-        "ScoreMax": 225,
-        "ScoreProtect": 75,
+        "ScoreMax": 210,
+        "ScoreProtect": 70,
         "Inherit": 5,
         "GroupMin": 0,
         "GroupMax": 14,
@@ -458,7 +467,8 @@
         "Group5Max": 14,
         "LoseTimes": 3,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "10": {
         "Id": 10,
@@ -494,8 +504,8 @@
         "Ratio": 59,
         "TotalStar": 4,
         "MinStar": 40,
-        "ScoreMax": 225,
-        "ScoreProtect": 75,
+        "ScoreMax": 210,
+        "ScoreProtect": 70,
         "Inherit": 5,
         "GroupMin": 0,
         "GroupMax": 14,
@@ -503,7 +513,8 @@
         "Group5Max": 14,
         "LoseTimes": 3,
         "RankLoseTimes": 2,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "11": {
         "Id": 11,
@@ -539,8 +550,8 @@
         "Ratio": 55,
         "TotalStar": 4,
         "MinStar": 45,
-        "ScoreMax": 480,
-        "ScoreProtect": 120,
+        "ScoreMax": 320,
+        "ScoreProtect": 80,
         "Inherit": 6,
         "GroupMin": 7,
         "GroupMax": 18,
@@ -548,7 +559,8 @@
         "Group5Max": 18,
         "LoseTimes": 3,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "12": {
         "Id": 12,
@@ -584,8 +596,8 @@
         "Ratio": 51,
         "TotalStar": 4,
         "MinStar": 50,
-        "ScoreMax": 480,
-        "ScoreProtect": 120,
+        "ScoreMax": 320,
+        "ScoreProtect": 80,
         "Inherit": 7,
         "GroupMin": 7,
         "GroupMax": 18,
@@ -593,7 +605,8 @@
         "Group5Max": 18,
         "LoseTimes": 3,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "13": {
         "Id": 13,
@@ -629,8 +642,8 @@
         "Ratio": 47,
         "TotalStar": 4,
         "MinStar": 55,
-        "ScoreMax": 480,
-        "ScoreProtect": 120,
+        "ScoreMax": 320,
+        "ScoreProtect": 80,
         "Inherit": 7,
         "GroupMin": 7,
         "GroupMax": 18,
@@ -638,7 +651,8 @@
         "Group5Max": 18,
         "LoseTimes": 3,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "14": {
         "Id": 14,
@@ -674,8 +688,8 @@
         "Ratio": 44,
         "TotalStar": 4,
         "MinStar": 60,
-        "ScoreMax": 480,
-        "ScoreProtect": 120,
+        "ScoreMax": 320,
+        "ScoreProtect": 80,
         "Inherit": 8,
         "GroupMin": 7,
         "GroupMax": 18,
@@ -683,7 +697,8 @@
         "Group5Max": 18,
         "LoseTimes": 3,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 0
       },
       "15": {
         "Id": 15,
@@ -719,8 +734,8 @@
         "Ratio": 41,
         "TotalStar": 4,
         "MinStar": 65,
-        "ScoreMax": 720,
-        "ScoreProtect": 180,
+        "ScoreMax": 400,
+        "ScoreProtect": 100,
         "Inherit": 6,
         "GroupMin": 11,
         "GroupMax": 23,
@@ -728,7 +743,8 @@
         "Group5Max": 23,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 1
       },
       "16": {
         "Id": 16,
@@ -764,8 +780,8 @@
         "Ratio": 38,
         "TotalStar": 4,
         "MinStar": 70,
-        "ScoreMax": 720,
-        "ScoreProtect": 180,
+        "ScoreMax": 400,
+        "ScoreProtect": 100,
         "Inherit": 7,
         "GroupMin": 11,
         "GroupMax": 23,
@@ -773,7 +789,8 @@
         "Group5Max": 23,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 1
       },
       "17": {
         "Id": 17,
@@ -809,8 +826,8 @@
         "Ratio": 35,
         "TotalStar": 4,
         "MinStar": 75,
-        "ScoreMax": 720,
-        "ScoreProtect": 180,
+        "ScoreMax": 400,
+        "ScoreProtect": 100,
         "Inherit": 7,
         "GroupMin": 11,
         "GroupMax": 23,
@@ -818,7 +835,8 @@
         "Group5Max": 23,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 1
       },
       "18": {
         "Id": 18,
@@ -854,8 +872,8 @@
         "Ratio": 32,
         "TotalStar": 4,
         "MinStar": 80,
-        "ScoreMax": 720,
-        "ScoreProtect": 180,
+        "ScoreMax": 400,
+        "ScoreProtect": 100,
         "Inherit": 8,
         "GroupMin": 11,
         "GroupMax": 23,
@@ -863,7 +881,8 @@
         "Group5Max": 23,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 72
+        "OfflineTime": 72,
+        "DivisionBg": 1
       },
       "19": {
         "Id": 19,
@@ -899,8 +918,8 @@
         "Ratio": 29,
         "TotalStar": 5,
         "MinStar": 85,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 600,
+        "ScoreProtect": 120,
         "Inherit": 8,
         "GroupMin": 15,
         "GroupMax": 28,
@@ -908,7 +927,8 @@
         "Group5Max": 28,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 96
+        "OfflineTime": 96,
+        "DivisionBg": 1
       },
       "20": {
         "Id": 20,
@@ -944,8 +964,8 @@
         "Ratio": 26,
         "TotalStar": 5,
         "MinStar": 91,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 600,
+        "ScoreProtect": 120,
         "Inherit": 9,
         "GroupMin": 15,
         "GroupMax": 28,
@@ -953,7 +973,8 @@
         "Group5Max": 28,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 96
+        "OfflineTime": 96,
+        "DivisionBg": 1
       },
       "21": {
         "Id": 21,
@@ -989,8 +1010,8 @@
         "Ratio": 23,
         "TotalStar": 5,
         "MinStar": 97,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 600,
+        "ScoreProtect": 120,
         "Inherit": 9,
         "GroupMin": 15,
         "GroupMax": 28,
@@ -998,7 +1019,8 @@
         "Group5Max": 28,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 96
+        "OfflineTime": 96,
+        "DivisionBg": 1
       },
       "22": {
         "Id": 22,
@@ -1034,8 +1056,8 @@
         "Ratio": 20,
         "TotalStar": 5,
         "MinStar": 103,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 600,
+        "ScoreProtect": 120,
         "Inherit": 10,
         "GroupMin": 15,
         "GroupMax": 28,
@@ -1043,7 +1065,8 @@
         "Group5Max": 28,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 96
+        "OfflineTime": 96,
+        "DivisionBg": 1
       },
       "23": {
         "Id": 23,
@@ -1079,8 +1102,8 @@
         "Ratio": 17,
         "TotalStar": 5,
         "MinStar": 109,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 600,
+        "ScoreProtect": 120,
         "Inherit": 10,
         "GroupMin": 15,
         "GroupMax": 28,
@@ -1088,7 +1111,8 @@
         "Group5Max": 28,
         "LoseTimes": 4,
         "RankLoseTimes": 99,
-        "OfflineTime": 96
+        "OfflineTime": 96,
+        "DivisionBg": 1
       },
       "24": {
         "Id": 24,
@@ -1124,8 +1148,8 @@
         "Ratio": 14,
         "TotalStar": 5,
         "MinStar": 115,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 800,
+        "ScoreProtect": 160,
         "Inherit": 11,
         "GroupMin": 19,
         "GroupMax": 29,
@@ -1133,7 +1157,8 @@
         "Group5Max": 29,
         "LoseTimes": 5,
         "RankLoseTimes": 99,
-        "OfflineTime": 120
+        "OfflineTime": 120,
+        "DivisionBg": 1
       },
       "25": {
         "Id": 25,
@@ -1169,8 +1194,8 @@
         "Ratio": 11,
         "TotalStar": 5,
         "MinStar": 121,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 800,
+        "ScoreProtect": 160,
         "Inherit": 11,
         "GroupMin": 19,
         "GroupMax": 29,
@@ -1178,7 +1203,8 @@
         "Group5Max": 29,
         "LoseTimes": 5,
         "RankLoseTimes": 99,
-        "OfflineTime": 120
+        "OfflineTime": 120,
+        "DivisionBg": 1
       },
       "26": {
         "Id": 26,
@@ -1214,8 +1240,8 @@
         "Ratio": 8,
         "TotalStar": 5,
         "MinStar": 127,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 800,
+        "ScoreProtect": 160,
         "Inherit": 12,
         "GroupMin": 19,
         "GroupMax": 29,
@@ -1223,7 +1249,8 @@
         "Group5Max": 29,
         "LoseTimes": 5,
         "RankLoseTimes": 99,
-        "OfflineTime": 120
+        "OfflineTime": 120,
+        "DivisionBg": 1
       },
       "27": {
         "Id": 27,
@@ -1259,8 +1286,8 @@
         "Ratio": 5,
         "TotalStar": 5,
         "MinStar": 133,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 800,
+        "ScoreProtect": 160,
         "Inherit": 12,
         "GroupMin": 19,
         "GroupMax": 29,
@@ -1268,7 +1295,8 @@
         "Group5Max": 29,
         "LoseTimes": 5,
         "RankLoseTimes": 99,
-        "OfflineTime": 120
+        "OfflineTime": 120,
+        "DivisionBg": 1
       },
       "28": {
         "Id": 28,
@@ -1304,8 +1332,8 @@
         "Ratio": 2,
         "TotalStar": 5,
         "MinStar": 139,
-        "ScoreMax": 1250,
-        "ScoreProtect": 250,
+        "ScoreMax": 800,
+        "ScoreProtect": 160,
         "Inherit": 13,
         "GroupMin": 19,
         "GroupMax": 29,
@@ -1313,7 +1341,8 @@
         "Group5Max": 29,
         "LoseTimes": 5,
         "RankLoseTimes": 99,
-        "OfflineTime": 120
+        "OfflineTime": 120,
+        "DivisionBg": 1
       },
       "29": {
         "Id": 29,
@@ -1358,7 +1387,54 @@
         "Group5Max": 29,
         "LoseTimes": 10,
         "RankLoseTimes": 99,
-        "OfflineTime": 144
+        "OfflineTime": 144,
+        "DivisionBg": 2
+      },
+      "30": {
+        "Id": 30,
+        "Name": {
+          "Namespace": "Division",
+          "Key": "30_Name",
+          "SourceString": "奇点",
+          "LocalizedString": "奇点"
+        },
+        "Gradation": 8,
+        "IconGradation": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/PC/Frontend/CareerPC/CareerRankPC/Frames/SPR_UI_CareerRankPC_NewRank_Sm8.SPR_UI_CareerRankPC_NewRank_Sm8",
+          "SubPathString": ""
+        },
+        "Level": 0,
+        "Gname": "奇点",
+        "IconDivision": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/PC/Frontend/CareerPC/CareerRankPC/NotPack/T_UI_CareerRankPC_Badge9.T_UI_CareerRankPC_Badge9",
+          "SubPathString": ""
+        },
+        "IconDivisionLevel": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconDivisions": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/PC/Frontend/CareerPC/CareerRankPC/Frames/SPR_UI_CareerRankPC_BadgeSmall9.SPR_UI_CareerRankPC_BadgeSmall9",
+          "SubPathString": ""
+        },
+        "IconDivisionLevels": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "Ratio": 1,
+        "TotalStar": 9999,
+        "MinStar": 155,
+        "ScoreMax": 1500,
+        "ScoreProtect": 300,
+        "Inherit": 13,
+        "GroupMin": 30,
+        "GroupMax": 30,
+        "Group5Min": 30,
+        "Group5Max": 30,
+        "LoseTimes": 10,
+        "RankLoseTimes": 99,
+        "OfflineTime": 144,
+        "DivisionBg": 2
       }
     }
   }
