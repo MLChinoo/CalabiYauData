@@ -24,7 +24,7 @@
         "TotalKiller": 0
       },
       "2": {
-        "LeaderboardName": "团队竞技榜",
+        "LeaderboardName": "团队乱斗榜",
         "LeaderboardType": 2,
         "RankNumber": 1,
         "PlayerName": 1,
@@ -40,7 +40,7 @@
         "LeaderboardName": "角色排行榜",
         "LeaderboardType": 4,
         "RankNumber": 1,
-        "PlayerName": 0,
+        "PlayerName": 1,
         "Title": 0,
         "RankLevel": 0,
         "CharacterCombatPower": 1,

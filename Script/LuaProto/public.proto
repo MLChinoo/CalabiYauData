@@ -1,5 +1,5 @@
 
-¯
+µ
 public.protoncmd_cs
 enum.proto"A
 behavior
@@ -12,7 +12,7 @@ behaviorId
 state (2.ncmd_cs.ETaskStateRstate1
 
 progresses (2.ncmd_cs.behaviorR
-progresses"×
+progresses"×
 ds_settle_player_info
 	player_id (RplayerId+
 team_id (2.ncmd_cs.ERoomCampRteamId
@@ -45,7 +45,11 @@ defeat_num (R	defeatNum
 mine( (Rmine!
 offline_time) (RofflineTime 
 hang_up_time* (R
-hangUpTime"®
+hangUpTime
+
+escape_num+ (R	escapeNumK
+negative_behavior, (2.ncmd_cs.ENegativeBehaviorTypeRnegativeBehavior
+smvp- (Rsmvp"ù
 ds_settle_role_info
 role_id (RroleId
 	play_time (RplayTime 
@@ -65,4 +69,19 @@ assistsNum
 damage (Rdamage
 cures (Rcures
 win_num (RwinNum
-fail_num (RfailNumbproto3
+fail_num (RfailNum
+custom_mask (R
+customMask(
+custom_mask_list (RcustomMaskList">
+room_one_rule
+attr_id (RattrId
+value (Rvalue"P
+	role_rule
+role_id (RroleId*
+rule (2.ncmd_cs.room_one_ruleRrule"¦
+	room_rule
+	rule_name (	RruleName
+	rule_desc (	RruleDesc,
+rules (2.ncmd_cs.room_one_ruleRrules1
+
+role_rules (2.ncmd_cs.role_ruleR	roleRulesbproto3

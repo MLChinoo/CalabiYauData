@@ -241,8 +241,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1051_Intro",
-          "SourceString": "进入架设状态，提升大幅射速，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。",
-          "LocalizedString": "进入架设状态，提升大幅射速，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。"
+          "SourceString": "进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若连续射击时间过长，会进入枪口过热状态无法射击。",
+          "LocalizedString": "进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若连续射击时间过长，会进入枪口过热状态无法射击。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10501.T_Dynamic_Skill_10501",
@@ -497,8 +497,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1282_Intro",
-          "SourceString": "拉薇命中敌方单位时，会将其短暂透视给自己。",
-          "LocalizedString": "拉薇命中敌方单位时，会将其短暂透视给自己。"
+          "SourceString": "拉薇主武器命中敌方单位时，会将其短暂透视给自己。",
+          "LocalizedString": "拉薇主武器命中敌方单位时，会将其短暂透视给自己。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12802.T_Dynamic_Skill_12802",
@@ -689,8 +689,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1322_Intro",
-          "SourceString": "明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，该回复量大幅增加。",
-          "LocalizedString": "明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，该回复量大幅增加。"
+          "SourceString": "明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，被动会回复临时护甲并增加回复量。",
+          "LocalizedString": "明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，被动会回复临时护甲并增加回复量。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13202.T_Dynamic_Skill_13202",
@@ -753,8 +753,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1323_Intro",
-          "SourceString": "明获得持续衰减的临时护甲并使自己的射击附带可叠加的减速效果。明使用枪械对敌人的护甲造成伤害时，可延长该技能持续时间。",
-          "LocalizedString": "明获得持续衰减的临时护甲并使自己的射击附带可叠加的减速效果。明使用枪械对敌人的护甲造成伤害时，可延长该技能持续时间。"
+          "SourceString": "明获得临时护甲并使自己的射击附带可叠加的减速效果。明使用枪械和主动技能对敌人的护甲造成伤害时，可延长该技能持续时间并回复临时护甲。",
+          "LocalizedString": "明获得临时护甲并使自己的射击附带可叠加的减速效果。明使用枪械和主动技能对敌人的护甲造成伤害时，可延长该技能持续时间并回复临时护甲。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13203.T_Dynamic_Skill_13203",
@@ -817,8 +817,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1071_Intro",
-          "SourceString": "玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速且弦化禁止。",
-          "LocalizedString": "玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速且弦化禁止。"
+          "SourceString": "玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。",
+          "LocalizedString": "玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10701.T_Dynamic_Skill_10701",
@@ -881,8 +881,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1072_Intro",
-          "SourceString": "玛德蕾娜用主武器射击命中或者用技能命中敌方角色时，可使敌方角色减速并留下脚印。",
-          "LocalizedString": "玛德蕾娜用主武器射击命中或者用技能命中敌方角色时，可使敌方角色减速并留下脚印。"
+          "SourceString": "玛德蕾娜使用主武器命中敌方角色时，可使敌方角色减速并暴露脚印。",
+          "LocalizedString": "玛德蕾娜使用主武器命中敌方角色时，可使敌方角色减速并暴露脚印。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10702.T_Dynamic_Skill_10702",
@@ -945,8 +945,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1073_Intro",
-          "SourceString": "玛德蕾娜发射巨大泡泡，泡泡内的敌人将被禁止弦化且暴露脚印。泡泡爆炸后将对爆炸范围内的敌人施加减速和易损效果。",
-          "LocalizedString": "玛德蕾娜发射巨大泡泡，泡泡内的敌人将被禁止弦化且暴露脚印。泡泡爆炸后将对爆炸范围内的敌人施加减速和易损效果。"
+          "SourceString": "玛德蕾娜发射巨大泡泡，泡泡内的敌人将被禁止弦化且暴露脚印。泡泡爆炸后将对爆炸范围内的敌人施加额外的减速和易损效果。",
+          "LocalizedString": "玛德蕾娜发射巨大泡泡，泡泡内的敌人将被禁止弦化且暴露脚印。泡泡爆炸后将对爆炸范围内的敌人施加额外的减速和易损效果。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10703.T_Dynamic_Skill_10703",
@@ -1393,8 +1393,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1121_Intro",
-          "SourceString": "对周围敌人进行感知，满血敌人被短暂透视，受伤敌人被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。",
-          "LocalizedString": "对周围敌人进行感知，满血敌人被短暂透视，受伤敌人被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。"
+          "SourceString": "感知周围的敌人，敌人满血被短暂透视，其生命值不足100则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。",
+          "LocalizedString": "感知周围的敌人，敌人满血被短暂透视，其生命值不足100则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11201.T_Dynamic_Skill_11201",
@@ -1777,8 +1777,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1331_Intro",
-          "SourceString": "梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机功效一段时间并暂时削减其生命值。",
-          "LocalizedString": "梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机功效一段时间并暂时削减其生命值。"
+          "SourceString": "梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。",
+          "LocalizedString": "梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13301.T_Dynamic_Skill_13301",
@@ -2033,8 +2033,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1102_Intro",
-          "SourceString": "白墨的主武器单次射击命中敌人造成至少50点伤害后，才使其弦化禁止。",
-          "LocalizedString": "白墨的主武器单次射击命中敌人造成至少50点伤害后，才使其弦化禁止。"
+          "SourceString": "白墨的主武器单次射击命中敌人造成至少50点伤害后，使其弦化禁止。",
+          "LocalizedString": "白墨的主武器单次射击命中敌人造成至少50点伤害后，使其弦化禁止。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11002.T_Dynamic_Skill_11002",
@@ -2225,8 +2225,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1092_Intro",
-          "SourceString": "在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视仅令可见。",
-          "LocalizedString": "在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视仅令可见。"
+          "SourceString": "在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视，仅令可见。",
+          "LocalizedString": "在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视，仅令可见。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10902.T_Dynamic_Skill_10902",
@@ -2335,14 +2335,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1311_Intro1",
-          "SourceString": "冷却时间减少5秒",
-          "LocalizedString": "冷却时间减少5秒"
+          "SourceString": "冷却时间减少10秒",
+          "LocalizedString": "冷却时间减少10秒"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1311_Intro2",
-          "SourceString": "熊冲刺冷却减少3秒",
-          "LocalizedString": "熊冲刺冷却减少3秒"
+          "SourceString": "增加1次冲刺次数",
+          "LocalizedString": "增加1次冲刺次数"
         },
         "Intro3": {
           "Namespace": "Skill",
@@ -2353,8 +2353,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1311_Intro",
-          "SourceString": "伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易损效果，当有人靠近熊时会自动砸地留下冰面。",
-          "LocalizedString": "伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易损效果，当有人靠近熊时会自动砸地留下冰面。"
+          "SourceString": "伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易损效果。",
+          "LocalizedString": "伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易损效果。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13101.T_Dynamic_Skill_13101",
@@ -2411,8 +2411,8 @@
         "Intro3": {
           "Namespace": "Skill",
           "Key": "1312_Intro3",
-          "SourceString": "技能4级描述",
-          "LocalizedString": "技能4级描述"
+          "SourceString": "技能3级描述",
+          "LocalizedString": "技能3级描述"
         },
         "Intro": {
           "Namespace": "Skill",
@@ -2475,8 +2475,8 @@
         "Intro3": {
           "Namespace": "Skill",
           "Key": "1313_Intro3",
-          "SourceString": "技能5级描述",
-          "LocalizedString": "技能5级描述"
+          "SourceString": "技能3级描述",
+          "LocalizedString": "技能3级描述"
         },
         "Intro": {
           "Namespace": "Skill",
@@ -2539,8 +2539,8 @@
         "Intro3": {
           "Namespace": "Skill",
           "Key": "1371_Intro3",
-          "SourceString": "技能6级描述",
-          "LocalizedString": "技能6级描述"
+          "SourceString": "技能3级描述",
+          "LocalizedString": "技能3级描述"
         },
         "Intro": {
           "Namespace": "Skill",
@@ -2600,8 +2600,8 @@
         "Intro3": {
           "Namespace": "Skill",
           "Key": "1372_Intro3",
-          "SourceString": "技能7级描述",
-          "LocalizedString": "技能7级描述"
+          "SourceString": "技能3级描述",
+          "LocalizedString": "技能3级描述"
         },
         "Intro": {
           "Namespace": "Skill",
@@ -2664,14 +2664,14 @@
         "Intro3": {
           "Namespace": "Skill",
           "Key": "1373_Intro3",
-          "SourceString": "技能8级描述",
-          "LocalizedString": "技能8级描述"
+          "SourceString": "技能3级描述",
+          "LocalizedString": "技能3级描述"
         },
         "Intro": {
           "Namespace": "Skill",
           "Key": "1373_Intro",
-          "SourceString": "香奈美在战场内展开舞台，舞台展开后开始播放音乐，所有在舞台一定范围内的敌人都会被歌声吸引、减速并开镜失效。",
-          "LocalizedString": "香奈美在战场内展开舞台，舞台展开后开始播放音乐，所有在舞台一定范围内的敌人都会被歌声吸引、减速并开镜失效。"
+          "SourceString": "香奈美在战场内展开舞台，舞台展开后开始播放音乐，所有在舞台一定范围内的敌人都会被歌声吸引、减速并丢失准星。",
+          "LocalizedString": "香奈美在战场内展开舞台，舞台展开后开始播放音乐，所有在舞台一定范围内的敌人都会被歌声吸引、减速并丢失准星。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13703.T_Dynamic_Skill_13703",
@@ -2834,8 +2834,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1016_Intro",
-          "SourceString": "当米雪儿处在召唤物10米范围内时，米雪儿会增加射速和人机功效。",
-          "LocalizedString": "当米雪儿处在召唤物10米范围内时，米雪儿会增加射速和人机功效。"
+          "SourceString": "当米雪儿处在召唤物10米范围内时，米雪儿会增加射速和人机工效。",
+          "LocalizedString": "当米雪儿处在召唤物10米范围内时，米雪儿会增加射速和人机工效。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10106.T_Dynamic_Skill_10106",
@@ -2910,9 +2910,9 @@
           "SubPathString": ""
         },
         "ActiveCond": [
-          0,
           1,
-          1
+          2,
+          0
         ],
         "BluePrint": {
           "AssetPathName": "None",
@@ -3022,7 +3022,7 @@
           "SubPathString": ""
         },
         "ActiveCond": [
-          3,
+          1,
           1,
           1
         ],
@@ -3058,8 +3058,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1284_Intro",
-          "SourceString": "拉薇造成伤害时，将会透视所有受到拉薇伤害的敌方单位。",
-          "LocalizedString": "拉薇造成伤害时，将会透视所有受到拉薇伤害的敌方单位。"
+          "SourceString": "拉薇造成任何伤害后，会将所有受到拉薇伤害的敌方单位都透视给自己及全体队友。",
+          "LocalizedString": "拉薇造成任何伤害后，会将所有受到拉薇伤害的敌方单位都透视给自己及全体队友。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12804.T_Dynamic_Skill_12804",
@@ -4122,8 +4122,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1465_Intro",
-          "SourceString": "主动技能附带额外效果：当主动技能增加的护甲被破坏时，星光会从头顶飞出并致盲敌人。",
-          "LocalizedString": "主动技能附带额外效果：当主动技能增加的护甲被破坏时，星光会从头顶飞出并致盲敌人。"
+          "SourceString": "主动技能附带额外效果：当护甲被破坏时，星光会从头顶飞出并致盲敌人。",
+          "LocalizedString": "主动技能附带额外效果：当护甲被破坏时，星光会从头顶飞出并致盲敌人。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_14605.T_Dynamic_Skill_14605",
@@ -4422,9 +4422,9 @@
           "SubPathString": ""
         },
         "ActiveCond": [
+          1,
           0,
-          2,
-          0
+          1
         ],
         "BluePrint": {
           "AssetPathName": "None",
@@ -4534,8 +4534,8 @@
           "SubPathString": ""
         },
         "ActiveCond": [
-          0,
-          2,
+          1,
+          1,
           2
         ],
         "BluePrint": {
@@ -4626,8 +4626,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1095_Intro",
-          "SourceString": "敌方角色穿越光幕时，会被临时削弱20点护甲，友方穿越光幕时，会获得临时的20点护甲。",
-          "LocalizedString": "敌方角色穿越光幕时，会被临时削弱20点护甲，友方穿越光幕时，会获得临时的20点护甲。"
+          "SourceString": "敌方角色穿越光幕，会被无效化35点护甲上限持续5秒。友方穿越光幕时，会获得20点临时护甲，在6秒内反复经过只会获得一次。",
+          "LocalizedString": "敌方角色穿越光幕，会被无效化35点护甲上限持续5秒。友方穿越光幕时，会获得20点临时护甲，在6秒内反复经过只会获得一次。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10905.T_Dynamic_Skill_10905",
@@ -4648,7 +4648,7 @@
         "ActiveCond": [
           0,
           2,
-          2
+          1
         ],
         "BluePrint": {
           "AssetPathName": "None",
@@ -4962,8 +4962,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1375_Intro",
-          "SourceString": "被声呐片扫描到的敌人会被声呐片定位，在一定时间之后没有脱离范围则会被晕眩，降低射速并禁止开镜。",
-          "LocalizedString": "被声呐片扫描到的敌人会被声呐片定位，在一定时间之后没有脱离范围则会被晕眩，降低射速并禁止开镜。"
+          "SourceString": "被声呐片扫描到的敌人会被声呐片定位，在一定时间之后没有脱离范围则会被晕眩并降低射速。",
+          "LocalizedString": "被声呐片扫描到的敌人会被声呐片定位，在一定时间之后没有脱离范围则会被晕眩并降低射速。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13705.T_Dynamic_Skill_13705",
@@ -5018,8 +5018,8 @@
         "Intro": {
           "Namespace": "Skill",
           "Key": "1376_Intro",
-          "SourceString": "处于声呐片影响范围内的队友将增加移速，人机功效，射速。",
-          "LocalizedString": "处于声呐片影响范围内的队友将增加移速，人机功效，射速。"
+          "SourceString": "处于声呐片影响范围内的队友将增加移速，人机工效，射速。",
+          "LocalizedString": "处于声呐片影响范围内的队友将增加移速，人机工效，射速。"
         },
         "IconSkillUsing": {
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13706.T_Dynamic_Skill_13706",
@@ -5065,14 +5065,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1017_Intro1",
-          "SourceString": "被击倒后能自救",
-          "LocalizedString": "被击倒后能自救"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1017_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5120,14 +5120,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1057_Intro1",
-          "SourceString": "被击倒后可自救",
-          "LocalizedString": "被击倒后可自救"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1057_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5175,14 +5175,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1287_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1287_Intro2",
-          "SourceString": "被击倒后可自救",
-          "LocalizedString": "被击倒后可自救"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5230,14 +5230,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1327_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1327_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5285,14 +5285,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1077_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1077_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5340,14 +5340,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1087_Intro1",
-          "SourceString": "被击倒后可自救",
-          "LocalizedString": "被击倒后可自救"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1087_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5395,14 +5395,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1247_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1247_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5450,14 +5450,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1127_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1127_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5505,14 +5505,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1467_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1467_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5560,14 +5560,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1337_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1337_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5615,14 +5615,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1107_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1107_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5670,14 +5670,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1097_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1097_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5725,14 +5725,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1317_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1317_Intro2",
-          "SourceString": "弦化减伤增加10%",
-          "LocalizedString": "弦化减伤增加10%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5780,14 +5780,124 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1377_Intro1",
-          "SourceString": "弦化状态加速15%",
-          "LocalizedString": "弦化状态加速15%"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1377_Intro2",
-          "SourceString": "被击倒后可自救",
-          "LocalizedString": "被击倒后可自救"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro3": {
+          "CultureInvariantString": null
+        },
+        "Intro": {
+          "CultureInvariantString": null
+        },
+        "IconSkillUsing": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillDisable": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillCd": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkill": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ActiveCond": [],
+        "BluePrint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1157": {
+        "SkillId": 1157,
+        "SkillType": 5,
+        "Name": {
+          "Namespace": "Skill",
+          "Key": "1157_Name",
+          "SourceString": "生存",
+          "LocalizedString": "生存"
+        },
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "Intro1": {
+          "Namespace": "Skill",
+          "Key": "1157_Intro1",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro2": {
+          "Namespace": "Skill",
+          "Key": "1157_Intro2",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro3": {
+          "CultureInvariantString": null
+        },
+        "Intro": {
+          "CultureInvariantString": null
+        },
+        "IconSkillUsing": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillDisable": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillCd": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkill": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ActiveCond": [],
+        "BluePrint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1197": {
+        "SkillId": 1197,
+        "SkillType": 5,
+        "Name": {
+          "Namespace": "Skill",
+          "Key": "1197_Name",
+          "SourceString": "生存",
+          "LocalizedString": "生存"
+        },
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "Intro1": {
+          "Namespace": "Skill",
+          "Key": "1197_Intro1",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro2": {
+          "Namespace": "Skill",
+          "Key": "1197_Intro2",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5835,14 +5945,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1018_Intro1",
-          "SourceString": "慢回轻型护甲50",
-          "LocalizedString": "慢回轻型护甲50"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1018_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5890,14 +6000,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1058_Intro1",
-          "SourceString": "慢回轻型护甲50",
-          "LocalizedString": "慢回轻型护甲50"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1058_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -5945,14 +6055,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1288_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1288_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6000,14 +6110,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1328_Intro1",
-          "SourceString": "快回轻型护甲40",
-          "LocalizedString": "快回轻型护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1328_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6055,14 +6165,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1078_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1078_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6110,14 +6220,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1088_Intro1",
-          "SourceString": "慢回轻型护甲50",
-          "LocalizedString": "慢回轻型护甲50"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1088_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6165,14 +6275,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1248_Intro1",
-          "SourceString": "回复轻型护甲50",
-          "LocalizedString": "回复轻型护甲50"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1248_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6220,14 +6330,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1128_Intro1",
-          "SourceString": "快回轻型护甲40",
-          "LocalizedString": "快回轻型护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1128_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6275,14 +6385,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1468_Intro1",
-          "SourceString": "回复轻型护甲50",
-          "LocalizedString": "回复轻型护甲50"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1468_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6330,14 +6440,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1338_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1338_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6385,14 +6495,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1108_Intro1",
-          "SourceString": "快回轻型护甲40",
-          "LocalizedString": "快回轻型护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1108_Intro2",
-          "SourceString": "重型护甲75",
-          "LocalizedString": "重型护甲75"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6440,14 +6550,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1098_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1098_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6495,14 +6605,14 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1318_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1318_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null
@@ -6550,14 +6660,124 @@
         "Intro1": {
           "Namespace": "Skill",
           "Key": "1378_Intro1",
-          "SourceString": "回复护甲40",
-          "LocalizedString": "回复护甲40"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro2": {
           "Namespace": "Skill",
           "Key": "1378_Intro2",
-          "SourceString": "护甲60",
-          "LocalizedString": "护甲60"
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro3": {
+          "CultureInvariantString": null
+        },
+        "Intro": {
+          "CultureInvariantString": null
+        },
+        "IconSkillUsing": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillDisable": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillCd": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkill": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ActiveCond": [],
+        "BluePrint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1158": {
+        "SkillId": 1158,
+        "SkillType": 5,
+        "Name": {
+          "Namespace": "Skill",
+          "Key": "1158_Name",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "Intro1": {
+          "Namespace": "Skill",
+          "Key": "1158_Intro1",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro2": {
+          "Namespace": "Skill",
+          "Key": "1158_Intro2",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro3": {
+          "CultureInvariantString": null
+        },
+        "Intro": {
+          "CultureInvariantString": null
+        },
+        "IconSkillUsing": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillDisable": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkillCd": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "IconSkill": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ActiveCond": [],
+        "BluePrint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "1198": {
+        "SkillId": 1198,
+        "SkillType": 5,
+        "Name": {
+          "Namespace": "Skill",
+          "Key": "1198_Name",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "Intro1": {
+          "Namespace": "Skill",
+          "Key": "1198_Intro1",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
+        },
+        "Intro2": {
+          "Namespace": "Skill",
+          "Key": "1198_Intro2",
+          "SourceString": "已废弃，在growth表配置",
+          "LocalizedString": "已废弃，在growth表配置"
         },
         "Intro3": {
           "CultureInvariantString": null

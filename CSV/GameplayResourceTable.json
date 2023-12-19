@@ -138,6 +138,10 @@
         "Tag": "Resource.Audio.AlarmGrenade.Loop",
         "DevComment": ""
       },
+      "Resource.Audio.Vertigo.Loop": {
+        "Tag": "Resource.Audio.Vertigo.Loop",
+        "DevComment": "眩晕音效"
+      },
       "Resource.Audio.GodTime.Active": {
         "Tag": "Resource.Audio.GodTime.Active",
         "DevComment": "无敌出现音效"
@@ -168,6 +172,10 @@
       },
       "Resource.Particle.Q.WhileActive": {
         "Tag": "Resource.Particle.Q.WhileActive",
+        "DevComment": ""
+      },
+      "Resource.Particle.Q.OnTrigger": {
+        "Tag": "Resource.Particle.Q.OnTrigger",
         "DevComment": ""
       },
       "Resource.Particle.Q.OnRemove": {
@@ -205,6 +213,10 @@
       "Resource.Particle.Block2D.3P": {
         "Tag": "Resource.Particle.Block2D.3P",
         "DevComment": "禁止2D的3P特效"
+      },
+      "Resource.Particle.DamageFactor.WhileActive": {
+        "Tag": "Resource.Particle.DamageFactor.WhileActive",
+        "DevComment": "伤害加深"
       },
       "Resource.Particle.Fuchsia.P.OnActive": {
         "Tag": "Resource.Particle.Fuchsia.P.OnActive",
@@ -1117,6 +1129,10 @@
       "Resource.Particle.Mesh.Third.3D": {
         "Tag": "Resource.Particle.Mesh.Third.3D",
         "DevComment": "3D模型皮肤特效3"
+      },
+      "Resource.Particle.Flavia.OverheadButterfly": {
+        "Tag": "Resource.Particle.Flavia.OverheadButterfly",
+        "DevComment": ""
       }
     }
   }

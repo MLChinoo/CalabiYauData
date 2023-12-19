@@ -12,6 +12,7 @@
     "Rows": {
       "1": {
         "GuideStep": 1,
+        "NextStep": 2,
         "StepDesc": {
           "Namespace": "",
           "Key": "6A97B37B40D3623F5EA4858E3EFAD596",
@@ -22,12 +23,11 @@
         "IsMBEnable": true,
         "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
         "EventSequencerId": 9614601,
-        "EventUIName": {
-          "CultureInvariantString": null
-        }
+        "EventUIName": "None"
       },
       "2": {
         "GuideStep": 2,
+        "NextStep": 3,
         "StepDesc": {
           "Namespace": "",
           "Key": "AD6C6CF74CFCF7DEFEB558A4551FCB06",
@@ -38,15 +38,11 @@
         "IsMBEnable": true,
         "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
         "EventSequencerId": 15146060,
-        "EventUIName": {
-          "Namespace": "",
-          "Key": "FD91635B45E518A47E3E9EBF450AFA76",
-          "SourceString": "PlayerNamePage",
-          "LocalizedString": "PlayerNamePage"
-        }
+        "EventUIName": "PlayerNamePage"
       },
       "3": {
         "GuideStep": 3,
+        "NextStep": 4,
         "StepDesc": {
           "Namespace": "",
           "Key": "BBB1A1E1402C2BDD53899782849E30E7",
@@ -57,12 +53,11 @@
         "IsMBEnable": true,
         "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
         "EventSequencerId": 9614602,
-        "EventUIName": {
-          "CultureInvariantString": null
-        }
+        "EventUIName": "None"
       },
       "4": {
         "GuideStep": 4,
+        "NextStep": 5,
         "StepDesc": {
           "Namespace": "",
           "Key": "A5BD0C2140A1E019B900E6B34C260AF8",
@@ -73,15 +68,11 @@
         "IsMBEnable": false,
         "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
         "EventSequencerId": 15146060,
-        "EventUIName": {
-          "Namespace": "",
-          "Key": "364BB4354D64A4E59A975E9B0041AA11",
-          "SourceString": "TeamCompetitionPage",
-          "LocalizedString": "TeamCompetitionPage"
-        }
+        "EventUIName": "TeamCompetitionPage"
       },
       "5": {
         "GuideStep": 5,
+        "NextStep": 6,
         "StepDesc": {
           "Namespace": "",
           "Key": "DD15662143414B1A88BFB09BF23114E4",
@@ -92,12 +83,11 @@
         "IsMBEnable": true,
         "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
         "EventSequencerId": 9614603,
-        "EventUIName": {
-          "CultureInvariantString": null
-        }
+        "EventUIName": "None"
       },
       "6": {
         "GuideStep": 6,
+        "NextStep": 7,
         "StepDesc": {
           "Namespace": "",
           "Key": "F21B8E264B7E5FDA580A289186BA644E",
@@ -108,15 +98,11 @@
         "IsMBEnable": false,
         "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
         "EventSequencerId": 15146060,
-        "EventUIName": {
-          "Namespace": "",
-          "Key": "CD6AF52A454AEFC7426CB5856E0FCDE7",
-          "SourceString": "ApartmentContractUpGradePage",
-          "LocalizedString": "ApartmentContractUpGradePage"
-        }
+        "EventUIName": "ApartmentContractUpGradePage"
       },
       "7": {
         "GuideStep": 7,
+        "NextStep": 8,
         "StepDesc": {
           "Namespace": "",
           "Key": "3EC443854DDD7BE79453BBB670F9E1C0",
@@ -127,15 +113,11 @@
         "IsMBEnable": false,
         "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
         "EventSequencerId": 15146060,
-        "EventUIName": {
-          "Namespace": "",
-          "Key": "F4B4D827491AD4830A03DE8BB14D0F13",
-          "SourceString": "NewGuidePage",
-          "LocalizedString": "NewGuidePage"
-        }
+        "EventUIName": "NewGuidePage"
       },
       "8": {
         "GuideStep": 8,
+        "NextStep": 0,
         "StepDesc": {
           "Namespace": "",
           "Key": "C547515645F63F7C87347C899E9F3767",
@@ -146,9 +128,7 @@
         "IsMBEnable": true,
         "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
         "EventSequencerId": 9614604,
-        "EventUIName": {
-          "CultureInvariantString": null
-        }
+        "EventUIName": "None"
       }
     }
   }

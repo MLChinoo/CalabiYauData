@@ -86,6 +86,14 @@
         "Tag": "State.Weapon.Work",
         "DevComment": ""
       },
+      "State.Weapon.SecondWork": {
+        "Tag": "State.Weapon.SecondWork",
+        "DevComment": ""
+      },
+      "State.Weapon.ThirdWork": {
+        "Tag": "State.Weapon.ThirdWork",
+        "DevComment": ""
+      },
       "State.Weapon.Finish": {
         "Tag": "State.Weapon.Finish",
         "DevComment": ""
@@ -117,6 +125,10 @@
       "State.Weapon.MeleeAttacking": {
         "Tag": "State.Weapon.MeleeAttacking",
         "DevComment": "近战武器攻击中"
+      },
+      "State.Player.DisableAnimAllowMoveTurn": {
+        "Tag": "State.Player.DisableAnimAllowMoveTurn",
+        "DevComment": "禁止自动转身"
       },
       "State.Player.DisableSwitchWeapon": {
         "Tag": "State.Player.DisableSwitchWeapon",
@@ -230,6 +242,42 @@
         "Tag": "State.Armor.Empty",
         "DevComment": "空甲"
       },
+      "State.PEnergy.Full": {
+        "Tag": "State.PEnergy.Full",
+        "DevComment": "技能能量满"
+      },
+      "State.PEnergy.Valid": {
+        "Tag": "State.PEnergy.Valid",
+        "DevComment": "技能能量有值"
+      },
+      "State.PEnergy.Empty": {
+        "Tag": "State.PEnergy.Empty",
+        "DevComment": "技能能量空"
+      },
+      "State.QEnergy.Full": {
+        "Tag": "State.QEnergy.Full",
+        "DevComment": "技能能量满"
+      },
+      "State.QEnergy.Valid": {
+        "Tag": "State.QEnergy.Valid",
+        "DevComment": "技能能量有值"
+      },
+      "State.QEnergy.Empty": {
+        "Tag": "State.QEnergy.Empty",
+        "DevComment": "技能能量空"
+      },
+      "State.XEnergy.Full": {
+        "Tag": "State.XEnergy.Full",
+        "DevComment": "技能能量满"
+      },
+      "State.XEnergy.Valid": {
+        "Tag": "State.XEnergy.Valid",
+        "DevComment": "技能能量有值"
+      },
+      "State.XEnergy.Empty": {
+        "Tag": "State.XEnergy.Empty",
+        "DevComment": "技能能量空"
+      },
       "State.Game.Ready": {
         "Tag": "State.Game.Ready",
         "DevComment": "准备阶段"
@@ -294,6 +342,10 @@
         "Tag": "State.Immunity.Move.Force",
         "DevComment": "免疫状态：免疫强制移动"
       },
+      "State.Immunity.Weak": {
+        "Tag": "State.Immunity.Weak",
+        "DevComment": "免疫状态：免疫Debuff"
+      },
       "State.Motion.InAir.None": {
         "Tag": "State.Motion.InAir.None",
         "DevComment": "空中水平移动"
@@ -320,6 +372,14 @@
       },
       "State.Motion.NoMove": {
         "Tag": "State.Motion.NoMove",
+        "DevComment": ""
+      },
+      "State.Motion.OnWall.NoMove": {
+        "Tag": "State.Motion.OnWall.NoMove",
+        "DevComment": ""
+      },
+      "State.Motion.OnWall.Walk": {
+        "Tag": "State.Motion.OnWall.Walk",
         "DevComment": ""
       },
       "State.Shape.2D.Flying": {
@@ -426,6 +486,10 @@
         "Tag": "State.Block.UpdatePredictAmmo",
         "DevComment": "客户端暂停矫正弹量"
       },
+      "State.Block.PersonalityAction": {
+        "Tag": "State.Block.PersonalityAction",
+        "DevComment": "阻止播放个性化动作"
+      },
       "State.Summon.Distance.Near": {
         "Tag": "State.Summon.Distance.Near",
         "DevComment": "召唤物距离状态(近)"
@@ -461,6 +525,10 @@
       "State.Map.ForceShow": {
         "Tag": "State.Map.ForceShow",
         "DevComment": "小地图强制显示(仅对玩家有效)"
+      },
+      "State.Stealth.Flavia": {
+        "Tag": "State.Stealth.Flavia",
+        "DevComment": "芙拉薇娅大招潜行状态"
       }
     }
   }

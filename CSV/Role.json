@@ -430,7 +430,7 @@
           "SourceString": "获取方式的文字提示",
           "LocalizedString": "获取方式的文字提示"
         },
-        "Navigation": 0,
+        "Navigation": 1,
         "EquipRoomFarthestCameraPositionX": 780.0,
         "EquipRoomFarthestCameraPositionY": 0.0,
         "EquipRoomFarthestCameraPositionZ": 100.0,
@@ -546,9 +546,9 @@
       },
       "112": {
         "RoleId": 112,
-        "Available": false,
-        "AvailableState": 0,
-        "AiAvailable": false,
+        "Available": true,
+        "AvailableState": 1,
+        "AiAvailable": true,
         "SortId": 12,
         "Hp": 100,
         "Shield": 100,
@@ -631,7 +631,7 @@
           "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleAchievementPortrait/T_Dynamic_RoleAchievementPortrait_112.T_Dynamic_RoleAchievementPortrait_112",
           "SubPathString": ""
         },
-        "LoginQueueText": ""
+        "LoginQueueText": "绯莎：有任务么？下达指令就是了。"
       },
       "146": {
         "RoleId": 146,
@@ -786,7 +786,7 @@
           "SourceString": "获取方式的文字说明",
           "LocalizedString": "获取方式的文字说明"
         },
-        "Navigation": 0,
+        "Navigation": 1,
         "EquipRoomFarthestCameraPositionX": 780.0,
         "EquipRoomFarthestCameraPositionY": 0.0,
         "EquipRoomFarthestCameraPositionZ": 100.0,

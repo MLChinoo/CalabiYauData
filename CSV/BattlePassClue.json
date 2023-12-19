@@ -52,8 +52,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000030,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -99,8 +99,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 6,
-            "ItemAmount": 200
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -146,8 +146,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000031,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -193,8 +193,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000004,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -240,8 +240,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000032,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -287,8 +287,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000030,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -334,8 +334,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 6,
-            "ItemAmount": 200
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -381,8 +381,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000031,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -428,8 +428,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000004,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -475,8 +475,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000032,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -522,8 +522,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000030,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -569,8 +569,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 6,
-            "ItemAmount": 200
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -616,8 +616,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000031,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -663,8 +663,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000004,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       },
@@ -710,8 +710,8 @@
         },
         "Prize1": [
           {
-            "ItemId": 31000032,
-            "ItemAmount": 1
+            "ItemId": 0,
+            "ItemAmount": 0
           }
         ]
       }

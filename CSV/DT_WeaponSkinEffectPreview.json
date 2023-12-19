@@ -82,7 +82,9 @@
         "InitWaitTime": 1.0,
         "LoopWaitTime": 3.5,
         "AttackNumber": 1,
-        "AttackInterval": 2.0
+        "AttackInterval": 2.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       },
       "10301104": {
         "WeaponId": 10301104,
@@ -154,9 +156,11 @@
         },
         "AIRebirthTime": 3.0,
         "InitWaitTime": 1.0,
-        "LoopWaitTime": 3.5,
-        "AttackNumber": 3,
-        "AttackInterval": 1.0
+        "LoopWaitTime": 2.0,
+        "AttackNumber": 5,
+        "AttackInterval": 1.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       },
       "10102106": {
         "WeaponId": 10102106,
@@ -204,7 +208,7 @@
         },
         "RoleOpacity": 0.7,
         "AIRoleId": 0,
-        "AIHealth": 0.0,
+        "AIHealth": 75.0,
         "AITransform": {
           "Rotation": {
             "X": 0.0,
@@ -228,9 +232,11 @@
         },
         "AIRebirthTime": 3.0,
         "InitWaitTime": 1.0,
-        "LoopWaitTime": 3.5,
+        "LoopWaitTime": 1.0,
         "AttackNumber": 3,
-        "AttackInterval": 1.0
+        "AttackInterval": 1.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       },
       "10501103": {
         "WeaponId": 10501103,
@@ -304,7 +310,9 @@
         "InitWaitTime": 0.0,
         "LoopWaitTime": 0.0,
         "AttackNumber": 0,
-        "AttackInterval": 0.0
+        "AttackInterval": 0.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       },
       "10304105": {
         "WeaponId": 10304105,
@@ -378,7 +386,9 @@
         "InitWaitTime": 1.0,
         "LoopWaitTime": 3.5,
         "AttackNumber": 3,
-        "AttackInterval": 1.0
+        "AttackInterval": 1.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       },
       "10303103": {
         "WeaponId": 10303103,
@@ -452,7 +462,161 @@
         "InitWaitTime": 1.0,
         "LoopWaitTime": 3.5,
         "AttackNumber": 3,
-        "AttackInterval": 1.0
+        "AttackInterval": 1.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
+      },
+      "10101201": {
+        "WeaponId": 10101201,
+        "CameraTransform": {
+          "Rotation": {
+            "X": -0.017452,
+            "Y": -0.0,
+            "Z": -0.999848,
+            "W": 0.0,
+            "IsNormalized": true,
+            "Size": 1.0000002,
+            "SizeSquared": 1.0000006
+          },
+          "Translation": {
+            "X": 1134.0,
+            "Y": -44939.0,
+            "Z": 108.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "RoleTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.996195,
+            "W": 0.087156,
+            "IsNormalized": true,
+            "Size": 1.0000004,
+            "SizeSquared": 1.0000007
+          },
+          "Translation": {
+            "X": 1050.0,
+            "Y": -44910.0,
+            "Z": 68.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "RoleOpacity": 0.7,
+        "AIRoleId": 220,
+        "AIHealth": 1.0,
+        "AITransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -581.0,
+            "Y": -44990.0,
+            "Z": 68.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "AIRebirthTime": 3.0,
+        "InitWaitTime": 1.0,
+        "LoopWaitTime": 3.5,
+        "AttackNumber": 1,
+        "AttackInterval": 2.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
+      },
+      "10301201": {
+        "WeaponId": 10301201,
+        "CameraTransform": {
+          "Rotation": {
+            "X": -0.017452,
+            "Y": -0.0,
+            "Z": -0.999848,
+            "W": 0.0,
+            "IsNormalized": true,
+            "Size": 1.0000002,
+            "SizeSquared": 1.0000006
+          },
+          "Translation": {
+            "X": 1134.0,
+            "Y": -44939.0,
+            "Z": 108.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "RoleTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.996195,
+            "W": 0.087156,
+            "IsNormalized": true,
+            "Size": 1.0000004,
+            "SizeSquared": 1.0000007
+          },
+          "Translation": {
+            "X": 1050.0,
+            "Y": -44910.0,
+            "Z": 68.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "RoleOpacity": 0.7,
+        "AIRoleId": 220,
+        "AIHealth": 1.0,
+        "AITransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -581.0,
+            "Y": -44990.0,
+            "Z": 68.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "AIRebirthTime": 3.0,
+        "InitWaitTime": 1.0,
+        "LoopWaitTime": 3.5,
+        "AttackNumber": 1,
+        "AttackInterval": 2.0,
+        "ContinuousKillingMaxTimes": 5,
+        "AttackCycleIntervalTime": 5
       }
     }
   }

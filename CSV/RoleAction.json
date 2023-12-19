@@ -12,8 +12,8 @@
     "Rows": {
       "21101001": {
         "RoleActionId": 21101001,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "ActionName": {
           "Namespace": "RoleAction",
           "Key": "21101001_ActionName",
@@ -44,7 +44,7 @@
         },
         "LimitNum": 1,
         "LimitType": 6,
-        "LimitParam": 100,
+        "LimitParam": 50,
         "GainType": [
           1
         ],
@@ -56,12 +56,12 @@
         },
         "ActionPlayType": 1,
         "AnimType": 0,
-        "IsLoop": false
+        "IsLoop": true
       },
       "21101101": {
         "RoleActionId": 21101101,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "ActionName": {
           "Namespace": "RoleAction",
           "Key": "21101101_ActionName",
@@ -92,7 +92,7 @@
         },
         "LimitNum": 1,
         "LimitType": 6,
-        "LimitParam": 100,
+        "LimitParam": 160,
         "GainType": [
           1
         ],
@@ -104,12 +104,12 @@
         },
         "ActionPlayType": 1,
         "AnimType": 0,
-        "IsLoop": false
+        "IsLoop": true
       },
       "21101201": {
         "RoleActionId": 21101201,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "ActionName": {
           "Namespace": "RoleAction",
           "Key": "21101201_ActionName",
@@ -140,7 +140,7 @@
         },
         "LimitNum": 1,
         "LimitType": 6,
-        "LimitParam": 100,
+        "LimitParam": 480,
         "GainType": [
           1
         ],
@@ -152,7 +152,7 @@
         },
         "ActionPlayType": 1,
         "AnimType": 0,
-        "IsLoop": false
+        "IsLoop": true
       },
       "21131201": {
         "RoleActionId": 21131201,
@@ -190,9 +190,11 @@
         "LimitType": 6,
         "LimitParam": 100,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "RoleAction",
           "Key": "21131201_GainParam2",

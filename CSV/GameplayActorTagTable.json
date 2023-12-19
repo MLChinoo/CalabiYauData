@@ -121,6 +121,34 @@
       "ActorTag.Summon.X.KokonaShiki": {
         "Tag": "ActorTag.Summon.X.KokonaShiki",
         "DevComment": "心夏的X"
+      },
+      "ActorTag.Projectile.X.Yvette": {
+        "Tag": "ActorTag.Projectile.X.Yvette",
+        "DevComment": "伊薇特的X子弹"
+      },
+      "ActorTag.Summon.Q.Flavia": {
+        "Tag": "ActorTag.Summon.Q.Flavia",
+        "DevComment": "芙拉薇娅的Q"
+      },
+      "ActorTag.Summon.X.Flavia": {
+        "Tag": "ActorTag.Summon.X.Flavia",
+        "DevComment": "芙拉薇娅的X"
+      },
+      "ActorTag.Summon.Q.Fuchsia": {
+        "Tag": "ActorTag.Summon.Q.Fuchsia",
+        "DevComment": "绯莎的Q"
+      },
+      "ActorTag.Summon.Q.Aika": {
+        "Tag": "ActorTag.Summon.Q.Aika",
+        "DevComment": "艾卡的Q"
+      },
+      "ActorTag.Summon.P.Galatea": {
+        "Tag": "ActorTag.Summon.P.Galatea",
+        "DevComment": "加拉蒂亚的P"
+      },
+      "ActorTag.Summon.Q.Galatea": {
+        "Tag": "ActorTag.Summon.Q.Galatea",
+        "DevComment": "加拉蒂亚的Q"
       }
     }
   }

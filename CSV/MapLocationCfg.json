@@ -620,207 +620,382 @@
         "TextSize": 16
       },
       "88": {
-        "LocationName": "车站",
-        "MapId": 501,
-        "LocationX": 180.0,
-        "LocationY": 612.0,
-        "TextSize": 16
-      },
-      "89": {
-        "LocationName": "极限运动",
-        "MapId": 501,
-        "LocationX": 76.0,
-        "LocationY": 475.0,
-        "TextSize": 16
-      },
-      "90": {
-        "LocationName": "购物中心",
-        "MapId": 501,
-        "LocationX": 240.0,
-        "LocationY": 492.0,
-        "TextSize": 16
-      },
-      "91": {
-        "LocationName": "游艺厅",
-        "MapId": 501,
-        "LocationX": 392.0,
-        "LocationY": 484.0,
-        "TextSize": 16
-      },
-      "92": {
-        "LocationName": "酒馆",
-        "MapId": 501,
-        "LocationX": 544.0,
-        "LocationY": 455.0,
-        "TextSize": 16
-      },
-      "93": {
-        "LocationName": "B区走廊",
-        "MapId": 501,
-        "LocationX": 72.0,
-        "LocationY": 288.0,
-        "TextSize": 16
-      },
-      "94": {
-        "LocationName": "大货区",
-        "MapId": 501,
-        "LocationX": 344.0,
-        "LocationY": 356.0,
-        "TextSize": 16
-      },
-      "95": {
-        "LocationName": "音像公司",
-        "MapId": 501,
-        "LocationX": 576.0,
-        "LocationY": 316.0,
-        "TextSize": 16
-      },
-      "96": {
-        "LocationName": "警备厅",
-        "MapId": 501,
-        "LocationX": 340.0,
-        "LocationY": 200.0,
-        "TextSize": 16
-      },
-      "97": {
-        "LocationName": "A大道",
-        "MapId": 501,
-        "LocationX": 548.0,
-        "LocationY": 268.0,
-        "TextSize": 16
-      },
-      "98": {
-        "LocationName": "纪念碑",
-        "MapId": 501,
-        "LocationX": 92.0,
-        "LocationY": 152.0,
-        "TextSize": 16
-      },
-      "99": {
-        "LocationName": "花园",
-        "MapId": 501,
-        "LocationX": 216.0,
-        "LocationY": 140.0,
-        "TextSize": 16
-      },
-      "100": {
-        "LocationName": "欧泊训练场",
-        "MapId": 501,
-        "LocationX": 448.0,
-        "LocationY": 112.0,
-        "TextSize": 16
-      },
-      "101": {
-        "LocationName": "银行",
-        "MapId": 501,
-        "LocationX": 528.0,
-        "LocationY": 52.0,
-        "TextSize": 16
-      },
-      "102": {
         "LocationName": "通道",
         "MapId": 400,
         "LocationX": 124.0,
         "LocationY": 340.0,
         "TextSize": 16
       },
-      "103": {
+      "89": {
         "LocationName": "警务室",
         "MapId": 400,
         "LocationX": 316.0,
         "LocationY": 40.0,
         "TextSize": 16
       },
-      "104": {
+      "90": {
         "LocationName": "供能室",
         "MapId": 400,
         "LocationX": 88.0,
         "LocationY": 196.0,
         "TextSize": 16
       },
-      "105": {
+      "91": {
         "LocationName": "控制室",
         "MapId": 400,
         "LocationX": 524.0,
         "LocationY": 196.0,
         "TextSize": 16
       },
-      "106": {
+      "92": {
         "LocationName": "前哨站",
         "MapId": 400,
         "LocationX": 268.0,
         "LocationY": 554.0,
         "TextSize": 16
       },
-      "107": {
+      "93": {
         "LocationName": "安检通道",
         "MapId": 400,
         "LocationX": 508.0,
         "LocationY": 308.0,
         "TextSize": 16
       },
-      "108": {
+      "94": {
         "LocationName": "武器试验区",
         "MapId": 400,
         "LocationX": 316.0,
         "LocationY": 332.0,
         "TextSize": 16
       },
-      "109": {
+      "95": {
         "LocationName": "警备厅",
         "MapId": 402,
         "LocationX": 216.0,
         "LocationY": 52.0,
         "TextSize": 16
       },
-      "110": {
+      "96": {
         "LocationName": "后门",
         "MapId": 402,
         "LocationX": 444.0,
         "LocationY": 44.0,
         "TextSize": 16
       },
-      "111": {
+      "97": {
         "LocationName": "仓库",
         "MapId": 402,
         "LocationX": 212.0,
         "LocationY": 240.0,
         "TextSize": 16
       },
-      "112": {
+      "98": {
         "LocationName": "水下发电厂",
         "MapId": 402,
         "LocationX": 312.0,
         "LocationY": 200.0,
         "TextSize": 16
       },
-      "113": {
+      "99": {
         "LocationName": "提纯中心",
         "MapId": 402,
         "LocationX": 452.0,
         "LocationY": 208.0,
         "TextSize": 16
       },
-      "114": {
+      "100": {
         "LocationName": "仓库管道",
         "MapId": 402,
         "LocationX": 140.0,
         "LocationY": 360.0,
         "TextSize": 16
       },
-      "115": {
+      "101": {
         "LocationName": "维修车间",
         "MapId": 402,
         "LocationX": 408.0,
         "LocationY": 392.0,
         "TextSize": 16
       },
-      "116": {
+      "102": {
         "LocationName": "码头",
         "MapId": 402,
         "LocationX": 388.0,
         "LocationY": 648.0,
         "TextSize": 16
+      },
+      "103": {
+        "LocationName": "车站",
+        "MapId": 601,
+        "LocationX": 180.0,
+        "LocationY": 612.0,
+        "TextSize": 16
+      },
+      "104": {
+        "LocationName": "极限运动",
+        "MapId": 601,
+        "LocationX": 76.0,
+        "LocationY": 475.0,
+        "TextSize": 16
+      },
+      "105": {
+        "LocationName": "购物中心",
+        "MapId": 601,
+        "LocationX": 240.0,
+        "LocationY": 492.0,
+        "TextSize": 16
+      },
+      "106": {
+        "LocationName": "游艺厅",
+        "MapId": 601,
+        "LocationX": 392.0,
+        "LocationY": 484.0,
+        "TextSize": 16
+      },
+      "107": {
+        "LocationName": "酒馆",
+        "MapId": 601,
+        "LocationX": 544.0,
+        "LocationY": 455.0,
+        "TextSize": 16
+      },
+      "108": {
+        "LocationName": "B区走廊",
+        "MapId": 601,
+        "LocationX": 72.0,
+        "LocationY": 288.0,
+        "TextSize": 16
+      },
+      "109": {
+        "LocationName": "大货区",
+        "MapId": 601,
+        "LocationX": 344.0,
+        "LocationY": 356.0,
+        "TextSize": 16
+      },
+      "110": {
+        "LocationName": "音像公司",
+        "MapId": 601,
+        "LocationX": 576.0,
+        "LocationY": 316.0,
+        "TextSize": 16
+      },
+      "111": {
+        "LocationName": "警备厅",
+        "MapId": 601,
+        "LocationX": 340.0,
+        "LocationY": 200.0,
+        "TextSize": 16
+      },
+      "112": {
+        "LocationName": "A大道",
+        "MapId": 601,
+        "LocationX": 548.0,
+        "LocationY": 268.0,
+        "TextSize": 16
+      },
+      "113": {
+        "LocationName": "纪念碑",
+        "MapId": 601,
+        "LocationX": 92.0,
+        "LocationY": 152.0,
+        "TextSize": 16
+      },
+      "114": {
+        "LocationName": "花园",
+        "MapId": 601,
+        "LocationX": 216.0,
+        "LocationY": 140.0,
+        "TextSize": 16
+      },
+      "115": {
+        "LocationName": "欧泊训练场",
+        "MapId": 601,
+        "LocationX": 448.0,
+        "LocationY": 112.0,
+        "TextSize": 16
+      },
+      "116": {
+        "LocationName": "银行",
+        "MapId": 601,
+        "LocationX": 528.0,
+        "LocationY": 52.0,
+        "TextSize": 16
+      },
+      "117": {
+        "LocationName": "广场",
+        "MapId": 604,
+        "LocationX": 360.0,
+        "LocationY": 32.0,
+        "TextSize": 16
+      },
+      "118": {
+        "LocationName": "花园",
+        "MapId": 604,
+        "LocationX": 520.0,
+        "LocationY": 124.0,
+        "TextSize": 16
+      },
+      "119": {
+        "LocationName": "居民区",
+        "MapId": 604,
+        "LocationX": 152.0,
+        "LocationY": 120.0,
+        "TextSize": 16
+      },
+      "120": {
+        "LocationName": "B河道",
+        "MapId": 604,
+        "LocationX": 104.0,
+        "LocationY": 360.0,
+        "TextSize": 16
+      },
+      "121": {
+        "LocationName": "大酒店",
+        "MapId": 604,
+        "LocationX": 244.0,
+        "LocationY": 348.0,
+        "TextSize": 16
+      },
+      "122": {
+        "LocationName": "A走廊",
+        "MapId": 604,
+        "LocationX": 456.0,
+        "LocationY": 400.0,
+        "TextSize": 16
+      },
+      "123": {
+        "LocationName": "码头集市",
+        "MapId": 604,
+        "LocationX": 236.0,
+        "LocationY": 612.0,
+        "TextSize": 16
+      },
+      "124": {
+        "LocationName": "走廊",
+        "MapId": 110,
+        "LocationX": 488.0,
+        "LocationY": 352.0,
+        "TextSize": 16
+      },
+      "125": {
+        "LocationName": "走廊",
+        "MapId": 110,
+        "LocationX": 172.0,
+        "LocationY": 328.0,
+        "TextSize": 16
+      },
+      "126": {
+        "LocationName": "平台",
+        "MapId": 110,
+        "LocationX": 436.0,
+        "LocationY": 104.0,
+        "TextSize": 16
+      },
+      "127": {
+        "LocationName": "平台",
+        "MapId": 110,
+        "LocationX": 224.0,
+        "LocationY": 576.0,
+        "TextSize": 16
+      },
+      "128": {
+        "LocationName": "停车场",
+        "MapId": 110,
+        "LocationX": 332.0,
+        "LocationY": 260.0,
+        "TextSize": 16
+      },
+      "129": {
+        "LocationName": "停车场",
+        "MapId": 110,
+        "LocationX": 300.0,
+        "LocationY": 424.0,
+        "TextSize": 16
+      },
+      "130": {
+        "LocationName": "演算室",
+        "MapId": 110,
+        "LocationX": 204.0,
+        "LocationY": 652.0,
+        "TextSize": 16
+      },
+      "131": {
+        "LocationName": "操控室",
+        "MapId": 110,
+        "LocationX": 440.0,
+        "LocationY": 32.0,
+        "TextSize": 16
+      },
+      "132": {
+        "LocationName": "飘飞运动场",
+        "MapId": 110,
+        "LocationX": 296.0,
+        "LocationY": 340.0,
+        "TextSize": 16
+      },
+      "133": {
+        "LocationName": "中转站",
+        "MapId": 112,
+        "LocationX": 300.0,
+        "LocationY": 335.0,
+        "TextSize": 24
+      },
+      "134": {
+        "LocationName": "B区",
+        "MapId": 112,
+        "LocationX": 100.0,
+        "LocationY": 335.0,
+        "TextSize": 24
+      },
+      "135": {
+        "LocationName": "A区",
+        "MapId": 112,
+        "LocationX": 540.0,
+        "LocationY": 335.0,
+        "TextSize": 24
+      },
+      "136": {
+        "LocationName": "分拣区",
+        "MapId": 112,
+        "LocationX": 300.0,
+        "LocationY": 120.0,
+        "TextSize": 24
+      },
+      "137": {
+        "LocationName": "正门",
+        "MapId": 112,
+        "LocationX": 315.0,
+        "LocationY": 550.0,
+        "TextSize": 24
+      },
+      "138": {
+        "LocationName": "夕栖居",
+        "MapId": 113,
+        "LocationX": 484.0,
+        "LocationY": 324.0,
+        "TextSize": 24
+      },
+      "139": {
+        "LocationName": "东庭",
+        "MapId": 113,
+        "LocationX": 308.0,
+        "LocationY": 480.0,
+        "TextSize": 24
+      },
+      "140": {
+        "LocationName": "西庭",
+        "MapId": 113,
+        "LocationX": 324.0,
+        "LocationY": 192.0,
+        "TextSize": 24
+      },
+      "141": {
+        "LocationName": "宿花居",
+        "MapId": 113,
+        "LocationX": 116.0,
+        "LocationY": 328.0,
+        "TextSize": 24
       }
     }
   }

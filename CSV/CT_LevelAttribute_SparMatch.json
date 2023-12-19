@@ -3,7 +3,6 @@
     "Type": "CurveTable",
     "Name": "CT_LevelAttribute_SparMatch",
     "Class": "UScriptClass'CurveTable'",
-    "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Attribute.HealthRecovery.Set.Rescue": {
         "InterpMode": "RCIM_Linear",
@@ -25,7 +24,15 @@
             "Value": 100.0
           },
           {
-            "Time": 4.0,
+            "Time": 16.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 32.0,
+            "Value": 100.0
+          },
+          {
+            "Time": 48.0,
             "Value": 100.0
           }
         ],

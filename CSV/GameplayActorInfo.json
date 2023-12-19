@@ -423,6 +423,111 @@
         },
         "StatusPageName": "None",
         "DisplayPriority": 0
+      },
+      "ActorTag.Projectile.X.Yvette": {
+        "Tag": "ActorTag.Projectile.X.Yvette",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Projectile.X.Yvette_DevComment",
+          "SourceString": "伊薇特的X子弹",
+          "LocalizedString": "伊薇特的X子弹"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.Q.Flavia": {
+        "Tag": "ActorTag.Summon.Q.Flavia",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.Q.Flavia_DevComment",
+          "SourceString": "芙拉薇娅的Q",
+          "LocalizedString": "芙拉薇娅的Q"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.X.Flavia": {
+        "Tag": "ActorTag.Summon.X.Flavia",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.X.Flavia_DevComment",
+          "SourceString": "芙拉薇娅的X",
+          "LocalizedString": "芙拉薇娅的X"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.Q.Fuchsia": {
+        "Tag": "ActorTag.Summon.Q.Fuchsia",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.Q.Fuchsia_DevComment",
+          "SourceString": "绯莎的Q",
+          "LocalizedString": "绯莎的Q"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.Q.Aika": {
+        "Tag": "ActorTag.Summon.Q.Aika",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.Q.Aika_DevComment",
+          "SourceString": "艾卡的Q",
+          "LocalizedString": "艾卡的Q"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.P.Galatea": {
+        "Tag": "ActorTag.Summon.P.Galatea",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.P.Galatea_DevComment",
+          "SourceString": "加拉蒂亚的P",
+          "LocalizedString": "加拉蒂亚的P"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
+      },
+      "ActorTag.Summon.Q.Galatea": {
+        "Tag": "ActorTag.Summon.Q.Galatea",
+        "DevComment": {
+          "Namespace": "GameplayActorInfo",
+          "Key": "ActorTag.Summon.Q.Galatea_DevComment",
+          "SourceString": "加拉蒂亚的Q",
+          "LocalizedString": "加拉蒂亚的Q"
+        },
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "StatusPageName": "None",
+        "DisplayPriority": 0
       }
     }
   }

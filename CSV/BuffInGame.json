@@ -528,34 +528,6 @@
         },
         "BuffKey": 22
       },
-      "BuffIcon.Weak.GameMode.StealSpar": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.GameMode.StealSpar"
-        },
-        "DevComment": "采矿模式偷矿",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.GameMode.StealSpar_BuffDes",
-          "SourceString": "偷矿",
-          "LocalizedString": "偷矿"
-        },
-        "BuffKey": 23
-      },
-      "BuffIcon.Weak.GameMode.PickSpar": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.GameMode.PickSpar"
-        },
-        "DevComment": "采矿模式运矿",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.GameMode.PickSpar_BuffDes",
-          "SourceString": "运矿",
-          "LocalizedString": "运矿"
-        },
-        "BuffKey": 24
-      },
       "BuffIcon.Strong.SpaceTeleport": {
         "Tag": {
           "TagName": "BuffIcon.Strong.SpaceTeleport"

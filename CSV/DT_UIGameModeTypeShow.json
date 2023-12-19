@@ -14,25 +14,234 @@
         "ShowModeTypes": [],
         "HideModeTypes": [
           "EPMGameModeType::NoviceGuide"
-        ]
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
       },
       "MapSceneWidget": {
         "ShowModeTypes": [],
         "HideModeTypes": [
           "EPMGameModeType::NoviceGuide"
-        ]
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
       },
-      "Growth": {
+      "GrowthPage": {
         "ShowModeTypes": [],
         "HideModeTypes": [
-          "EPMGameModeType::NoviceGuide"
-        ]
+          "EPMGameModeType::NoviceGuide",
+          "EPMGameModeType::Spar",
+          "EPMGameModeType::HideSeek",
+          "EPMGameModeType::TeamGuide",
+          "EPMGameModeType::SnowBall"
+        ],
+        "ShowGameStateTypes": [
+          "EGStateType::Warmup",
+          "EGStateType::Fight",
+          "EGStateType::FightPlaced",
+          "EGStateType::Prepare",
+          "EGStateType::FightEnd"
+        ],
+        "HideGameStateTypes": [
+          "EGStateType::GameEnd",
+          "EGStateType::None"
+        ],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
       },
       "KillMessage": {
         "ShowModeTypes": [],
         "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide",
+          "EPMGameModeType::Practice"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "ScorePage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
           "EPMGameModeType::NoviceGuide"
-        ]
+        ],
+        "ShowGameStateTypes": [
+          "EGStateType::Warmup",
+          "EGStateType::Fight",
+          "EGStateType::FightPlaced",
+          "EGStateType::Prepare",
+          "EGStateType::FightEnd"
+        ],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "BattleDataPage": {
+        "ShowModeTypes": [
+          "EPMGameModeType::Bomb"
+        ],
+        "HideModeTypes": [],
+        "ShowGameStateTypes": [
+          "EGStateType::Prepare"
+        ],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": true
+      },
+      "SelectRolePage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [
+          "EGStateType::GameEnd",
+          "EGStateType::PracticeChallenge",
+          "EGStateType::ChallengePrepare",
+          "EGStateType::ChallengeWait",
+          "EGStateType::None"
+        ],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "TacticWheelPage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [
+          "ECStateType::Death"
+        ],
+        "bNeedsHideInReplayMode": false
+      },
+      "PersonalityWheel": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [
+          "ECStateType::Death"
+        ],
+        "bNeedsHideInReplayMode": false
+      },
+      "GameKeyTipsPage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [],
+        "ShowGameStateTypes": [
+          "EGStateType::Warmup",
+          "EGStateType::Fight",
+          "EGStateType::FightPlaced",
+          "EGStateType::Prepare",
+          "EGStateType::FightEnd",
+          "EGStateType::None"
+        ],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "BigMap": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [
+          "EGStateType::RoleSelect",
+          "EGStateType::RoleReselect",
+          "EGStateType::RoleRandomSelect",
+          "EGStateType::RoleLoad",
+          "EGStateType::RoleReset",
+          "EGStateType::FightEnd",
+          "EGStateType::GameEnd",
+          "EGStateType::None"
+        ],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "MarkWheelPage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "SettingPage": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [
+          "EGStateType::RoleSelect",
+          "EGStateType::RoleReselect",
+          "EGStateType::RoleRandomSelect"
+        ],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "GameKeyTipsPage_Replay": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "MiniMap": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "SummonDuration": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
+      },
+      "ControlSummon": {
+        "ShowModeTypes": [],
+        "HideModeTypes": [
+          "EPMGameModeType::NoviceGuide"
+        ],
+        "ShowGameStateTypes": [],
+        "HideGameStateTypes": [],
+        "ShowCharacterStateTypes": [],
+        "HideCharacterStateTypes": [],
+        "bNeedsHideInReplayMode": false
       }
     }
   }

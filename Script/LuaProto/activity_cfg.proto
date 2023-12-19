@@ -1,6 +1,25 @@
 
-ˆ 
-activity_cfg.protoncmd_cs.lobby">
+⁄D
+activity_cfg.protoncmd_cs.lobby"A
+common_item
+item_id (RitemId
+item_cnt (RitemCnt"ç
+activityfirsttopup_cfg
+activity_id (R
+activityId 
+top_up_count (R
+topUpCount0
+items (2.ncmd_cs.lobby.common_itemRitems"h
+activityfissionpassword_cfg
+id (Rid
+activity_id (R
+activityId
+content (	Rcontent"s
+activityfissionspeech_cfg
+id (Rid
+activity_id (R
+activityId%
+speech_content (	RspeechContent">
 sta_item
 item_id (RitemId
 item_cnt (RitemCnt"ç
@@ -9,16 +28,20 @@
 activity_id (R
 activityId
 day (Rday-
-items (2.ncmd_cs.lobby.sta_itemRitems"A
-common_item
-item_id (RitemId
-item_cnt (RitemCnt"ä
+items (2.ncmd_cs.lobby.sta_itemRitems"ä
 activitystmusic_cfg
 id (Rid
 activity_id (R
 activityId
 day (Rday0
-items (2.ncmd_cs.lobby.common_itemRitems"É
+items (2.ncmd_cs.lobby.common_itemRitems"Ñ
+activity_backflow_cfg
+id (Rid
+activity_id (R
+activityId
+trigger_day (R
+triggerDay
+last_day (RlastDay"É
 activity_battlereward_cfg
 id (Rid
 activity_id (R
@@ -45,7 +68,37 @@ itemAmount"á
 activity_id (R
 activityId
 day (Rday*
-prize (2.ncmd_cs.lobby.itemsRprize"»
+prize (2.ncmd_cs.lobby.itemsRprize"=
+gg_item
+item_id (RitemId
+item_cnt (RitemCnt"]
+
+share_item
+item_id (RitemId
+item_cnt (RitemCnt
+	item_info (	RitemInfo"=
+sc_item
+item_id (RitemId
+item_cnt (RitemCnt"∞
+activity_fission_cfg
+id (Rid
+activity_id (R
+activityId
+tutor_lv (RtutorLv
+
+student_lv (R	studentLv
+max_student (R
+maxStudent#
+student_leave	 (RstudentLeave#
+student_tasks
+ (RstudentTasks
+tutor_tasks (R
+tutorTasks,
+items (2.ncmd_cs.lobby.gg_itemRitems:
+share_items (2.ncmd_cs.lobby.share_itemR
+shareItems7
+tutor_items (2.ncmd_cs.lobby.sc_itemR
+tutorItems"»
 activity_gallerygleaning_cfg
 id (Rid
 activity_id (R
@@ -54,10 +107,7 @@ activityId
 item_num (RitemNum
 
 streak_num (R	streakNum$
-default_box_id (RdefaultBoxId"=
-gg_item
-item_id (RitemId
-item_cnt (RitemCnt"∏
+default_box_id (RdefaultBoxId"∏
 activity_ggbox_cfg
 id (Rid
 activity_id (R
@@ -79,7 +129,28 @@ activityId&
 conditions (2.ncmd_cs.lobby.conditionR
 conditions
 act_code (RactCode#
-activity_name (	RactivityName"„
+activity_name (	RactivityName"|
+activity_maid_cfg
+id (Rid
+activity_id (R
+activityId
+	max_phase (RmaxPhase
+page_num (RpageNum"À
+!activity_sc_maid_phase_reward_cfg
+id (Rid
+activity_id (R
+activityId
+page_id (RpageId
+hero_id (RheroId
+phase (Rphase,
+items (2.ncmd_cs.lobby.sc_itemRitems
+	phase_des (	RphaseDes"
+point_item_id (RpointItemId
+point_count	 (R
+pointCount
+
+phase_name
+ (	R	phaseName"„
 activity_michelleplaytime_cfg
 id (Rid
 activity_id (R
@@ -95,12 +166,71 @@ unlock_num (R	unlockNum!
 activity_id (R
 activityId
 grid (Rgrid0
-items (2.ncmd_cs.lobby.common_itemRitems"ô
+items (2.ncmd_cs.lobby.common_itemRitems"≈
+activity_midaut_cfg
+id (Rid
+activity_id (R
+activityId"
+point_item_id (RpointItemId
+	max_phase (RmaxPhase<
+cg_award_items (2.ncmd_cs.lobby.sc_itemRcgAwardItems"
+#activity_sc_midaut_phase_reward_cfg
+id (Rid
+activity_id (R
+activityId
+point_count (R
+pointCount,
+mooncake_buy_count (RmooncakeBuyCount,
+items (2.ncmd_cs.lobby.sc_itemRitems
+	phase_des (	RphaseDes"—
+activity_midaut_shop_cfg
+id (Rid
+activity_id (R
+activityId(
+mooncake_item_id (RmooncakeItemId"
+point_item_id (RpointItemId
+price (Rprice 
+max_sell_num (R
+maxSellNum"p
+activity_nationfasion_cfg
+id (Rid
+activity_id (R
+activityId"
+point_item_id (RpointItemId"ê
+activity_nationfasion_shop_cfg
+id (Rid
+activity_id (R
+activityId 
+shop_item_id (R
+shopItemId"
+point_item_id (RpointItemId
+price (Rprice 
+max_sell_num (R
+maxSellNum
+	red_point (RredPoint"
+shop_item_num (RshopItemNum"ô
 activity_paragraph_cfg
 id (Rid!
 paragraph_id (RparagraphId'
 paragraph_title (	RparagraphTitle#
-paragraph_des (	RparagraphDes"¡
+paragraph_des (	RparagraphDes"n
+activity_seasondash_cfg
+id (Rid
+activity_id (R
+activityId"
+point_item_id (RpointItemId"é
+activity_seasondash_shop_cfg
+id (Rid
+activity_id (R
+activityId 
+shop_item_id (R
+shopItemId"
+shop_item_num (RshopItemNum"
+point_item_id (RpointItemId
+price (Rprice 
+max_sell_num (R
+maxSellNum
+	red_point (RredPoint"¡
 activity_summerconcert_cfg
 id (Rid
 activity_id (R
@@ -108,10 +238,7 @@ activityId
 	max_phase (RmaxPhase
 item_id (RitemId
 item_num (RitemNum!
-exchange_num (RexchangeNum"=
-sc_item
-item_id (RitemId
-item_cnt (RitemCnt"ƒ
+exchange_num (RexchangeNum"ƒ
 activity_sc_phase_reward_cfg
 id (Rid
 activity_id (R
@@ -134,7 +261,74 @@ activityId
 activityId
 grid (Rgrid
 item_id (RitemId
-item_num (RitemNum"ó
+item_num (RitemNum"û
+activity_tales_cfg
+id (Rid
+activity_id (R
+activityId"
+point_item_id (RpointItemId
+	max_phase (RmaxPhase
+max_chapter (R
+maxChapter
+	color_min (RcolorMin
+	color_max (RcolorMax;
+activity_start_date_offset (RactivityStartDateOffset"£
+"activity_sc_tales_phase_reward_cfg
+id (Rid
+activity_id (R
+activityId
+phase_id (RphaseId"
+point_item_id (RpointItemId
+point_count (R
+pointCount!
+unlock_count (RunlockCount,
+items (2.ncmd_cs.lobby.sc_itemRitems
+	phase_des (	RphaseDes"Ù
+activity_sc_tales_chapter_cfg
+id (Rid
+activity_id (R
+activityId
+
+chapter_id (R	chapterId
+point_count (R
+pointCount,
+items (2.ncmd_cs.lobby.sc_itemRitems#
+chapter_title (	RchapterTitle*
+chapter_brief_des (	RchapterBriefDes!
+chapter_des1 (	RchapterDes1!
+chapter_des2	 (	RchapterDes2
+
+color_list
+ (R	colorList"Ï
+activity_tales_shop_cfg
+id (Rid
+activity_id (R
+activityId 
+shop_item_id (R
+shopItemId"
+shop_item_num (RshopItemNum"
+point_item_id (RpointItemId
+price (Rprice 
+max_sell_num (R
+maxSellNum"é
+activity_tales_draw_grids_cfg
+id (Rid
+activity_id (R
+activityId
+
+chapter_id (R	chapterId
+
+grid_index (R	gridIndex"â
+activity_tales_login_award_cfg
+id (Rid
+activity_id (R
+activityId
+	reward_id (RrewardId,
+items (2.ncmd_cs.lobby.sc_itemRitems!
+reward_title (	RrewardTitle
+
+reward_des (	R	rewardDes)
+reward_signature (	RrewardSignature"ó
 activity_welcome_mrds_cfg
 id (Rid
 activity_id (R
@@ -157,7 +351,7 @@ activityId!
 milestone_sprite (	RmilestoneSprite0
 items (2.ncmd_cs.lobby.common_itemRitems
 	phase_des (	RphaseDes#
-phase_despage (	RphaseDespage"õ
+phase_despage (	RphaseDespage"Ã
 activity_cfg
 id (Rid
 type (Rtype
@@ -183,4 +377,6 @@ blue_print (	R	bluePrint
 but_text (	RbutText
 	jump_type (RjumpType
 jump_url (	RjumpUrl'
-activitie_class (RactivitieClassbproto3
+activitie_class (RactivitieClass
+proxy (	Rproxy
+net_type (RnetTypebproto3

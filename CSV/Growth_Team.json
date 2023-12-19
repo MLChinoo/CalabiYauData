@@ -14,47 +14,78 @@
         "RoleId": 101,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -65,6 +96,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -95,95 +148,411 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part1Desc_Index0",
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part1Desc_Index1",
+            "SourceString": "基础射速提升",
+            "LocalizedString": "基础射速提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part2Desc_Index0",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part2Desc_Index1",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "101_Part5Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_Part5Desc_Index1",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_QDesc_Index0",
+            "SourceString": "射程增加5米",
+            "LocalizedString": "射程增加5米"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_QDesc_Index1",
+            "SourceString": "上限增加至3个",
+            "LocalizedString": "上限增加至3个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加2秒",
+            "LocalizedString": "敌方暴露时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index0",
+            "SourceString": "射速|60|1200",
+            "LocalizedString": "射速|60|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index2",
+            "SourceString": "精准|73|100",
+            "LocalizedString": "精准|73|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index3",
+            "SourceString": "操控|70|100",
+            "LocalizedString": "操控|70|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|25|50",
+            "LocalizedString": "弹夹容量|25|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index7",
+            "SourceString": "移动速度|57.6|100",
+            "LocalizedString": "移动速度|57.6|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index0",
+            "SourceString": "头部1|35",
+            "LocalizedString": "头部1|35"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index1",
+            "SourceString": "头部2|32",
+            "LocalizedString": "头部2|32"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index2",
+            "SourceString": "头部3|23",
+            "LocalizedString": "头部3|23"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index3",
+            "SourceString": "躯干1|24",
+            "LocalizedString": "躯干1|24"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index4",
+            "SourceString": "躯干2|21",
+            "LocalizedString": "躯干2|21"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index5",
+            "SourceString": "躯干3|16",
+            "LocalizedString": "躯干3|16"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index6",
+            "SourceString": "四肢1|16",
+            "LocalizedString": "四肢1|16"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index7",
+            "SourceString": "四肢2|15",
+            "LocalizedString": "四肢2|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty2_Index8",
+            "SourceString": "四肢3|11",
+            "LocalizedString": "四肢3|11"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part1Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_Part5Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index0",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "101_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "132": {
         "RoleId": 132,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -194,6 +563,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -224,95 +615,429 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part1Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part1Desc_Index1",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Desc_Index0",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_QDesc_Index1",
+            "SourceString": "持续时间增加3秒",
+            "LocalizedString": "持续时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PassiveDesc_Index0",
+            "SourceString": "吸甲量提升50%",
+            "LocalizedString": "吸甲量提升50%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index0",
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index2",
+            "SourceString": "精准|58|100",
+            "LocalizedString": "精准|58|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index3",
+            "SourceString": "操控|67|100",
+            "LocalizedString": "操控|67|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|25|50",
+            "LocalizedString": "弹夹容量|25|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index7",
+            "SourceString": "移动速度|57.6|100",
+            "LocalizedString": "移动速度|57.6|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index0",
+            "SourceString": "头部1|42",
+            "LocalizedString": "头部1|42"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index1",
+            "SourceString": "头部2|39",
+            "LocalizedString": "头部2|39"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index2",
+            "SourceString": "头部3|32",
+            "LocalizedString": "头部3|32"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index3",
+            "SourceString": "躯干1|29",
+            "LocalizedString": "躯干1|29"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index4",
+            "SourceString": "躯干2|26",
+            "LocalizedString": "躯干2|26"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index5",
+            "SourceString": "躯干3|22",
+            "LocalizedString": "躯干3|22"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index6",
+            "SourceString": "四肢1|20",
+            "LocalizedString": "四肢1|20"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index7",
+            "SourceString": "四肢2|18",
+            "LocalizedString": "四肢2|18"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty2_Index8",
+            "SourceString": "四肢3|15",
+            "LocalizedString": "四肢3|15"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part1Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part1Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part1Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part2Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.211",
+            "LocalizedString": "弦化伤害|*0.211"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index0",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "132_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "146": {
         "RoleId": 146,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -323,6 +1048,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          0,
+          1,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -353,95 +1100,423 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part1Desc_Index0",
+            "SourceString": "基础射速提升",
+            "LocalizedString": "基础射速提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part1Desc_Index1",
+            "SourceString": "三连发射击模式",
+            "LocalizedString": "三连发射击模式"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_QDesc_Index0",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_QDesc_Index1",
+            "SourceString": "上限增加至2个",
+            "LocalizedString": "上限增加至2个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PassiveDesc_Index0",
+            "SourceString": "恢复速度提升100%",
+            "LocalizedString": "恢复速度提升100%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index0",
+            "SourceString": "射速|55|1200",
+            "LocalizedString": "射速|55|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index2",
+            "SourceString": "精准|58|100",
+            "LocalizedString": "精准|58|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index3",
+            "SourceString": "操控|59|100",
+            "LocalizedString": "操控|59|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|20|50",
+            "LocalizedString": "弹夹容量|20|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index7",
+            "SourceString": "移动速度|57.6|100",
+            "LocalizedString": "移动速度|57.6|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index0",
+            "SourceString": "头部1|35",
+            "LocalizedString": "头部1|35"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index1",
+            "SourceString": "头部2|33",
+            "LocalizedString": "头部2|33"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index2",
+            "SourceString": "头部3|24",
+            "LocalizedString": "头部3|24"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index3",
+            "SourceString": "躯干1|24",
+            "LocalizedString": "躯干1|24"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index4",
+            "SourceString": "躯干2|22",
+            "LocalizedString": "躯干2|22"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index5",
+            "SourceString": "躯干3|16",
+            "LocalizedString": "躯干3|16"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index6",
+            "SourceString": "四肢1|16",
+            "LocalizedString": "四肢1|16"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index7",
+            "SourceString": "四肢2|15",
+            "LocalizedString": "四肢2|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty2_Index8",
+            "SourceString": "四肢3|11",
+            "LocalizedString": "四肢3|11"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part1Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index0",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "146_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "133": {
         "RoleId": 133,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -452,6 +1527,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -482,95 +1579,429 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part1Desc_Index0",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part1Desc_Index1",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part4Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part4Desc_Index1",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Desc_Index0",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_QDesc_Index0",
+            "SourceString": "持续时间增加5秒",
+            "LocalizedString": "持续时间增加5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_QDesc_Index1",
+            "SourceString": "上限增加至2个",
+            "LocalizedString": "上限增加至2个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PassiveDesc_Index0",
+            "SourceString": "悬浮时重力减少",
+            "LocalizedString": "悬浮时重力减少"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index0",
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index2",
+            "SourceString": "精准|60|100",
+            "LocalizedString": "精准|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index3",
+            "SourceString": "操控|50|100",
+            "LocalizedString": "操控|50|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|25|50",
+            "LocalizedString": "弹夹容量|25|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index7",
+            "SourceString": "移动速度|57.6|100",
+            "LocalizedString": "移动速度|57.6|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index0",
+            "SourceString": "头部1|33",
+            "LocalizedString": "头部1|33"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index1",
+            "SourceString": "头部2|31",
+            "LocalizedString": "头部2|31"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index2",
+            "SourceString": "头部3|25",
+            "LocalizedString": "头部3|25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index3",
+            "SourceString": "躯干1|22",
+            "LocalizedString": "躯干1|22"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index4",
+            "SourceString": "躯干2|20",
+            "LocalizedString": "躯干2|20"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index5",
+            "SourceString": "躯干3|16.7",
+            "LocalizedString": "躯干3|16.7"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index6",
+            "SourceString": "四肢1|15",
+            "LocalizedString": "四肢1|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index7",
+            "SourceString": "四肢2|15",
+            "LocalizedString": "四肢2|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty2_Index8",
+            "SourceString": "四肢3|12",
+            "LocalizedString": "四肢3|12"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part4Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part4Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index0",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index2",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "133_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "112": {
         "RoleId": 112,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -581,6 +2012,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          0,
+          1,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -611,95 +2064,423 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part1Desc_Index0",
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part1Desc_Index1",
+            "SourceString": "基础射速提升",
+            "LocalizedString": "基础射速提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Desc_Index1",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_QDesc_Index1",
+            "SourceString": "持续时间增加3秒",
+            "LocalizedString": "持续时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PassiveDesc_Index0",
+            "SourceString": "晶体回复量增加25点",
+            "LocalizedString": "晶体回复量增加25点"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index0",
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index2",
+            "SourceString": "精准|58|100",
+            "LocalizedString": "精准|58|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index3",
+            "SourceString": "操控|50|100",
+            "LocalizedString": "操控|50|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|20|50",
+            "LocalizedString": "弹夹容量|20|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index7",
+            "SourceString": "移动速度|57.6|100",
+            "LocalizedString": "移动速度|57.6|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index0",
+            "SourceString": "头部1|40",
+            "LocalizedString": "头部1|40"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index1",
+            "SourceString": "头部2|36",
+            "LocalizedString": "头部2|36"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index2",
+            "SourceString": "头部3|30",
+            "LocalizedString": "头部3|30"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index3",
+            "SourceString": "躯干1|27",
+            "LocalizedString": "躯干1|27"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index4",
+            "SourceString": "躯干2|24.5",
+            "LocalizedString": "躯干2|24.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index5",
+            "SourceString": "躯干3|20",
+            "LocalizedString": "躯干3|20"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index6",
+            "SourceString": "四肢1|19",
+            "LocalizedString": "四肢1|19"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index7",
+            "SourceString": "四肢2|17",
+            "LocalizedString": "四肢2|17"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty2_Index8",
+            "SourceString": "四肢3|14",
+            "LocalizedString": "四肢3|14"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part1Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.177",
+            "LocalizedString": "弦化伤害|*0.177"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index0",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "112_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "128": {
         "RoleId": 128,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -710,6 +2491,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -740,95 +2543,429 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part1Desc_Index0",
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part1Desc_Index1",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_QDesc_Index1",
+            "SourceString": "敌方暴露时间增加3秒",
+            "LocalizedString": "敌方暴露时间增加3秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加2秒",
+            "LocalizedString": "敌方暴露时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index0",
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index2",
+            "SourceString": "精准|71|100",
+            "LocalizedString": "精准|71|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index3",
+            "SourceString": "操控|57|100",
+            "LocalizedString": "操控|57|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|30|50",
+            "LocalizedString": "弹夹容量|30|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index7",
+            "SourceString": "移动速度|60|100",
+            "LocalizedString": "移动速度|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index0",
+            "SourceString": "头部1|32",
+            "LocalizedString": "头部1|32"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index1",
+            "SourceString": "头部2|26",
+            "LocalizedString": "头部2|26"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index2",
+            "SourceString": "头部3|23",
+            "LocalizedString": "头部3|23"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index3",
+            "SourceString": "躯干1|22",
+            "LocalizedString": "躯干1|22"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index4",
+            "SourceString": "躯干2|18",
+            "LocalizedString": "躯干2|18"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index5",
+            "SourceString": "躯干3|16",
+            "LocalizedString": "躯干3|16"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index6",
+            "SourceString": "四肢1|15",
+            "LocalizedString": "四肢1|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index7",
+            "SourceString": "四肢2|12",
+            "LocalizedString": "四肢2|12"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty2_Index8",
+            "SourceString": "四肢3|11",
+            "LocalizedString": "四肢3|11"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.286",
+            "LocalizedString": "有效衰减|*0.286"
+          }
+        ],
+        "Part1Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part1Level11_Index0",
+            "SourceString": "移动速度|*0.084",
+            "LocalizedString": "移动速度|*0.084"
+          }
+        ],
+        "Part2Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.215",
+            "LocalizedString": "弦化伤害|*0.215"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "128_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "108": {
         "RoleId": 108,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -839,6 +2976,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -869,95 +3028,414 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part1Desc_Index0",
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part1Desc_Index1",
+            "SourceString": "全自动射击模式",
+            "LocalizedString": "全自动射击模式"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part2Desc_Index0",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part2Desc_Index1",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "108_Part5Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part5Desc_Index1",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_QDesc_Index0",
+            "SourceString": "射速和人机工效提升50%",
+            "LocalizedString": "射速和人机工效提升50%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_QDesc_Index1",
+            "SourceString": "每秒回甲量增加3点",
+            "LocalizedString": "每秒回甲量增加3点"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PassiveDesc_Index0",
+            "SourceString": "弱化时间增加2秒",
+            "LocalizedString": "弱化时间增加2秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index0",
+            "SourceString": "射速|25|1200",
+            "LocalizedString": "射速|25|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|42|100",
+            "LocalizedString": "瞄准速度|42|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index2",
+            "SourceString": "精准|69|100",
+            "LocalizedString": "精准|69|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index3",
+            "SourceString": "操控|72|100",
+            "LocalizedString": "操控|72|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|20|50",
+            "LocalizedString": "弹夹容量|20|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index5",
+            "SourceString": "装填速度|21|50",
+            "LocalizedString": "装填速度|21|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index0",
+            "SourceString": "头部1|76",
+            "LocalizedString": "头部1|76"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index1",
+            "SourceString": "头部2|74",
+            "LocalizedString": "头部2|74"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index2",
+            "SourceString": "头部3|65",
+            "LocalizedString": "头部3|65"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index3",
+            "SourceString": "躯干1|45",
+            "LocalizedString": "躯干1|45"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index4",
+            "SourceString": "躯干2|43",
+            "LocalizedString": "躯干2|43"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index5",
+            "SourceString": "躯干3|38",
+            "LocalizedString": "躯干3|38"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index6",
+            "SourceString": "四肢1|31",
+            "LocalizedString": "四肢1|31"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index7",
+            "SourceString": "四肢2|30",
+            "LocalizedString": "四肢2|30"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty2_Index8",
+            "SourceString": "四肢3|26",
+            "LocalizedString": "四肢3|26"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.5",
+            "LocalizedString": "放大倍率|1.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.2",
+            "LocalizedString": "有效衰减|*0.2"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.186",
+            "LocalizedString": "弦化伤害|*0.186"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_Part5Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "108_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "107": {
         "RoleId": 107,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -968,6 +3446,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -998,95 +3498,417 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part1Desc_Index0",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part1Desc_Index1",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part2Desc_Index0",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part2Desc_Index1",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part4Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part4Desc_Index1",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "107_Part5Desc_Index0",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_QDesc_Index0",
+            "SourceString": "持续时间增加15秒",
+            "LocalizedString": "持续时间增加15秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_QDesc_Index1",
+            "SourceString": "上限增加至3个",
+            "LocalizedString": "上限增加至3个"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PassiveDesc_Index0",
+            "SourceString": "敌方暴露时间增加3秒",
+            "LocalizedString": "敌方暴露时间增加3秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index0",
+            "SourceString": "射速|20|1200",
+            "LocalizedString": "射速|20|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|41|100",
+            "LocalizedString": "瞄准速度|41|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index2",
+            "SourceString": "精准|15|100",
+            "LocalizedString": "精准|15|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index3",
+            "SourceString": "操控|60|100",
+            "LocalizedString": "操控|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|15|50",
+            "LocalizedString": "弹夹容量|15|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index5",
+            "SourceString": "装填速度|21|50",
+            "LocalizedString": "装填速度|21|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index0",
+            "SourceString": "头部1|95",
+            "LocalizedString": "头部1|95"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index1",
+            "SourceString": "头部2|89",
+            "LocalizedString": "头部2|89"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index2",
+            "SourceString": "头部3|77",
+            "LocalizedString": "头部3|77"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index3",
+            "SourceString": "躯干1|49",
+            "LocalizedString": "躯干1|49"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index4",
+            "SourceString": "躯干2|45",
+            "LocalizedString": "躯干2|45"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index5",
+            "SourceString": "躯干3|39",
+            "LocalizedString": "躯干3|39"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index6",
+            "SourceString": "四肢1|34",
+            "LocalizedString": "四肢1|34"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index7",
+            "SourceString": "四肢2|32",
+            "LocalizedString": "四肢2|32"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty2_Index8",
+            "SourceString": "四肢3|27",
+            "LocalizedString": "四肢3|27"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.5",
+            "LocalizedString": "放大倍率|1.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.446",
+            "LocalizedString": "装填速度|*0.446"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.162",
+            "LocalizedString": "弦化伤害|*0.162"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part4Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part4Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.088",
+            "LocalizedString": "移动速度|*0.088"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index0",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index2",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "107_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "105": {
         "RoleId": 105,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 1,
+        "QMax1": [
+          1
+        ],
         "QNeed": [
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 2,
+        "PassiveMax1": [
+          1,
+          1
+        ],
         "PassiveNeed": [
           250,
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1097,6 +3919,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1127,95 +3971,426 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part1Desc_Index0",
+            "SourceString": "基础伤害提升",
+            "LocalizedString": "基础伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part1Desc_Index1",
+            "SourceString": "基础射速提升",
+            "LocalizedString": "基础射速提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part2Desc_Index0",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part2Desc_Index1",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part4Desc_Index0",
+            "SourceString": "备弹数量提升",
+            "LocalizedString": "备弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part4Desc_Index1",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_QDesc_Index0",
+            "SourceString": "机枪过热速度变慢",
+            "LocalizedString": "机枪过热速度变慢"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PassiveDesc_Index0",
+            "SourceString": "护盾值提升100%",
+            "LocalizedString": "护盾值提升100%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PassiveDesc_Index1",
+            "SourceString": "护盾恢复增加100%",
+            "LocalizedString": "护盾恢复增加100%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index0",
+            "SourceString": "射速|50|1200",
+            "LocalizedString": "射速|50|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|51|100",
+            "LocalizedString": "瞄准速度|51|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index2",
+            "SourceString": "精准|59|100",
+            "LocalizedString": "精准|59|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index3",
+            "SourceString": "操控|67|100",
+            "LocalizedString": "操控|67|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|50|50",
+            "LocalizedString": "弹夹容量|50|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index5",
+            "SourceString": "装填速度|18|50",
+            "LocalizedString": "装填速度|18|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index0",
+            "SourceString": "头部1|38",
+            "LocalizedString": "头部1|38"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index1",
+            "SourceString": "头部2|37",
+            "LocalizedString": "头部2|37"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index2",
+            "SourceString": "头部3|34",
+            "LocalizedString": "头部3|34"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index3",
+            "SourceString": "躯干1|26",
+            "LocalizedString": "躯干1|26"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index4",
+            "SourceString": "躯干2|25",
+            "LocalizedString": "躯干2|25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index5",
+            "SourceString": "躯干3|23",
+            "LocalizedString": "躯干3|23"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index6",
+            "SourceString": "四肢1|18",
+            "LocalizedString": "四肢1|18"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index7",
+            "SourceString": "四肢2|17",
+            "LocalizedString": "四肢2|17"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty2_Index8",
+            "SourceString": "四肢3|16",
+            "LocalizedString": "四肢3|16"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part1Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.177",
+            "LocalizedString": "弦化伤害|*0.177"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part4Level01_Index0",
+            "SourceString": "移动速度|*-0.04",
+            "LocalizedString": "移动速度|*-0.04"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part4Level11_Index0",
+            "SourceString": "瞄准速度|*0.5",
+            "LocalizedString": "瞄准速度|*0.5"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index0",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index2",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "105_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "124": {
         "RoleId": 124,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1226,6 +4401,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          1,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          3,
+          1,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1256,95 +4453,420 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part1Desc_Index0",
+            "SourceString": "拉栓速度提升",
+            "LocalizedString": "拉栓速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part1Desc_Index1",
+            "SourceString": "蓄力速度提升",
+            "LocalizedString": "蓄力速度提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part2Desc_Index0",
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "124_Part5Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part5Desc_Index1",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_QDesc_Index1",
+            "SourceString": "提升治疗速度100%",
+            "LocalizedString": "提升治疗速度100%"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PassiveDesc_Index0",
+            "SourceString": "提升救起血量50点",
+            "LocalizedString": "提升救起血量50点"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index0",
+            "SourceString": "射速|5|1200",
+            "LocalizedString": "射速|5|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|35|100",
+            "LocalizedString": "瞄准速度|35|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index2",
+            "SourceString": "精准|15|100",
+            "LocalizedString": "精准|15|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index3",
+            "SourceString": "操控|60|100",
+            "LocalizedString": "操控|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|5|50",
+            "LocalizedString": "弹夹容量|5|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index5",
+            "SourceString": "装填速度|12|50",
+            "LocalizedString": "装填速度|12|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|70|100",
+            "LocalizedString": "拉栓速度|70|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index0",
+            "SourceString": "头部1|302",
+            "LocalizedString": "头部1|302"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index1",
+            "SourceString": "头部2|299",
+            "LocalizedString": "头部2|299"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index2",
+            "SourceString": "头部3|287",
+            "LocalizedString": "头部3|287"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index3",
+            "SourceString": "躯干1|155",
+            "LocalizedString": "躯干1|155"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index4",
+            "SourceString": "躯干2|153",
+            "LocalizedString": "躯干2|153"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index5",
+            "SourceString": "躯干3|147",
+            "LocalizedString": "躯干3|147"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index6",
+            "SourceString": "四肢1|108",
+            "LocalizedString": "四肢1|108"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index7",
+            "SourceString": "四肢2|107",
+            "LocalizedString": "四肢2|107"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty2_Index8",
+            "SourceString": "四肢3|103",
+            "LocalizedString": "四肢3|103"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|2.5",
+            "LocalizedString": "放大倍率|2.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part1Level01_Index0",
+            "SourceString": "拉栓速度|*0.4",
+            "LocalizedString": "拉栓速度|*0.4"
+          }
+        ],
+        "Part1Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part1Level11_Index0",
+            "SourceString": "瞄准速度|*0.16533",
+            "LocalizedString": "瞄准速度|*0.16533"
+          }
+        ],
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part2Level01_Index0",
+            "SourceString": "放大倍率|-1",
+            "LocalizedString": "放大倍率|-1"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.175",
+            "LocalizedString": "弦化伤害|*0.175"
+          }
+        ],
+        "Part4Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_Part5Level11_Index0",
+            "SourceString": "移动速度|*0.092",
+            "LocalizedString": "移动速度|*0.092"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index1",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "124_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "110": {
         "RoleId": 110,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1355,6 +4877,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1385,95 +4929,420 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part1Desc_Index0",
+            "SourceString": "弹丸数提升",
+            "LocalizedString": "弹丸数提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part1Desc_Index1",
+            "SourceString": "独头弹模式",
+            "LocalizedString": "独头弹模式"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part4Desc_Index1",
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "110_Part5Desc_Index0",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part5Desc_Index1",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_QDesc_Index1",
+            "SourceString": "自动上弹数翻倍",
+            "LocalizedString": "自动上弹数翻倍"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PassiveDesc_Index0",
+            "SourceString": "持续时间增加0.5秒",
+            "LocalizedString": "持续时间增加0.5秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index0",
+            "SourceString": "射速|15|1200",
+            "LocalizedString": "射速|15|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|50|100",
+            "LocalizedString": "瞄准速度|50|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index2",
+            "SourceString": "精准|10|100",
+            "LocalizedString": "精准|10|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index3",
+            "SourceString": "操控|59|100",
+            "LocalizedString": "操控|59|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|8|50",
+            "LocalizedString": "弹夹容量|8|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index5",
+            "SourceString": "装填速度|16|50",
+            "LocalizedString": "装填速度|16|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index7",
+            "SourceString": "移动速度|60|100",
+            "LocalizedString": "移动速度|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index0",
+            "SourceString": "头部1|119",
+            "LocalizedString": "头部1|119"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index1",
+            "SourceString": "头部2|74",
+            "LocalizedString": "头部2|74"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index2",
+            "SourceString": "头部3|74",
+            "LocalizedString": "头部3|74"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index3",
+            "SourceString": "躯干1|96",
+            "LocalizedString": "躯干1|96"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index4",
+            "SourceString": "躯干2|60",
+            "LocalizedString": "躯干2|60"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index5",
+            "SourceString": "躯干3|60",
+            "LocalizedString": "躯干3|60"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index6",
+            "SourceString": "四肢1|67",
+            "LocalizedString": "四肢1|67"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index7",
+            "SourceString": "四肢2|42",
+            "LocalizedString": "四肢2|42"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty2_Index8",
+            "SourceString": "四肢3|42",
+            "LocalizedString": "四肢3|42"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.5",
+            "LocalizedString": "散发减少|0.5"
+          }
+        ],
+        "Part1Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part1Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.2",
+            "LocalizedString": "弦化伤害|*0.2"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part4Level01_Index0",
+            "SourceString": "装填速度|*-0.1",
+            "LocalizedString": "装填速度|*-0.1"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part4Level11_Index0",
+            "SourceString": "有效衰减|*0.4",
+            "LocalizedString": "有效衰减|*0.4"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part5Level01_Index0",
+            "SourceString": "移动速度|*0.086",
+            "LocalizedString": "移动速度|*0.086"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part5Level01_Index1",
+            "SourceString": "瞄准速度|*-0.1",
+            "LocalizedString": "瞄准速度|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_Part5Level11_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index2",
+            "SourceString": "弹药",
+            "LocalizedString": "弹药"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "110_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "109": {
         "RoleId": 109,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1484,6 +5353,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1514,95 +5405,417 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part1Desc_Index0",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part1Desc_Index1",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part2Desc_Index0",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part2Desc_Index1",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part4Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part4Desc_Index1",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "109_Part5Desc_Index0",
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part5Desc_Index1",
+            "SourceString": "后坐控制提升",
+            "LocalizedString": "后坐控制提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_QDesc_Index0",
+            "SourceString": "持续时间增加5秒",
+            "LocalizedString": "持续时间增加5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_QDesc_Index1",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PassiveDesc_Index0",
+            "SourceString": "激活时间缩短1.5秒",
+            "LocalizedString": "激活时间缩短1.5秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index0",
+            "SourceString": "射速|15|1200",
+            "LocalizedString": "射速|15|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|40|100",
+            "LocalizedString": "瞄准速度|40|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index2",
+            "SourceString": "精准|15|100",
+            "LocalizedString": "精准|15|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index3",
+            "SourceString": "操控|60|100",
+            "LocalizedString": "操控|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|10|50",
+            "LocalizedString": "弹夹容量|10|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index5",
+            "SourceString": "装填速度|22|50",
+            "LocalizedString": "装填速度|22|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index0",
+            "SourceString": "头部1|140",
+            "LocalizedString": "头部1|140"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index1",
+            "SourceString": "头部2|136",
+            "LocalizedString": "头部2|136"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index2",
+            "SourceString": "头部3|122",
+            "LocalizedString": "头部3|122"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index3",
+            "SourceString": "躯干1|72",
+            "LocalizedString": "躯干1|72"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index4",
+            "SourceString": "躯干2|70",
+            "LocalizedString": "躯干2|70"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index5",
+            "SourceString": "躯干3|63",
+            "LocalizedString": "躯干3|63"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index6",
+            "SourceString": "四肢1|50",
+            "LocalizedString": "四肢1|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index7",
+            "SourceString": "四肢2|49",
+            "LocalizedString": "四肢2|49"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty2_Index8",
+            "SourceString": "四肢3|44",
+            "LocalizedString": "四肢3|44"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|2.5",
+            "LocalizedString": "放大倍率|2.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part1Level01_Index0",
+            "SourceString": "装填速度|*0.446",
+            "LocalizedString": "装填速度|*0.446"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part2Level01_Index0",
+            "SourceString": "弦化伤害|*0.171",
+            "LocalizedString": "弦化伤害|*0.171"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part4Level01_Index0",
+            "SourceString": "瞄准速度|*0.445",
+            "LocalizedString": "瞄准速度|*0.445"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part4Level11_Index0",
+            "SourceString": "移动速度|*0.09",
+            "LocalizedString": "移动速度|*0.09"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part5Level01_Index0",
+            "SourceString": "放大倍率|-1",
+            "LocalizedString": "放大倍率|-1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_Part5Level11_Index0",
+            "SourceString": "操控|*0.3",
+            "LocalizedString": "操控|*0.3"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index0",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index2",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index3",
+            "SourceString": "操控",
+            "LocalizedString": "操控"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "109_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "131": {
         "RoleId": 131,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1613,6 +5826,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          1,
+          0,
+          1
+        ],
+        "Arousal2ActivateNeed": [
+          0,
+          2,
+          2
+        ],
+        "Arousal3ActivateNeed": [
+          3,
+          2,
+          0
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1643,95 +5878,429 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part1Desc_Index0",
+            "SourceString": "有效射程提升",
+            "LocalizedString": "有效射程提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part1Desc_Index1",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part2Desc_Index0",
+            "SourceString": "爆头伤害提升",
+            "LocalizedString": "爆头伤害提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part4Desc_Index0",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Desc_Index0",
+            "SourceString": "散射控制提升",
+            "LocalizedString": "散射控制提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Desc_Index1",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_QDesc_Index0",
+            "SourceString": "冷却时间减少10秒",
+            "LocalizedString": "冷却时间减少10秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_QDesc_Index1",
+            "SourceString": "增加1次冲刺次数",
+            "LocalizedString": "增加1次冲刺次数"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PassiveDesc_Index0",
+            "SourceString": "进入隐身加快50%",
+            "LocalizedString": "进入隐身加快50%"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index0",
+            "SourceString": "射速|65|1200",
+            "LocalizedString": "射速|65|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|54|100",
+            "LocalizedString": "瞄准速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index2",
+            "SourceString": "精准|73|100",
+            "LocalizedString": "精准|73|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index3",
+            "SourceString": "操控|70|100",
+            "LocalizedString": "操控|70|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|30|50",
+            "LocalizedString": "弹夹容量|30|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index5",
+            "SourceString": "装填速度|24|50",
+            "LocalizedString": "装填速度|24|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|0|100",
+            "LocalizedString": "拉栓速度|0|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index7",
+            "SourceString": "移动速度|60|100",
+            "LocalizedString": "移动速度|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index0",
+            "SourceString": "头部1|27",
+            "LocalizedString": "头部1|27"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index1",
+            "SourceString": "头部2|18",
+            "LocalizedString": "头部2|18"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index2",
+            "SourceString": "头部3|18",
+            "LocalizedString": "头部3|18"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index3",
+            "SourceString": "躯干1|22",
+            "LocalizedString": "躯干1|22"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index4",
+            "SourceString": "躯干2|15",
+            "LocalizedString": "躯干2|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index5",
+            "SourceString": "躯干3|15",
+            "LocalizedString": "躯干3|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index6",
+            "SourceString": "四肢1|15",
+            "LocalizedString": "四肢1|15"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index7",
+            "SourceString": "四肢2|10",
+            "LocalizedString": "四肢2|10"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty2_Index8",
+            "SourceString": "四肢3|10",
+            "LocalizedString": "四肢3|10"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|1.25",
+            "LocalizedString": "放大倍率|1.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part1Level01_Index0",
+            "SourceString": "有效衰减|*0.4",
+            "LocalizedString": "有效衰减|*0.4"
+          }
+        ],
+        "Part1Level11": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part2Level01": [
+          {
+            "CultureInvariantString": null
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.215",
+            "LocalizedString": "弦化伤害|*0.215"
+          }
+        ],
+        "Part4Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part4Level01_Index0",
+            "SourceString": "移动速度|*0.084",
+            "LocalizedString": "移动速度|*0.084"
+          }
+        ],
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.299",
+            "LocalizedString": "装填速度|*0.299"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Level01_Index0",
+            "SourceString": "精准|*0.3",
+            "LocalizedString": "精准|*0.3"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Level01_Index1",
+            "SourceString": "操控|*-0.1",
+            "LocalizedString": "操控|*-0.1"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Level11_Index0",
+            "SourceString": "瞄准速度|*0.429",
+            "LocalizedString": "瞄准速度|*0.429"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_Part5Level11_Index1",
+            "SourceString": "精准|*-0.1",
+            "LocalizedString": "精准|*-0.1"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index1",
+            "SourceString": "暴击",
+            "LocalizedString": "暴击"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index2",
+            "SourceString": "操控",
+            "LocalizedString": "操控"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index3",
+            "SourceString": "精准",
+            "LocalizedString": "精准"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "131_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       },
       "137": {
         "RoleId": 137,
         "Parts1SingleSelect": true,
         "Parts1Max": 2,
+        "Parts1Max1": [
+          1,
+          1
+        ],
         "Parts1Need": [
           150,
           150
         ],
         "Parts2SingleSelect": true,
         "Parts2Max": 2,
+        "Parts2Max1": [
+          1,
+          1
+        ],
         "Parts2Need": [
           150,
           150
         ],
         "Parts4SingleSelect": true,
         "Parts4Max": 2,
+        "Parts4Max1": [
+          1,
+          1
+        ],
         "Parts4Need": [
           150,
           150
         ],
         "Parts5SingleSelect": true,
         "Parts5Max": 2,
+        "Parts5Max1": [
+          1,
+          1
+        ],
         "Parts5Need": [
           150,
           150
         ],
         "QSingleSelect": true,
         "QMax": 2,
+        "QMax1": [
+          1,
+          1
+        ],
         "QNeed": [
           250,
           250
         ],
         "PassiveSingleSelect": true,
         "PassiveMax": 1,
+        "PassiveMax1": [
+          1
+        ],
         "PassiveNeed": [
           250
         ],
         "ShieldSingleSelect": true,
         "ShieldMax": 2,
+        "ShieldMax1": [
+          1,
+          1
+        ],
         "ShieldNeed": [
           250,
           250
         ],
         "SurviveSingleSelect": true,
         "SurviveMax": 2,
+        "SurviveMax1": [
+          1,
+          1
+        ],
         "SurviveNeed": [
           250,
           250
@@ -1742,6 +6311,28 @@
           8,
           6
         ],
+        "Arousal1ActivateNeed": [
+          0,
+          2,
+          0
+        ],
+        "Arousal2ActivateNeed": [
+          1,
+          2,
+          1
+        ],
+        "Arousal3ActivateNeed": [
+          1,
+          1,
+          2
+        ],
+        "ArousalUnlock": [
+          0,
+          0,
+          0
+        ],
+        "ArousalLockCost": 0.5,
+        "WeaponChange": [],
         "AssistShoot": [
           {
             "Namespace": "Growth_Team",
@@ -1772,49 +6363,343 @@
         ],
         "Part1Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part1Desc_Index0",
+            "SourceString": "拉栓速度提升",
+            "LocalizedString": "拉栓速度提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part1Desc_Index1",
+            "SourceString": "蓄力速度提升",
+            "LocalizedString": "蓄力速度提升"
           }
         ],
         "Part2Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part2Desc_Index0",
+            "SourceString": "切换准镜倍率",
+            "LocalizedString": "切换准镜倍率"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part2Desc_Index1",
+            "SourceString": "弦化伤害提升",
+            "LocalizedString": "弦化伤害提升"
           }
         ],
         "Part4Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part4Desc_Index0",
+            "SourceString": "载弹数量提升",
+            "LocalizedString": "载弹数量提升"
           },
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part4Desc_Index1",
+            "SourceString": "换弹速度提升",
+            "LocalizedString": "换弹速度提升"
           }
         ],
         "Part5Desc": [
           {
-            "CultureInvariantString": null
+            "Namespace": "Growth_Team",
+            "Key": "137_Part5Desc_Index0",
+            "SourceString": "开镜速度提升",
+            "LocalizedString": "开镜速度提升"
           },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part5Desc_Index1",
+            "SourceString": "最大跑速提升",
+            "LocalizedString": "最大跑速提升"
+          }
+        ],
+        "QDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_QDesc_Index0",
+            "SourceString": "冷却时间减少5秒",
+            "LocalizedString": "冷却时间减少5秒"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_QDesc_Index1",
+            "SourceString": "持续时间增加2秒",
+            "LocalizedString": "持续时间增加2秒"
+          }
+        ],
+        "PassiveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PassiveDesc_Index0",
+            "SourceString": "持续时间增加0.25秒",
+            "LocalizedString": "持续时间增加0.25秒"
+          }
+        ],
+        "ShieldDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_ShieldDesc_Index0",
+            "SourceString": "快回轻型护甲",
+            "LocalizedString": "快回轻型护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_ShieldDesc_Index1",
+            "SourceString": "慢回重型护甲",
+            "LocalizedString": "慢回重型护甲"
+          }
+        ],
+        "SurviveDesc": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_SurviveDesc_Index0",
+            "SourceString": "弦化状态加速15%",
+            "LocalizedString": "弦化状态加速15%"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_SurviveDesc_Index1",
+            "SourceString": "弦化减伤增加25%",
+            "LocalizedString": "弦化减伤增加25%"
+          }
+        ],
+        "DefaultProperty1": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index0",
+            "SourceString": "射速|5|1200",
+            "LocalizedString": "射速|5|1200"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index1",
+            "SourceString": "瞄准速度|34|100",
+            "LocalizedString": "瞄准速度|34|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index2",
+            "SourceString": "精准|15|100",
+            "LocalizedString": "精准|15|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index3",
+            "SourceString": "操控|60|100",
+            "LocalizedString": "操控|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index4",
+            "SourceString": "弹夹容量|4|50",
+            "LocalizedString": "弹夹容量|4|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index5",
+            "SourceString": "装填速度|10|50",
+            "LocalizedString": "装填速度|10|50"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index6",
+            "SourceString": "拉栓速度|60|100",
+            "LocalizedString": "拉栓速度|60|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index7",
+            "SourceString": "移动速度|54|100",
+            "LocalizedString": "移动速度|54|100"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty1_Index8",
+            "SourceString": "弦化伤害|64|100",
+            "LocalizedString": "弦化伤害|64|100"
+          }
+        ],
+        "DefaultProperty2": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index0",
+            "SourceString": "头部1|341",
+            "LocalizedString": "头部1|341"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index1",
+            "SourceString": "头部2|332",
+            "LocalizedString": "头部2|332"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index2",
+            "SourceString": "头部3|302",
+            "LocalizedString": "头部3|302"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index3",
+            "SourceString": "躯干1|175",
+            "LocalizedString": "躯干1|175"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index4",
+            "SourceString": "躯干2|170",
+            "LocalizedString": "躯干2|170"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index5",
+            "SourceString": "躯干3|155",
+            "LocalizedString": "躯干3|155"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index6",
+            "SourceString": "四肢1|122",
+            "LocalizedString": "四肢1|122"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index7",
+            "SourceString": "四肢2|119",
+            "LocalizedString": "四肢2|119"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty2_Index8",
+            "SourceString": "四肢3|108",
+            "LocalizedString": "四肢3|108"
+          }
+        ],
+        "DefaultProperty3": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty3_Index0",
+            "SourceString": "放大倍率|2.5",
+            "LocalizedString": "放大倍率|2.5"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty3_Index1",
+            "SourceString": "移速变化|2.25",
+            "LocalizedString": "移速变化|2.25"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_DefaultProperty3_Index2",
+            "SourceString": "散发减少|0.99",
+            "LocalizedString": "散发减少|0.99"
+          }
+        ],
+        "Part1Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part1Level01_Index0",
+            "SourceString": "拉栓速度|*0.5",
+            "LocalizedString": "拉栓速度|*0.5"
+          }
+        ],
+        "Part1Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part1Level11_Index0",
+            "SourceString": "瞄准速度|*0.165",
+            "LocalizedString": "瞄准速度|*0.165"
+          }
+        ],
+        "Part2Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part2Level01_Index0",
+            "SourceString": "放大倍率|-1",
+            "LocalizedString": "放大倍率|-1"
+          }
+        ],
+        "Part2Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part2Level11_Index0",
+            "SourceString": "弦化伤害|*0.165",
+            "LocalizedString": "弦化伤害|*0.165"
+          }
+        ],
+        "Part4Level01": [
           {
             "CultureInvariantString": null
           }
         ],
-        "DefaultProperty1": [],
-        "DefaultProperty2": [],
-        "DefaultProperty3": [],
-        "Part1Level1": [],
-        "Part1Level2": [],
-        "Part2Level1": [],
-        "Part2Level2": [],
-        "Part4Level1": [],
-        "Part4Level2": [],
-        "Part5Level1": [],
-        "Part5Level2": [],
-        "PartName": [],
-        "AttackSpeedWeight": 0
+        "Part4Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part4Level11_Index0",
+            "SourceString": "装填速度|*0.301",
+            "LocalizedString": "装填速度|*0.301"
+          }
+        ],
+        "Part5Level01": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part5Level01_Index0",
+            "SourceString": "瞄准速度|*0.401",
+            "LocalizedString": "瞄准速度|*0.401"
+          }
+        ],
+        "Part5Level11": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_Part5Level11_Index0",
+            "SourceString": "移动速度|*0.092",
+            "LocalizedString": "移动速度|*0.092"
+          }
+        ],
+        "PartName": [
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index0",
+            "SourceString": "核心",
+            "LocalizedString": "核心"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index1",
+            "SourceString": "输出",
+            "LocalizedString": "输出"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index2",
+            "SourceString": "续航",
+            "LocalizedString": "续航"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index3",
+            "SourceString": "机能",
+            "LocalizedString": "机能"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index4",
+            "SourceString": "护甲",
+            "LocalizedString": "护甲"
+          },
+          {
+            "Namespace": "Growth_Team",
+            "Key": "137_PartName_Index5",
+            "SourceString": "生存",
+            "LocalizedString": "生存"
+          }
+        ],
+        "AttackSpeedWeight": 720,
+        "AttackSpeedMax": 1200
       }
     }
   }

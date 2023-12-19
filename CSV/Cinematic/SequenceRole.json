@@ -129,6 +129,16 @@
           "LocalizedString": "？？"
         },
         "Camp": 0
+      },
+      "108": {
+        "RoleId": 108,
+        "RoleName": {
+          "Namespace": "SequenceRole",
+          "Key": "108_RoleName",
+          "SourceString": "信",
+          "LocalizedString": "信"
+        },
+        "Camp": 1
       }
     }
   }

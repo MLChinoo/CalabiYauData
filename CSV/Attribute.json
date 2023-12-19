@@ -127,6 +127,15 @@
           "LocalizedString": "角色基弦"
         }
       },
+      "14": {
+        "Id": 14,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "14_Name",
+          "SourceString": "刷新时间",
+          "LocalizedString": "刷新时间"
+        }
+      },
       "31": {
         "Id": 31,
         "Name": {
@@ -190,6 +199,24 @@
           "LocalizedString": "角色熟练度加成"
         }
       },
+      "59": {
+        "Id": 59,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "59_Name",
+          "SourceString": "上次罚时时间",
+          "LocalizedString": "上次罚时时间"
+        }
+      },
+      "60": {
+        "Id": 60,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "60_Name",
+          "SourceString": "罚时计数",
+          "LocalizedString": "罚时计数"
+        }
+      },
       "61": {
         "Id": 61,
         "Name": {
@@ -197,6 +224,15 @@
           "Key": "61_Name",
           "SourceString": "匹配罚时时间",
           "LocalizedString": "匹配罚时时间"
+        }
+      },
+      "62": {
+        "Id": 62,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "62_Name",
+          "SourceString": "房间裁判",
+          "LocalizedString": "房间裁判"
         }
       },
       "101": {
@@ -377,6 +413,114 @@
           "Key": "125_Name",
           "SourceString": "发送特权邮件时间",
           "LocalizedString": "发送特权邮件时间"
+        }
+      },
+      "126": {
+        "Id": 126,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "126_Name",
+          "SourceString": "加星卡次数",
+          "LocalizedString": "加星卡次数"
+        }
+      },
+      "127": {
+        "Id": 127,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "127_Name",
+          "SourceString": "保星卡次数",
+          "LocalizedString": "保星卡次数"
+        }
+      },
+      "128": {
+        "Id": 128,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "128_Name",
+          "SourceString": "黑洞段位排名",
+          "LocalizedString": "黑洞段位排名"
+        }
+      },
+      "129": {
+        "Id": 129,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "129_Name",
+          "SourceString": "角色地区(根据IP解析）",
+          "LocalizedString": "角色地区(根据IP解析）"
+        }
+      },
+      "130": {
+        "Id": 130,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "130_Name",
+          "SourceString": "角色地区更新时间",
+          "LocalizedString": "角色地区更新时间"
+        }
+      },
+      "131": {
+        "Id": 131,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "131_Name",
+          "SourceString": "禁止排位匹配时间",
+          "LocalizedString": "禁止排位匹配时间"
+        }
+      },
+      "132": {
+        "Id": 132,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "132_Name",
+          "SourceString": "禁止排位匹配理由",
+          "LocalizedString": "禁止排位匹配理由"
+        }
+      },
+      "133": {
+        "Id": 133,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "133_Name",
+          "SourceString": "禁止排行榜更新",
+          "LocalizedString": "禁止排行榜更新"
+        }
+      },
+      "134": {
+        "Id": 134,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "134_Name",
+          "SourceString": "排位星数",
+          "LocalizedString": "排位星数"
+        }
+      },
+      "135": {
+        "Id": 135,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "135_Name",
+          "SourceString": "黑洞排名",
+          "LocalizedString": "黑洞排名"
+        }
+      },
+      "136": {
+        "Id": 136,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "136_Name",
+          "SourceString": "上赛季段位",
+          "LocalizedString": "上赛季段位"
+        }
+      },
+      "137": {
+        "Id": 137,
+        "Name": {
+          "Namespace": "Attribute",
+          "Key": "137_Name",
+          "SourceString": "勇者分",
+          "LocalizedString": "勇者分"
         }
       }
     }

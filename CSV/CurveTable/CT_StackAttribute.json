@@ -3,7 +3,6 @@
     "Type": "CurveTable",
     "Name": "CT_StackAttribute",
     "Class": "UScriptClass'CurveTable'",
-    "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Stack.Constant": {
         "InterpMode": "RCIM_Linear",

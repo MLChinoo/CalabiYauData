@@ -1,5 +1,5 @@
 
-Ê
+Ã
 common.protoncmd_cs
 enum.proto"C
 	item_pack
@@ -18,7 +18,7 @@ currencyId!
 obtain_data5
 result_list (2.ncmd_cs.obtain_itemR
 resultList8
-convert_list (2.ncmd_cs.convert_itemRconvertList"Å
+convert_list (2.ncmd_cs.convert_itemRconvertList"‹
 player
 	player_id (RplayerId
 nick (	Rnick
@@ -51,7 +51,12 @@ logoutTime
 platformId0
 privilege_login_time (RprivilegeLoginTime 
 vc_border_id (R
-vcBorderId"µ
+vcBorderId'
+battle_progress (RbattleProgress#
+battle_scores (	RbattleScores*
+battle_start_time  (RbattleStartTime/
+	play_mode! (2.ncmd_cs.EPlayModeRplayMode
+rank_pos" (RrankPos"è
 player_settle_info
 	player_id (RplayerId+
 team_id (2.ncmd_cs.ERoomCampRteamId
@@ -79,4 +84,7 @@ assistsNum
 final_role_id (RfinalRoleId
 mine (Rmine
 
-defeat_num (R	defeatNumbproto3
+defeat_num (R	defeatNum
+
+escape_num (R	escapeNum
+smvp (Rsmvpbproto3

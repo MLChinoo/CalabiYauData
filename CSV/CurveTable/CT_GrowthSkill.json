@@ -3,7 +3,6 @@
     "Type": "CurveTable",
     "Name": "CT_GrowthSkill",
     "Class": "UScriptClass'CurveTable'",
-    "CurveTableMode": "SimpleCurves",
     "Rows": {
       "CD.Lawine.Q": {
         "InterpMode": "RCIM_Linear",

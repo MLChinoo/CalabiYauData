@@ -450,14 +450,13 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          0
+          1
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30000009
+        ],
         "GainParam2": {
-          "Namespace": "Decal",
-          "Key": "30000009_GainParam2",
-          "SourceString": "战斗勋章B级奖励",
-          "LocalizedString": "战斗勋章B级奖励"
+          "CultureInvariantString": null
         }
       },
       "30000010": {
@@ -604,15 +603,15 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000013_GainParam2",
-          "SourceString": "宿舍 · 奥黛丽",
-          "LocalizedString": "宿舍 · 奥黛丽"
+          "SourceString": "宿舍-奥黛丽",
+          "LocalizedString": "宿舍-奥黛丽"
         }
       },
       "30000014": {
         "Id": 30000014,
         "BoolLoad": false,
-        "Available": false,
-        "AvailableState": 0,
+        "Available": true,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000014_Name",
@@ -654,8 +653,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000014_GainParam2",
-          "SourceString": "宿舍 · 拉薇",
-          "LocalizedString": "宿舍 · 拉薇"
+          "SourceString": "宿舍-拉薇",
+          "LocalizedString": "宿舍-拉薇"
         }
       },
       "30000015": {
@@ -704,8 +703,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000015_GainParam2",
-          "SourceString": "宿舍 · 梅瑞狄斯",
-          "LocalizedString": "宿舍 · 梅瑞狄斯"
+          "SourceString": "宿舍-梅瑞狄斯",
+          "LocalizedString": "宿舍-梅瑞狄斯"
         }
       },
       "30000016": {
@@ -754,8 +753,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000016_GainParam2",
-          "SourceString": "宿舍 · 米雪儿·李",
-          "LocalizedString": "宿舍 · 米雪儿·李"
+          "SourceString": "宿舍-米雪儿·李",
+          "LocalizedString": "宿舍-米雪儿·李"
         }
       },
       "30000017": {
@@ -804,26 +803,26 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000017_GainParam2",
-          "SourceString": "宿舍 · 玛德蕾娜",
-          "LocalizedString": "宿舍 · 玛德蕾娜"
+          "SourceString": "宿舍-玛德蕾娜",
+          "LocalizedString": "宿舍-玛德蕾娜"
         }
       },
       "30000018": {
         "Id": 30000018,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000018_Name",
-          "SourceString": "绯莎",
-          "LocalizedString": "绯莎"
+          "SourceString": "海洋霸主",
+          "LocalizedString": "海洋霸主"
         },
         "Desc": {
           "Namespace": "Decal",
           "Key": "30000018_Desc",
-          "SourceString": "宿舍绯莎",
-          "LocalizedString": "宿舍绯莎"
+          "SourceString": "我的尾鳍激起汹涌的浪花，我的子弹击穿你的胸膛。",
+          "LocalizedString": "我的尾鳍激起汹涌的浪花，我的子弹击穿你的胸膛。"
         },
         "Quality": 2,
         "SortId": 2016,
@@ -848,32 +847,34 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          2
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000018_GainParam2",
-          "SourceString": "宿舍 · 绯莎",
-          "LocalizedString": "宿舍 · 绯莎"
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000019": {
         "Id": 30000019,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000019_Name",
-          "SourceString": "心夏",
-          "LocalizedString": "心夏"
+          "SourceString": "露营后遗症",
+          "LocalizedString": "露营后遗症"
         },
         "Desc": {
           "Namespace": "Decal",
           "Key": "30000019_Desc",
-          "SourceString": "宿舍心夏",
-          "LocalizedString": "宿舍心夏"
+          "SourceString": "唔……果然还是不要把临期一天的酸奶也放入野餐盒里。",
+          "LocalizedString": "唔……果然还是不要把临期一天的酸奶也放入野餐盒里。"
         },
         "Quality": 2,
         "SortId": 2017,
@@ -904,8 +905,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000019_GainParam2",
-          "SourceString": "宿舍 · 心夏",
-          "LocalizedString": "宿舍 · 心夏"
+          "SourceString": "宿舍-心夏",
+          "LocalizedString": "宿舍-心夏"
         }
       },
       "30000020": {
@@ -1003,8 +1004,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000021_GainParam2",
-          "SourceString": "宿舍 · 信",
-          "LocalizedString": "宿舍 · 信"
+          "SourceString": "宿舍-信",
+          "LocalizedString": "宿舍-信"
         }
       },
       "30000022": {
@@ -1053,8 +1054,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000022_GainParam2",
-          "SourceString": "宿舍 · 令",
-          "LocalizedString": "宿舍 · 令"
+          "SourceString": "宿舍-令",
+          "LocalizedString": "宿舍-令"
         }
       },
       "30000023": {
@@ -1103,8 +1104,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000023_GainParam2",
-          "SourceString": "宿舍 · 白墨",
-          "LocalizedString": "宿舍 · 白墨"
+          "SourceString": "宿舍-白墨",
+          "LocalizedString": "宿舍-白墨"
         }
       },
       "30000024": {
@@ -1153,8 +1154,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000024_GainParam2",
-          "SourceString": "宿舍 · 明",
-          "LocalizedString": "宿舍 · 明"
+          "SourceString": "宿舍-明",
+          "LocalizedString": "宿舍-明"
         }
       },
       "30000025": {
@@ -1196,9 +1197,11 @@
         "LimitType": 6,
         "LimitParam": 480,
         "GainType": [
-          0
+          6
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30000025
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000025_GainParam2",
@@ -1246,14 +1249,13 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          0
+          1
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30000026
+        ],
         "GainParam2": {
-          "Namespace": "Decal",
-          "Key": "30000026_GainParam2",
-          "SourceString": "史诗勋章B级奖励",
-          "LocalizedString": "史诗勋章B级奖励"
+          "CultureInvariantString": null
         }
       },
       "30000027": {
@@ -1296,14 +1298,13 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          0
+          1
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30000027
+        ],
         "GainParam2": {
-          "Namespace": "Decal",
-          "Key": "30000027_GainParam2",
-          "SourceString": "荣誉勋章B级奖励",
-          "LocalizedString": "荣誉勋章B级奖励"
+          "CultureInvariantString": null
         }
       },
       "30000028": {
@@ -1450,8 +1451,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000030_GainParam2",
-          "SourceString": "宿舍 · 星绘",
-          "LocalizedString": "宿舍 · 星绘"
+          "SourceString": "宿舍-星绘",
+          "LocalizedString": "宿舍-星绘"
         }
       },
       "30000031": {
@@ -1500,8 +1501,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000031_GainParam2",
-          "SourceString": "宿舍 · 星绘",
-          "LocalizedString": "宿舍 · 星绘"
+          "SourceString": "宿舍-星绘",
+          "LocalizedString": "宿舍-星绘"
         }
       },
       "30000032": {
@@ -1648,14 +1649,14 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000034_GainParam2",
-          "SourceString": "宿舍 · 奥黛丽",
-          "LocalizedString": "宿舍 · 奥黛丽"
+          "SourceString": "宿舍-奥黛丽",
+          "LocalizedString": "宿舍-奥黛丽"
         }
       },
       "30000035": {
         "Id": 30000035,
         "BoolLoad": false,
-        "Available": false,
+        "Available": true,
         "AvailableState": 0,
         "Name": {
           "Namespace": "Decal",
@@ -1692,20 +1693,21 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          1
+          0
         ],
-        "GainParam1": [
-          30000035
-        ],
+        "GainParam1": [],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000035_GainParam2",
+          "SourceString": "宿舍-拉薇",
+          "LocalizedString": "宿舍-拉薇"
         }
       },
       "30000036": {
         "Id": 30000036,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000036_Name",
@@ -1741,13 +1743,14 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          1
+          0
         ],
-        "GainParam1": [
-          30000036
-        ],
+        "GainParam1": [],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000036_GainParam2",
+          "SourceString": "宿舍-梅瑞狄斯",
+          "LocalizedString": "宿舍-梅瑞狄斯"
         }
       },
       "30000037": {
@@ -1796,8 +1799,8 @@
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000037_GainParam2",
-          "SourceString": "宿舍 · 米雪儿·李",
-          "LocalizedString": "宿舍 · 米雪儿·李"
+          "SourceString": "宿舍-米雪儿·李",
+          "LocalizedString": "宿舍-米雪儿·李"
         }
       },
       "30000038": {
@@ -1902,7 +1905,7 @@
         "Id": 30000040,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000040_Name",
@@ -2775,9 +2778,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000057_GainParam2",
@@ -2825,9 +2830,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000058_GainParam2",
@@ -2875,9 +2882,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000059_GainParam2",
@@ -2925,9 +2934,11 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000060_GainParam2",
@@ -2975,9 +2986,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000061_GainParam2",
@@ -3025,9 +3038,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000062_GainParam2",
@@ -3077,7 +3092,9 @@
         "GainType": [
           0
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000063_GainParam2",
@@ -3125,9 +3142,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000064_GainParam2",
@@ -3175,9 +3194,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000065_GainParam2",
@@ -3225,9 +3246,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000066_GainParam2",
@@ -3422,9 +3445,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000070_GainParam2",
@@ -3472,9 +3497,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000071_GainParam2",
@@ -3522,9 +3549,11 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          0
+          2
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          1
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30000072_GainParam2",
@@ -3536,7 +3565,7 @@
         "Id": 30000073,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000073_Name",
@@ -3585,7 +3614,7 @@
         "Id": 30000074,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000074_Name",
@@ -3634,7 +3663,7 @@
         "Id": 30000075,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000075_Name",
@@ -3683,7 +3712,7 @@
         "Id": 30000076,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000076_Name",
@@ -3732,7 +3761,7 @@
         "Id": 30000077,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000077_Name",
@@ -3768,20 +3797,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000077
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000077_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000078": {
         "Id": 30000078,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000078_Name",
@@ -3817,20 +3849,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000078
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000078_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000079": {
         "Id": 30000079,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000079_Name",
@@ -3866,13 +3901,16 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000079
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000079_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000080": {
@@ -3929,7 +3967,7 @@
         "Id": 30000081,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000081_Name",
@@ -3965,20 +4003,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000081
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000081_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000082": {
         "Id": 30000082,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000082_Name",
@@ -4014,20 +4055,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000082
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000082_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000083": {
         "Id": 30000083,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000083_Name",
@@ -4063,20 +4107,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000083
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000083_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000084": {
         "Id": 30000084,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000084_Name",
@@ -4125,7 +4172,7 @@
         "Id": 30000085,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000085_Name",
@@ -4161,20 +4208,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000085
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000085_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000086": {
         "Id": 30000086,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000086_Name",
@@ -4210,20 +4260,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000086
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000086_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000087": {
         "Id": 30000087,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000087_Name",
@@ -4259,20 +4312,23 @@
         "LimitType": 6,
         "LimitParam": 50,
         "GainType": [
-          1
+          2
         ],
         "GainParam1": [
-          30000087
+          2
         ],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30000087_GainParam2",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
         }
       },
       "30000088": {
         "Id": 30000088,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000088_Name",
@@ -4321,7 +4377,7 @@
         "Id": 30000089,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000089_Name",
@@ -4370,7 +4426,7 @@
         "Id": 30000090,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000090_Name",
@@ -4419,7 +4475,7 @@
         "Id": 30000091,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000091_Name",
@@ -4468,7 +4524,7 @@
         "Id": 30000092,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30000092_Name",
@@ -4513,6 +4569,940 @@
           "CultureInvariantString": null
         }
       },
+      "30000093": {
+        "Id": 30000093,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000093_Name",
+          "SourceString": "狗仔",
+          "LocalizedString": "狗仔"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000093_Desc",
+          "SourceString": "我就侧目，不说话~",
+          "LocalizedString": "我就侧目，不说话~"
+        },
+        "Quality": 2,
+        "SortId": 2072,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000093.T_Dynamic_Decal_30000093",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000093.T_Dynamic_Decal_L_30000093",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000093
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000094": {
+        "Id": 30000094,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000094_Name",
+          "SourceString": "溜得不行",
+          "LocalizedString": "溜得不行"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000094_Desc",
+          "SourceString": "哎哟，这个溜啊~",
+          "LocalizedString": "哎哟，这个溜啊~"
+        },
+        "Quality": 2,
+        "SortId": 2073,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000094.T_Dynamic_Decal_30000094",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000094.T_Dynamic_Decal_L_30000094",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          30000094
+        ],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30000094_GainParam2",
+          "SourceString": "限时商城",
+          "LocalizedString": "限时商城"
+        }
+      },
+      "30000095": {
+        "Id": 30000095,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000095_Name",
+          "SourceString": "视力检查",
+          "LocalizedString": "视力检查"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000095_Desc",
+          "SourceString": "电子竞技还是需要视力的。",
+          "LocalizedString": "电子竞技还是需要视力的。"
+        },
+        "Quality": 3,
+        "SortId": 3020,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000095.T_Dynamic_Decal_30000095",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000095.T_Dynamic_Decal_L_30000095",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30000095.Decal_30000095",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000095
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000096": {
+        "Id": 30000096,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000096_Name",
+          "SourceString": "索敌中",
+          "LocalizedString": "索敌中"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000096_Desc",
+          "SourceString": "下一个是谁？",
+          "LocalizedString": "下一个是谁？"
+        },
+        "Quality": 3,
+        "SortId": 3021,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000096.T_Dynamic_Decal_30000096",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000096.T_Dynamic_Decal_L_30000096",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30000096.Decal_30000096",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000096
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000097": {
+        "Id": 30000097,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000097_Name",
+          "SourceString": "窗门大开",
+          "LocalizedString": "窗门大开"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000097_Desc",
+          "SourceString": "本无一物，何处透光？",
+          "LocalizedString": "本无一物，何处透光？"
+        },
+        "Quality": 3,
+        "SortId": 3022,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000097.T_Dynamic_Decal_30000097",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000097.T_Dynamic_Decal_L_30000097",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30000097.Decal_30000097",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000097
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000098": {
+        "Id": 30000098,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000098_Name",
+          "SourceString": "自成一派",
+          "LocalizedString": "自成一派"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000098_Desc",
+          "SourceString": "你说的对，我是来玩刀的。",
+          "LocalizedString": "你说的对，我是来玩刀的。"
+        },
+        "Quality": 2,
+        "SortId": 2074,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000098.T_Dynamic_Decal_30000098",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000098.T_Dynamic_Decal_L_30000098",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000098
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000099": {
+        "Id": 30000099,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000099_Name",
+          "SourceString": "地狱绘图",
+          "LocalizedString": "地狱绘图"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000099_Desc",
+          "SourceString": "颜料与冰的对撞，构成了一幅美妙的图画，而你深陷其中。",
+          "LocalizedString": "颜料与冰的对撞，构成了一幅美妙的图画，而你深陷其中。"
+        },
+        "Quality": 2,
+        "SortId": 2075,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000099.T_Dynamic_Decal_30000099",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000099.T_Dynamic_Decal_L_30000099",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000099
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000100": {
+        "Id": 30000100,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000100_Name",
+          "SourceString": "身强力壮",
+          "LocalizedString": "身强力壮"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000100_Desc",
+          "SourceString": "火力大喵的强悍程度，你不想领教一下吗？",
+          "LocalizedString": "火力大喵的强悍程度，你不想领教一下吗？"
+        },
+        "Quality": 2,
+        "SortId": 2076,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000100.T_Dynamic_Decal_30000100",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000100.T_Dynamic_Decal_L_30000100",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000100
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000101": {
+        "Id": 30000101,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000101_Name",
+          "SourceString": "真是离谱",
+          "LocalizedString": "真是离谱"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000101_Desc",
+          "SourceString": "音符也疯狂，连夜出逃了。",
+          "LocalizedString": "音符也疯狂，连夜出逃了。"
+        },
+        "Quality": 2,
+        "SortId": 2077,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000101.T_Dynamic_Decal_30000101",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000101.T_Dynamic_Decal_L_30000101",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000101
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000102": {
+        "Id": 30000102,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000102_Name",
+          "SourceString": "全部毁灭",
+          "LocalizedString": "全部毁灭"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000102_Desc",
+          "SourceString": "任何人被打爆之后的心情只剩下了两个字，毁灭！",
+          "LocalizedString": "任何人被打爆之后的心情只剩下了两个字，毁灭！"
+        },
+        "Quality": 2,
+        "SortId": 2078,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000102.T_Dynamic_Decal_30000102",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000102.T_Dynamic_Decal_L_30000102",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000102
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000103": {
+        "Id": 30000103,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000103_Name",
+          "SourceString": "小丑竞猜",
+          "LocalizedString": "小丑竞猜"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000103_Desc",
+          "SourceString": "只有在枪响之后，才会知道谁是小丑。",
+          "LocalizedString": "只有在枪响之后，才会知道谁是小丑。"
+        },
+        "Quality": 2,
+        "SortId": 2079,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000103.T_Dynamic_Decal_30000103",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000103.T_Dynamic_Decal_L_30000103",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000103
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000104": {
+        "Id": 30000104,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000104_Name",
+          "SourceString": "真谢假谢",
+          "LocalizedString": "真谢假谢"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000104_Desc",
+          "SourceString": "我真的会谢谢你，下次可别这样了。",
+          "LocalizedString": "我真的会谢谢你，下次可别这样了。"
+        },
+        "Quality": 2,
+        "SortId": 2080,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000104.T_Dynamic_Decal_30000104",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000104.T_Dynamic_Decal_L_30000104",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000104
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000105": {
+        "Id": 30000105,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000105_Name",
+          "SourceString": "捞薯条",
+          "LocalizedString": "捞薯条"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000105_Desc",
+          "SourceString": "疯狂星期四，来捞点薯条吧！",
+          "LocalizedString": "疯狂星期四，来捞点薯条吧！"
+        },
+        "Quality": 2,
+        "SortId": 2081,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000105.T_Dynamic_Decal_30000105",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000105.T_Dynamic_Decal_L_30000105",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000105
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000106": {
+        "Id": 30000106,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000106_Name",
+          "SourceString": "南瓜很难",
+          "LocalizedString": "南瓜很难"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000106_Desc",
+          "SourceString": "一只南瓜加上另外一只南瓜，只会让生活难上加难。",
+          "LocalizedString": "一只南瓜加上另外一只南瓜，只会让生活难上加难。"
+        },
+        "Quality": 2,
+        "SortId": 2082,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000106.T_Dynamic_Decal_30000106",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000106.T_Dynamic_Decal_L_30000106",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000106
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000107": {
+        "Id": 30000107,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000107_Name",
+          "SourceString": "恶作剧",
+          "LocalizedString": "恶作剧"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000107_Desc",
+          "SourceString": "这种程度的恶作剧，完全吓不到我。",
+          "LocalizedString": "这种程度的恶作剧，完全吓不到我。"
+        },
+        "Quality": 2,
+        "SortId": 2083,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000107.T_Dynamic_Decal_30000107",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000107.T_Dynamic_Decal_L_30000107",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000107
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000108": {
+        "Id": 30000108,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000108_Name",
+          "SourceString": "一清二楚",
+          "LocalizedString": "一清二楚"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000108_Desc",
+          "SourceString": "别想抵赖，我的两只耳朵都听见了。",
+          "LocalizedString": "别想抵赖，我的两只耳朵都听见了。"
+        },
+        "Quality": 2,
+        "SortId": 2084,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000108.T_Dynamic_Decal_30000108",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000108.T_Dynamic_Decal_L_30000108",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000108
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000109": {
+        "Id": 30000109,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000109_Name",
+          "SourceString": "螃蟹钳",
+          "LocalizedString": "螃蟹钳"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000109_Desc",
+          "SourceString": "转发这只有钳的螃蟹，你暴富的日子很快就要来临了。",
+          "LocalizedString": "转发这只有钳的螃蟹，你暴富的日子很快就要来临了。"
+        },
+        "Quality": 2,
+        "SortId": 2085,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000109.T_Dynamic_Decal_30000109",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000109.T_Dynamic_Decal_L_30000109",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000109
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000110": {
+        "Id": 30000110,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000110_Name",
+          "SourceString": "香蕉绿",
+          "LocalizedString": "香蕉绿"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000110_Desc",
+          "SourceString": "看到了吗？这只香蕉是在提醒你不要焦虑。",
+          "LocalizedString": "看到了吗？这只香蕉是在提醒你不要焦虑。"
+        },
+        "Quality": 2,
+        "SortId": 2086,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000110.T_Dynamic_Decal_30000110",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000110.T_Dynamic_Decal_L_30000110",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000110
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30000111": {
+        "Id": 30000111,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30000111_Name",
+          "SourceString": "心碎鸟",
+          "LocalizedString": "心碎鸟"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30000111_Desc",
+          "SourceString": "这是一只心碎的小鸟，需要你的呵护。",
+          "LocalizedString": "这是一只心碎的小鸟，需要你的呵护。"
+        },
+        "Quality": 2,
+        "SortId": 2087,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30000111.T_Dynamic_Decal_30000111",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30000111.T_Dynamic_Decal_L_30000111",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_0.Decal_0",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 50,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30000111
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
       "30001001": {
         "Id": 30001001,
         "BoolLoad": false,
@@ -4552,14 +5542,164 @@
         "LimitType": 6,
         "LimitParam": 480,
         "GainType": [
-          0
+          6
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30001001
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30001001_GainParam2",
           "SourceString": "套装赠品",
           "LocalizedString": "套装赠品"
+        }
+      },
+      "30001002": {
+        "Id": 30001002,
+        "BoolLoad": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30001002_Name",
+          "SourceString": "飞轮少女",
+          "LocalizedString": "飞轮少女"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30001002_Desc",
+          "SourceString": "梦想是最好的赛道",
+          "LocalizedString": "梦想是最好的赛道"
+        },
+        "Quality": 4,
+        "SortId": 4003,
+        "AvailableType": [
+          1,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30001002.T_Dynamic_Decal_30001002",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30001002.T_Dynamic_Decal_L_30001002",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30001002.Decal_30001002",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 480,
+        "GainType": [
+          6
+        ],
+        "GainParam1": [
+          30001002
+        ],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30001002_GainParam2",
+          "SourceString": "套装赠品",
+          "LocalizedString": "套装赠品"
+        }
+      },
+      "30001003": {
+        "Id": 30001003,
+        "BoolLoad": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30001003_Name",
+          "SourceString": "白墨冲刺",
+          "LocalizedString": "白墨冲刺"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30001003_Desc",
+          "SourceString": "冲刺！",
+          "LocalizedString": "冲刺！"
+        },
+        "Quality": 4,
+        "SortId": 4004,
+        "AvailableType": [
+          1,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30001003.T_Dynamic_Decal_30001003",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30001003.T_Dynamic_Decal_L_30001003",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30001003.Decal_30001003",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 480,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30001003
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30001004": {
+        "Id": 30001004,
+        "BoolLoad": false,
+        "Available": true,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30001004_Name",
+          "SourceString": "C言C语",
+          "LocalizedString": "C言C语"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30001004_Desc",
+          "SourceString": "超人气主播近期公开表示——",
+          "LocalizedString": "超人气主播近期公开表示——"
+        },
+        "Quality": 4,
+        "SortId": 4005,
+        "AvailableType": [
+          1,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30001004.T_Dynamic_Decal_30001004",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30001004.T_Dynamic_Decal_L_30001004",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30001004.Decal_30001004",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 480,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30001004_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
         }
       },
       "30002001": {
@@ -4580,7 +5720,7 @@
           "LocalizedString": "你被风暴席卷的时候，大概不会记得三个月前那只扇动翅膀的蝴蝶吧？"
         },
         "Quality": 3,
-        "SortId": 3020,
+        "SortId": 3023,
         "AvailableType": [
           1,
           2,
@@ -4629,7 +5769,7 @@
           "LocalizedString": "你说说看，这像画吗？"
         },
         "Quality": 3,
-        "SortId": 3021,
+        "SortId": 3024,
         "AvailableType": [
           1,
           2,
@@ -4678,7 +5818,7 @@
           "LocalizedString": "庆祝的时候，记得开香槟！\n对了，可不是半场开香槟。"
         },
         "Quality": 3,
-        "SortId": 3022,
+        "SortId": 3025,
         "AvailableType": [
           1,
           2,
@@ -4713,7 +5853,7 @@
         "Id": 30002004,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002004_Name",
@@ -4727,7 +5867,7 @@
           "LocalizedString": "我将默默承受一切。"
         },
         "Quality": 3,
-        "SortId": 3023,
+        "SortId": 3026,
         "AvailableType": [
           1,
           2,
@@ -4762,7 +5902,7 @@
         "Id": 30002005,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002005_Name",
@@ -4776,7 +5916,7 @@
           "LocalizedString": "我会亲手制裁你。"
         },
         "Quality": 3,
-        "SortId": 3024,
+        "SortId": 3027,
         "AvailableType": [
           1,
           2,
@@ -4825,7 +5965,7 @@
           "LocalizedString": "机器人不得伤害人类，或坐视人类受到伤害。"
         },
         "Quality": 3,
-        "SortId": 3025,
+        "SortId": 3028,
         "AvailableType": [
           1,
           2,
@@ -4847,9 +5987,11 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          0
+          6
         ],
-        "GainParam1": [],
+        "GainParam1": [
+          30002006
+        ],
         "GainParam2": {
           "Namespace": "Decal",
           "Key": "30002006_GainParam2",
@@ -4875,7 +6017,7 @@
           "LocalizedString": "这告示上的人好像有点眼熟啊……等等，这不是我吗？"
         },
         "Quality": 3,
-        "SortId": 3026,
+        "SortId": 3029,
         "AvailableType": [
           1,
           2,
@@ -4911,7 +6053,7 @@
         "Id": 30002008,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002008_Name",
@@ -4925,7 +6067,7 @@
           "LocalizedString": "与世界问好后，代码构筑了一切。"
         },
         "Quality": 3,
-        "SortId": 3027,
+        "SortId": 3030,
         "AvailableType": [
           1,
           2,
@@ -4947,20 +6089,21 @@
         "LimitType": 6,
         "LimitParam": 160,
         "GainType": [
-          1
+          0
         ],
-        "GainParam1": [
-          30002008
-        ],
+        "GainParam1": [],
         "GainParam2": {
-          "CultureInvariantString": null
+          "Namespace": "Decal",
+          "Key": "30002008_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
         }
       },
       "30002009": {
         "Id": 30002009,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002009_Name",
@@ -4974,7 +6117,7 @@
           "LocalizedString": "都什么时候了，你在还在找安全出口？"
         },
         "Quality": 3,
-        "SortId": 3028,
+        "SortId": 3031,
         "AvailableType": [
           1,
           2,
@@ -5009,7 +6152,7 @@
         "Id": 30002010,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 1,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002010_Name",
@@ -5023,7 +6166,7 @@
           "LocalizedString": "在数据的世界里，死亡不过是一串代码的终结。\n那墓碑的意义何在？"
         },
         "Quality": 3,
-        "SortId": 3029,
+        "SortId": 3032,
         "AvailableType": [
           1,
           2,
@@ -5058,7 +6201,7 @@
         "Id": 30002011,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002011_Name",
@@ -5072,7 +6215,7 @@
           "LocalizedString": "如果思维本身也是一种物质，我们该如何证明意识的存在呢？"
         },
         "Quality": 3,
-        "SortId": 3030,
+        "SortId": 3033,
         "AvailableType": [
           1,
           2,
@@ -5107,7 +6250,7 @@
         "Id": 30002012,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002012_Name",
@@ -5121,7 +6264,7 @@
           "LocalizedString": "那座塔将伫立至永远。有人说那是信标，也有人说那是桎梏。"
         },
         "Quality": 3,
-        "SortId": 3031,
+        "SortId": 3034,
         "AvailableType": [
           1,
           2,
@@ -5156,7 +6299,7 @@
         "Id": 30002013,
         "BoolLoad": false,
         "Available": false,
-        "AvailableState": 0,
+        "AvailableState": 2,
         "Name": {
           "Namespace": "Decal",
           "Key": "30002013_Name",
@@ -5170,7 +6313,7 @@
           "LocalizedString": "核心科技永不落后。"
         },
         "Quality": 3,
-        "SortId": 3032,
+        "SortId": 3035,
         "AvailableType": [
           1,
           2,
@@ -5219,7 +6362,7 @@
           "LocalizedString": "“A点A点，安包安包！”\n“等等，我炸弹呢？”"
         },
         "Quality": 3,
-        "SortId": 3033,
+        "SortId": 3036,
         "AvailableType": [
           1,
           2,
@@ -5269,7 +6412,7 @@
           "LocalizedString": "抢修中，请勿靠近！"
         },
         "Quality": 3,
-        "SortId": 3034,
+        "SortId": 3037,
         "AvailableType": [
           1,
           2,
@@ -5298,6 +6441,1095 @@
         ],
         "GainParam2": {
           "CultureInvariantString": null
+        }
+      },
+      "30002016": {
+        "Id": 30002016,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002016_Name",
+          "SourceString": "认真模式服务",
+          "LocalizedString": "认真模式服务"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002016_Desc",
+          "SourceString": "欢迎光临。请问您今天要来点什么？",
+          "LocalizedString": "欢迎光临。请问您今天要来点什么？"
+        },
+        "Quality": 3,
+        "SortId": 3038,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002016.T_Dynamic_Decal_30002016",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002016.T_Dynamic_Decal_L_30002016",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002016.Decal_30002016",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002016
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002017": {
+        "Id": 30002017,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002017_Name",
+          "SourceString": "偶像模式服务",
+          "LocalizedString": "偶像模式服务"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002017_Desc",
+          "SourceString": "欢迎您的到来~喜欢香奈美的特别装扮吗？",
+          "LocalizedString": "欢迎您的到来~喜欢香奈美的特别装扮吗？"
+        },
+        "Quality": 3,
+        "SortId": 3039,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002017.T_Dynamic_Decal_30002017",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002017.T_Dynamic_Decal_L_30002017",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002017.Decal_30002017",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002017
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002018": {
+        "Id": 30002018,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002018_Name",
+          "SourceString": "熊熊模式服务",
+          "LocalizedString": "熊熊模式服务"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002018_Desc",
+          "SourceString": "嗯嗯，欢迎您……那个，一直盯着看，很不好意思啊……",
+          "LocalizedString": "嗯嗯，欢迎您……那个，一直盯着看，很不好意思啊……"
+        },
+        "Quality": 3,
+        "SortId": 3040,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002018.T_Dynamic_Decal_30002018",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002018.T_Dynamic_Decal_L_30002018",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002018.Decal_30002018",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002018
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002019": {
+        "Id": 30002019,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 1,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002019_Name",
+          "SourceString": "茶香四溢",
+          "LocalizedString": "茶香四溢"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002019_Desc",
+          "SourceString": "就这么擦掉也有点可惜……再闻一会吧。",
+          "LocalizedString": "就这么擦掉也有点可惜……再闻一会吧。"
+        },
+        "Quality": 3,
+        "SortId": 3041,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002019.T_Dynamic_Decal_30002019",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002019.T_Dynamic_Decal_L_30002019",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002019.Decal_30002019",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002019_GainParam2",
+          "SourceString": "宿舍-拉薇",
+          "LocalizedString": "宿舍-拉薇"
+        }
+      },
+      "30002020": {
+        "Id": 30002020,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002020_Name",
+          "SourceString": "淡雅莲蓉",
+          "LocalizedString": "淡雅莲蓉"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002020_Desc",
+          "SourceString": "淡雅甘美，沁入心脾。",
+          "LocalizedString": "淡雅甘美，沁入心脾。"
+        },
+        "Quality": 3,
+        "SortId": 3042,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002020.T_Dynamic_Decal_30002020",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002020.T_Dynamic_Decal_L_30002020",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002020.Decal_30002020",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002020_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002021": {
+        "Id": 30002021,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002021_Name",
+          "SourceString": "浓香五仁",
+          "LocalizedString": "浓香五仁"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002021_Desc",
+          "SourceString": "坚果酥脆，唇齿留香。",
+          "LocalizedString": "坚果酥脆，唇齿留香。"
+        },
+        "Quality": 3,
+        "SortId": 3043,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002021.T_Dynamic_Decal_30002021",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002021.T_Dynamic_Decal_L_30002021",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002021.Decal_30002021",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002021_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002022": {
+        "Id": 30002022,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002022_Name",
+          "SourceString": "甜蜜豆沙",
+          "LocalizedString": "甜蜜豆沙"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002022_Desc",
+          "SourceString": "丝丝香甜，月圆蜜意。",
+          "LocalizedString": "丝丝香甜，月圆蜜意。"
+        },
+        "Quality": 3,
+        "SortId": 3044,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002022.T_Dynamic_Decal_30002022",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002022.T_Dynamic_Decal_L_30002022",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002022.Decal_30002022",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002022_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002023": {
+        "Id": 30002023,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002023_Name",
+          "SourceString": "脂香云腿",
+          "LocalizedString": "脂香云腿"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002023_Desc",
+          "SourceString": "丰润鲜香，回味深长。",
+          "LocalizedString": "丰润鲜香，回味深长。"
+        },
+        "Quality": 3,
+        "SortId": 3045,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002023.T_Dynamic_Decal_30002023",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002023.T_Dynamic_Decal_L_30002023",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002023.Decal_30002023",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002023_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002024": {
+        "Id": 30002024,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002024_Name",
+          "SourceString": "优雅一刻",
+          "LocalizedString": "优雅一刻"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002024_Desc",
+          "SourceString": "三点几啦，饮茶先啦！",
+          "LocalizedString": "三点几啦，饮茶先啦！"
+        },
+        "Quality": 3,
+        "SortId": 3046,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002024.T_Dynamic_Decal_30002024",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002024.T_Dynamic_Decal_L_30002024",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002024.Decal_30002024",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002024
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002025": {
+        "Id": 30002025,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002025_Name",
+          "SourceString": "未解之谜",
+          "LocalizedString": "未解之谜"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002025_Desc",
+          "SourceString": "科学是一条微妙的探索之路……",
+          "LocalizedString": "科学是一条微妙的探索之路……"
+        },
+        "Quality": 3,
+        "SortId": 3047,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002025.T_Dynamic_Decal_30002025",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002025.T_Dynamic_Decal_L_30002025",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002025.Decal_30002025",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002025
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002026": {
+        "Id": 30002026,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002026_Name",
+          "SourceString": "包我身上",
+          "LocalizedString": "包我身上"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002026_Desc",
+          "SourceString": "心夏办事儿你放心~",
+          "LocalizedString": "心夏办事儿你放心~"
+        },
+        "Quality": 3,
+        "SortId": 3048,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002026.T_Dynamic_Decal_30002026",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002026.T_Dynamic_Decal_L_30002026",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002026.Decal_30002026",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          1
+        ],
+        "GainParam1": [
+          30002026
+        ],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30002027": {
+        "Id": 30002027,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002027_Name",
+          "SourceString": "秋之夜话",
+          "LocalizedString": "秋之夜话"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002027_Desc",
+          "SourceString": "我们共享一轮圆月。",
+          "LocalizedString": "我们共享一轮圆月。"
+        },
+        "Quality": 3,
+        "SortId": 3049,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002027.T_Dynamic_Decal_30002027",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002027.T_Dynamic_Decal_L_30002027",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002027.Decal_30002027",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002027_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002028": {
+        "Id": 30002028,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002028_Name",
+          "SourceString": "太空熊",
+          "LocalizedString": "太空熊"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002028_Desc",
+          "SourceString": "梦想总会在星空中发光。",
+          "LocalizedString": "梦想总会在星空中发光。"
+        },
+        "Quality": 3,
+        "SortId": 3050,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002028.T_Dynamic_Decal_30002028",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002028.T_Dynamic_Decal_L_30002028",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002028.Decal_30002028",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30002028_GainParam2",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
+        }
+      },
+      "30002042": {
+        "Id": 30002042,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30002042_Name",
+          "SourceString": "童话手账",
+          "LocalizedString": "童话手账"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30002042_Desc",
+          "SourceString": "平安苹安，同话童话。",
+          "LocalizedString": "平安苹安，同话童话。"
+        },
+        "Quality": 3,
+        "SortId": 3063,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002042.T_Dynamic_Decal_30002042",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002042.T_Dynamic_Decal_L_30002042",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30002042.Decal_30002042",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [],
+        "GainParam1": [],
+        "GainParam2": {
+          "CultureInvariantString": null
+        }
+      },
+      "30003001": {
+        "Id": 30003001,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003001_Name",
+          "SourceString": "至纯物质—S1",
+          "LocalizedString": "至纯物质—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003001_Desc",
+          "SourceString": "物质的尽头是以太，它一直延续到宇宙的终极。第1赛季排位奖励。",
+          "LocalizedString": "物质的尽头是以太，它一直延续到宇宙的终极。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3052,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003001.T_Dynamic_Decal_30003001",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003001.T_Dynamic_Decal_L_30003001",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003001.Decal_30003001",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003001_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003002": {
+        "Id": 30003002,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003002_Name",
+          "SourceString": "升格分子—S1",
+          "LocalizedString": "升格分子—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003002_Desc",
+          "SourceString": "初步开始变化的物质形态。第1赛季排位奖励。",
+          "LocalizedString": "初步开始变化的物质形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3053,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003002.T_Dynamic_Decal_30003002",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003002.T_Dynamic_Decal_L_30003002",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003002.Decal_30003002",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003002_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003003": {
+        "Id": 30003003,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003003_Name",
+          "SourceString": "虚空原子—S1",
+          "LocalizedString": "虚空原子—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003003_Desc",
+          "SourceString": "达到原子级别的物质形态。第1赛季排位奖励。",
+          "LocalizedString": "达到原子级别的物质形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3054,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003003.T_Dynamic_Decal_30003003",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003003.T_Dynamic_Decal_L_30003003",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003003.Decal_30003003",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003003_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003004": {
+        "Id": 30003004,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003004_Name",
+          "SourceString": "聚变质子—S1",
+          "LocalizedString": "聚变质子—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003004_Desc",
+          "SourceString": "进化到质子级别的基本粒子形态。第1赛季排位奖励。",
+          "LocalizedString": "进化到质子级别的基本粒子形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3055,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003004.T_Dynamic_Decal_30003004",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003004.T_Dynamic_Decal_L_30003004",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003004.Decal_30003004",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003004_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003005": {
+        "Id": 30003005,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003005_Name",
+          "SourceString": "自由中子—S1",
+          "LocalizedString": "自由中子—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003005_Desc",
+          "SourceString": "转变到自由中子级别的基本粒子形态。第1赛季排位奖励。",
+          "LocalizedString": "转变到自由中子级别的基本粒子形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3056,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003005.T_Dynamic_Decal_30003005",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003005.T_Dynamic_Decal_L_30003005",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003005.Decal_30003005",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003005_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003006": {
+        "Id": 30003006,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003006_Name",
+          "SourceString": "束缚电子—S1",
+          "LocalizedString": "束缚电子—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003006_Desc",
+          "SourceString": "触及到束缚电子级别的基本粒子形态。第1赛季排位奖励。",
+          "LocalizedString": "触及到束缚电子级别的基本粒子形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3057,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003006.T_Dynamic_Decal_30003006",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003006.T_Dynamic_Decal_L_30003006",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003006.Decal_30003006",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003006_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003007": {
+        "Id": 30003007,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003007_Name",
+          "SourceString": "禁闭夸克—S1",
+          "LocalizedString": "禁闭夸克—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003007_Desc",
+          "SourceString": "深入到夸克层次的禁闭形态。第1赛季排位奖励。",
+          "LocalizedString": "深入到夸克层次的禁闭形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3058,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003007.T_Dynamic_Decal_30003007",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003007.T_Dynamic_Decal_L_30003007",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003007.Decal_30003007",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003007_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
+        }
+      },
+      "30003008": {
+        "Id": 30003008,
+        "BoolLoad": false,
+        "Available": false,
+        "AvailableState": 2,
+        "Name": {
+          "Namespace": "Decal",
+          "Key": "30003008_Name",
+          "SourceString": "无限超弦—S1",
+          "LocalizedString": "无限超弦—S1"
+        },
+        "Desc": {
+          "Namespace": "Decal",
+          "Key": "30003008_Desc",
+          "SourceString": "无限逼近超弦层次的形态。第1赛季排位奖励。",
+          "LocalizedString": "无限逼近超弦层次的形态。第1赛季排位奖励。"
+        },
+        "Quality": 3,
+        "SortId": 3059,
+        "AvailableType": [
+          1,
+          2,
+          3
+        ],
+        "IconItem": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30003008.T_Dynamic_Decal_30003008",
+          "SubPathString": ""
+        },
+        "IconBig": {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30003008.T_Dynamic_Decal_L_30003008",
+          "SubPathString": ""
+        },
+        "BluePrint": {
+          "AssetPathName": "/Game/PaperMan/Blueprints/Decals/Decal_30003008.Decal_30003008",
+          "SubPathString": ""
+        },
+        "LimitNum": 1,
+        "LimitType": 6,
+        "LimitParam": 160,
+        "GainType": [
+          0
+        ],
+        "GainParam1": [],
+        "GainParam2": {
+          "Namespace": "Decal",
+          "Key": "30003008_GainParam2",
+          "SourceString": "赛季奖励",
+          "LocalizedString": "赛季奖励"
         }
       }
     }

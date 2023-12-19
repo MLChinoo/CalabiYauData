@@ -335,7 +335,16 @@
       "19": {
         "StateId": 19,
         "State": "BeginnerGuidance",
-        "TransitionStateConditions": [],
+        "TransitionStateConditions": [
+          {
+            "NextState": "FlapFaceState",
+            "ConditionID": 14
+          },
+          {
+            "NextState": "SceneInterpretationIdle",
+            "ConditionID": 0
+          }
+        ],
         "StateType": "EApartmentStateType::None",
         "SequenceProxyId": 0,
         "LuaClass": "Business/Apartment/Proxies/ApartmentState/BeginnerGuidanceState"
